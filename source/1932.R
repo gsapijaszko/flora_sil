@@ -307,5 +307,3 @@ jahres <- data.frame(
   comments = "Ząbkowice Śląskie, obecnie ul. Młynarska"
 ) |> rbind(jahres)
 
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")

@@ -46,7 +46,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Beta maritima L.",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
-  entry = "Beta maritima L. Breslau: Güterbahnhof West, Großmarkthalle, ebenfalls als Südfruchtbegleiter! (Dr. K- Meyer)!",
+  entry = "Beta maritima L. Breslau: Güterbahnhof West [...]",
   lon = 17.01173, 
   lat = 51.11007,
   comments = "Wrocław, między ul. Braniborska a Robotnicza"
@@ -127,7 +127,16 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Trifolium lappaceum L.",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
-  entry = "T. lappaceum L. Breslau: Güterbahnhof West, Großmarkthalle (Dr. K. Meyer)!",
+  entry = "T. lappaceum L. Breslau: Güterbahnhof West, [...]",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trifolium lappaceum L.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
+  entry = "T. lappaceum L. Breslau: [...] Großmarkthalle (Dr. K. Meyer)!",
   lon = 17.00588, 
   lat = 51.10488,
   comments = "Wrocław, Tęczowa, dawne hale targowe; http://maps.mapywig.org/m/City_plans/Central_Europe/PLAN_DER_HAUPTSTADT_BRESLAU_Sonderplan_der_Innenstadt_5K_1934.jpg"
