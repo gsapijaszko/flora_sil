@@ -115,6 +115,95 @@ jahres <- data.frame(
   comments = "nieistniejący przysiółek, Wawrzyszów, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Aspidium dilatatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. dilatatum Liebenthal: Stadtwald (Buchs)!",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Blechnum Spicant",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Blechnum Spicant Zobten: Westseite des Zobtenberges (Dr. Müller)!",
+  lon = 16.68711, 
+  lat = 50.86537,
+  comments = "[góra] Ślęża, zachodnie zbocza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Asplenium Trichomanes Grünberg: Alt-Kesseler Straße (H. Schmidt)!; [...]",
+  lon = 15.54042, 
+  lat = 51.93877,
+  comments = "Zielona Góra, obecnie ulice: Podgórna i/lub Szosa Kisielińska "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Asplenium Trichomanes [...] Cosel: Fischerei (Schubert)!",
+  lon = 18.13941,  
+  lat = 50.35692,
+  comments = "Rybarze, Koźle, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. Ruta muraria Kanth: Schosnitz [...]",
+  lon = 16.78266, 
+  lat = 51.03255,
+  comments = "Sośnica, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. Ruta muraria Kanth: [...] Mettkau (Schoepke)!",
+  lon = 16.65060, 
+  lat = 50.97489,
+  comments = "Mietków, gm. Mietków"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium septentrionale X trichomanes",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. septentrionale X Trichomanes Neurode: Kol. Tschersel b. Hausdorf (Kramarz)!",
+  lon = 16.50559, 
+  lat = 50.64526,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki, północna część"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Polypodium vulgare Oels: Bukowintke bei Groß-Graben!; [...]",
+  lon = 17.35245,
+  lat = 51.35279,
+  comments = "Bukowinka, gm. Twardogóra, pow. oleśnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Polypodium vulgare [...] Rosenberg: Ellguther Berge (Klonek)!",
+  lon = 18.53262, 
+  lat = 50.97289,
+  comments = "wzgórza niedaleko Ligota Oleska, gm. Radków, pow. oleski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Osmunda regalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Osmunda regalis Rosenberg: Albrechtsdorf (Wilk)!",
+  lon = 18.39611, 
+  lat = 50.89859,
+  comments = "Wojciechów, gm. Olesno"
+) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Botrychium lunaria",
@@ -187,6 +276,8 @@ jahres <- data.frame(
   lat = 51.35516, 
   comments = "granica między Wołów a Miłcz"
 ) |> rbind(jahres)
+
+#' TODO: continue
 
 jahres <- data.frame(
   species = "Crocus vernus",

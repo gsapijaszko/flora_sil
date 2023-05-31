@@ -23,7 +23,7 @@ source("source/accepted_names.R")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Lorenzberg", entry))
+  subset(grepl("Albrechtsdorf", entry))
 
 # lcvplants::lcvp_fuzzy_search("Anchusa italica Retz.")
 
