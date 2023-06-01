@@ -25,16 +25,12 @@ jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   subset(grepl("Politzer Hege", entry))
 
-lcvplants::lcvp_fuzzy_search("Succisa pratensis f. incisa")
-
+# lcvplants::lcvp_fuzzy_search("Succisa pratensis f. incisa")
 
 jahres |>
-#  head(20) |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   dplyr::left_join(an, by = "species") |>
-#  subset(grepl("Crocus", accepted_name)) |>
   dplyr::arrange(accepted_name, year) |>
-#  openxlsx::write.xlsx(file = "crocus.xlsx")
   openxlsx::write.xlsx(file = "ddd.xlsx")
 
 
@@ -68,33 +64,22 @@ a <- jahres |>
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
   sf::st_transform(crs = sf::st_crs(a)) |>
-  sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(a)), dist = 10000)) |>
-  subset(select = "geometry") |>
-  terra::plot(col = "white")
+  sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(a)), dist = 10000)) 
+# |> subset(select = "geometry")
 
 pla <- geodata::gadm(country = c("POL"), level=1, path = "data") |>
   sf::st_as_sf() |>
   sf::st_union() |>
   sf::st_transform(crs = sf::st_crs(a))
 
-a |>
-  subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
+aPL <- a |>
+  subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any))
+
+aPL |>
   dplyr::left_join(an, by = "species") |>
   readr::write_rds(file = "flora_sil_pl.Rds")
-  
-# a |>
-#   subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
-#   subset(select = "geometry") |>
-#   terra::plot(pch = 18, add =TRUE)
 
-a |>
-  subset(apply(!sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
-  subset(select = "geometry")|>
-  unique() |>
-  terra::plot(pch = 18, col = "red", add =TRUE)
-
-a |>
-  subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
+aPL <- aPL |>
   sf::st_join(atpolR::atpol10k()) |>
   subset(select = c(Name)) |>
   dplyr::group_by(Name) |>
@@ -103,12 +88,23 @@ a |>
   dplyr::left_join(atpolR::atpol10k(), by = "Name") |>
   subset(select = -c(centroid)) |>
   subset(select = c("n", "geometry")) |>
-  #   subset(subset = !is.na(Name)) |>
-# d <- rgbif::name_usage(key=7065422)
-# 
-  sf::st_as_sf() |>
-  terra::plot(add = TRUE, legend = "bottom")
+  sf::st_as_sf()
 
+a_outPL <- a |>
+  subset(apply(!sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
+  subset(select = "geometry")|>
+  unique()
+
+tmap::tmap_mode("plot")
+  
+tm <- tmap::tm_shape(boundaries) +
+  tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
+  tmap::tm_shape(a_outPL) +
+  tmap::tm_symbols(size = 0.1, shape = 18, col = "red") +
+  tmap::tm_shape(aPL) +
+  tmap::tm_polygons("n", palette = "Blues", alpha = 0.8) +
+  tmap::tm_legend(legend.position = c(0.1,0.1), legend.bg.color = "white", legend.title.color = "white")
+tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
 # gbif ----------------------------------------------------------------------------------------
 # 

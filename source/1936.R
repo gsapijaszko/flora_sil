@@ -176,9 +176,9 @@ jahres <- data.frame(
   species = "Sedum reflexum",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
   entry = "Ob das bei Niklasdorf beobachtete Sedum reflexum allerdings ursprünglich ist, muß zunächst noch bezweifelt werden.",
-  lon = 16.68996, 
-  lat = 50.55094,
-  comments = "Mikołajów"
+  lon = 16.68935, 
+  lat = 50.55098,
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

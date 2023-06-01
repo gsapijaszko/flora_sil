@@ -1,4 +1,5 @@
-# 1935 ----------------------------------------------------------------------------------------
+# entries -------------------------------------------------------------------------------------
+
 if (!exists("jahres")) {
   jahres <- data.frame(
     species = character(),
@@ -10,17 +11,23 @@ if (!exists("jahres")) {
   )
 }
 
-#' @article{schalowErgebnisseDurchforschungSchlesischen1935,
-#'   title = {Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934},
-#'   author = {Schalow, Emil},
-#'   date = {1935},
-#'   journaltitle = {Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1935, Jg.108},
-#'   volume = {108},
-#'   pages = {55--71},
-#'   langid = {ngerman},
-#'   URL = {https://www.obc.opole.pl/dlibra/publication/8645/edition/7719}
-#' }
-#' 
+
+## schalowErgebnisseDurchforschungSchlesischen1935 --------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(bibtype = "article",
+    key  = "schalowErgebnisseDurchforschungSchlesischen1935",
+    author = "Emil Schalow",
+    title = "Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934",
+    journaltitle = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107",
+    date = "1935",
+    volume = 107,
+    pages = "55--71")
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
 
 jahres <- data.frame(
   species = "Aster salignus",
@@ -31,7 +38,8 @@ jahres <- data.frame(
   comments = "brzeg Odry, Opole"
 ) |> rbind(jahres)
 
-#' I. Newue Arten der schlesichen Flora
+#' 
+#' I. Neue Arten der schlesichen Flora
 #' 
 
 jahres <- data.frame(
@@ -214,6 +222,7 @@ jahres <- data.frame(
   comments = "Wrocław, Rakowiec, wysypisko śmieci"
 ) |> rbind(jahres)
 
+#' 
 #' II. Neue Bastarde und Zwischenarten der schlesischen Flora
 #' 
 
@@ -262,6 +271,7 @@ jahres <- data.frame(
   comments = "Rozumice, gm. Kietrz"
 ) |> rbind(jahres)
 
+#' 
 #' III. Neue Fundorte schlesicher Pflanzen
 #' 
 
@@ -1099,7 +1109,7 @@ jahres <- data.frame(
   entry = "Gymnadenia conopea mit reinweißen Blüten (var. ornithis Beck) Frankenstein: Niklasdorf (Rauhut)!",
   lon = 16.68935, 
   lat = 50.55098,
-  comments = "Mikołajów, Ząbkowice Śląskie"
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2808,9 +2818,9 @@ jahres <- data.frame(
   species = "Geranium molle",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "G. molle Kanth: Landauer Straße (Schoepke)!",
-  lon = 16.76102, 
-  lat = 51.02612,
-  comments = "Kąty Wrocławskie, droga na Kiljanów"
+  lon = 16.76214, 
+  lat = 51.02875,
+  comments = "Kąty Wrocławskie, droga w kierunku Kiljanów [Landau]"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5145,6 +5155,7 @@ jahres <- data.frame(
   comments = "Biedrzychów, gm. Strzelin"
 ) |> rbind(jahres)
 
+#' 
 #' IV. Teratologische Beobachtungen
 #' 
 
@@ -5436,5 +5447,3 @@ jahres <- data.frame(
   comments = "Konradowa, Nysa"
 ) |> rbind(jahres)
 
-# accepted names ------------------------------------------------------------------------------
-source("source/accepted_names.R")

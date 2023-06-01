@@ -175,8 +175,8 @@ jahres <- data.frame(
   species = "Convolvulus dahuricus",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
   entry = "Convolvulus dahuricus [...] Strehlen: auf Schutt im Prieborner Marmorbruch!",
-  lon = 17.17743,  
-  lat = 50.69308,
+  lon = 17.17662,  
+  lat = 50.69313,
   comments = "Przeworno, kamieniołom marmuru, gruzowisko"
 ) |> rbind(jahres)
 
