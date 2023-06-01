@@ -33,7 +33,7 @@ bib <- RefManageR::as.BibEntry(
 ```
 
 
-### Pomoy w znajdowaniu współrzędnych udzielili
+### Pomocy w znajdowaniu współrzędnych udzielili:
 
 -   [Mapster](http://igrek.amzp.pl/)
 -   [Kartenforum](https://kartenforum.slub-dresden.de/)
