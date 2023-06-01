@@ -25,7 +25,7 @@ jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   subset(grepl("Politzer Hege", entry))
 
-# lcvplants::lcvp_fuzzy_search("Anchusa italica Retz.")
+lcvplants::lcvp_fuzzy_search("Succisa pratensis f. incisa")
 
 
 jahres |>
@@ -104,13 +104,13 @@ a |>
   subset(select = -c(centroid)) |>
   subset(select = c("n", "geometry")) |>
   #   subset(subset = !is.na(Name)) |>
+# d <- rgbif::name_usage(key=7065422)
+# 
   sf::st_as_sf() |>
   terra::plot(add = TRUE, legend = "bottom")
 
 
 # gbif ----------------------------------------------------------------------------------------
-# 
-# d <- rgbif::name_usage(key=7065422)
 # 
 # d <- rgbif::occ_search(taxonKey = 7065422, limit = 1)
 # d$data$scientificName
@@ -126,13 +126,13 @@ a |>
 # o <- m |>
 #   subset(is.na(accepted_name))
 # 
-
-x <- rgbif::name_backbone(name = "Diphasiastrum tristachyum (Pursh) Holub")
-rgbif::name_usage(key = x$usageKey, data = "synonyms")
-
-m |>
-  as.matrix()
-
-jahres |>
-  dplyr::left_join(an, by = "species") |>
-  subset(grepl("Selagine", accepted_name))
+# 
+# x <- rgbif::name_backbone(name = "Diphasiastrum tristachyum (Pursh) Holub")
+# rgbif::name_usage(key = x$usageKey, data = "synonyms")
+# 
+# m |>
+#   as.matrix()
+# 
+# jahres |>
+#   dplyr::left_join(an, by = "species") |>
+#   subset(grepl("Selagine", accepted_name))
