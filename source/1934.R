@@ -238,7 +238,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Symphytum asperum X officinale",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Symphytum asperum X officinale (= S. Uplandicum Nym.) Strehlen: Wegränder beim Forsthaus Späne unweit Lorenzberg, unter den Stammarten !",
+  entry = "Symphytum asperum X officinale (= S. Uplandicum Nym.) Strehlen: Wegränder beim Forsthaus Späne unweit Lorenzberg, unter den Stammarten!",
   lon = 17.21099, 
   lat = 50.72229,
   comments = "Wawrzyszów, gm. Wiązów, pobocze drogi przy leśniczówce"
