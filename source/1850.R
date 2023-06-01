@@ -29,7 +29,7 @@ if(exists("bibliography")) {
 }
   
 jahres <- data.frame(
-  species = c("Vicia dumetorum", "Alium ursinum"),
+  species = c("Vicia dumetorum", "Allium ursinum"),
   citation = "@wimmerBerichtUberVerhandlungen1850",
   entry = "Neue Fundorte schlesifcher Pflanzen, vom Professor Göppert (Vicia dumetorum und Alium ursinum im Zedlitzwalde an der Polsnitz; [...]",
   lon = 16.39967, 

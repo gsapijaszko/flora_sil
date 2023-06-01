@@ -959,10 +959,64 @@ jahres <- data.frame(
   comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Carex pendula",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. pendula Eulengebirge: Leutnantskuppe bei Briesnitz, [...]",
+  lon = 16.70300, 
+  lat = 50.52339,
+  comments = "wzgórze Leszek, Brzeźnica, gm. Bardo, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex pendula",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. pendula Eulengebirge: [...] auch in einem Grunde oberhalb Niklasdorf!; [...]",
+  lon = 16.68439, 
+  lat = 50.55120,
+  comments = "powyżej miejscowości Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex pendula",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. pendula [...] Mensegebirge: Kleine Kapuzinerplatte (Becker)",
+  lon = 16.50578, 
+  lat = 50.35187,
+  comments = "wzgórze Rówienka, Paszków, gm. Bystrzyca Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex Pseudocyperus f. minor",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. Pseudocyperus f. minor Kanth: Schimmelwitz (Schoepke)!",
+  lon = 16.76804, 
+  lat = 51.05716,
+  comments = "Wszemiłowice, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex filiformis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. filiformis Falkenberg: Logeteich!",
+  lon = 17.59488, 
+  lat = 50.60607,
+  comments = "staw Ostrowity, Jaczowice, gm. Niemodlin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex panniculata x paradoxa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. panniculata x paradoxa Zobten: Tampadeler Wiesen!",
+  lon = 16.68943, 
+  lat = 50.83796,
+  comments = "Tąpadła, gm. Marcinowice, pow. świdnicki"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Niklasdorf", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Tampadel", entry))
 
 #' TODO - dokończyć
 

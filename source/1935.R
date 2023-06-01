@@ -839,7 +839,7 @@ jahres <- data.frame(
   entry = "C. Buxbaumi Kanth: Schimmelwitzer Wiesen (Schoepke)!",
   lon = 16.76804, 
   lat = 51.05716,
-  comments = "Wszemiłowice, łąki"
+  comments = "Wszemiłowice, gm. Kąty Wrocławskie, łąki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
