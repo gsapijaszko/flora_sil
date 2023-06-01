@@ -38,9 +38,6 @@ jahres |>
   openxlsx::write.xlsx(file = "ddd.xlsx")
 
 
-  
-
-
 # print & plot --------------------------------------------------------------------------------
 #' Tanacetum macrophyllum i Achillea macrophylla
 # 
@@ -85,10 +82,6 @@ a |>
   dplyr::left_join(an, by = "species") |>
   readr::write_rds(file = "flora_sil_pl.Rds")
   
-a |>
-  dplyr::left_join(an, by = "species") |>
-  subset(grepl("tristach", accepted_name) & grepl("schal", citation))
-
 # a |>
 #   subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
 #   subset(select = "geometry") |>
