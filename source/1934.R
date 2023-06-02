@@ -1013,10 +1013,82 @@ jahres <- data.frame(
   comments = "Tąpadła, gm. Marcinowice, pow. świdnicki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Acorus calamus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Acorus Calamus Landeshut: Trautliebersdorf (Strauch)",
+  lon = 16.16561, 
+  lat = 50.70592,
+  comments = "Kochanów, Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Calla palustris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Calla palustris Goldberg: Giersdorf (Kulke)",
+  lon = 15.99455, 
+  lat = 51.17938,
+  comments = "Gierałtowiec, gm. Złotoryja"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arum maculatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Arum maculatum Goldberg: gegen Hermsdorf (Kulke); [...] Schweidnitz: Schwellwitz (Strauch)",
+  lon = 15.87918, 
+  lat = 51.11543,
+  comments = "Jerzmanice Zdrój, gm. Złotoryja"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arum maculatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Arum maculatum [...] Schweidnitz: Schwellwitz (Strauch)",
+  lon = 16.55156, 
+  lat = 50.90432,
+  comments = "Śmiałowice, gm. Marcinowice, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Juncus flliformis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Juncus flliformis Liebenthal: Krummölser Busch (Buchs)!",
+  lon = 15.48611, 
+  lat = 51.03272,
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki, w zaroślach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Juncus tenuis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "J. tenuis Trebnitz: Buchenwald (Prof. Schube)!; [...]",
+  lon = 17.07462, 
+  lat = 51.29895,
+  comments = "Trzebnica, Las Bukowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Juncus tenuis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "J. tenuis [...] Falkenberg: Tillowitzer Forst!",
+  lon = 17.63390, 
+  lat = 50.56650,
+  comments = "Tułowice, gm. Tułowice, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Luzula nemorosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Luzula nemorosa Strehlen: Leuppuscher Berge bei Olbendorf, hier auch in den Grottkauer Kreis übergreifend!",
+  lon = 17.33411, 
+  lat = 50.72606,
+  comments = "wzgórza na północny-zachód od Lubcz, gm. Grodków, pow. brzeski"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Tampadel", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Olbendorf", entry))
 
 #' TODO - dokończyć
 
