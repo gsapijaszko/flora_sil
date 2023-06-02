@@ -527,19 +527,30 @@ an <- c(
   "Vicia dumetorum", "Vicia dumetorum L.",
   "Vicia Ervilia (L.) Willd.", "Vicia ervilia (L.) Willd.", 
   "Vicia grandiflora", "Vicia grandiflora Scop.",
+  "Vicia lathyroides", "Vicia lathyroides L.",
   "Vicia lutea L. f. caerulea Arcang.", "", 
   "Vicia pannonica", "Vicia pannonica Crantz",
   "Vicia pannonica f. purpurascens", "Vicia pannonica Crantz",
   "Vicia silvatica", "Vicia sylvatica L.",
   "Vicia tenuifolia", "Vicia tenuifolia Roth",
+  "Vinca minor", "Vinca minor L.", 
+  "Vincetoxicum officinale", "Vincetoxicum hirundinaria Medik.",
   "Viola elatior Fries", "Viola elatior Fr.", 
   "Viola elatior f . humilis Uechtritz", "",
   "Viola elatior x pumila", "",
+  "Viola epipsila", "Viola epipsila Ledeb.", 
   "Viola hirta", "Viola hirta L.", 
   "Viola montana x riviniana", "", 
+  "Viola mirabilis", "Viola mirabilis L.", 
+  "Viola palustris", "Viola palustris L.", 
   "Viola persicifolia", "Viola persicifolia Schreb.",
+  "Viola persicifolia x  canina", "",
+  "Viola rupestris var. glaberrima", "Viola rupestris subsp. glaberrima (Murb.) Vl.V.Nikitin",
   "Viscum album", "Viscum album L.",
-  "Zannichellia palustris", "Zannichellia palustris L."
+  "Xanthium spinosum", "Xanthium spinosum L.",
+  "Xanthium strumarium", "Xanthium strumarium L.",
+  "Zannichellia palustris", "Zannichellia palustris L.",
+  "Zea mays", "Zea mays L."
 )
 
 an <- matrix(unlist(an), nrow=length(an)/2, byrow=TRUE) |>

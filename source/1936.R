@@ -1182,9 +1182,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Vida cracca var. alpestris Čel.",
+  species = "Vicia cracca var. alpestris Čel.",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
-  entry = "Auf Vida cracca var. alpestris Čel. mit größeren, lebhaft dunkelvioletten, duftenden Blüten, gesammelt auf den Wiesen unweit der Schweizerei, ist in den Hochlagen unserer Sudeten weiter zu achten.",
+  entry = "Auf Vicia cracca var. alpestris Čel. mit größeren, lebhaft dunkelvioletten, duftenden Blüten, gesammelt auf den Wiesen unweit der Schweizerei, ist in den Hochlagen unserer Sudeten weiter zu achten.",
   lon = 17.21348, 
   lat = 50.10107,
   comments = "na łąkach k. schroniska Svycarna/Szwajcaria, Morawy"
