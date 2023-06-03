@@ -1266,10 +1266,37 @@ jahres <- data.frame(
   comments = "Przerzeczyn Zdrój, gm. Niemcza, pow. dzierżoniowski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Coeloglossum viride Liebenthal: mehrfach (Buchs)!; [...]",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Coeloglossum viride [...] Greiffenberg: Groß-Stöckigt (Frl. Ursula Buchs)!; [...]",
+  lon = 15.44734, 
+  lat = 51.01776,
+  comments = "Krzewie Wielkie, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Coeloglossum viride [...] Friedeberg: Steine (Kruber)!",
+  lon = 15.37121, 
+  lat = 50.94998,
+  comments = "Kamień, gm. Mirsk, pow. lwówecki"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Dirsdorf", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Steine", entry))
 
 #' TODO - dokończyć
 
