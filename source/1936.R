@@ -151,7 +151,7 @@ jahres <- data.frame(
   entry = "R. gallica ist für das Nimptscher Bergland uberhaup recht bezeichnend. Ich sah sie auch noch [...] nördlich von Dürrhartau.",
   lon = 16.93528, 
   lat = 50.86127,
-  comments = "Suchowice"
+  comments = "Suchowice, gm. Borów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

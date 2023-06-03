@@ -1085,10 +1085,191 @@ jahres <- data.frame(
   comments = "wzgórza na północny-zachód od Lubcz, gm. Grodków, pow. brzeski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Veratrum album",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Veratrum album Landeshut: herabgeschwemmt noch auf Wiesen bei der Stadt (Strauch)!",
+  lon = 16.00632, 
+  lat = 50.76995,
+  comments = "Kamienna Góra, na łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Colchicum autumnale",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Colchicum autumnale Guhrau: Oberwald (Weidlich)!",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Allium Schoenoprasum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Allium Schoenoprasum Breslau: Schuttplatz in Bischofswalde!",
+  lon = 17.09846, 
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Tulipa silvestris Jauer: Klein-Neudorf (Strauch)",
+  lon = 16.05811, 
+  lat = 50.98473,
+  comments = "Nowa Wieś Mała, gm. Paszowice, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ornithogalum umbellatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ornithogalum umbellatum Liebenthal: Geppersdorf (Frl. Ursula Buchs)!",
+  lon = 15.52870, 
+  lat = 51.01552,
+  comments = "Milęcice, gm. Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ornithogalum nutans",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "O. nutans Löwenberg: Schloßpark Hohlstein (Buchs)!, [...]",
+  lon = 15.58919, 
+  lat = 51.15872,
+  comments = "Skała, gm. Lwówek Śląski, park pałacowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ornithogalum nutans",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "O. nutans [...] Zobten (Kruber)!",
+  lon = 16.74848, 
+  lat = 50.88991,
+  comments = "Sobótka, gm. Sobótka, pow. wrocławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ornithogalum Boucheanum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "O. Boucheanum Auras: lichte Waldstellen bei Pannwitz!",
+  lon = 16.91768, 
+  lat = 51.20236,
+  comments = "Paniowice, gm. Oborniki Śląskie, pow. trzebnicki, jasne lasy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonatum officinale",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Polygonatum officinale Goldberg: Probsthainer Spitzberg (Buchs)!",
+  lon = 15.76367, 
+  lat = 51.05611,
+  comments = "[wzgórze] Ostrzyca Proboszczowicka, Proboszczów, gm. Pielgrzymka, pow. złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Galanthus nivalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Galanthus nivalis Eulengebirge: an der Eibenkoppe noch bei 600 m Höhe (Dr. Limpricht)",
+  lon = 16.54289, 
+  lat = 50.71677,
+  comments = "[wzgórze] Cisówka, Rościszów, gm. Pieszyce, pow. dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leucoium vernum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Leucoium vernum Guhrau: Erlenbruch bei Groß-Wiersewitz, von früherer Anpflanzung her (Weidlich)!",
+  lon = 16.58458, 
+  lat = 51.60464,
+  comments = "Wierzowice Wielkie, gm. Góra, w olszynie, z wcześniejszego nasadzenia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Narcissus poeticus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Narcissus poeticus Kanth: Stadtwiesen (Schoepke)",
+  lon = 16.77793, 
+  lat = 51.03425,
+  comments = "Kąty Wrocławskie, łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Narcissus pseudonarcissus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "N. Pseudonarcissus Liebenthal: Südfuß des Geyersberges (Frl. Ursula Buchs)!; [...]",
+  lon = 15.52067, 
+  lat = 51.01811,
+  comments = "południowe podnóże wzgórza Sępik, Milęcice, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+
+jahres <- data.frame(
+  species = "Narcissus pseudonarcissus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "N. Pseudonarcissus [...] Frankenstein: Grasgärten in Zadel (Rauhut)",
+  lon = 16.82662, 
+  lat = 50.57629,
+  comments = "Sadlno, Ząbkowice Śląskie, trawniki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisyrinchium angustufolium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sisyrinchium angustufolium Gleiwitz: an verschiedenen Stellen des Stollarzowitzer [...] Waldes [...]",
+  lon = 18.83518, 
+  lat = 50.39328,
+  comments = "Stolarzowice, Bytom, w lesie, naturalizowany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisyrinchium angustufolium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sisyrinchium angustufolium Gleiwitz: an verschiedenen Stellen des [...] Miechowitzer Waldes eingebürgert (Czmok)!",
+  lon = 18.83667, 
+  lat = 50.36584,
+  comments = "Miechowice, Bytom, w lesie, naturalizowany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Iris sibirica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Iris sibirica Guhrau: Krowitze bei Rützen (Weidlich)!",
+  lon = 16.49982, 
+  lat = 51.61885,
+  comments = "Krowica, Ryczeń, gm. Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gladiolus imbricatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gladiolus imbricatus Neumarkt: zwischen Stephansdorf und Breitenau (Kotschy)!; [...]",
+  lon = 16.59777, 
+  lat = 51.21338,
+  comments = "pomiędzy miejscowościami Szczepanów i Brodno, gm. Środa Śląska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gladiolus imbricatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gladiolus imbricatus [...] Nimptsch: Niederbusch bei Dürrhartau!",
+  lon = 16.94364, 
+  lat = 50.84874,
+  comments = "Suchowice, gm. Borów, pow. strzeliński, las na południowy-wschód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis sambucina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Orchis sambucina Gnadenfrei: Dirsdorf (Frömsdorf)!",
+  lon = 16.81096,
+  lat = 50.68136,
+  comments = "Przerzeczyn Zdrój, gm. Niemcza, pow. dzierżoniowski"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Olbendorf", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Dirsdorf", entry))
 
 #' TODO - dokończyć
 
