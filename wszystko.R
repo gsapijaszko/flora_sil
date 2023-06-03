@@ -25,7 +25,14 @@ jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   subset(grepl("Vida cracca", entry))
 
-lcvplants::lcvp_fuzzy_search("Amaranthus angustifolius var. graecizans (L.) Thell.")
+lcvplants::lcvp_fuzzy_search(c(  "Vaccinium oxycoccus",
+                                 "Vaccinium uliginosum",
+                                 "Valeriana dioeca",
+                                 "Valeriana exaltata",
+                                 "Valeriana polygama",
+                                 "Valeriana sambucifolia",
+                                 "Veratrum album"
+))
 
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>

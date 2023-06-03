@@ -56,9 +56,11 @@ QGIS i pluginy: OSM place Search oraz Coordinate Conversion.
 
 ## Bibliografia:
 
+### WIP
 E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
 _Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur_ 106 (1934), pp. 140-156.
 
+### Done
 E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934”. In:
 _Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp. 55-71.
 
