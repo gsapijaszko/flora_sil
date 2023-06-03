@@ -32,6 +32,7 @@ bib <- RefManageR::as.BibEntry(
 
 ```
 
+
 ### Pomocy w znajdowaniu współrzędnych udzielili:
 
 -   [Mapster](http://igrek.amzp.pl/)
@@ -49,5 +50,7 @@ QGIS i pluginy: OSM place Search oraz Coordinate Conversion.
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
 
 ### Zawartość
+
+2000 rekordów (gatunek-miejsce), w tym 1900 ze współrzędnymi.
 
 cdn...
