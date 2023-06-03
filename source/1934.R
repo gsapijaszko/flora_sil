@@ -19,7 +19,7 @@ bib <- RefManageR::as.BibEntry(
     key  = "schalowErgebnisseDurchforschungSchlesischen1934",
     author = "Emil Schalow",
     title = "Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933",
-    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106",
     date = "1934",
     volume = "106", 
     pages = "140--156")

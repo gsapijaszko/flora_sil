@@ -51,16 +51,23 @@ QGIS i pluginy: OSM place Search oraz Coordinate Conversion.
 
 ### Zawartość
 
-2000 rekordów (gatunek-miejsce), w tym 1900 ze współrzędnymi.
+Kilka pełnych aktykułów, oraz niektóre rekordy z pozostałych, w sumie ok. 2000 rekordów (gatunek-miejsce), w tym 1900 ze współrzędnymi.
 
 
 ## Bibliografia:
 
 ### WIP
 E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur_ 106 (1934), pp. 140-156.
+_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp. 140-156.
 
 ### Done
+F. Wimmer. “Bericht über die Verhandlungen der Botanischen Sektion im Jahre 1849”. In: _Uebersicht der
+Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), pp.
+75-76.
+
+F. Wimmer. “Neue und seltenere schiesische Pflanzen”. In: _Uebersicht der Arbeiten und Veränderungen der
+schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+
 E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934”. In:
 _Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp. 55-71.
 
