@@ -201,6 +201,3 @@ jahres <- data.frame(
   comments = "Ząbkowice Śląskie, dworzec kolejki wąskotorowej; zdziczała roślina ogrodowa"
 ) |> rbind(jahres)
 
-
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")

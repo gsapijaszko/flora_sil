@@ -246,6 +246,4 @@ jahres <- data.frame(
   comments = NA
 ) |> rbind(jahres)
 
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")
 

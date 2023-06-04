@@ -168,6 +168,3 @@ jahres <- data.frame(
   comments = "Święte, gm. Środa Śląska"
 ) |> rbind(jahres)
 
-
-# accepted names ------------------------------------------------------------------------------
-source("source/accepted_names.R")

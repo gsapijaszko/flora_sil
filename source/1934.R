@@ -1707,8 +1707,3 @@ jahres <- data.frame(
   comments = "Kłodzko, Nysa Kłodzka, brzeg rzeki"
 ) |> rbind(jahres)
 
-
-
-
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")

@@ -39,9 +39,6 @@ jahres <- data.frame(
   comments = "Grabina, pow. Cieszyn, łąki, kwitnący na biało, zdziczały"
 ) |> rbind(jahres)
 
-
-
-
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekResultateDurchforschungSchlesischen1887", 
@@ -176,8 +173,4 @@ jahres <- data.frame(
   lat = 51.90853, 
   comments = "Wilkanowo, wzgórza"
 ) |> rbind(jahres)
-
-
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")
 

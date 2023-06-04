@@ -460,8 +460,3 @@ jahres <- data.frame(
   comments = "Nysa"
 ) |> rbind(jahres)
 
-
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Niklasdorf", entry))

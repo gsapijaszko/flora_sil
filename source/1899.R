@@ -73,5 +73,3 @@ jahres <- data.frame(
   comments = "[Bronowice](https://de.wikipedia.org/wiki/Bronowice_(Trzebiel)) or [Brumovice](https://gov.genealogy.net/item/show/BRAORFJO80VA)"
 ) |> rbind(jahres)
 
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")

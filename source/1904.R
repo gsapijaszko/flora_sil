@@ -95,6 +95,3 @@ jahres <- data.frame(
   comments = "Lubków, gm. Warta Bolesławiecka, przy ogrodzie panujących; zapewne park przy majątku"
 ) |> rbind(jahres)
 
-
-# accepted names ------------------------------------------------------------------------------
-source("source/accepted_names.R")

@@ -2338,5 +2338,3 @@ jahres <- data.frame(
 
 #' TODO: dodać @meyerNeueFremdpflanzenSchlesiens1936
 
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")
