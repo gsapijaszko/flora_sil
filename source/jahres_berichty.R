@@ -4040,7 +4040,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Breslau: Pilsnitzer Wald (Kionka)!",
   lon = 16.95937,  
   lat = 51.15328, 
-  comments = ""
+  comments = "Wrocław, las Pilczycki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -1271,7 +1271,7 @@ jahres <- data.frame(
   entry = "Polygonum mite Kanth: Koslau (Schoepke)!",
   lon = 16.72838, 
   lat = 51.03821,
-  comments = "Kozłów, Kąty Wrocławskie"
+  comments = "Kozłów, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3288,7 +3288,7 @@ jahres <- data.frame(
   entry = "Conium maculatum Kanth: vor Koslau (Schoepke)!",
   lon = 16.72838, 
   lat = 51.03821,
-  comments = "Kozłów, Kąty Wrocławskie"
+  comments = "Kozłów, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -1293,10 +1293,334 @@ jahres <- data.frame(
   comments = "Kamień, gm. Mirsk, pow. lwówecki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Gymnadenia conopea var. densiflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gymnadenia conopea var. densiflora Eulengebirge: zwischen den Sieben Kurfürsten und Kaschbach (Prof. Schube)!",
+  lon = 16.48439, 
+  lat = 50.69568,
+  comments = "pomiędzy nieistniejącym schroniskiem na przełęczy Walimskiej a Potoczek, Rościszów, gm. Pieszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Cephalanthera xiphophyllum Greiffenberg: Stausee Goldentraum (Buchs)!",
+  lon = 15.38350,
+  lat = 51.02386,
+  comments = "Gryfów Śląski, Jezioro Złotnickie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera rubra",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. rubra Guhrau: Oberwald (Weidlich)!",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis rubiginosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Epipactis rubiginosa Gleiwitz: Tworog (A. Franke)!",
+  lon = 18.71659, 
+  lat = 50.53312,
+  comments = "Tworóg, gm. Tworóg, pow. tarnogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipogon aphyllus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Epipogon aphyllus Rückers: oberhalb des Gasthauses „Hubertus“ im Nesselgrunder Forst (Becker).",
+  lon = 16.50055, 
+  lat = 50.37343,
+  comments = "powyżej restauracji, Pokrzywno, gm. Bystrzyca Kłodzka, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Populus alba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Populus alba Breslau: zwischen Pilsnitz und Klein-Masselwitz, unweit der Ranserner Schleuse (Prof. Schube)!",
+  lon = 16.95191, 
+  lat = 51.14981,
+  comments = "Wrocław, między os. Pilczyce a Maślice Małe"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salix daphnoides",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Salix daphnoides Liebenthal: nördlich vom Geyersberge (Buchs)!",
+  lon = 15.52114, 
+  lat = 51.02029, 
+  comments = "Lubomierz, na północ od wzgórza Sępik"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salix acutifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. acutifolia Ottmachau: Kamnig!",
+  lon = 17.14845, 
+  lat = 50.57168,
+  comments = "Kamiennik, gm. Kamiennik, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corylus Avellana f. atropurpurea Petz, et Kirchn.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Corylus Avellana f. atropurpurea Petz, et Kirchn. mit hellroten Blättern Kanth : Bahngebüsch bei Koslau (Schoepke)!",
+  lon = 16.74200, 
+  lat = 51.03606,
+  comments = "Kozłów, gm. Kąty Wrocławskie, zarośla przy torach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Castanea sativa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Castanea sativa Liebenthal: „Kirschgrund“ bei Hagendorf (Buchs)!",
+  lon = 15.46242, 
+  lat = 51.09483,
+  comments = "Gradów, gm. Lwówek Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ulmus montana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ulmus montana Eulengebirge: zwischen Hirschplan und Wüstewaltersdorf (Prof. Schube)!",
+  lon = 16.44911, 
+  lat = 50.69036,
+  comments = "między skrzyżowaniem dróg: Cesarska Droga i Droga Gwarków a Walim, gm. Walim"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viscum album var. laxum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Viscum album var. laxum Jauer: „Wunderkiefer“ bei Bremberg (Strauch)!",
+  lon = 16.13077, 
+  lat = 51.08960,
+  comments = "'cudowna sosna' obok nieistniejącej wsi, obecnie Zalew Słup"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aristolochia Clematitis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Aristolochia Clematitis Steinau a. d. O.: Pronzendorf, [...]",
+  lon = 16.50503, 
+  lat = 51.40143,
+  comments = "Orzeszków, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aristolochia Clematitis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Aristolochia Clematitis Steinau a. d. O.: [...] Kreischau (Pfeiffer)!",
+  lon = 16.42389, 
+  lat = 51.39435,
+  comments = "Krzyżowa, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex alpinus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Rumex alpinus Habelschwerdt: unweit der Brandbaude (Rauhut)",
+  lon = 16.53577, 
+  lat = 50.27740,
+  comments = "niedaleko od schroniska Jogodna, Spalona, gm. Bystrzyca Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex aquaticus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. aquaticus Hoyerswerda: Elsterwiese bei Sollschwitz (Militzer)!; [...]",
+  lon = 14.22238,
+  lat = 51.34745,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex aquaticus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. aquaticus [...] Friedeberg: oberhalb der Talsperre (Buchs)!",
+  lon = 15.40418, 
+  lat = 50.96479,
+  comments = "obszar u ujścia strumieni: Dzieża do Długi Potok, Skarbków, gm. Mirsk"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex acetoselia f. ramosissima mh. f. nov.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. Acetoselia f. ramosissima mh. f. nov. ausgezeichnet vor allem durch die überaus reichliche Verzweigung Breslau: Schuttplätze hinter Rosenthal [...]",
+  lon = 17.01960, 
+  lat = 51.14601,
+  comments = "wysypisko gruzu, Różanka, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex acetoselia f. ramosissima mh. f. nov.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. Acetoselia f. ramosissima mh. f. nov. ausgezeichnet vor allem durch die überaus reichliche Verzweigung Breslau: Schuttplätze [...] in Bischofswalde!",
+  lon = 17.09846, 
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Polygonum cuspidatum Lauban: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Polygonum cuspidatum [...] Breslau: altes Hafenbecken des Odertorbahnhofes!; [...]",
+  lon = 17.02246, 
+  lat = 51.12637,
+  comments = "Wrocław, stary basen portowy przy dworcu Nadodrze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Polygonum cuspidatum [...] Neiße: Neißeufer bei Mannsdorf!",
+  lon = 17.45597, 
+  lat = 50.50150,
+  comments = "brzeg rzeki Nysa Kłodzka, Mańkowice, gm. Łambinowice, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium leptophyllum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Chenopodium leptophyllum Hoyerswerda: Werminghoff (Militzer und Nerlich)!",
+  lon = 14.32796,
+  lat = 51.39629,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium rubrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ch. rubrum Hoyerswerda: auf Schutt (Militzer)!; [...]",
+  lon = 14.24841,
+  lat = 51.44544,
+  comments = "na wysypisku śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium rubrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ch. rubrum [...] Liebenthal: Schuttstelle am „Hausflecken“ (Buchs)",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, wysypisko śmieci przy 'Hausflecken'"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ch. Botrys Breslau: vor Morgenau!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atriplex hortense",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Atriplex hortense Lauban: Güterbahnhof (Buchs)!",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atriplex roseum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. roseum Neumarkt: Schadewinkel (Kotschy)!",
+  lon = 16.57150, 
+  lat = 51.19446,
+  comments = "Lipnica, gm. Środa Śląska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Kochia scoparia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Kochia scoparia Strehlen: Prieborner Marmorbruch!; [...]",
+  lon = 17.17662,  
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Kochia scoparia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Kochia scoparia [...] Grottkau: Güterbahnhof!",
+  lon = 17.37724, 
+  lat = 50.70585,
+  comments = "Grodków, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salsola Kali",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Salsola Kali Hoyerswerda: Werminghoff (Militzer und Nerlich)!",
+  lon = 14.32796, 
+  lat = 51.39629,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus albus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Amarantus albus Neusalz: Dorfanger in Alt-Tschau (Merz)!",
+  lon = 15.72573, 
+  lat = 51.77679,
+  comments = "obecnie teren Nowa Sól, tereny zielone"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus deflexus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. deflexus Breslau: vor Morgenau!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus hybridus ssp. cruentus var.panniculatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. hybridus ssp. cruentus var.panniculatus Liebenthal: Spritzenhaus (Buchs)! [...]",
+  lon = 15.50786, 
+  lat = 51.01278,
+  comments = "Lubomierz, remiza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus hybridus ssp. hypochondriacus var. chlorostachys",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. hybridus [...] ssp. hypochondriacus var. chlorostachys Hoyerswerda: Werminghoff (Militzer und Nerlich)!",
+  lon = 14.32796,
+  lat = 51.39629,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corispermum hyssopifolium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Corispermum hyssopifolium Hoyerswerda: Werminghoif (Nerlich)!",
+  lon = 14.32796,
+  lat = 51.39629,
+  comments = ""
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Steine", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Spritzenhaus", entry))
 
 #' TODO - dokończyć
 

@@ -4,7 +4,7 @@ Historyczne dane flory Śląska bazujące na artykułach publikowanych w *Jahres
 
 Pliki źródłowe, podzielone latami, znajdują się w katalogu **source**. Struktura wpisu:
 
-```         
+```r
 jahres <- data.frame(
   species = "Cystopteris fragilis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
@@ -17,21 +17,19 @@ jahres <- data.frame(
 
 Bibliografia dodana jest jako obiekt klasy `bibentry` przy użyciu pakietu `RefmanageR`
 
-```
+```r
 bib <- RefManageR::as.BibEntry(
   c(
     bibtype = "article",
     key  = "schalowErgebnisseDurchforschungSchlesischen1934",
     author = "Emil Schalow",
     title = "Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933",
-    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106",
     date = "1934",
     volume = "106", 
     pages = "140--156")
 )
-
 ```
-
 
 ### Pomocy w znajdowaniu współrzędnych udzielili:
 
