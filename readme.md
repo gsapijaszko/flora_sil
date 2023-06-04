@@ -52,7 +52,7 @@ QGIS wraz z pluginami: [OSM place search](https://github.com/xcaeag/Nominatim-Qg
 
 ### Zawartość
 
-Kilka pełnych aktykułów, oraz niektóre rekordy z pozostałych, w sumie ok. 2000 rekordów (gatunek-miejsce), w tym 1900 ze współrzędnymi.
+Kilka pełnych aktykułów, oraz niektóre rekordy z pozostałych, w sumie ok. 2000 rekordów (gatunek-lokalizacja), w tym 1900 ze współrzędnymi.
 
 
 ## Bibliografia:
