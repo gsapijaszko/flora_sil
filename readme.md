@@ -37,13 +37,14 @@ bib <- RefManageR::as.BibEntry(
 
 -   [Mapster](http://igrek.amzp.pl/)
 -   [Kartenforum](https://kartenforum.slub-dresden.de/)
+-   [Arcanum Maps](https://maps.arcanum.com/en/map/europe-19century-secondsurvey/)
 
-Warstwy map jako ArcGIS REST (można użyć w QGISie):
+Warstwy map udostępniane przez Urząd Marszałkowski Województwa Dolnośląskiego jako usługa ArcGIS REST (można użyć w QGISie):
 
 -   [Karte des Deutschen Reiches 100k](https://geoportal.dolnyslask.pl/gprest/services/UMWD_DEUTSCHEN_100/MapServer/)
 -   [Messtischblatt 25k](https://geoportal.dolnyslask.pl/gprest/services/UMWD_Messtischblat_nowsze/MapServer/)
 
-QGIS i pluginy: OSM place Search oraz Coordinate Conversion.
+QGIS wraz z pluginami: [OSM place search](https://github.com/xcaeag/Nominatim-Qgis-Plugin) oraz [Lat Lon Tools](https://github.com/NationalSecurityAgency/qgis-latlontools-plugin).
 
 ### Gęstość danych
 
