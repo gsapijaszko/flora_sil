@@ -1,4 +1,4 @@
-## Flora Siliesiaca
+## Flora Siliesiae
 
 Historyczne dane flory Śląska bazujące na artykułach publikowanych w *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Elelktroniczne wersje sprawozdań znajdują się w [Opolskiej Bibliotece Cyfrowej](https://www.obc.opole.pl/dlibra/publication/8613#structure) oraz [Śląskiej Bibliotece Cyfrowej](https://www.sbc.org.pl/dlibra/publication/11059#structure)
 
