@@ -15,7 +15,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 ```
 
-Bibliografia dodana jest jako obiekt klasy `bibentry` przy użyciu pakietu `RefmanageR`
+Bibliografia dodana jest jako obiekt klasy `bibentry` przy użyciu pakietu `RefManageR`
 
 ```r
 bib <- RefManageR::as.BibEntry(

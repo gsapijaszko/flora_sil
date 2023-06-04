@@ -1617,10 +1617,74 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Montia rivularis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Montia rivularis Landeshut: Ober-Merzdorf (Strauch)!",
+  lon = 16.03179, 
+  lat = 50.84356,
+  comments = "Marciszów Górny, gm. Marciszów, pow. Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Montia intermedia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "M. intermedia Hirschberg: Agnetendorf (Schoepke)!",
+  lon = 15.61737, 
+  lat = 50.82370,
+  comments = "Jagniątków, Jelenia Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Silene dichotoma Hoyerswerda: Kleefelder bei Klösterl.-Neudorf [...]",
+  lon = 14.22720, 
+  lat = 51.40154,
+  comments = "Neudorf-Klösterlich, pola koniczyny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Silene dichotoma Hoyerswerda: Kleefelder bei [...] Lieske (Militzer)!; [...]",
+  lon = 14.52853, 
+  lat = 51.32776,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Silene dichotoma [...] Kanth: Bahndamm (Schoepke)!;[...]",
+  lon = 16.74772, 
+  lat = 51.03686,
+  comments = "Kąty Wrocławskie, nasyp kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Silene dichotoma [...] Silberberg: Ebersdorf (Rauhut); [...]",
+  lon = 16.57278, 
+  lat = 50.57535,
+  comments = "Dzikowiec, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Silene dichotoma [...] Neurode: Kleefeld bei Hausdorf (Niering) [...]",
+  lon = 16.51670, 
+  lat = 50.63424,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki, pola koniczyny"
+) |> rbind(jahres)
+
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Spritzenhaus", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Hausdorf", entry))
 
 #' TODO - dokończyć
 
