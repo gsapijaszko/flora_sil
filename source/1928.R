@@ -1,4 +1,5 @@
-# 1928 ----------------------------------------------------------------------------------------
+# entries -------------------------------------------------------------------------------------
+
 if (!exists("jahres")) {
   jahres <- data.frame(
     species = character(),
@@ -10,16 +11,25 @@ if (!exists("jahres")) {
   )
 }
 
-#'
-#' @article{schubeErgebnisseDurchforschungSchlesischen1928,
-#'   title = {Ergebnisse der Durchforschung der Schlesischen Gefässpflanzenwelt im Jahre 1927},
-#'   volume = {100},
-#'   pages = {30--37},
-#'   journaltitle = {Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur},
-#'   author = {Schube, Theodor},
-#'   date = {1928},
-#'   langid = {german},
-#' }
+
+## schubeErgebnisseDurchforschungSchlesischen1928 ---------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "schubeErgebnisseDurchforschungSchlesischen1928",
+    author = "Theodor Schube",
+    title = "Ergebnisse der Durchforschung der Schlesischen Gefässpflanzenwelt im Jahre 1927",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur.",
+    volume = "100",
+    date = "1928",
+    pages = "30--37"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
 
 jahres <- data.frame(
   species = "Equisetum pratense",

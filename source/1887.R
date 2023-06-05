@@ -1,3 +1,5 @@
+# entries -------------------------------------------------------------------------------------
+
 if (!exists("jahres")) {
   jahres <- data.frame(
     species = character(),
@@ -9,17 +11,25 @@ if (!exists("jahres")) {
   )
 }
 
-#' 1887
-#' 
-#' @article{fiekResultateDurchforschungSchlesischen1887,
-#'   title = {Resultate der Durchforschung der schlesischen Phanerogamenflora im Jahre 1886 zusammengestellt von E. Fiek},
-#'   volume = {64},
-#'   pages = {197--224},
-#'   journaltitle = {Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1886},
-#'   author = {Fiek, Emil},
-#'   date = {1887},
-#' }
 
+## fiekResultateDurchforschungSchlesischen1887 ------------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "fiekResultateDurchforschungSchlesischen1887",
+    author = "Emil Fiek",
+    title = "Resultate der Durchforschung der schlesischen Phanerogamenflora im Jahre 1886 zusammengestellt von E. Fiek",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1886",
+    volume = "64",
+    date = "1887",
+    pages = "197--224"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
 
 jahres <- data.frame(
   species = "Crocus vernus Wulf.",
@@ -173,4 +183,3 @@ jahres <- data.frame(
   lat = 51.90853, 
   comments = "Wilkanowo, wzgórza"
 ) |> rbind(jahres)
-

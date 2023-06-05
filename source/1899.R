@@ -1,3 +1,5 @@
+# entries -------------------------------------------------------------------------------------
+
 if (!exists("jahres")) {
   jahres <- data.frame(
     species = character(),
@@ -9,15 +11,25 @@ if (!exists("jahres")) {
   )
 }
 
-#' 1899
-#' @article{schubeErgebnisseDurchforschungSchlesischen1899,
-#'   title = {Ergebnisse der Durchforschung der schlesischen Phanerogamen- und Gefässkryptogamenflora im Jahre 1898},
-#'   volume = {76},
-#'   pages = {35--50},
-#'   journaltitle = {Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1898},
-#'   author = {Schube, Theodor},
-#'   date = {1899},
-#' }
+
+## schubeErgebnisseDurchforschungSchlesischen1899 ---------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "schubeErgebnisseDurchforschungSchlesischen1899",
+    author = "Theodor Schube",
+    title = "Ergebnisse der Durchforschung der schlesischen Phanerogamen- und Gefässkryptogamenflora im Jahre 1898",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1898",
+    volume = "76",
+    date = "1899",
+    pages = "35--50"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
 
 jahres <- data.frame(
   species = "Pilularia globulifera",

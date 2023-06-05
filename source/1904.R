@@ -1,4 +1,5 @@
-# 1904 ----------------------------------------------------------------------------------------
+# entries -------------------------------------------------------------------------------------
+
 if (!exists("jahres")) {
   jahres <- data.frame(
     species = character(),
@@ -10,17 +11,25 @@ if (!exists("jahres")) {
   )
 }
 
-#'
-#' @article{schubeErgebnisseDurchforschungSchlesischen1904,
-#'   title = {Ergebnisse der Durchforschung der Schlesischen Gefässpflanzenwelt im Jahre 1903},
-#'   volume = {81},
-#'   pages = {42--64},
-#'   journaltitle = {Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1903},
-#'   author = {Schube, Theodor},
-#'   date = {1904},
-#'   langid = {german},
-#' }
-#' 
+
+## schubeErgebnisseDurchforschungSchlesischen1904 ---------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "schubeErgebnisseDurchforschungSchlesischen1904",
+    author = "Theodor Schube",
+    title = "Ergebnisse der Durchforschung der Schlesischen Gefässpflanzenwelt im Jahre 1903",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1903",
+    volume = "81",
+    date = "1904",
+    pages = "42--64"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
 
 jahres <- data.frame(
   species = "Botrychium lunaria",

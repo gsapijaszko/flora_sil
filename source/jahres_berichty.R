@@ -470,7 +470,7 @@ jahres <- data.frame(
   entry = "Lycopodium complanatum. Eulengebirge: bei Köpprich mehrfach; ",
   lon = 16.56841, 
   lat = 50.60797, 
-  comments = ""
+  comments = "Przygórze, gm. Nowa Ruda, pow. kłodzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2761,7 +2761,7 @@ jahres <- data.frame(
   entry = "Lycopodium Selago Rosenberg: bei Wollentschin 1884, jetzt durch Urbarmachung der Stelle verschwunden (Zuschke)!",
   lon = 18.52570, 
   lat = 50.94490, 
-  comments = ""
+  comments = "Wolęcin, gm. Radłów, pow. oleski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5679,5 +5679,3 @@ jahres <- data.frame(
   comments = "os. Karłowice, Wrocław"
 ) |> rbind(jahres)
 
-# accepted names ------------------------------------------------------------------------------
-# source("source/accepted_names.R")
