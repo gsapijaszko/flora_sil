@@ -1995,12 +1995,65 @@ jahres <- data.frame(
   comments = "Przygórze, gm. Nowa Ruda, pow. kłodzki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa Lauban: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa [...] Greiffenberg: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.42991, 
+  lat = 51.03359,
+  comments = "Gryfów Śląski, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa [...] Liebenthal: Geppersdorf (Buchs)!; [...]",
+  lon = 15.52870, 
+  lat = 51.01552,
+  comments = "Milęcice, gm. Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa [...] Guhrau: Bahndamm (Weidlich)!; [...]",
+  lon = 16.54020, 
+  lat = 51.67824,
+  comments = "Góra, gm. Góra, nasyp kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa [...] Neurode: Mölke (Kramarz)!; [...]",
+  lon = 16.49133, 
+  lat = 50.62936,
+  comments = "Miłków, Ludwikowice Kłodzkie, gm. Nowa Ruda"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. arenosa [...] Rückers: Gläsendorf (Kramarz)!",
+  lon = 16.60000, 
+  lat = 50.33031,
+  comments = "Szklarka, gm. Bystrzyca Kłodzka, pow. kłodzki"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Köpprich", entry))
+  subset(grepl("Rückers", entry))
 
 #' TODO - dokończyć
 
