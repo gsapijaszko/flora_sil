@@ -2049,11 +2049,83 @@ jahres <- data.frame(
   comments = "Szklarka, gm. Bystrzyca Kłodzka, pow. kłodzki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Arabis Halleri",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. Halleri Löwenberg: Schloß Hohlstein (Buchs)!",
+  lon = 15.59100, 
+  lat = 51.15903,
+  comments = "Pałac w Skale, Skała, gm. Lwówek Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Barbaraea stricta",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Barbaraea stricta Görlitz: Tauchritz (Militzer)!; [...]",
+  lon = 14.93936, 
+  lat = 51.06571,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Barbaraea stricta",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Barbaraea stricta [...] Liebenthal: Güterbahnhof (Buchs)!",
+  lon = 15.50304,  
+  lat = 51.02095,
+  comments = "Lubomierz, [nieistniejący] dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hesperis matronalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Hesperis matronalis Lähn: Lehnhausberg (Buchs)!; [...]",
+  lon = 15.66318, 
+  lat = 51.01652,
+  comments = "Pałac Lenno, Wleń, wzgórze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hesperis matronalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Hesperis matronalis [...] Greiffenberg: Ruine Greiffenstein (Buchs)!; [...]",
+  lon = 15.42148, 
+  lat = 50.99250,
+  comments = "Góra Zamkowa, Proszkówka, gm. Gryfów Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hesperis matronalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Hesperis matronalis [...] Frankenstein: Zadeler Wiesen (Rauhut)!",
+  lon = 16.82662, 
+  lat = 50.57629,
+  comments = "Sadlno, Ząbkowice Śląskie, łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malcolmia maritima",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Malcolmia maritima Liebenthal: Siedlung (Buchs)!",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sophia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sisymbrium Sophia Landeshut: Schuttplätze (Strauch)!",
+  lon = 16.03702, 
+  lat = 50.78187,
+  comments = "Kamienna Góra, na wysypiskach"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Rückers", entry))
+  subset(grepl("Landeshut", entry))
 
 #' TODO - dokończyć
 
