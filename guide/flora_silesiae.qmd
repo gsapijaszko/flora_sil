@@ -1,0 +1,91 @@
+---
+title: "Flora Silesiae"
+author: "Grzegorz Sapijaszko"
+format: html
+---
+
+## Flora Silesiae
+
+```{r echo=FALSE, message=FALSE, results='hide'}
+jahres <- data.frame(
+  species = character(),
+  citation = character(),
+  entry = character(),
+  lon = double(),
+  lat = double(),
+  comments = character()
+)
+
+bibliography <- list()
+
+f <- list.files(path = "../source", pattern = "[[:digit:]].R", full.names = TRUE)
+
+invisible(
+  lapply(seq_along(f), function(g) source(f[g]))
+)
+
+source("../source/jahres_berichty.R")
+
+# accepted names ------------------------------------------------------------------------------
+source("../source/accepted_names.R")
+
+```
+
+Historical data of Silesian flora based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Online version are available in [Opolskiej Bibliotece Cyfrowej](https://www.obc.opole.pl/dlibra/publication/8613#structure) oraz [Śląskiej Bibliotece Cyfrowej](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+
+## Data entries
+
+Data entries are formed in data.frame class like:
+
+```{r eval=FALSE}
+jahres <- data.frame(
+  species = "Cystopteris fragilis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Cystopteris fragilis Naumburg a. B.: Schloßpark (Tscheppe)!; [...]",
+  lon = 15.24453, 
+  lat = 51.80259,
+  comments = "Nowogród Bobrzański, park zamkowy (Wzgórze Zamkowe)"
+) |> rbind(jahres)
+```
+
+Bibliography is provided as `bibentry` using `RefManageR` package
+
+```{r eval=FALSE}
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "schalowErgebnisseDurchforschungSchlesischen1934",
+    author = "Emil Schalow",
+    title = "Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106",
+    date = "1934",
+    volume = "106", 
+    pages = "140--156")
+)
+```
+
+### How to use
+
+There is additional data frame called `accepted_names`, which translates the species provided by authors to common, accepted names of species, like:
+
+```{r}
+#| eval: false
+#| 
+an <- c(
+  "Abutilon avicennae", "Abutilon theophrasti Medik.",
+  "Acer campestre", "Acer campestre L.", 
+  [...]
+```
+
+which can be joined to main `jahres` data table like:
+
+```{r}
+#| column: screen-inset-shaded
+
+jahres |>
+  head() |>
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
+  dplyr::left_join(an, by = "species") |>
+  dplyr::arrange(accepted_name, year) |>
+  subset(select = c("species", "citation", "accepted_name"))
+```
