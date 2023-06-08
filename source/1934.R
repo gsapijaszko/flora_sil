@@ -2121,11 +2121,164 @@ jahres <- data.frame(
   comments = "Kamienna Góra, na wysypiskach"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum Ruhland: Bahndämme bei Hohenbocka (Militzer)!; [...]",
+  lon = 14.02274, 
+  lat = 51.43335,
+  comments = "przy nasypie kolejowym"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Hoyerswerda: Bahnhof (Militzer)!; [...]",
+  lon = 14.23115, 
+  lat = 51.43286,
+  comments = "dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Niesky: Rietschen (Militzer)!; [...]",
+  lon = 14.79194,
+  lat = 51.39912,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Lauban: Güterbahnhof (Buchs)!;  [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Guhrau: Güterbahnhof [...]",
+  lon = 16.54286, 
+  lat = 51.67563,
+  comments = "Góra, gm. Góra, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Guhrau: [...] Mühlenwerke (Weidlich)!;[...]",
+  lon = 16.53515, 
+  lat = 51.66402,
+  comments = "Góra, gm. Góra, dawny młyn"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium Sinapistrum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. Sinapistrum [...] Brieg: Güterbahnhof!",
+  lon = 17.46590, 
+  lat = 50.85398,
+  comments = "Brzeg, gm. Brzeg, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium orientale",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. orientale Breslau: Stadthafen!",
+  lon = 17.01999, 
+  lat = 51.12865,
+  comments = "Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Conringia orientalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Conringia orientalis Steinau a. d. O.: Ackerland (Pfeiffer)!",
+  lon = 16.43434,
+  lat = 51.41787,
+  comments = "Ścinawa, pola"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Erysimum hieracifolium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Erysimum hieracifolium Muskau: Neißetal (Dr. Berger t. Militzer)",
+  lon = 14.72984, 
+  lat = 51.54812,
+  comments = "Mużaków, dolina Nysy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Sinapis alba", "Sinapis alba f. glabrata"),
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sinapis alba Silberberg: Flachsfeld bei Neudorf, auch mit f. glabrata (== ssp. dissecta (Lag.) Bonnier)!",
+  lon = 16.61543, 
+  lat = 50.56565, 
+  comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pole lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Brassica juncea",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Brassica juncea Breslau: Stadthafen!; [...]",
+  lon = 17.01999, 
+  lat = 51.12865,
+  comments = "Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Brassica juncea",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Brassica juncea [...] Silberberg: Flachsfeld bei Neudorf!",
+  lon = 16.61543, 
+  lat = 50.56565, 
+  comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pole lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Diplotaxis muralis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Diplotaxis muralis Weißwasser: auf Schutt (Militzer)!",
+  lon = 14.63096, 
+  lat = 51.50835,
+  comments = "na gruzowiskach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Diplotaxis tenuifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "D. tenuifolia Breslau: Güterbahnhof Odertor (Dr. K. Meyer)!, [...]",
+  lon = 17.04243, 
+  lat = 51.12595,
+  comments = "Wrocław, dworzec towarowy Wrocław Nadodrze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Diplotaxis tenuifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "D. tenuifolia Breslau: [...] Otto Muehlweg (Till)!",
+  lon = 17.00169, 
+  lat = 51.13083,
+  comments = "Wrocław, obecnie ul. Grobla Kozanowska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eruca sativa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Eruca sativa Silberberg: Flachsfeld bei Neudorf!",
+  lon = 16.61543, 
+  lat = 50.56565, 
+  comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pole lnu"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Landeshut", entry))
+  subset(grepl("Odertor", entry))
 
 #' TODO - dokończyć
 
