@@ -1780,9 +1780,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Saponaria officinaiis",
+  species = "Saponaria officinalis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Saponaria officinaiis Habelschwerdt: Nieder-Langenau (Schindler) !",
+  entry = "Saponaria officinalis Habelschwerdt: Nieder-Langenau (Schindler) !",
   lon = 16.63653, 
   lat = 50.26536,
   comments = "Długopole Dolne, gm. Bystrzyca Kłodzka, pow. kłodzki"
