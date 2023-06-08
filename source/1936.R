@@ -1733,7 +1733,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "HHieracium Wiesbaurianum Uechtr.",
+  species = "Hieracium Wiesbaurianum Uechtr.",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936", 
   entry = "H. Wiesbaurianum Uechtr. = pallidum — bifidum Riesengebirge, Kesselkoppe, [...]",
   lon = 15.52969, 
