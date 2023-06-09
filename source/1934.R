@@ -2274,11 +2274,298 @@ jahres <- data.frame(
   comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pole lnu"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Raphanus raphanistrum var. purpurascens Dum.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Raphanus raphanistrum var. purpurascens Dum. mit roten Blüten Gnadenfeld: Groß-Ellguth, anscheinend mit Grassamen eingeschleppt (Schubert)!",
+  lon = 18.02899, 
+  lat = 50.27617,
+  comments = "Ligota Wielka, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski, wprowadzone razem z nasionami traw"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rapistrum rugosum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Rapistrum rugosum Hoyerswerda: alte Berliner Straße (Militzer)!",
+  lon = 14.23576,
+  lat = 51.44315,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berteroa incana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Berteroa incana Ruhland: Bahndamm bei Hohenbocka (Militzer)!; [...] ",
+  lon = 14.02274, 
+  lat = 51.43335,
+  comments = "przy nasypie kolejowym"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berteroa incana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Berteroa incana [...] Niesky: Neuhammer (Militzer); [...]",
+  lon = 14.80364, 
+  lat = 51.39762,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berteroa incana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Berteroa incana [...] Lauban: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berteroa incana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Berteroa incana [...] Landeshut: Berthelsdorf (Strauch)!",
+  lon = 16.04287, 
+  lat = 50.63087,
+  comments = "Uniemyśl, gm. Lubawka, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lunaria rediviva",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lunaria rediviva Neurode: Hausdorf (Niering)!",
+  lon = 16.50938, 
+  lat = 50.63251,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lunaria annua",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. annua Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Camelina Alyssum (Mül.) Thell.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Camelina Alyssum (Mül.) Thell. (= C. sativa f. dentata Pers.) Strehlen: Flachsfelder bei Louisdorf [...]",
+  lon = 17.21147, 
+  lat = 50.73467,
+  comments = "Łojowice, gm. Wiązów, pow. Strzelin, na polach lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Camelina Alyssum (Mül.) Thell.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Camelina Alyssum (Mül.) Thell. (= C. sativa f. dentata Pers.) Strehlen: Flachsfelder bei [...] Lorenzberg, [...]",
+  lon = 17.23411, 
+  lat = 50.72908,
+  comments = "Wawrzyszów, gm. Wiązów, pow. Strzelin, pole lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Camelina Alyssum (Mül.) Thell.",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Camelina Alyssum (Mül.) Thell. (= C. sativa f. dentata Pers.) Strehlen: [...] Güterbahnhof Krummendorf, hier sicherlich mit Leinsaat verschleppt! [...]",
+  lon = 17.16419, 
+  lat = 50.72330,
+  comments = "Krzywina, gm. Przeworno, pow. strzeliński, dawny dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thlaspi alpestre",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Thlaspi alpestre Greiffenberg: Nieder-Wiesa (Frl. Suse Buchs)!; [...]",
+  lon = 15.40546, 
+  lat = 51.02389,
+  comments = "Wieża, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thlaspi alpestre",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Thlaspi alpestre [...] Frankenstein: Niklasdorf (Rauhut)",
+  lon = 16.68935, 
+  lat = 50.55098,
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lepidium Draba Landeshut: Bahnhof (Strauch)!; [...]",
+  lon = 16.02305, 
+  lat = 50.78559,
+  comments = "Kamienna Góra, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lepidium Draba [...] Brieg: Güterbahnhof!; [...]",
+  lon = 17.46590, 
+  lat = 50.85398,
+  comments = "Brzeg, gm. Brzeg, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lepidium Draba [...] Breslau: Ottwitz, [...]",
+  lon = 17.12965, 
+  lat = 51.09221,
+  comments = "Wrocław, Opatowice"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lepidium Draba [...] Breslau: [...] Morgenau (Prof. Schube)!;[...]",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lepidium Draba [...] Strehlen: Warkotsch! [...]",
+  lon = 17.04210, 
+  lat = 50.82193,
+  comments = "Warkocz, gm. Strzelin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium sativum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. sativum Strehlen: Flachsfelder bei Louisdorf [...]",
+  lon = 17.21147, 
+  lat = 50.73467,
+  comments = "Łojowice, gm. Wiązów, pow. Strzelin, na polach lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium sativum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. sativum Strehlen: Flachsfelder bei [...] Lorenzberg!",
+  lon = 17.23411, 
+  lat = 50.72908,
+  comments = "Wawrzyszów, gm. Wiązów, pow. Strzelin, pole lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. densiflorum Landeshut: Güterbahnhof (Strauch)!; [...]",
+  lon = 16.02305, 
+  lat = 50.78559,
+  comments = "Kamienna Góra, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. densiflorum [...] Jauer: mehrfach (Strauch); [...]",
+  lon = 16.18655, 
+  lat = 51.05176,
+  comments = "Jawor"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. densiflorum [...] Guhrau: Mühlenwerke (Weidlich)!; [...]",
+  lon = 16.53515, 
+  lat = 51.66402,
+  comments = "Góra, gm. Góra, dawny młyn"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. densiflorum [...] Brieg: Bahnhof Mollwitz! [...]",
+  lon = 17.38632, 
+  lat = 50.84499,
+  comments = "Małujowice, gm. Skarbimierz, pow. brzeski, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Virginicum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. Virginicum Hoyerswerda: Berliner Straße, [...] ",
+  lon = 14.23576,
+  lat = 51.44315,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Virginicum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. Virginicum Hoyerswerda: [...] Güterbahnhof (Militzer)!",
+  lon = 14.22670,
+  lat = 51.43431,
+  comments = "dworzec towartowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda lutea",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Reseda lutea Hoyerswerda: alte Berliner Straße (Militzer); [...] ",
+  lon = 14.23576,
+  lat = 51.44315,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda lutea",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Reseda lutea [...] Neurode: Zentnerbrunn (Frl. Nimser t. Kramarz)! [...]",
+  lon = 16.50949, 
+  lat = 50.61268,
+  comments = "obecnie ok. stacji Nowa Ruda - Zdrojowisko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda lutea var. crispa J. Müller",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Reseda lutea [...] var. crispa J. Müller mit schmalen krausen Blattabschnitten Kanth: Bahndamm bei Neudorf (Schoepke)!",
+  lon = 16.72226, 
+  lat = 51.02874,
+  comments = "Nowa Wieś Kącka, gm. Kąty Wrocławskie, nasyp kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sedum spurium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sedum spurium Hirschberg: Bibersteine bei Krommenau (Buchs)!; [...]",
+  lon = 15.58603, 
+  lat = 50.87164,
+  comments = "Bobrowe Skały, Piechowice, pow. karkonoski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sedum spurium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sedum spurium [...] Breslau: zwischen Kreika und Rothsürben (Prof. Schube)!",
+  lon = 17.05135, 
+  lat = 50.97010,
+  comments = "między miejscowościami Krajków a Żórawina, gm. Żurawina, pow. wrocławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sedum album",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. album Liebau: Rabenfelsen, von früherer Anpflanzung zurWiedereinbürgerung des Apollofalters her (Strauch)!",
+  lon = 16.01025, 
+  lat = 50.68787,
+  comments = "Krucza Skała, Lubawka, gm. Lubawka, z wcześniejszych nasadzeń w celu reintrodukcji motyla niepylaka apollo"
+) |> rbind(jahres)
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Odertor", entry))
+  subset(grepl("Raben", entry))
 
 #' TODO - dokończyć
 

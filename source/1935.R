@@ -4853,9 +4853,9 @@ jahres <- data.frame(
   species = "Hypochoeris glabra",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "Hypochoeris glabra Kanth: Neudorfer Wiesen (Schoepke)",
-  lon = 16.91008, 
-  lat = 51.04557,
-  comments = "Nowa Wieś Wrocławska, gm. Kąty Wrocławskie, na łąkach"
+  lon = 16.72709, 
+  lat = 51.02843,
+  comments = "Nowa Wieś Kącka, gm. Kąty Wrocławskie, na łąkach"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
