@@ -23,7 +23,7 @@ source("source/accepted_names.R")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Saponaria officinaiis", entry))
+  subset(grepl("Polyparus lucidus", entry))
 
 # lcvplants::lcvp_fuzzy_search(c(  "Vaccinium oxycoccus",
 #                                  "Vaccinium uliginosum",

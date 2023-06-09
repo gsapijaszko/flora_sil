@@ -65,9 +65,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Polyparus lucidus",
+  species = "Polyporus lucidus",
   citation = "@wimmerBerichtUberVerhandlungen1850",
-  entry = "Polyparus lucidus, vom Apotheker Reimann in Guhrau.",
+  entry = "Polyporus lucidus, vom Apotheker Reimann in Guhrau.",
   lon = 16.54609,
   lat = 51.66558,
   comments = "Góra"
