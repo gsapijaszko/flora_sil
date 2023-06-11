@@ -2562,10 +2562,64 @@ jahres <- data.frame(
   comments = "Krucza Skała, Lubawka, gm. Lubawka, z wcześniejszych nasadzeń w celu reintrodukcji motyla niepylaka apollo"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Ribes alpinum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Ribes alpinum Grünberg: unweit der Kunststeinfabrik (H. Schmidt)!",
+  lon = 15.49254, 
+  lat = 51.93611,
+  comments = "Zielona Góra, niedaleko [dawnej] betoniarni"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Spiraea chamaedryfolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Spiraea chamaedryfolia Frankenstein: Kunzendorfer Wiesen (Rauhut)!",
+  lon = 16.84282, 
+  lat = 50.56394,
+  comments = "Strąkowa, gm. Ząbkowice Śląskie, łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sorbaria sorbifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sorbaria sorbifolia Löwenberg: Buchholz (Buchs)!; [...]",
+  lon = 15.60275, 
+  lat = 51.10021,
+  comments = "Wzgórze Kombatantów, Lwówek Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sorbaria sorbifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Sorbaria sorbifolia [...] Greiffenberg: auf Schutt (Buchs)!",
+  lon = 15.42718,
+  lat = 51.03532,
+  comments = "Gryów Śląski, na wysypisku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amelanchier canadensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Amelanchier canadensis Löwenberg: zwischen Hohl- und Schottenstein (Buchs)!",
+  lon = 15.58142, 
+  lat = 51.15889,
+  comments = "między Skała, gm. Lwówek Śląski a Skała z Medalionem, Żerkowice, gm. Lwówek Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus saxatilis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Rubus saxatilis Liebenthal: mehrfach (Buchs)!",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz"
+) |> rbind(jahres)
+
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Raben", entry))
+  subset(grepl("Liebenthal: mehrfach", entry))
 
 #' TODO - dokończyć
 
