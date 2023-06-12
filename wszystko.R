@@ -7,6 +7,7 @@ jahres <- data.frame(
   comments = character()
 )
 
+jahres <- data.frame()
 bibliography <- list()
 
 f <- list.files(path = "source", pattern = "[[:digit:]].R", full.names = TRUE)
@@ -19,6 +20,8 @@ source("source/jahres_berichty.R")
 
 # accepted names ------------------------------------------------------------------------------
 source("source/accepted_names.R")
+
+saveRDS(an, file = "data/accepted_names.Rds")
 
 # search --------------------------------------------------------------------------------------
 jahres |>
@@ -39,7 +42,8 @@ jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   dplyr::left_join(an, by = "species") |>
   dplyr::arrange(accepted_name, year) |>
-  openxlsx::write.xlsx(file = "ddd.xlsx")
+  saveRDS(file = "data/flora_sil.Rds")
+#  openxlsx::write.xlsx(file = "ddd.xlsx")
 
 
 # print & plot --------------------------------------------------------------------------------
@@ -85,7 +89,7 @@ aPL <- a |>
 
 aPL |>
   dplyr::left_join(an, by = "species") |>
-  readr::write_rds(file = "flora_sil_pl.Rds")
+  readr::write_rds(file = "data/flora_sil_pl.Rds")
 
 aPL <- aPL |>
   sf::st_join(atpolR::atpol10k()) |>

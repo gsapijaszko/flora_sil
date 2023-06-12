@@ -1,22 +1,22 @@
----
-title: "Flora Silesiae"
-author: "Grzegorz Sapijaszko"
-format: 
-  html:
-    toc: true
-  gfm: 
-    toc: false
----
+# Flora Silesiae
+Grzegorz Sapijaszko
 
 ## Flora Silesiae
 
-Historical data on the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+Historical data on the flora of Silesia based on articles published by
+’Botanische Sektion\` in *Jahres-Bericht der Schlesischen Gesellschaft
+für vaterländische Cultur*. Electronic versions of the reports can be
+found at [Opole Digital
+Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and
+[Silesia Digital
+Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
 
 ## Data entries
 
-The source files, divided by years, are located in the **source** directory. Entries are provided as data.frame structure, like:
+The source files, divided by years, are located in the **source**
+directory. Entries are provided as data.frame structure, like:
 
-```{r eval=FALSE}
+``` r
 jahres <- data.frame(
   species = "Cystopteris fragilis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
@@ -29,7 +29,7 @@ jahres <- data.frame(
 
 Bibliography is provided as `bibentry` using `RefManageR` package
 
-```{r eval=FALSE}
+``` r
 bib <- RefManageR::as.BibEntry(
   c(
     bibtype = "article",
@@ -45,39 +45,27 @@ bib <- RefManageR::as.BibEntry(
 
 ### How to use
 
-The full dataset is saved into `flora_sil.Rds` file. You can read it using:
+The full dataset is saved into `flora_sil.Rds` file. You can read it
+using:
 
-```{r}
-#| echo: false
-#| 
-jahres <- readRDS(file = "../data/flora_sil.Rds")
+``` r
+jahres <- readRDS(file = "flora_sil.Rds")
 ```
 
-```{r}
-#| eval: false
-#| 
-jahres <- readRDS(file = "data/flora_sil.Rds")
-```
+There is additional data frame called `accepted_names`, which provides
+the normalization of the species names provided by authors to common,
+accepted names of species, like:
 
-There is additional data frame called `accepted_names`, which provides the normalization of the species names provided by authors to common, accepted names of species, like:
-
-```{r}
-#| eval: false
-#| 
+``` r
 an <- c(
   "Abutilon avicennae", "Abutilon theophrasti Medik.",
   "Acer campestre", "Acer campestre L.", 
   [...]
 ```
 
+which can be joined to main `jahres` data table like:
 
-
-We can which can be joined to main `jahres` data table like:
-
-```{r}
-#| eval: false
-#| column: screen-inset-shaded
-
+``` r
 jahres |>
   head() |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
@@ -85,4 +73,3 @@ jahres |>
   dplyr::arrange(accepted_name, year) |>
   subset(select = c("species", "citation", "accepted_name"))
 ```
-
