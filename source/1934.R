@@ -2616,10 +2616,93 @@ jahres <- data.frame(
   comments = "Lubomierz"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis Nimptsch: Dürrhartauer Niederbusch!; [...]",
+  lon = 16.94364, 
+  lat = 50.84874,
+  comments = "Suchowice, gm. Borów, pow. strzeliński, las na południowy-wschód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Münsterberg: Bärdorf [...]",
+  lon = 17.00215, 
+  lat = 50.54017,
+  comments = "Niedźwiedz, gm. Ziębice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Münsterberg: [...] Kummelwitz!; [...]",
+  lon = 16.98640, 
+  lat = 50.71772,
+  comments = "Komorowice, gm. Konratowice, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Wartha: Giersdorfer Berge! [...]",
+  lon = 16.71745, 
+  lat = 50.51304,
+  comments = "Opolnica, gm. Bardo, wzgórza koło miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Glatz: Roter Berg, [...]",
+  lon = 16.62480, 
+  lat = 50.40348,
+  comments = "[wzgórze] Czerwoniak, Stary Wielisław, gm. Kłodzko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Glatz: [...] Wolfskuppe bei Ullersdorf [...]",
+  lon = 16.70086, 
+  lat = 50.35138,
+  comments = "[wzgórze] Słupiec, Romanowo, gm. Kłodzko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Glatz: [...] Königshainer Spitzberg!; [...]",
+  lon = 16.74555, 
+  lat = 50.46598,
+  comments = "Ostra Góra, Laskówka, gm. Bardo"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Reichenstein: Molchkoppe bei Hemmersdorf! [...]",
+  lon = 16.82180, 
+  lat = 50.46998,
+  comments = "wzgórze bez nazwy obok wzg. Olchówka, Mąkolnica, gm. Złoty Stok"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rubus salisburgensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "R. salisburgensis [...] Landeck: Pfaffensteig!",
+  lon = 16.92062, 
+  lat = 50.28166,
+  comments = "nieistniejąca już kolonia, dawniej należąca do miejscowości Młynowiec, gm. Stronie Śląskie"
+) |> rbind(jahres)
+
+
+
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Liebenthal: mehrfach", entry))
+  subset(grepl("Pfaffensteig", entry))
 
 #' TODO - dokończyć
 
