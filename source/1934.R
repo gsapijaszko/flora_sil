@@ -2697,12 +2697,91 @@ jahres <- data.frame(
   comments = "nieistniejąca już kolonia, dawniej należąca do miejscowości Młynowiec, gm. Stronie Śląskie"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Potentilla palustris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Potentilla palustris Friedeberg: Kaolinwerk Steine (Buchs)!",
+  lon = 15.39290, 
+  lat = 50.95313,
+  comments = "nieczynna kopalnia kaolinu, Kamień, gm. Mirsk (http://maps.mapywig.org/m/German_maps/series/025K_TK25/5058_Friedeberg_(Isergeb.)_1936_BCUWr7231-33691-44574.jpg)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla supina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. supina Neiße: Mannsdorf!",
+  lon = 17.46728, 
+  lat = 50.49890, 
+  comments = "Mańkowice, gm. Łambinowice, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla norvegica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. norvegica Breslau: Stadthafen!;[...]",
+  lon = 17.01999, 
+  lat = 51.12865,
+  comments = "Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla norvegica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. norvegica [...] Strehlen: Eisenberg!; [...]",
+  lon = 17.17838, 
+  lat = 50.74160,
+  comments = "Żeleźnik, gm. Strzelin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla norvegica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. norvegica [...] Falkenberg: Lawnikteich!;[...]",
+  lon = 17.64266, 
+  lat = 50.57072,
+  comments = "staw Ławnik, Ligota Tułowicka, gm. Tułowice, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla norvegica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. norvegica [...] Neiße: Mannsdorf! [...]",
+  lon = 17.46728, 
+  lat = 50.49890, 
+  comments = "Mańkowice, gm. Łambinowice, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla recta",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. recta [...] Hoyerswerda: zwischen Neudorf und Spreewitz (Militzer); [...]",
+  lon = 14.38873, 
+  lat = 51.50188,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla recta",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. recta [...] Glogau: Gleinitz, mit auffällig breiten und dunkelgrünen Blättern (Klopfer)! [...]",
+  lon = 15.97554, 
+  lat = 51.64971,
+  comments = "Glinica, gm. Żukowice, pow. głogowski; z wyraźnie szerokimi i ciemnozielonymi liśćmi"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potentilla recta",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "P. recta [...] Gleiwitz: Bahnhof Slawentzitz (Czmok) [...]",
+  lon = 18.31356, 
+  lat = 50.35172,
+  comments = "Sławięcice, Kędzierzyn-Koźle, dworzec"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Pfaffensteig", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Slawentzitz", entry))
 
 #' TODO - dokończyć
 
