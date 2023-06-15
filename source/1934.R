@@ -3156,11 +3156,100 @@ jahres <- data.frame(
   comments = "Krzyżowa, gm. Ścinawa, pow. lubiński"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Vicia tenuifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. tenuifolia Gleiwitz: Langendorf (A. Franke)!",
+  lon = 18.61546, 
+  lat = 50.51173,
+  comments = "Wielowieś, pow. gliwicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia villosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. villosa Naumburg a. B.: Siedlung, weißblühend (Tscheppe)!",
+  lon = 15.25116, 
+  lat = 51.79654,
+  comments = "Nowogród Bobrzański, ok. ul. Wodna; kwitnąca na biało"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia villosa ssp. varia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. villosa  [...] ssp. varia Neurode: Ober-Hausdorf (Niering)!",
+  lon = 16.50372, 
+  lat = 50.63418,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki, okolice ul. Jabłońska, http://maps.mapywig.org/m/German_maps/series/025K_TK25/5365_Langenbielau_1913_BCUWr7231-32421-63513.jpg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia cassubica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. cassubica Hoyerswerda: zwischen Weißkollm und Loßa (Militzer)",
+  lon = 14.39767, 
+  lat = 51.39978,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia silvatica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. silvatica Liebenthal: Klein-Röhrsdorf (Buchs)!",
+  lon = 15.59410, 
+  lat = 51.02322, 
+  comments = "Golejów, gm. Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia dumetorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "V. dumetorum Langenbielau: Stadtpark (Kotschy)!",
+  lon = 16.62531, 
+  lat = 50.68751,
+  comments = "Bielawa, park miejski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus Nissolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lathyrus Nissolia Wohlau: Gansahr (Petras)!",
+  lon = 16.61876, 
+  lat = 51.32629,
+  comments = "dawniej kolonia, obecnie cześć miasta, Wołów, os. Gąsior (Gancarz)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus odoratus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. odoratus Strehlen: Prieborner Marmorbruch!",
+  lon = 17.17662,  
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium silvaticum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Geranium silvaticum Goldberg: Ketschdorf (Kulkę)",
+  lon = 15.95988, 
+  lat = 50.90889,
+  comments = "Kaczorów, gm. Bolków"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium sanguineum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "G. sanguineum Wohlau: Sagritzer Hutung!",
+  lon = 16.55958, 
+  lat = 51.25597,
+  comments = "Zagórzyce, gm. Wołów, łąki"
+) |> rbind(jahres)
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> 
-  subset(grepl("Kreischau", entry))
+  subset(grepl("Sagritz", entry))
 
 #' TODO - dokończyć
 
