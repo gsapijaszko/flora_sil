@@ -1,3 +1,7 @@
+Flora Silesiae
+================
+Grzegorz Sapijaszko
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -19,24 +23,24 @@ jahres <- readRDS(file = "data/flora_sil.Rds")
 
 Let’s have a look on `jahres` data frame:
 
+<div class="column-page">
+
 ``` r
 jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                species                                         citation
-    1   Pirola uniflora @schalowErgebnisseDurchforschungSchlesischen1935
-    2 Hieracium cymosum @schalowErgebnisseDurchforschungSchlesischen1935
-                                                           entry      lon      lat
-    1 Pirola uniflora Weißwasser: Muskauer Tiergarten (Militzer) 14.73606 51.55657
-    2                 H. cymosum [...] Reichenstein: Molchkoppe! 16.82180 50.46998
-                                                                        comments
-    1 Mużaków, ogród zoologiczny (współrzędne wskazują bażanciarnię (Fasanerie))
-    2            wzgórze bez nazwy obok wzg. Olchówka, Mąkolnica, gm. Złoty Stok
-      year                  accepted_name
-    1 1935   Moneses uniflora (L.) A.Gray
-    2 1935 Hieracium cymosum Willd., 1803
+                   species                                         citation
+    1 Lycopodium inundatum  @schubeErgebnisseDurchforschungSchlesischen1915
+    2   Elatine hydropiper @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                          entry
+    1         Lycopodium inundatum. Rybnik: zwischen Orzupowitz und Seibersdorf (Schmattorsch)!
+    2 Elatine hexandra Hoyerswerda: Großer Straßenteich bei Uhyst mit E. Hydropiper (Militzer)!
+           lon      lat comments year                    accepted_name
+    1 18.50504 50.10854          1915 Lycopodiella inundata (L.) Holub
+    2 14.50262 51.34883          1935            Elatine hydropiper L.
 
+</div>
 
 Having pair of geographical coordinates – `lon[gitude]` and `lat[itude]`
 – it’s very easy to convert the data frame to simple feature df, for
@@ -71,7 +75,7 @@ tmap::tm_shape(boundaries) +
   tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16, title.col = "")
 ```
 
-![](tmap-1.png)
+![](flora_silesiae_files/figure-gfm/tmap-1.png)
 
 In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with sites provided
@@ -90,17 +94,17 @@ malvas |>
 ```
 
                          accepted_name Name
-    1153             Malva moschata L. CF11
-    1154             Malva moschata L. BE74
-    1155             Malva moschata L. BE71
-    1156             Malva moschata L. BE53
-    1157             Malva moschata L. AE67
-    1158           Malva parviflora L. BE49
-    1159 Malva trimestris (L.) Salisb. AE58
-    1160         Malva verticillata L. CF65
-    1161         Malva verticillata L. BF07
-    1163         Malva verticillata L. AD59
-    1164         Malva verticillata L. BE59
+    1159             Malva moschata L. CF11
+    1160             Malva moschata L. BE74
+    1161             Malva moschata L. BE71
+    1162             Malva moschata L. BE53
+    1163             Malva moschata L. AE67
+    1164           Malva parviflora L. BE49
+    1165 Malva trimestris (L.) Salisb. AE58
+    1166         Malva verticillata L. CF65
+    1167         Malva verticillata L. BF07
+    1169         Malva verticillata L. AD59
+    1170         Malva verticillata L. BE59
 
 ### How to participate
 
@@ -175,27 +179,3 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 Full record sets from few articles and some records from the others, in
 total 2190 records (species - localization) including 2139 with
 coordinates.
-
-![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
-
-## Bibliography:
-
-### WIP
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp. 140-156.
-
-### Done
-F. Wimmer. “Bericht über die Verhandlungen der Botanischen Sektion im Jahre 1849”. In: _Uebersicht der
-Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), pp.
-75-76.
-
-F. Wimmer. “Neue und seltenere schiesische Pflanzen”. In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
-
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp. 55-71.
-
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1935”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp. 66-81.
-
-

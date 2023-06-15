@@ -10,7 +10,7 @@ format:
 
 ## Flora Silesiae
 
-Historical data on the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+Historical data of the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
 
 ### How to use
 
@@ -20,6 +20,7 @@ The full dataset is saved into `flora_sil.Rds` file. You can read it using:
 #| echo: false
 #| 
 jahres <- readRDS(file = "../data/flora_sil.Rds")
+total_jahres <- nrow(jahres)
 ```
 
 ```{r}
@@ -34,8 +35,7 @@ Let's have a look on `jahres` data frame:
 ```{r}
 
 jahres |>
-  dplyr::slice_sample(n = 2) |>
-  knitr::kable()
+  dplyr::slice_sample(n = 2) 
 ```
 :::
 
@@ -50,10 +50,43 @@ jahres <- jahres |>
 Now it's quite easy to run any spatial analysis like distribution, or density. Let's look on distribution of Malva's:
 
 ```{r}
-jahres |>
+malvas <- jahres |>
   subset(grepl("Malva", accepted_name)) |>
-  subset(select = c("accepted_name", "geometry")) |>
-  terra::plot()
+  subset(select = c("accepted_name", "geometry"))
+```
+
+And plot it on simple map using `tmap` package:
+
+```{r}
+#| label: tmap
+#| warning: false
+#| error: false
+#| 
+boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "../data") |>
+  sf::st_as_sf() |>
+  sf::st_transform(crs = sf::st_crs(malvas)) |>
+  sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
+
+tmap::tm_shape(boundaries) +
+  tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
+  tmap::tm_shape(malvas) +
+  tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16, title.col = "")
+
+
+```
+In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with sites provided in `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malva` set to it prior to run spatial join.
+
+```{r}
+#| label: atpol
+
+atpol10 <- atpolR::atpol10k()
+
+malvas |>
+  sf::st_transform(crs = sf::st_crs(atpol10)) |>
+  sf::st_join(atpolR::atpol10k()) |>
+  sf::st_drop_geometry() |>
+  subset(select = c("accepted_name", "Name"))
+  
 ```
 
 ### How to participate
@@ -99,3 +132,24 @@ an <- c(
 ```
 
 Feel free to spot an error or add missing data. If you recognize some locations where geographical coordinates are missing -- please add.
+
+#### Tools and resources used to find the coordinates
+
++ [Mapster](http://igrek.amzp.pl/)
++ [Kartenforum](https://kartenforum.slub-dresden.de/)
++ [Arcanum Maps](https://maps.arcanum.com/en/map/europe-19century-secondsurvey/)
+
+Two map layers provided by Urząd Marszałkowski Województwa Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
+
++ [Karte des Deutschen Reiches 100k](https://geoportal.dolnyslask.pl/gprest/services/UMWD_DEUTSCHEN_100/MapServer/)
++ [Messtischblatt 25k](https://geoportal.dolnyslask.pl/gprest/services/UMWD_Messtischblat_nowsze/MapServer/)
+
+[QGIS](https://qgis.org) with plugins:
+
++ [OSM place search](https://github.com/xcaeag/Nominatim-Qgis-Plugin) oraz 
++ [Lat Lon Tools](https://github.com/NationalSecurityAgency/qgis-latlontools-plugin).
+
+### Data set content
+
+Full record sets from few articles and some records from the others, in total `r total_jahres` records (species - localization) including `r nrow(jahres)` with coordinates.
+

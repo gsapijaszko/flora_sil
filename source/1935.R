@@ -3630,7 +3630,7 @@ jahres <- data.frame(
   entry = "Cerinthe minor [...] Gleiwitz: Langendorf (Franke)!",
   lon = 18.61546, 
   lat = 50.51173,
-  comments = "Wielowieś, pow. Gliwice"
+  comments = "Wielowieś, pow. gliwicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4313,8 +4313,8 @@ jahres <- data.frame(
   species = "Xanthium strumarium",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "Xanthium strumarium Hoyerswerda: Neuteich bei Steinitz (Militzer)!;",
-  lon = 14.23337, 
-  lat = 51.62914,
+  lon = 14.35075, 
+  lat = 51.34408,
   comments = ""
 ) |> rbind(jahres)
 
@@ -4531,7 +4531,7 @@ jahres <- data.frame(
   entry = "G. quadriradiata [...] Gleiwitz: Langendorf (Franke)!",
   lon = 18.61546, 
   lat = 50.51173,
-  comments = "Wielowieś, pow. Gliwice"
+  comments = "Wielowieś, pow. gliwicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5246,7 +5246,7 @@ jahres <- data.frame(
   entry = "Trifolium hybridum mit z. T. recht langgestielten Blüten Gleiwitz: Langendorf (Franke)!",
   lon = 18.61546, 
   lat = 50.51173,
-  comments = "Wielowieś, pow. Gliwice"
+  comments = "Wielowieś, pow. gliwicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
