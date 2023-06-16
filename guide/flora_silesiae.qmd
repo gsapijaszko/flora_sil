@@ -39,7 +39,7 @@ jahres |>
 ```
 :::
 
-Having pair of geographical coordinates -- `lon[gitude]` and `lat[itude]` -- it's very easy to convert the data frame to simple feature df, for example using `sf` package.
+Having pair of geographical coordinates -- `lon`[gitude] and `lat`[itude] -- it's very easy to convert the data frame to simple feature df, for example using `sf` package.
 
 ```{r}
 jahres <- jahres |>
@@ -47,7 +47,7 @@ jahres <- jahres |>
   sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326")
 ```
 
-Now it's quite easy to run any spatial analysis like distribution, or density. Let's look on distribution of Malva's:
+Now it's quite easy to run any spatial analysis like distribution, or density. Let's look on distribution of malvas:
 
 ```{r}
 malvas <- jahres |>
@@ -74,19 +74,27 @@ tmap::tm_shape(boundaries) +
 
 
 ```
-In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with sites provided in `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malva` set to it prior to run spatial join.
+In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with sites provided in `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malva` set to it prior to run spatial join. And secondly, as it's used only in Poland, we have to filter out only location within Poland's border.
 
 ```{r}
 #| label: atpol
 
+
 atpol10 <- atpolR::atpol10k()
 
+malvas <- malvas |>
+  sf::st_transform(crs = sf::st_crs(atpol10))
+
+pl_border <- atpolR::boundaryPL() |>
+  sf::st_polygonize() |>
+  sf::st_transform(crs = sf::st_crs(atpol10))
+
 malvas |>
-  sf::st_transform(crs = sf::st_crs(atpol10)) |>
+  subset(apply(sf::st_within(malvas, pl_border, sparse = FALSE), 1, any)) |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
-  subset(select = c("accepted_name", "Name"))
-  
+  subset(select = c("accepted_name", "Name")) |>
+  dplyr::arrange(accepted_name, Name)
 ```
 
 ### How to participate

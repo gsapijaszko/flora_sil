@@ -110,5 +110,5 @@ jahres <- data.frame(
   entry = "Lycopodium complanatum Land[eshut]: Haselbach (Kr).",
   lon = 15.89921, 
   lat = 50.78167, 
-  comments = ""
+  comments = "Leszczyniec, gm. Kamienna Góra"
 ) |> rbind(jahres)

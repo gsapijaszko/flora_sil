@@ -3034,7 +3034,7 @@ jahres <- data.frame(
   entry = "Equisetum limosum L. var. verticillatum Döll f. ramosissima Baenitz. Breslau: Oderufer am Weidendamm bei Pirscham (Baenitz). >>Aeste mit secundären Aestchen besetzt, auch bei unverletzter Stengelspitze.<<",
   lon = 17.09257, 
   lat = 51.09470, 
-  comments = ""
+  comments = "Wrocław, os. Przedmieście Oławskie, brzek rzeki Odra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

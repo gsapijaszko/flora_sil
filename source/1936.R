@@ -1628,8 +1628,8 @@ jahres <- data.frame(
   species = "Hieracium iseranum Uechtritz",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
   entry = "H. iseranum Uechtritz = floribundum >> Pilosella [...] Bolkenhain: Merzdorf (Kr).",
-  lon = 16.00124,
-  lat = 50.84818,
+  lon = 16.03239, 
+  lat = 50.84384,
   comments = "Marciszów"
 ) |> rbind(jahres)
 

@@ -77,30 +77,46 @@ In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with sites provided
 in `jahres` data set. For that we will use `atpolR` package. As the
 ATPOL grid is provided in `EPSG:2180` reference system, we have to
-transform our `malva` set to it prior to run spatial join.
+transform our `malva` set to it prior to run spatial join. And secondly,
+as it’s used only in Poland, we have to filter out only location within
+Poland’s border.
 
 ``` r
 atpol10 <- atpolR::atpol10k()
 
+malvas <- malvas |>
+  sf::st_transform(crs = sf::st_crs(atpol10))
+
+pl_border <- atpolR::boundaryPL() |>
+  sf::st_polygonize() |>
+  sf::st_transform(crs = sf::st_crs(atpol10))
+
 malvas |>
-  sf::st_transform(crs = sf::st_crs(atpol10)) |>
+  subset(apply(sf::st_within(malvas, pl_border, sparse = FALSE), 1, any)) |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
-  subset(select = c("accepted_name", "Name"))
+  subset(select = c("accepted_name", "Name")) |>
+  dplyr::arrange(accepted_name, Name)
 ```
 
-                         accepted_name Name
-    1153             Malva moschata L. CF11
-    1154             Malva moschata L. BE74
-    1155             Malva moschata L. BE71
-    1156             Malva moschata L. BE53
-    1157             Malva moschata L. AE67
-    1158           Malva parviflora L. BE49
-    1159 Malva trimestris (L.) Salisb. AE58
-    1160         Malva verticillata L. CF65
-    1161         Malva verticillata L. BF07
-    1163         Malva verticillata L. AD59
-    1164         Malva verticillata L. BE59
+                       accepted_name Name
+    1              Malva moschata L. AE67
+    2              Malva moschata L. BE53
+    3              Malva moschata L. BE71
+    4              Malva moschata L. BE74
+    5              Malva moschata L. BE82
+    6              Malva moschata L. BF01
+    7              Malva moschata L. CE81
+    8              Malva moschata L. CF11
+    9            Malva parviflora L. BE49
+    10 Malva trimestris (L.) Salisb. AE58
+    11         Malva verticillata L. AD59
+    12         Malva verticillata L. AE58
+    13         Malva verticillata L. BE49
+    14         Malva verticillata L. BE59
+    15         Malva verticillata L. BF07
+    16         Malva verticillata L. CF65
+
 
 ### How to participate
 
@@ -173,7 +189,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2200 records (species - localization) including 2149 with
+total 2257 records (species - localization) including 2205 with
 coordinates.
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)

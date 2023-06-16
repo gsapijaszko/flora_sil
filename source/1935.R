@@ -1116,9 +1116,9 @@ jahres <- data.frame(
   species = "Salix pentandra",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935", 
   entry = "Salix pentandra Bolkenhain: Merzdorf (Strauch)!;",
-  lon = 16.00124, 
-  lat = 50.84818,
-  comments = "Marciszów"
+  lon = 16.03239, 
+  lat = 50.84384,
+  comments = "Marciszów, pow. kamiennogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1550,7 +1550,7 @@ jahres <- data.frame(
   entry = "Cucubalus baccifer [...] Kanth: Sadewitz (Schoepke)!; [...]",
   lon = 16.79707, 
   lat = 51.05878,
-  comments = "Sadowice"
+  comments = "Sadowice, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2088,9 +2088,9 @@ jahres <- data.frame(
   species = "Thlaspi alpestre",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "Thlaspi alpestre Bolkenhain: Merzdorf (Strauch)!;",
-  lon = 16.00124, 
-  lat = 50.84818,
-  comments = "Marciszów"
+  lon = 16.03239, 
+  lat = 50.84384,
+  comments = "Marciszów, pow. kamiennogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2397,7 +2397,7 @@ jahres <- data.frame(
   entry = "P. Wiemanniana [...] Raudten: Mittel-Dammer!",
   lon = 16.33548, 
   lat = 51.41895,
-  comments = "Dąbrowa Środkowa"
+  comments = "Dąbrowa Środkowa, gm. Ścinawa, pow. lubiński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2809,9 +2809,9 @@ jahres <- data.frame(
   species = "Geranium pyrenaicum",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "G. pyrenaicum [...] Bolkenhain: Merzdorf (Strauch)",
-  lon = 16.00124, 
-  lat = 50.84818,
-  comments = "Marciszów"
+  lon = 16.03239, 
+  lat = 50.84384,
+  comments = "Marciszów, pow. kamiennogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3234,7 +3234,7 @@ jahres <- data.frame(
   entry = "M. spicatum Bolkenhain: Ober-Rudelstadt (Strauch)!",
   lon = 15.97600, 
   lat = 50.86885,
-  comments = "Ciechanowice, gm. Marciszów"
+  comments = "Ciechanowice, gm. Marciszów, pow. kamiennogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -26,7 +26,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Lawnikteich", entry))
+  subset(grepl("Albendorf", entry))
 
 # lcvplants::lcvp_fuzzy_search(c(  "Vaccinium oxycoccus",
 #                                  "Vaccinium uliginosum",
@@ -144,3 +144,21 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # jahres |>
 #   dplyr::left_join(an, by = "species") |>
 #   subset(grepl("Selagine", accepted_name))
+
+# 
+# bibliography <- bibliography |>
+#   RefManageR::as.BibEntry() |>
+#   RefManageR::WriteBib(file = "ala.bib")
+# 
+# bibliography <- RefManageR::ReadBib("ala.bib")
+# bibliography[[1]]
+# 
+# RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1934")
+# RefManageR::NoCite(bibliography, "wimmerBerichtUberVerhandlungen1850")
+# RefManageR::NoCite(bibliography, "wimmerNeueUndSeltenere1850")
+# RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1935")
+# RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1936")
+# RefManageR::PrintBibliography(bibliography)
+# 
+# 
+
