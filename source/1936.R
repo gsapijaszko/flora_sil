@@ -696,9 +696,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = c("Scirpus ovatus", "Limoselia aquatica"),
+  species = c("Scirpus ovatus", "Limosella aquatica"),
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
-  entry = "Scirpus ovatus und Limoselia aquatica (Sollschwitz bei Hoyerswerda).",
+  entry = "Scirpus ovatus und Limosella aquatica (Sollschwitz bei Hoyerswerda).",
   lon = 14.19612, 
   lat = 51.34095,
   comments = ""

@@ -1425,7 +1425,7 @@ jahres <- data.frame(
   entry = "Rumex alpinus Habelschwerdt: unweit der Brandbaude (Rauhut)",
   lon = 16.53577, 
   lat = 50.27740,
-  comments = "niedaleko od schroniska Jogodna, Spalona, gm. Bystrzyca Kłodzka"
+  comments = "niedaleko od schroniska Jagodna, Spalona, gm. Bystrzyca Kłodzka"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2788,9 +2788,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Potentilla opata",
+  species = "Potentilla opaca",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
-  entry = "P. opata Kanth: mehrfach (Schoepke)!",
+  entry = "P. opaca Kanth: mehrfach (Schoepke)!",
   lon = 16.77783, 
   lat = 51.02917,
   comments = "Kąty Wrocławskie"
@@ -3459,7 +3459,7 @@ jahres <- data.frame(
   entry = "I. Roylei [...] Kanth: Bahnhof (Schoepke)!; [...]",
   lon = 16.75027, 
   lat = 51.03812,
-  comments = "Kąty Wrocłąwskie, dworzec"
+  comments = "Kąty Wrocławskie, dworzec"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3750,13 +3750,221 @@ jahres <- data.frame(
   comments = "Wrocław, ul. Długa"
 ) |> rbind(jahres)
 
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> 
-  subset(grepl("Langegasse", entry))
+jahres <- data.frame(
+  species = "Myrrhis odorata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myrrhis odorata Hoyerswerda: Ruhlamühle bei Döschko (Militzer)!; [...]",
+  lon = 14.47289, 
+  lat = 51.47574,
+  comments = ""
+) |> rbind(jahres)
 
-#' TODO - dokończyć
+jahres <- data.frame(
+  species = "Myrrhis odorata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myrrhis odorata [...] Flinsberg mehrfach (Buchs)!;[...]",
+  lon = 15.34430, 
+  lat = 50.91184,
+  comments = "Świeradów Zdrój, wielokrotnie"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Myrrhis odorata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myrrhis odorata [...] Landeshut: Fabrikhof der Firma Methner und Frahne (Strauch)!; [...]",
+  lon = 16.03504, 
+  lat = 50.78655,
+  comments = "Kamienna Góra, teren zakładów włókienniczych"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Myrrhis odorata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myrrhis odorata [...] Schönau: Kammerswaldau (Strauch)!; [...]",
+  lon = 15.87406, 
+  lat = 50.92787,
+  comments = "Komarno, gm. Janowice Wielkie, pow. karkonoski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Myrrhis odorata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myrrhis odorata [...]  Habelschwerdt: zwischen Brand und Brandbaude (Rauhut)",
+  lon = 16.53807, 
+  lat = 50.28059,
+  comments = "między wsią Spalona a schroniskiem Jagodna, gm. Bystrzyca Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chaerophyllum aromaticum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Chaerophyllum aromaticum Niesky: gegen die Sandschenke (Militzer)",
+  lon = 14.80961, 
+  lat = 51.33568,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Anthriscus vulgaris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Anthriscus vulgaris Hoyerswerda: Groß-Särchen (Militzer)",
+  lon = 14.30416, 
+  lat = 51.37357,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Meum athamanticum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Meum athamanticum Kemnitzkamm: vielfach (Buchs)!",
+  lon = 15.42569, 
+  lat = 50.90091,
+  comments = "[pasmo] Grzbiet Kamienicki, wielokrotnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Archangelica officinalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Archangelica officinalis Hoyerswerda: Klösterl.-Neudorf (Militzer)",
+  lon = 14.22720, 
+  lat = 51.40154,
+  comments = "Neudorf-Klösterlich"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pastinaca sativa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Pastinaca sativa Hoyerswerda: Tschalln (Militzer)",
+  lon = 14.51891, 
+  lat = 51.45103,
+  comments = "Tzschelln, neistniejąca miejscowość"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Coriandmm sativum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Coriandmm sativum Breslau: Schuttplatz vor Morgenau, sicherlich mit Leinsaat verschleppt!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Caucalis aaucoides",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Caucalis aaucoides Breslau: Güterbahnhof West! (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Laserpicium prutenicum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Laserpicium prutenicum Niesky: gegen die Sandschenke (Militzer).",
+  lon = 14.80961, 
+  lat = 51.33568,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pirola uniflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Pirola uniflora Liebenthal: Stadtwald (Buchs)!",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vaccinium uliginosum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Vaccinium uliginosum Greiffenberg: Krummölser Busch (Buchs)!",
+  lon = 15.48611, 
+  lat = 51.03272,
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki, w zaroślach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lysimachia thyrsiflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lysimachia thyrsiflora Friedeberg: oberhalb der Talsperre (Buchs)!; [...]",
+  lon = 15.40418, 
+  lat = 50.96479,
+  comments = "obszar u ujścia strumieni: Dzieża do Długi Potok, Skarbków, gm. Mirsk"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lysimachia thyrsiflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Lysimachia thyrsiflora [...] Bolkenhain: Merzdorf (Strauch)!",
+  lon = 16.03239, 
+  lat = 50.84384,
+  comments = "Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Armeria vulgaris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Armeria vulgaris Greiffenberg: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.42991, 
+  lat = 51.03359,
+  comments = "Gryfów Śląski, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Armeria vulgaris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Armeria vulgaris [...] Friedeberg: Röhrsdorf-Gräfl. (Buchs)",
+  lon = 15.38538, 
+  lat = 50.96735,
+  comments = "Skarbków, Mirsk, gm. Mirsk"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gentiana Pneumonanthe",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gentiana Pneumonanthe Rosenberg: Wollentschin, [...]",
+  lon = 18.52570, 
+  lat = 50.94490, 
+  comments = "Wolęcin, gm. Radłów, pow. oleski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gentiana Pneumonanthe",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gentiana Pneumonanthe Rosenberg: [...] Ellguth (Klonek)",
+  lon = 18.53924, 
+  lat = 50.96096,
+  comments = "Ligota Oleska, gm. Radków, pow. oleski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gentiana campestris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "G. campestris Liebenthal: mehrfach (Buchs)!; [...]",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gentiana campestris",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "G. campestris [...] Greiffenberg: Ober-Schosdorf (Untertertianer Herrmann t. Buchs)!",
+  lon = 15.44727, 
+  lat = 51.04722,
+  comments = "Ubocze Górne, Ubocze, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Limnanthemum Nymphaeoides",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Limnanthemum Nymphaeoides Breslau: Oderlache im Pilsnitzer Wald (Prof. Schube)!",
+  lon = 16.96065, 
+  lat = 51.15671,
+  comments = "Wrocław, Las Pilczycki, łacha na rzece Odra"
+) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Convolvulus dahuricus",
@@ -3776,3 +3984,271 @@ jahres <- data.frame(
   comments = "Kłodzko, Nysa Kłodzka, brzeg rzeki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Cuscuia epilinum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Cuscuia epilinum Silberberg: Flachsfeld bei Neudorf!",
+  lon = 16.61543, 
+  lat = 50.56565, 
+  comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pola lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Collomia grandiflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Collomia grandiflora Glatz: Güterbahnhof (Panoer)!",
+  lon = 16.65802, 
+  lat = 50.45135,
+  comments = "Kłodzko, teren dworca towarowego"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phacelia tanacetifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Phacelia tanacetifolia Warmbrunn: Schwimmbad (Buchs)!",
+  lon = 15.68935,
+  lat = 50.87603,
+  comments = "Cieplice Zdrój, kąpielisko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynoglossum officinale",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Cynoglossum officinale Steinau a. d. O.: Pronzendorf (Pfeiffer)!",
+  lon = 16.50503, 
+  lat = 51.40143,
+  comments = "Orzeszków, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asperugo procumbens",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Asperugo procumbens Guhrau: katholischer Friedhof (Weidlich)!",
+  lon = 16.54161, 
+  lat = 51.66229,
+  comments = "Góra, cmentarz katolicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Myosotis caespitosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myosotis caespitosa Ruhbank: mehrfach (Strauch)!; [...]",
+  lon = 16.06850, 
+  lat = 50.81553,
+  comments = "Sędzisław, gm. Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Myosotis caespitosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Myosotis caespitosa [...] Falkenberg: Logeteich!",
+  lon = 17.59488, 
+  lat = 50.60607,
+  comments = "staw Ostrowity, Jaczowice, gm. Niemodlin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Marrubium vulgare",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Marrubium vulgare Kanth: Schimmelwitz (Schoepke)!",
+  lon = 16.76804, 
+  lat = 51.05716,
+  comments = "Wszemiłowice, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dracocephalum thymiflorum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Dracocephalum thymiflorum Breslau: Stadthafen!",
+  lon = 17.01999, 
+  lat = 51.12865,
+  comments = "Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Brunella laciniata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Brunella laciniata Neurode: Eisenbahnstrecke bei Kol. Lehden (Kramarz)l",
+  lon = 16.52014, 
+  lat = 50.60565,
+  comments = "nasyp kolejowy, dawna kolonia Leeden, obecnie Nowa Ruda"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gateopsis angustifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gateopsis angustifolia Lauban: Güterbahnhof(Buchs)!;[...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gateopsis angustifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gateopsis angustifolia [...] Kanth: Güterbahnhof, [...] ",
+  lon = 16.75027, 
+  lat = 51.03812,
+  comments = "Kąty Wrocławskie, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gateopsis angustifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Gateopsis angustifolia [...] Kanth: [...] Bahndämme bei Schimmelwitz (Schoepke)!",
+  lon = 16.77393, 
+  lat = 51.04546,
+  comments = "szemiłowice, gm. Kąty Wrocławskie, nasyp kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Stachys grandiflora",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Stachys grandiflora Guhrau: Klein-Saul (Weidlich)!",
+  lon = 16.70048, 
+  lat = 51.65293,
+  comments = "Sułów Mały, gm. Bojanowo, pow. rawicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Stachys arvensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "St. arvensis Hoyerswerda: Schöpsdorf (Militzer)!",
+  lon = 14.51792, 
+  lat = 51.38599,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salvia verticillata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Salvia verticillata Breslau: Umschlaghafen Pöpelwitz, [...]",
+  lon = 16.99273, 
+  lat = 51.13120,
+  comments = "Wrocław, dawny port przeładnunkowy Popowice"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salvia verticillata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Salvia verticillata Breslau: [...] Schuttplatz am Kinderzobten (Dr.K.Meyer)!",
+  lon = 16.99758, 
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salvia nemorosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. nemorosa Breslau: Güterbahnhof West! (Dr. K- Meyer) s",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salvia viridis var. horminum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "S. viridis var. horminum Breslau: vor Morgenau!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Satureja hortensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Satureja hortensis Liebenthal: auf Schutt (Buchs)!",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz, na wysypisku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Physalis Alkekengi",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Physalis Alkekengi Guhrau: Oberwald (Weidlich)!; [...] ",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Physalis Alkekengi",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Physalis Alkekengi [...] Kanth: Bahnhof (Schoepke)!",
+  lon = 16.75027, 
+  lat = 51.03812,
+  comments = "Kąty Wrocławskie, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Solanum villosum var. alatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Solanum villosum var. alatum Niesky: Jahmen (Militzer) i -",
+  lon = 14.59065, 
+  lat = 51.35241,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Datura Stramonium f.Tatula",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Datura Stramonium f.Tatula Lauban: Güterbahnhof (Buchs)!",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Nicotiana rustica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Nicotiana rustica Lauban: unweit des Güterbahnhofs (Buchs)!",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, niedaleko dworca towarowego"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Nicotiana latissima",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "N. latissima Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Linaria Cymbalaria Lauban: mehrfach (Buchs)!; [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, wielokrotnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Linaria Cymbalaria [...] Goldberg: evangelischer Friedhof (Kulkę)",
+  lon = 15.92386, 
+  lat = 51.12982,
+  comments = "Złotoryja, cmentarz ewangelicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria arvensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. arvensis Landeshut: Bahnhof (Strauch) !",
+  lon = 16.02305, 
+  lat = 50.78559,
+  comments = "Kamienna Góra, dworzec"
+) |> rbind(jahres)
+
+
+#' TODO - dokończyć
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> 
+  subset(grepl("Goldberg: evangelischer", entry))
