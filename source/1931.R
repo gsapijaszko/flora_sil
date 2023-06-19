@@ -363,7 +363,7 @@ if(exists("bibliography")) {
 #' Breslau-Stadthafen = 17.01879, 51.12786
 #' Breslau-Odertor = 17.03256, 51.12563
 #' Umschlag Bhf- Pöpelwitz = 16.99648, 51.13090
-#' Breslau-Ost = 17.05494, 51.09204
+#' Breslau-Ost = 17.04540, 51.09688 
 #' Breslau-Schmiedefeld = 16.95060, 51.12974
 #' Breslau-West = 17.01173, 51.11007
 #' Breslau-Kl.-Mochbern = 16.97722, 51.11610
@@ -400,8 +400,8 @@ jahres <- data.frame(
   species = "Equisetum arvense",
   citation = "@meyerPflanzenweltBreslauerGuterbahnhofe1931", 
   entry = "Equisetum arvense L. sämtliche Bhfe. 3—4",
-  lon = 17.05494,  
-  lat = 51.09204, 
+  lon = 17.04540,  
+  lat = 51.09688, 
   comments = ""
 ) |> rbind(jahres)
 

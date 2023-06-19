@@ -2890,7 +2890,7 @@ jahres <- data.frame(
   entry = "Salvinia natans (L.) All. Neumarkt: Seedorf,",
   lon = 16.62111, 
   lat = 51.24190, 
-  comments = ""
+  comments = "Zakrzów, gm. Środa Śląska"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
