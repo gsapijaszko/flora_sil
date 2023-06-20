@@ -1050,9 +1050,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Juncus flliformis",
+  species = "Juncus filiformis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Juncus flliformis Liebenthal: Krummölser Busch (Buchs)!",
+  entry = "Juncus filiformis Liebenthal: Krummölser Busch (Buchs)!",
   lon = 15.48611, 
   lat = 51.03272,
   comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki, w zaroślach"
