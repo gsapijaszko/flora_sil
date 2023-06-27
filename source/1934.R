@@ -4461,8 +4461,180 @@ jahres <- data.frame(
   comments = "[wzgórze] Twarda, Złotoryja"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Lonicera tatarica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "L. tatarica Frankenstein: Zadeler Wiesen (Rauhut)i",
+  lon = 16.82662, 
+  lat = 50.57629,
+  comments = "Sadlno, Ząbkowice Śląskie, łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Symphoricarpus racemosus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Symphoricarpus racemosus Wigandstal: Straßberg (Buchs)!",
+  lon = 15.27738, 
+  lat = 50.92029,
+  comments = "obecnie okolice 'Malinowego Dworu', Ulicko, Świeradów-Zdrój, pow. lubański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Valerianella rimosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Valerianella rimosa Stehlen: Flachsfeld bei Lorenzberg!",
+  lon = 17.23411, 
+  lat = 50.72908,
+  comments = "Wawrzyszów, gm. Wiązów, pow. Strzelin, pole lnu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dipsacus Silvester",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Dipsacus Silvester Goldberg: Haasel (Kruber); [...]",
+  lon = 15.98963, 
+  lat = 51.08469,
+  comments = "Leszczyna, gm. Złotoryja, pow. złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dipsacus Silvester",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Dipsacus Silvester [...] Guhrau: Seiffersdorf (Weidlich)!",
+  lon = 16.48157, 
+  lat = 51.76095,
+  comments = "Radosław, gm. Góra, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dipsacus laciniatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "D. laciniatus Lauban: Güterbahnhof (Buchs)!",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bryonia dioeca",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Bryonia dioeca Steinau a. d. O.: Dorfstraße in Lehsewitz (Pfeiffer)!",
+  lon = 16.41589, 
+  lat = 51.44127,
+  comments = "Lasowice, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cucurbita Pepo",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Cucurbita Pepo Liebenthal: auf Schutt (Buchs)!",
+  lon = 15.50094, 
+  lat = 51.01330,
+  comments = "Lubomierz, na wysypisku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Campanula rapunculus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Campanula Rapunculus Naumburg a. B.: bei der Gärtnerei (Tscheppe)!",
+  lon = 15.24453, 
+  lat = 51.80259,
+  comments = "Nowogród Bobrzański, przy ogrodach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Campanula medium",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "C. Medium Breslau: Schuttplatz in Rosenthal (Dr. K. Meyer)!",
+  lon = 17.01960, 
+  lat = 51.14601,
+  comments = "wysypisko gruzu, Różanka, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phyteuma spicatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Phyteuma spicatum Guhrau: Ober[...]wald (Weidlich)!",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phyteuma spicatum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Phyteuma spicatum Guhrau: [...] Niederwald (Weidlich)!",
+  lon = 16.55619,
+  lat = 51.68902,
+  comments = "las na północ od m. Góra, za Włodków Dolny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Solidago serotina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Solidago serotina Lauban: Güterbahnhof (Buchs)!; [...]",
+  lon = 15.29498, 
+  lat = 51.10889,
+  comments = "Lubań, dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Solidago serotina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Solidago serotina [...] Greiffenberg: Bahnhof (Buchs)!",
+  lon = 15.42991, 
+  lat = 51.03359,
+  comments = "Gryfów Śląski, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Callistephus chinensis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Callistephus chinensis Grünberg: Kunststeinfabrik (H. Schmidt)!",
+  lon = 15.49254, 
+  lat = 51.93611,
+  comments = "Zielona Góra, dawna betoniarnia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aster Novi Belgii",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Aster Novi Belgii Hoyerswerda: Drehna (Militzer); [...]",
+  lon = 14.47879,
+  lat = 51.36243,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aster Novi Belgii",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "Aster Novi Belgii [...] Breslau: altes Hafenbecken des Odertorbahnhofes!",
+  lon = 17.02246, 
+  lat = 51.12637,
+  comments = "Wrocław, stary basen portowy przy dworcu Nadodrze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aster salignus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. salignus Liebenthal: Spiller (Buchs)!",
+  lon = 15.57242, 
+  lat = 50.95772,
+  comments = "Pasiecznik, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aster lanceolatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
+  entry = "A. lanceolatus Hoyerswerda: Spohla (Militzer)",
+  lon = 14.26918, 
+  lat = 51.40652,
+  comments = ""
+) |> rbind(jahres)
+
+
 #' TODO - dokończyć
 
 # search --------------------------------------------------------------------------------------
 jahres |>
-  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Rothaus", entry))
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |> subset(grepl("Spohla", entry))
