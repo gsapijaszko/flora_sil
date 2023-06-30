@@ -794,7 +794,7 @@ jahres <- data.frame(
   entry = "C. disticha Neumarkt: Bruch (Kotschy)",
   lon = 16.66781, 
   lat = 51.18872,
-  comments = "Przedmoście, Środa Śląska"
+  comments = "Przedmoście, gm. Środa Śląska, pow. średzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1127,7 +1127,7 @@ jahres <- data.frame(
   entry = "Salix pentandra [...] Strehlen: Lorenzberger Wald!",
   lon = 17.22571, 
   lat = 50.72422,
-  comments = "Wawrzyszów, las"
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzeliński, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1136,7 +1136,7 @@ jahres <- data.frame(
   entry = "Betula pubescens X verrucosa Strehlen: Louisdorf!",
   lon = 17.21246, 
   lat = 50.73748,
-  comments = "Łojowice, gm. Wiązów, pow. Strzelin"
+  comments = "Łojowice, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1487,7 +1487,7 @@ jahres <- data.frame(
   entry = "Silene dichotoma [...] Hirschberg: [...] Steinseiffen (Nerlich) [...]",
   lon = 15.77884, 
   lat = 50.79121,
-  comments = "Ścięgny"
+  comments = "Ścięgny, gm. Podgórzyn, pow. karkonoski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1703,7 +1703,7 @@ jahres <- data.frame(
   entry = "Holosteum umbellatum f. Heuffeli Neumarkt: Bruch (Kotschy)!",
   lon = 16.66781, 
   lat = 51.18872,
-  comments = "Przedmoście, Środa Śląska"
+  comments = "Przedmoście, gm. Środa Śląska, pow. średzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2307,7 +2307,7 @@ jahres <- data.frame(
   entry = "Potentilla palustris [...] Hirschberg: Steinseiffen (Nerlich)",
   lon = 15.77884, 
   lat = 50.79121,
-  comments = "Ścięgny"
+  comments = "Ścięgny, gm. Podgórzyn, pow. karkonoski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -189,7 +189,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2353 records (species - localization) including 2300 with
+total 2500 records (species - localization) including 2440 with
 coordinates.
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
@@ -197,8 +197,9 @@ coordinates.
 ## Bibliography:
 
 ### WIP
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp. 140-156.
+
+E. Schalow. “Ergebnisse der schlesischen Phanerogamenforschung im Jarhe 1932”. In: _Jahres-Bericht
+der Schlesischen Gesellschaft für vaterländische Cultur_ 105 (1933), pp. 154-173.
 
 ### Done
 F. Wimmer. “Bericht über die Verhandlungen der Botanischen Sektion im Jahre 1849”. In: _Uebersicht der
@@ -207,6 +208,9 @@ Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische K
 
 F. Wimmer. “Neue und seltenere schiesische Pflanzen”. In: _Uebersicht der Arbeiten und Veränderungen der
 schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+
+E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
+_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp. 140-156.
 
 E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934”. In:
 _Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp. 55-71.

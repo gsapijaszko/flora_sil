@@ -1837,7 +1837,7 @@ jahres <- data.frame(
   entry = "Botrychium matricarifolium. Rotwasser: an der Stelle der früheren Ziegelei bei den Heidehäusern (Rakete)!",
   lon = 15.20363, 
   lat = 51.25845, 
-  comments = ""
+  comments = "Czerwona Woda, gm. Węgliniec, pow. zgorzelecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2281,9 +2281,9 @@ jahres <- data.frame(
   species = "Lycopodium inundatum",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1898", 
   entry = "Lycopodium inundatum. Rosenberg: Strassenkrug bei Bischdorf (Zu.)!",
-  lon = 18.47761, 
-  lat = 50.93001, 
-  comments = ""
+  lon = 18.48041,  
+  lat = 50.93665, 
+  comments = "Biskupskie Drogi, Biskupice, gm. Radłów, pow. oleski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3389,7 +3389,7 @@ jahres <- data.frame(
   entry = "Lycopodium Selago L. Görlitzer Haide im Revier Rothwasser (Barber)!;",
   lon = 15.19753, 
   lat = 51.26472, 
-  comments = ""
+  comments = "Czerwona Woda, gm. Węgliniec, pow. zgorzelecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4372,7 +4372,7 @@ jahres <- data.frame(
   entry = "Lycopodium inundatum L. Um Friedewalde bei Breslau neuerdings wieder zahlreich und zwar gegen die Eisenbahn.",
   lon = 17.09699, 
   lat = 51.13491, 
-  comments = ""
+  comments = "Mirowiec, os. Kowale, Wrocław"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4717,7 +4717,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Süsswinkel. Die im vorigen Jahres-Berichte aufgeführte rar. umbrosum ist zu streichen.",
   lon = 17.29672, 
   lat = 51.12648, 
-  comments = ""
+  comments = "Kątna, gm. Długołęka, pow. wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4771,7 +4771,7 @@ jahres <- data.frame(
   entry = "Equisetum hiemale a) genuinum A. Br. Um Sagan sehr häufig (Everken)",
   lon = 15.28750, 
   lat = 51.61617, 
-  comments = ""
+  comments = "Żagań"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4798,7 +4798,7 @@ jahres <- data.frame(
   entry = "Lycopodium inundatum L. [...] und Sagan gemein (L. — Everken).",
   lon = 15.28750, 
   lat = 51.61617, 
-  comments = ""
+  comments = "Żagań"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4843,7 +4843,7 @@ jahres <- data.frame(
   entry = "Lycopodium Selago L. [...] selten um Sagan (Everken).",
   lon = 15.28750, 
   lat = 51.61617, 
-  comments = ""
+  comments = "Żagań"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4861,7 +4861,7 @@ jahres <- data.frame(
   entry = "Lycopodium annotinum L. Sagan, selten (Everken)",
   lon = 15.28750, 
   lat = 51.61617, 
-  comments = ""
+  comments = "Żagań"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4907,7 +4907,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Im Walde bei Süsswinkel (Mp).",
   lon = 17.30452, 
   lat = 51.12339, 
-  comments = ""
+  comments = "Kątna, gm. Długołęka, pow. wrocławski, w lesie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
