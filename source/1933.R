@@ -700,11 +700,120 @@ jahres <- data.frame(
   comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; niedaleko bażantarni, na wysokości 510 m npm"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Potamogeton natans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Potamogeton natans Rückers: Pelzeteich (Kramarz)!",
+  lon = 16.44879, 
+  lat = 50.41585,
+  comments = "Szczytna, gm. Szczytna, pow. kłodzki, staw"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton alpinus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "P. alpinus Bolkenhain: „Hohler Stein“ bei Merzdorf (Strauch)!",
+  lon = NA,  
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton crispus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "P. crispus Neurode: Fasanerieteich bei Hausdorf in 510 m Höhe (Kramarz)!",
+  lon = 16.51563, 
+  lat = 50.63552,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; staw przy bażantarni, na wysokości 510 m npm"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton acutifolius",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "P. acutifolius Kanth: Bahnhofstraße (Schoepke)!",
+  lon = 16.75027, 
+  lat = 51.03812,
+  comments = "Kąty Wrocławskie, ul. Dworcowa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin maritima",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Triglochin maritima Guhrau: Wiesen am Oberdamm (Weidlich)! [...]",
+  lon = 16.54635, 
+  lat = 51.66384,
+  comments = "Góra, gm. Góra, łąki przy obecnej ulicy Armii Polskiej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin maritima",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Triglochin maritima [...] Breslau: Schuttplatz vor Morgenau in zahlreichen Exemplaren!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "T. palustris Bolkenhain: zwischen Ob.-Lauterbach und Petersgrund, [...]",
+  lon = 16.04101,  
+  lat = 50.96076,
+  comments = "pomiędzy miejscowościami Jastrowiec i Grudno, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "T. palustris Bolkenhain: [...] zwischen Ob.-Würgsdorf und Halbendorf (Strauch)!;[...]",
+  lon = 16.10065,  
+  lat = 50.88617,
+  comments = "pomiędzy miejscowościami Wierzchosławice i Półwsie, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "T. palustris [...] Guhrau: Wiesen am Oberdamm (Weidlich)!",
+  lon = 16.54635, 
+  lat = 51.66384,
+  comments = "Góra, gm. Góra, łąki przy obecnej ulicy Armii Polskiej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Stratiotes Aloides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Stratiotes Aloides Naumburg a. B.: Boberufer (Tscheppe)!",
+  lon = 15.23904, 
+  lat = 51.80313,
+  comments = "Nowogród Bobrzański, [brzeg rzeki] Bóbr"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hydrocharis Morsus ranae",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Hydrocharis Morsus ranae Bolkenhain: Idabruch bei Girlachsdorf (Strauch).",
+  lon = 16.23873,  
+  lat = 50.99827,
+  comments = "dawny kamieniołom, Gniewków, gm. Dobromierz, pow. świdnicki (https://www.researchgate.net/profile/Adam-Szuszkiewicz-2/publication/273566027_Geologie_und_Mineralvorkommen_des_Granitmassivs_Striegau_-_Zobten/links/55059d110cf231de07778167/Geologie-und-Mineralvorkommen-des-Granitmassivs-Striegau-Zobten.pdf, str. 23)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Panicum crus galli var. edule (Hitchcook) Thell.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Panicum crus galli var. edule (Hitchcook) Thell. ( = P. frumentaceum [Rosb.] Triman) Breslau: Schuttplatz bei der Körnerwiese!",
+  lon = 17.02072, 
+  lat = 51.06883,
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
+) |> rbind(jahres)
+
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Neurode: Hausdorf", entry))
+  subset(grepl("Girlachsdorf", entry))
 
 #' TODO - dokońćzyć
 
