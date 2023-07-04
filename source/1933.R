@@ -695,8 +695,8 @@ jahres <- data.frame(
   species = "Sparganium simplex",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
   entry = "Sp. simplex [...] Neurode: unweit der Fasanerie bei Hausdorf in 510 m (Kramarz)!",
-  lon = 16.50938, 
-  lat = 50.63251,
+  lon = 16.51563, 
+  lat = 50.63552,
   comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; niedaleko bażantarni, na wysokości 510 m npm"
 ) |> rbind(jahres)
 
