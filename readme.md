@@ -189,7 +189,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2500 records (species - localization) including 2440 with
+total 2540 records (species - localization) including 2480 with
 coordinates.
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)

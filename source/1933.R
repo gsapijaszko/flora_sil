@@ -808,12 +808,238 @@ jahres <- data.frame(
   comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Andropogon Halepensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Andropogon Halepensis Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leersia oryzoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Leersia oryzoides Liebenthal: Obertorteich [...] ",
+  lon = 15.50458, 
+  lat = 51.01392,
+  comments = "Lubomierz, staw"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leersia oryzoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Leersia oryzoides Liebenthal: [...] Badeteich (Buchs)!; [...]",
+  lon = 15.50496, 
+  lat = 51.01204,
+  comments = "Lubomierz, kąpielisko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leersia oryzoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Leersia oryzoides [...] Löwenberg: Matzdorf (Buchs)!; [...]",
+  lon = 15.61592, 
+  lat = 50.97137,
+  comments = "Maciejowiec, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leersia oryzoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Leersia oryzoides [...] Brieg: alter Stober bei Ablage Stoberau (Wittig)!",
+  lon = 17.60894, 
+  lat = 50.85310,
+  comments = "starorzecze Stara Stobrawa, obok przysiółka Odłogi, Stobrawa, gm. Popielów, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phalaris paradoxa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Phalaris paradoxa Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko"
+  ) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynodon dactylon",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Cynodon Dactylon Breslau: Schuttplatz an der Berliner Chaussee!",
+  lon = 16.95184, 
+  lat = 51.13615,
+  comments = "Wrocław, wysypisko przy szosie berlińskiej, obecnie ul. Lotnicza, Kosmonautów"
+) |> rbind(jahres)
+
+#' TODO - R. von Uechtritz, Nachträge zur Flora von Schlesien. https://www.biodiversitylibrary.org/item/105849#page/238/mode/1up
+  
+jahres <- data.frame(
+  species = "Anthoxanthum odoratum f. picta nov. f.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Anthoxanthum odoratum f. picta nov. f. mit weiß gestreiften Blättern Hirschberg: Bibersteine bei Krommenau (Buchs)!",
+  lon = 15.58603, 
+  lat = 50.87164,
+  comments = "Bobrowe Skały, Piechowice, pow. karkonoski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hierochloa odorata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Hierochloa odorata Ohlau: Oderufer bei Zedlitz unweit der Jeltscher Fähre!",
+  lon = 17.29795, 
+  lat = 51.01032,
+  comments = "brzek rzeki Odra, Siedlce, gm. Oława, niedaleko od przeprawy do Jelcza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phleum pratense f. lobatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Phleum pratense f. lobatum Breslau: Schuttplatz beim Kinderzobten!",
+  lon = 16.99758, 
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena fatua f. glabrata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Avena fatua f. glabrata Kätscher (Klimke)!",
+  lon = 18.00254, 
+  lat = 50.08008,
+  comments = "Kietrz, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena barbata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "A. barbata Breslau: Hof der Fruchteinfuhrgesellschaft auf der Siebenhufener Straße!",
+  lon = 17.00775, 
+  lat = 51.10392,
+  comments = "Wrocław, ul. Tęczowa; (Fruchteinfurh G.m.b.H., Filliale Breslau, Siebenhufener Str. 74, https://www.sbc.org.pl/dlibra/doccontent?id=86845); http://maps.mapywig.org/m/City_plans/Central_Europe/PLAN_DER_HAUPTSTADT_BRESLAU_Sonderplan_der_Innenstadt_5K_1934.jpg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena pratensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "A. pratensis Krappitz: gegen Pietna (Torka)",
+  lon = 17.96232, 
+  lat = 50.44865,
+  comments = "Pietna, gm. Krapkowice, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lagurus ovatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Lagurus ovatus Breslau: Hof der Fruchteinfuhr­ gesellschaft auf der Siebenhufener Straße!",
+  lon = 17.00775, 
+  lat = 51.10392,
+  comments = "Wrocław, ul. Tęczowa; (Fruchteinfurh G.m.b.H., Filliale Breslau, Siebenhufener Str. 74, https://www.sbc.org.pl/dlibra/doccontent?id=86845); http://maps.mapywig.org/m/City_plans/Central_Europe/PLAN_DER_HAUPTSTADT_BRESLAU_Sonderplan_der_Innenstadt_5K_1934.jpg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypogon monspeliensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Polypogon monspeliensis Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!; [...]",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypogon monspeliensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Polypogon monspeliensis [...] Breslau: Schuttplatz an der Berliner Chaussee!",
+  lon = 16.95184, 
+  lat = 51.13615,
+  comments = "Wrocław, wysypisko przy szosie berlińskiej, obecnie ul. Lotnicza, Kosmonautów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Eragrostis minor Trachenberg: Ödland auf der Bahnhofstraße!; [...]",
+  lon = 16.90522, 
+  lat = 51.47424,
+  comments = "Żmigród, pustkowia przy [dawnej] ul. Dworcowej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Eragrostis minor [...] Gleiwitz: bei der Gleiwitzer Hütte (Czmok)!",
+  lon = 18.68738, 
+  lat = 50.29150,
+  comments = "Gliwice, w okolicach gliwickiej huty"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Cynosurus echinatus Ratibor: auf einem Felde am Lensczok (Prof. Brinkmann)",
+  lon = 18.27375, 
+  lat = 50.12243,
+  comments = "Łężczok, Racibórz, na polu"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atropis distans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Atropis distans Bolkenhain: an kalkreicheren Stellen mehrfach, z. B. unweit Ob.-Hohendorf, [...]",
+  lon = 16.08340, 
+  lat = 50.94499,
+  comments = "Gorzanowice, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atropis distans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Atropis distans Bolkenhain: an kalkreicheren Stellen mehrfach, z. B. [...] an der „Lähne “ bei Ob.-Lauterbach [...]",
+  lon = 16.05280, 
+  lat = 50.95031,
+  comments = "dawna palarnia wapna, obecnie obszar miejscowości Jastrowiec, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atropis distans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Atropis distans Bolkenhain: an kalkreicheren Stellen mehrfach, z. B. [...] Schweinhaus u.a. (Strauch)!;[...]",
+  lon = 16.11075, 
+  lat = 50.93868,
+  comments = "Świny, gm. Bolków"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Atropis distans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Atropis distans [...] Glatz: Schuttplatz bei der Haltestelle Pfaffenmühle! [...]",
+  lon = 16.64071, 
+  lat = 50.41531,
+  comments = "Kłodzko-Książek, wysypisko przy przystanku kolejowym"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca myurus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Festuca myurus Neustadt: Dobrau (Torka)",
+  lon = 17.90052, 
+  lat = 50.44903,
+  comments = "Dobra, gm. Strzeleczki, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca elatior f . pseudololiacea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "F. elatior f . pseudololiacea Neumarkt: Bischdorf (Kotschy)!",
+  lon = 16.65808, 
+  lat = 51.18230,
+  comments = "Święte, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Girlachsdorf", entry))
+  subset(grepl("Bischdorf", entry))
 
 #' TODO - dokońćzyć
 
