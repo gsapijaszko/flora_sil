@@ -146,20 +146,27 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   subset(grepl("Selagine", accepted_name))
 
 # 
-# bibliography <- bibliography |>
+# bibliography |>
 #   RefManageR::as.BibEntry() |>
-#   RefManageR::WriteBib(file = "ala.bib")
+#   RefManageR::WriteBib(file = "bibliography.bib")
 # 
-# bibliography <- RefManageR::ReadBib("ala.bib")
+# bibliography <- RefManageR::ReadBib("bibliography.bib")
 # bibliography[[1]]
-# 
+# # 
 # RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1934")
 # RefManageR::NoCite(bibliography, "wimmerBerichtUberVerhandlungen1850")
 # RefManageR::NoCite(bibliography, "wimmerNeueUndSeltenere1850")
 # RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1935")
 # RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1936")
+# 
+# 
+# RefManageR::BibOptions(sorting = "ynt")
 # RefManageR::PrintBibliography(bibliography)
-# 
-# 
+# # 
+# wip <- RefManageR::ReadBib("bibliography.bib")
+# bibliography[key = "schalowErgebnisseSchlesischenPhanerogamenforschung1933"]
+# RefManageR::NoCite(wip, "schalowErgebnisseSchlesischenPhanerogamenforschung1933")
+# RefManageR::PrintBibliography(wip)
+# # 
 
 aPL
