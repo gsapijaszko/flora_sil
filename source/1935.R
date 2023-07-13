@@ -650,7 +650,7 @@ jahres <- data.frame(
   entry = "B. inermis Steinau a. d. O.: Tarxdorf (Pfeiffer)!",
   lon = 16.48764, 
   lat = 51.36673,
-  comments = "Tarchalice"
+  comments = "Tarchalice, gm. Wołów"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1019,7 +1019,7 @@ jahres <- data.frame(
   entry = "Muscari comosum Bolkenhain: Nieder-Würgsdorf (Landwirtschaftskammer)!;",
   lon = 16.09604, 
   lat = 50.91141,
-  comments = "Wierzchosławice"
+  comments = "Wierzchosławice, gm. Bolków, pow. jaworski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2838,7 +2838,7 @@ jahres <- data.frame(
   entry = "Euphorbia Lathyris Bolkenhain: Nieder-Würgsdorf (Strauch)",
   lon = 16.09604, 
   lat = 50.91141,
-  comments = "Wierzchosławice"
+  comments = "Wierzchosławice, gm. Bolków, pow. jaworski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

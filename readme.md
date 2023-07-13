@@ -19,7 +19,6 @@ using:
 
 ``` r
 jahres <- readRDS(file = "data/flora_sil.Rds")
-total_jahres <- nrow(jahres)
 ```
 
 Let’s have a look on `jahres` data frame:
@@ -31,18 +30,18 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-              species                                         citation
-    1 Kochia scoparia @schalowErgebnisseDurchforschungSchlesischen1934
-    2 Epilobium lamyi @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                    entry
-    1                                            Kochia scoparia Strehlen: Prieborner Marmorbruch!; [...]
-    2 Neu für dieses Gebiet ist auch Epilobium Lamyi, das ich bei den Krummdorfer Quarzitbrüchen auffand.
-           lon      lat                                         comments year
-    1 17.17662 50.69313 Przeworno, pow. strzeliński, kamieniołom marmuru 1934
-    2 17.15199 50.71782                w kamieniołomach kwarcu, Krzywina 1936
-                       accepted_name
-    1 Bassia scoparia (L.) A.J.Scott
-    2    Epilobium lamyi F.W.Schultz
+                   species                                                citation
+    1     Salix acutifolia @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2 Lepidium densiflorum        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                              entry      lon
+    1 Salix acutifolia Naumburg a. B.: Saganer Chaussee (Tscheppe)! 15.24838
+    2           L. densiflorum [...] Brieg: Bahnhof Mollwitz! [...] 17.38632
+           lat                                           comments year
+    1 51.79763                Nowogród Bobrzański, droga żagańska 1933
+    2 50.84499 Małujowice, gm. Skarbimierz, pow. brzeski, dworzec 1934
+                     accepted_name
+    1      Salix acutifolia Willd.
+    2 Lepidium densiflorum Schrad.
 
 </div>
 
@@ -133,7 +132,7 @@ malvas |>
 
 If you wish to add some records, or change existing, please fork the
 project and use pull request. The source files, divided by years, are
-located in the **source** directory. Entries are provided as data.frame
+located in the `source` directory. Entries are provided as data.frame
 structure, like:
 
 ``` r
@@ -163,9 +162,9 @@ bib <- RefManageR::as.BibEntry(
 )
 ```
 
-There is additional file, `accepted_names.R`, located in `source/`
-folder, which provides the normalization of the species names provided
-by authors to common, accepted names of species, like:
+There is additional file, `accepted_names.R`, located in `source`
+directory, which provides the normalization of the species names
+provided by authors to common, accepted names of species, like:
 
 ``` r
 an <- c(
@@ -203,7 +202,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2638 records (species - localization) including 2577 with
+total 2654 records (species - localization) including 2593 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -213,32 +212,32 @@ picture:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
 #### Done
 
-[1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[3] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [3] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

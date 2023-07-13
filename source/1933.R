@@ -1228,9 +1228,9 @@ jahres <- data.frame(
   species = "Carex brizoides",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
   entry = "C. brizoides Naumburg a. B.: Briesnitz (Tscheppe)!",
-  lon = 15.24084, 
-  lat = 51.79564,
-  comments = "Nowogród Bobrzański, [rzeka] Brzeźnica; albo miejscowość Brzeźnica, gm. Brzeźnica, pow. żagański, ale przed wojną dzieliła się na Nieder- i Ober- Breisnitz"
+  lon = 15.38329,  
+  lat = 51.72091,
+  comments = "Brzeźnica, gm. Brzeźnica, pow. żagański"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1899,11 +1899,155 @@ jahres <- data.frame(
   comments = "Wierzbica [Górna], gm. Wołczyn, pow. kluczborski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Coeloglossum viride Landeshut: Rohnau (Strauch); [...]",
+  lon = 15.97114,  
+  lat = 50.83742,
+  comments = "Wieściszowice, gm. Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Coeloglossum viride [...] Bolkenhain: Ob.-Rudelstadt (Strauch)",
+  lon = 15.97600, 
+  lat = 50.86885,
+  comments = "Ciechanowice, gm. Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gymnadenia conopea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Gymnadenia conopea Frankenstein: Niklasdorf (Rauhut)",
+  lon = 16.68935, 
+  lat = 50.55098,
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera grandiflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Cephalanthera grandiflora Guhrau: Oberwald (Weidlich)!",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "C. xiphophyllum Breslau: am Wege vom Jungfernsee zu den Berghäusern (Prudlo t. Prof. Schube)!",
+  lon = 17.21905, 
+  lat = 51.02409,
+  comments = "przy drodze z Kotowice, gm. Siechnice, pow. wrocławski do nieistniejącej kolonii, obecie teren miejscowości Kotowice"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis violacea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Epipactis violacea Naumburg a. B.: Briesnitzgrund (Tscheppe)!",
+  lon = 15.38329,  
+  lat = 51.72091,
+  comments = "Brzeźnica, gm. Brzeźnica, pow. żagański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "E. palustris Naumburg a. B.: Alte Neuwaldauer Straße (Tscheppe) [...]",
+  lon = 15.25104, 
+  lat = 51.79851,
+  comments = "Nowogród Bobrzański, stara droga w kierunku miejscowości Drągownia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "E. palustris [...] Bolkenhain: Würgsdorf (Strauch); [...]",
+  lon = 16.09604, 
+  lat = 50.91141,
+  comments = "Wierzchosławice, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "E. palustris [...] Guhrau: Ober-[...]wald (Weidlich)!; [...]",
+  lon = 16.54575, 
+  lat = 51.64974,
+  comments = "Góra, gm. Góra, las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "E. palustris [...] Guhrau: [...] Niederwald (Weidlich)!;",
+  lon = 16.55619,
+  lat = 51.68902,
+  comments = "las na północ od m. Góra, za Włodków Dolny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "E. palustris [...] Konstadt: Würbitz (Hoffmann)",
+  lon = 17.96874, 
+  lat = 51.01294,
+  comments = "Wierzbica [Górna], gm. Wołczyn, pow. kluczborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Neottia Nidus avis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Neottia Nidus avis Steinau: Tarxdorf (Pfeiffer)!",
+  lon = 16.48764, 
+  lat = 51.36673,
+  comments = "Tarchalice, gm. Wołów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salix acutifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Salix acutifolia Naumburg a. B.: Saganer Chaussee (Tscheppe)!",
+  lon = 15.24838, 
+  lat = 51.79763,
+  comments = "Nowogród Bobrzański, droga żagańska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salix nigricans",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "S. nigricans Greiffenberg: „am Graben“ hinter Villa Michaelis mehrere Bäume (Buchs)!",
+  lon = 15.42991, 
+  lat = 51.03359,
+  comments = "Gryfów Śląski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salix repens var. rosmarinifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "S. repens var. rosmarinifolia Wohlau: Seifwiesen bei Kl.-Kreidel!",
+  lon = 16.52907,  
+  lat = 51.30866,
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Quercus robur var. longipetiolati Schröter",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Quercus Robur var. longipetiolati Schröter mit auffällig langgestielten Blättern Guhrau: Sandberge bei Mechau!",
+  lon = 16.43489,  
+  lat = 51.66888,
+  comments = "Miechów, gm. Niechlów,  pow. Górowski"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Konstadt", entry))
+  subset(grepl("Mechau", entry))
 
   #' TODO - dokońćzyć
 
