@@ -6,6 +6,7 @@ format:
     toc: true
   gfm: 
     toc: false
+    output-file: readme.md
 ---
 
 ## Flora Silesiae
@@ -14,19 +15,20 @@ Historical data of the flora of Silesia based on articles published by 'Botanisc
 
 ### How to use
 
-The full dataset is saved into `flora_sil.Rds` file. You can read it using:
-
 ```{r}
+#| label: source
 #| echo: false
-#| 
-jahres <- readRDS(file = "../data/flora_sil.Rds")
-total_jahres <- nrow(jahres)
+#| output: false
+source("wszystko.R")
 ```
 
+
+The full data set is saved into `flora_sil.Rds` file. You can read it using:
+
 ```{r}
-#| eval: false
-#| 
+#| label: read data file
 jahres <- readRDS(file = "data/flora_sil.Rds")
+total_jahres <- nrow(jahres)
 ```
 
 Let's have a look on `jahres` data frame:
@@ -62,19 +64,22 @@ And plot it on simple map using `tmap` package:
 #| warning: false
 #| error: false
 #| 
-boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "../data") |>
+boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tmap::tm_shape(boundaries) +
+tm <- tmap::tm_shape(boundaries) +
   tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
   tmap::tm_shape(malvas) +
   tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16, title.col = "")
 
-
+tmap::tmap_save(tm, "malvas.png", height = 4)
 ```
-In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided bt `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as it's used only in Poland, we have to filter out only location within Poland's border.
+
+![Malvas distribution](malvas.png)
+
+In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as it's used only in Poland, we have to filter out only location within Poland's border.
 
 ```{r}
 #| label: atpol
@@ -153,32 +158,50 @@ Two map layers provided by Urząd Marszałkowski Województwa Dolnośląskiego a
 
 [QGIS](https://qgis.org) with plugins:
 
-+ [OSM place search](https://github.com/xcaeag/Nominatim-Qgis-Plugin) oraz 
++ [OSM place search](https://github.com/xcaeag/Nominatim-Qgis-Plugin) and 
 + [Lat Lon Tools](https://github.com/NationalSecurityAgency/qgis-latlontools-plugin).
 
 ### Data set content
 
-Full record sets from few articles and some records from the others, in total `r total_jahres` records (species - localization) including `r nrow(jahres)` with coordinates.
+Full record sets from few articles and some records from the others, in total `r total_jahres` records (species - localization) including `r nrow(jahres)` with coordinates. Data density in ATPOL squares is shown on the below picture:
+
+![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
 
 ### Bibliography:
 
+```{r}
+#| label: bibliography
+#| echo: false
+#| output: false
+#| 
+bibliography |>
+  RefManageR::as.BibEntry() |>
+  RefManageR::WriteBib(file = "bibliography.bib")
+
+bibliography <- RefManageR::ReadBib("bibliography.bib")
+# 
+RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1934")
+RefManageR::NoCite(bibliography, "wimmerBerichtUberVerhandlungen1850")
+RefManageR::NoCite(bibliography, "wimmerNeueUndSeltenere1850")
+RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1935")
+RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1936")
+
+RefManageR::BibOptions(sorting = "ynt")
+# 
+
+```
+
 #### WIP
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp. 140-156.
+```{r}
+#| label: wip
+#| echo: false
+bibliography[key = "schalowErgebnisseSchlesischenPhanerogamenforschung1933"]
+```
 
 #### Done
-F. Wimmer. “Bericht über die Verhandlungen der Botanischen Sektion im Jahre 1849”. In: _Uebersicht der
-Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), pp.
-75-76.
 
-F. Wimmer. “Neue und seltenere schiesische Pflanzen”. In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
-
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1934”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp. 55-71.
-
-E. Schalow. “Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1935”. In:
-_Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp. 66-81.
-
-
-
+```{r}
+#| label: done
+#| echo: false
+RefManageR::PrintBibliography(bibliography)
+```
