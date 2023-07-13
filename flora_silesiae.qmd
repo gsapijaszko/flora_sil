@@ -9,12 +9,6 @@ format:
     output-file: readme.md
 ---
 
-## Flora Silesiae
-
-Historical data of the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
-
-### How to use
-
 ```{r}
 #| label: source
 #| echo: false
@@ -22,6 +16,12 @@ Historical data of the flora of Silesia based on articles published by 'Botanisc
 source("wszystko.R")
 ```
 
+## Flora Silesiae
+
+Historical data of the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+
+
+### How to use
 
 The full data set is saved into `flora_sil.Rds` file. You can read it using:
 
@@ -33,7 +33,6 @@ jahres <- readRDS(file = "data/flora_sil.Rds")
 ```{r}
 #| label: total jahres
 #| echo: false
-
 total_jahres <- nrow(jahres)
 ```
 
