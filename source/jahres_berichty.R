@@ -747,7 +747,7 @@ jahres <- data.frame(
   entry = "Lycopodium annotinum. Ohlau: Forst Rodeland (T.)!",
   lon = 17.41024, 
   lat = 51.01812, 
-  comments = ""
+  comments = "Kopalina, gm. Jelcz-Laskowice, pow. oławski, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1323,7 +1323,7 @@ jahres <- data.frame(
   entry = "Botrychium Lunaria. Oberglogau: Glöglicher Berge (Richter);",
   lon = 17.83587, 
   lat = 50.32913, 
-  comments = ""
+  comments = "wzgórza w okolicy miejscowości Dzierżysławice, gm. Głogówek, pow. prudnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

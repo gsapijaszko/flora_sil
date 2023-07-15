@@ -1,5 +1,4 @@
-Flora Silesiae
-================
+# Flora Silesiae
 Grzegorz Sapijaszko
 
 ## Flora Silesiae
@@ -30,18 +29,18 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                   species                                                citation
-    1     Salix acutifolia @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2 Lepidium densiflorum        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                              entry      lon
-    1 Salix acutifolia Naumburg a. B.: Saganer Chaussee (Tscheppe)! 15.24838
-    2           L. densiflorum [...] Brieg: Bahnhof Mollwitz! [...] 17.38632
-           lat                                           comments year
-    1 51.79763                Nowogród Bobrzański, droga żagańska 1933
-    2 50.84499 Małujowice, gm. Skarbimierz, pow. brzeski, dworzec 1934
+                           species                                         citation
+    1          Ornithogalum nutans @schalowErgebnisseDurchforschungSchlesischen1934
+    2 Botrychium simplex Hitchcock    @fiekErgebnisseDurchforschungSchlesischen1892
+                                                                            entry
+    1                                            O. nutans [...] Zobten (Kruber)!
+    2 Botrychium simplex Hitchcock Freistadt: Hartmannsdorf auf Droschheidau zu!;
+           lon      lat                              comments year
+    1 16.74848 50.88991 Sobótka, gm. Sobótka, pow. wrocławski 1934
+    2 15.47058 51.83986                                       1892
                      accepted_name
-    1      Salix acutifolia Willd.
-    2 Lepidium densiflorum Schrad.
+    1       Ornithogalum nutans L.
+    2 Botrychium simplex E.Hitchc.
 
 </div>
 
@@ -202,11 +201,15 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2654 records (species - localization) including 2593 with
+total 2741 records (species - localization) including 2678 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
+
+And the number of records per year:
+
+![](barplot.png)
 
 ### Bibliography:
 

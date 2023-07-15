@@ -1,12 +1,3 @@
-jahres <- data.frame(
-  species = character(),
-  citation = character(),
-  entry = character(),
-  lon = double(),
-  lat = double(),
-  comments = character()
-)
-
 jahres <- data.frame()
 bibliography <- list()
 
@@ -169,4 +160,3 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # RefManageR::PrintBibliography(wip)
 # # 
 
-aPL

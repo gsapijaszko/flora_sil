@@ -172,6 +172,24 @@ Full record sets from few articles and some records from the others, in total `r
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
 
+And the number of records per year:
+
+```{r}
+#| label: barplot
+#| echo: false
+#| message: false
+#| output: false
+#| 
+grDevices::png(filename = "barplot.png", width = 1200)
+c <- jahres |>
+  dplyr::group_by(year) |>
+  dplyr::count()
+barplot(n ~ year, data = c) 
+grDevices::dev.off()
+```
+
+![](barplot.png)
+
 ### Bibliography:
 
 ```{r}

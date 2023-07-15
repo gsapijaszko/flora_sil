@@ -581,6 +581,8 @@ an <- c(
   "Pteris aquilina", "Pteridium aquilinum (L.) Kuhn",
   "Pulicaria vulgaris", "Pulicaria vulgaris Gaertn.", 
   "Pulmonaria angustifolia", "Pulmonaria angustifolia L.",
+  "Quercus robur X Quercus sessiliflora", "Quercus ×rosacea Bechst.",
+  "Quercus robur var. longipetiolati Schröter", "Quercus robur L.",
   "Ranunculus auricomus var. fallax", "Ranunculus fallax (Wimm. & Grab.) Schur",
   "Ranunculus cassubicus", "Ranunculus cassubicus L.",
   "Ranunculus flaccidus", "Ranunculus trichophyllus subsp. trichophyllus Chaix ex Villars", 

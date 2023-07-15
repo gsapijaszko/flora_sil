@@ -1739,7 +1739,7 @@ jahres <- data.frame(
   entry = "Nymphaea candida Liebenthal: Klosterteich, wohl nur angepflanzt (Buchs)!",
   lon = 15.50657, 
   lat = 51.01165,
-  comments = "Staw klasztorny, najprawdopodobniej były sadzone"
+  comments = "Lubomierz, gm. Lubomierz, Staw klasztorny; najprawdopodobniej były sadzone"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
