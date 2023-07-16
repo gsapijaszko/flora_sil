@@ -2253,7 +2253,7 @@ jahres <- data.frame(
   entry = "R. nigrum Liebenthal: Krummöls (Buchs)!",
   lon = 15.48611, 
   lat = 51.03272,
-  comments = "Oleszna Podgórska"
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

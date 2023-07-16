@@ -1019,7 +1019,7 @@ jahres <- data.frame(
   entry = "Acorus Calamus Landeshut: Trautliebersdorf (Strauch)",
   lon = 16.16561, 
   lat = 50.70592,
-  comments = "Kochanów, Kamienna Góra"
+  comments = "Kochanów, gm. Kamienna Góra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

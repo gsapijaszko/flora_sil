@@ -29,18 +29,18 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                           species                                         citation
-    1          Ornithogalum nutans @schalowErgebnisseDurchforschungSchlesischen1934
-    2 Botrychium simplex Hitchcock    @fiekErgebnisseDurchforschungSchlesischen1892
-                                                                            entry
-    1                                            O. nutans [...] Zobten (Kruber)!
-    2 Botrychium simplex Hitchcock Freistadt: Hartmannsdorf auf Droschheidau zu!;
-           lon      lat                              comments year
-    1 16.74848 50.88991 Sobótka, gm. Sobótka, pow. wrocławski 1934
-    2 15.47058 51.83986                                       1892
-                     accepted_name
-    1       Ornithogalum nutans L.
-    2 Botrychium simplex E.Hitchc.
+                species                                                citation
+    1  Euphorbia dulcis        @schalowErgebnisseDurchforschungSchlesischen1936
+    2 Thalictrum flavum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                                                                                                                                                                                                                               entry
+    1 Der Konradswaldauer Hochwald ist sonst noch ausgezeichnet durch das Vorkommen von Daphne mezereum, Lilium Martagon (Wittig), Asperula odorata, A. Aparine, Sanicula europaea, Melica uniflora, Neottia nidus avis, Euphorbia dulcis, Hypericum hirsutum, Viola mirabilis u. a.
+    2                                                                                                                                                                                                                                      T. flavum Glogau: Skeyden (Vogel)!; [...]
+           lon      lat                                   comments year
+    1 17.36155 50.79611 Przylesie, gm. Olszanka, pow. brzeski, las 1936
+    2 15.94626 51.72316        Skidniów, gm. Kotla, pow. głogowski 1933
+             accepted_name
+    1  Euphorbia dulcis L.
+    2 Thalictrum flavum L.
 
 </div>
 
@@ -74,9 +74,13 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, pa
 tm <- tmap::tm_shape(boundaries) +
   tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
   tmap::tm_shape(malvas) +
-  tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16, title.col = "")
-
-tmap::tmap_save(tm, "malvas.png", height = 4)
+  tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16) +
+  tmap::tm_legend(
+#    legend.position = c(0.5, 0.7),
+    legend.width = 1.1,
+    legend.text.size = 0.7,
+    legend.bg.color = "white",
+    legend.title.color = "white")
 ```
 
 ![Malvas distribution](malvas.png)
@@ -201,7 +205,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2741 records (species - localization) including 2678 with
+total 2790 records (species - localization) including 2725 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

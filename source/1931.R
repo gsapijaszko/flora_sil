@@ -220,7 +220,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria Liebenthal: Krummöls (Buchs)!;",
   lon = 15.46440,  
   lat = 51.04188, 
-  comments = "Oleszna Podgórska"
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
