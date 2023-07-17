@@ -1,4 +1,5 @@
-# Flora Silesiae
+Flora Silesiae
+================
 Grzegorz Sapijaszko
 
 ## Flora Silesiae
@@ -29,18 +30,18 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                species                                                citation
-    1  Euphorbia dulcis        @schalowErgebnisseDurchforschungSchlesischen1936
-    2 Thalictrum flavum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                                                                                                                                                                                                                               entry
-    1 Der Konradswaldauer Hochwald ist sonst noch ausgezeichnet durch das Vorkommen von Daphne mezereum, Lilium Martagon (Wittig), Asperula odorata, A. Aparine, Sanicula europaea, Melica uniflora, Neottia nidus avis, Euphorbia dulcis, Hypericum hirsutum, Viola mirabilis u. a.
-    2                                                                                                                                                                                                                                      T. flavum Glogau: Skeyden (Vogel)!; [...]
-           lon      lat                                   comments year
-    1 17.36155 50.79611 Przylesie, gm. Olszanka, pow. brzeski, las 1936
-    2 15.94626 51.72316        Skidniów, gm. Kotla, pow. głogowski 1933
-             accepted_name
-    1  Euphorbia dulcis L.
-    2 Thalictrum flavum L.
+                                             species
+    1                       Ophioglossum vulgatum L.
+    2 Lycopodium complanatum L. ssp. anceps (Wallr.)
+                                           citation
+    1 @fiekErgebnisseDurchforschungSchlesischen1892
+    2 @fiekErgebnisseDurchforschungSchlesischen1893
+                                                                                                  entry
+    1                                        Ophioglossum vulgatum L. Kunzendorf, Kr. Sagan (Schröder)!
+    2 Lycopodium complanateum L. a) anceps Wallr. am Ufer des Schlawa ei Sees bei Josefshof (Hellwig)!;
+           lon      lat comments year                        accepted_name
+    1 15.37343 51.86027          1892             Ophioglossum vulgatum L.
+    2 15.97326 51.91367          1893 Diphasiastrum complanatum (L.) Holub
 
 </div>
 
@@ -205,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2790 records (species - localization) including 2725 with
+total 2831 records (species - localization) including 2765 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
