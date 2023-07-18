@@ -398,7 +398,7 @@ jahres <- data.frame(
   entry = "L. inundatum Naumburgs a. B .: Alte Neuwaldauer Straße (Tscheppe) !",
   lon = 15.28882, 
   lat = 51.78293, 
-  comments = "Nowogród Bobrzański, stara droga do miejscowości Drągownia"
+  comments = "Nowogród Bobrzański, stara droga do miejscowości Drągowina"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -855,9 +855,9 @@ jahres <- data.frame(
   species = "Carex paradoxa",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "C. paradoxa Kanth: Thiemendorfer Wald (Schoepke)!",
-  lon = NA,
-  lat = NA,
-  comments = "Thiemendorf to obecnie Tymowa w gm. Ścinawa, dość daleko od Kątów Wrocławskich"
+  lon = 16.32322, 
+  lat = 51.45644,
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3619,9 +3619,9 @@ jahres <- data.frame(
   species = "Viola mirabilis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "V. mirabilis Kanth: Thiemendorfer Wald (Schoepke)!",
-  lon = NA,
-  lat = NA,
-  comments = "Thiemendorf to obecnie Tymowa w gm. Ścinawa, dość daleko od Kątów Wrocławskich"
+  lon = 16.32322, 
+  lat = 51.45644,
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

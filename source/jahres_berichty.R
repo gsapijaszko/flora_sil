@@ -347,7 +347,7 @@ jahres <- data.frame(
   entry = "Botrychium Lunaria. Räuden: rechts der Gleiwitzer Heerstraße, zahlreich (W.)! mit spärlichem f. incisum (W.).",
   lon = 18.45947, 
   lat = 50.19339, 
-  comments = ""
+  comments = "Rudy, gm. Kuźnia Raciborksa, pow. raciborski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -802,7 +802,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria. Öls, Gr.-Graben gegen Sandau (Dr. Schröder).",
   lon = 17.42304, 
   lat = 51.33049, 
-  comments = ""
+  comments = "Piaski, Grabowno Wielkie, gm. Twardogóra, pow. oleśnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

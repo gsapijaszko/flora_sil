@@ -848,7 +848,7 @@ jahres <- data.frame(
   entry = "C. tomentosa Steinau a. d. O.: Thiemendorfer Wald!",
   lon = 16.32322, 
   lat = 51.45644,
-  comments = "Tymowa, las"
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1541,7 +1541,7 @@ jahres <- data.frame(
   entry = "Cucubalus baccifer Steinau a. d. O.: Thiemendorf!;",
   lon = 16.35371, 
   lat = 51.44860,
-  comments = "Tymowa"
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2424,8 +2424,8 @@ jahres <- data.frame(
   entry = "P. opaca [...] Steinau a. d. O.: Thiemendorfer Wald!",
   lon = 16.32322, 
   lat = 51.45644,
-  comments = "Tymowa, las"
-) |> rbind(jahres)
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
+  ) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Potentilla fragariastrum",
@@ -3243,7 +3243,7 @@ jahres <- data.frame(
   entry = "Astrantia major Steinau a. d. O.: Thiemendorfer Wald!",
   lon = 16.32322, 
   lat = 51.45644,
-  comments = "Tymowa, las"
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -1,5 +1,4 @@
-Flora Silesiae
-================
+# Flora Silesiae
 Grzegorz Sapijaszko
 
 ## Flora Silesiae
@@ -30,18 +29,21 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                                             species
-    1                       Ophioglossum vulgatum L.
-    2 Lycopodium complanatum L. ssp. anceps (Wallr.)
-                                           citation
-    1 @fiekErgebnisseDurchforschungSchlesischen1892
-    2 @fiekErgebnisseDurchforschungSchlesischen1893
-                                                                                                  entry
-    1                                        Ophioglossum vulgatum L. Kunzendorf, Kr. Sagan (Schröder)!
-    2 Lycopodium complanateum L. a) anceps Wallr. am Ufer des Schlawa ei Sees bei Josefshof (Hellwig)!;
-           lon      lat comments year                        accepted_name
-    1 15.37343 51.86027          1892             Ophioglossum vulgatum L.
-    2 15.97326 51.91367          1893 Diphasiastrum complanatum (L.) Holub
+                species                                         citation
+    1 Agrimonia odorata @schalowErgebnisseDurchforschungSchlesischen1935
+    2   Calla palustris @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           entry
+    1                                                                                                                                                                                                                                                                                                                                                                                                                                            Agrimonia odorata Ruhland: Jannowitz (Militzer)
+    2 Abwechslungsreicher ist die Umgebung des Bruttketeiches nördlich von Briese. Unterhalb des Teiches findet sich zunächst ein typisches Erlenbruch, dem vor allem Senecio crispatus ein besonderes Gepräge gibt. Dagegen scheint Valeriana polygama noch recht selten zu sein. Außerdem notierte ich noch: Calla palustris, Cardamine amara und Aspidium Thelypteris. Die große Häufigkeit von Senecio crispatus überraschte mich hier in der Nähe seiner Verbreitungsgrenze ganz besonders.
+           lon      lat
+    1 13.85115 51.40085
+    2 17.45869 51.29764
+                                                                                   comments
+    1                                                                                      
+    2 Brzezinka, gm. Oleśnica, pow. oleśnicki, poniżej stawu na północ od wsi, olsowe bagno
+      year       accepted_name
+    1 1935 Agrimonia repens L.
+    2 1936  Calla palustris L.
 
 </div>
 
@@ -75,14 +77,16 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, pa
 tm <- tmap::tm_shape(boundaries) +
   tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
   tmap::tm_shape(malvas) +
-  tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16) +
+  tmap::tm_symbols(col = "accepted_name", title.col = "", palette = "Paired", size = 0.6, shape = 16) +
   tmap::tm_legend(
-#    legend.position = c(0.5, 0.7),
     legend.width = 1.1,
     legend.text.size = 0.7,
-    legend.bg.color = "white",
-    legend.title.color = "white")
+    legend.bg.color = "white")
+
+tm
 ```
+
+![](flora_silesiae_files/figure-commonmark/tmap-1.png)
 
 ![Malvas distribution](malvas.png)
 
@@ -206,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2831 records (species - localization) including 2765 with
+total 2860 records (species - localization) including 2796 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

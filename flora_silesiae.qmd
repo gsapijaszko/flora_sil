@@ -78,14 +78,13 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, pa
 tm <- tmap::tm_shape(boundaries) +
   tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
   tmap::tm_shape(malvas) +
-  tmap::tm_symbols("accepted_name", palette = "Paired", size = 0.6, shape = 16) +
+  tmap::tm_symbols(col = "accepted_name", title.col = "", palette = "Paired", size = 0.6, shape = 16) +
   tmap::tm_legend(
-#    legend.position = c(0.5, 0.7),
     legend.width = 1.1,
     legend.text.size = 0.7,
-    legend.bg.color = "white",
-    legend.title.color = "white")
+    legend.bg.color = "white")
 
+tm
 ```
 
 ```{r}
