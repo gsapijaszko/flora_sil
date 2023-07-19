@@ -1,5 +1,4 @@
-Flora Silesiae
-================
+# Flora Silesiae
 Grzegorz Sapijaszko
 
 ## Flora Silesiae
@@ -31,14 +30,17 @@ jahres |>
 ```
 
                    species                                                citation
-    1 Polemonium coeruleum        @schalowErgebnisseDurchforschungSchlesischen1935
-    2        Carex pendula @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                    entry     lon      lat
-    1 Polemonium coeruleum Liebenthal: Stadtwald (Buchs)! 15.5098 51.00327
-    2          C. pendula Rückers: am Mensekamm (Becker)!      NA       NA
-                        comments year           accepted_name
-    1 Lubomierz, Las Lubomierski 1935 Polemonium caeruleum L.
-    2                            1933     Carex pendula Huds.
+    1 Potentilla norvegica        @schalowErgebnisseDurchforschungSchlesischen1934
+    2    Anemone pratensis @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                       entry
+    1                      P. norvegica [...] Falkenberg: Lawnikteich!;[...]
+    2 Anemone pratensis [...] Wohlau: [...] Mägdeberg bei Mondschütz, [...] 
+           lon      lat                                                  comments
+    1 17.64266 50.57072 staw Ławnik, Ligota Tułowicka, gm. Tułowice, pow. opolski
+    2 16.61765 51.30139                    [wzgórze] Dziewin, Mojęcice, gm. Wołów
+      year                          accepted_name
+    1 1934                Potentilla norvegica L.
+    2 1933 Pulsatilla pratensis subsp. pratensis 
 
 </div>
 
@@ -77,11 +79,7 @@ tm <- tmap::tm_shape(boundaries) +
     legend.width = 1.1,
     legend.text.size = 0.7,
     legend.bg.color = "white")
-
-tm
 ```
-
-![](flora_silesiae_files/figure-gfm/tmap-1.png)
 
 ![Malvas distribution](malvas.png)
 
@@ -104,7 +102,7 @@ malvas <- malvas |>
   sf::st_transform(crs = sf::st_crs(atpol10))
 
 malvas |>
-  subset(apply(sf::st_within(malvas, pl_border, sparse = FALSE), 1, any)) |>
+  sf::st_filter(pl_border) |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
   subset(select = c("accepted_name", "Name")) |>
@@ -212,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2920 records (species - localization) including 2854 with
+total 2929 records (species - localization) including 2863 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

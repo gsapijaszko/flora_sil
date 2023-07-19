@@ -4437,11 +4437,93 @@ jahres <- data.frame(
   comments = "[wzgórze] Wierzchowiska, Krobielowice, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Viola persicifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Viola persicifolia (== V. stagnina) Glogau: Oderufer bei Schwusen!;[...]",
+  lon = 16.25483,  
+  lat = 51.68449,
+  comments = "Wyszanów, gm. Szlichtyngowa, brzeg rzeki Odra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola persicifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Viola persicifolia (== V. stagnina) [...] Liegnitz: vielfach im Schwarzwasserbruch (Weimann)!;[...]",
+  lon = 16.17285, 
+  lat = 51.22023,
+  comments = "Legnica, dolina strumienia Czarna Woda; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola persicifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Viola persicifolia (== V. stagnina) [...] Kanth: Neudorfer Wiesen (Schoepke)!; [...]",
+  lon = 16.72709, 
+  lat = 51.02843,
+  comments = "Nowa Wieś Kącka, gm. Kąty Wrocławskie, na łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola persicifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Viola persicifolia (== V. stagnina) [...] Grottkau: Tiefensee!",
+  lon = 17.49367, 
+  lat = 50.68721,
+  comments = "Głębocko, gm. Grodków, pow. brzeski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola canina X Viola persicifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "V. canina X persicifolia Glogau: Schwusen!",
+  lon = 16.26766,  
+  lat = 51.68991,
+  comments = "Wyszanów, gm. Szlichtyngowa, pow. wschowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola canina X Viola riviniana",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "V. canina X Riviniana Glogau: Oderufer bei Wilkau!; [...]",
+  lon = 16.21551, 
+  lat = 51.69642,
+  comments = "Wilków, gm. Głogów, brzek rzeki Odra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola canina X Viola riviniana",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "V. canina X Riviniana [...] Guhrau: zwischen Rützen und Gr.-Osten!",
+  lon = 16.48292, 
+  lat = 51.62773,
+  comments = "pomiędzy miejscowościami Ryczeń i OSetno, gm. Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epilobium Dodonaei",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Epilobium Dodonaei Strehlen: Lindenbruch bei Niklasdorf (Utta)!; [...]",
+  lon = 17.03845,
+  lat = 50.77644,
+  comments = "Mikoszów, gm. Strzelin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epilobium Dodonaei",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Epilobium Dodonaei [...] Glatz: Kalksteinbruch bei Schwenz (Prof. Schube)!",
+  lon = 16.59941, 
+  lat = 50.50077,
+  comments = "Święcko, gm. Kłodzko; w kopalni wapienia"
+) |> rbind(jahres)
+
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Krieblowitz", entry))
+  subset(grepl("bruch", entry))
 
   #' TODO - dokońćzyć
 

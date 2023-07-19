@@ -83,8 +83,6 @@ tm <- tmap::tm_shape(boundaries) +
     legend.width = 1.1,
     legend.text.size = 0.7,
     legend.bg.color = "white")
-
-tm
 ```
 
 ```{r}
@@ -114,7 +112,7 @@ malvas <- malvas |>
   sf::st_transform(crs = sf::st_crs(atpol10))
 
 malvas |>
-  subset(apply(sf::st_within(malvas, pl_border, sparse = FALSE), 1, any)) |>
+  sf::st_filter(pl_border) |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
   subset(select = c("accepted_name", "Name")) |>
