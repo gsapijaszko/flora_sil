@@ -1597,9 +1597,9 @@ jahres <- data.frame(
   species = "Allium Scorodoprasum",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
   entry = "A. Scorodoprasum Glatz: unweit des Fokkenbusches (Pander)",
-  lon = NA,
-  lat = NA,
-  comments = ""
+  lon = 16.69031, 
+  lat = 50.44624,
+  comments = "[wzgórze] Szyndzielnia, Kłodzko; las wokół (Fouque Berg w 1904, Focke Berg w latach późniejszych, patrz też: https://books.google.pl/books?id=iGJDAAAAcAAJ&pg=PA401&lpg=PA401&dq=Fokkenbusch&source=bl&ots=cf5jB3pvSk&sig=ACfU3U0--Bl5NoTFELoaYxdcM9sIK3x9wg&hl=en&sa=X&ved=2ahUKEwjStqfil5qAAxUFtaQKHYG-CLAQ6AF6BAgOEAM)"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3273,7 +3273,7 @@ jahres <- data.frame(
   entry = "R. aureum Görlitz: Landeskrone (Buchs)!; [...]",
   lon = 14.93265, 
   lat = 51.12933,
-  comments = "Landeskrone"
+  comments = ""
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3897,11 +3897,506 @@ jahres <- data.frame(
   comments = "Kobylice, gm. Trzebnica"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Vicia pannonica var. typica",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "V. pannonica var. typica Bolkenhain: Wolmsdorf (Strauch)!; [...]",
+  lon = 16.14033,  
+  lat = 50.93075,
+  comments = "Wolbromek, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vicia pannonica var. typica",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "V. pannonica var. typica [...] Glatz: am Fokkenbusch (Pander)!",
+  lon = 16.69031, 
+  lat = 50.44624,
+  comments = "[wzgórze] Szyndzielnia, Kłodzko; las wokół (Fouque Berg w 1904, Focke Berg w latach późniejszych, patrz też: https://books.google.pl/books?id=iGJDAAAAcAAJ&pg=PA401&lpg=PA401&dq=Fokkenbusch&source=bl&ots=cf5jB3pvSk&sig=ACfU3U0--Bl5NoTFELoaYxdcM9sIK3x9wg&hl=en&sa=X&ved=2ahUKEwjStqfil5qAAxUFtaQKHYG-CLAQ6AF6BAgOEAM)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lens esculenta",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Lens esculenta Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!",
+  lon = 16.19370, 
+  lat = 51.20265,
+  comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus aphaca",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Lathyrus Aphaca Breslau: zwischen Nakonzbrücke und Friedewalde (Becker)",
+  lon = 17.08373,  
+  lat = 51.13413,
+  comments = "Wrocław, pomiędzy Mosty Jagiellońskie i Mirowiec, os. Kowale"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus nissolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. Nissolia Kanth: im Kröcherschen Obstgarten (Schoepke)!",
+  lon = NA, 
+  lat = NA,
+  comments = "Kąty Wrocławskie: xxx sady owocowe"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus tuberosus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. tuberosus Guhrau: gegen Jästersheim (Weidlich)!",
+  lon = 16.48923,  
+  lat = 51.67535,
+  comments = "Jastrzębia, gm. Góra, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus paluster",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. paluster Glogau: Wilkau, [...]",
+  lon = 16.20417,  
+  lat = 51.68942,
+  comments = "Wilków, gm. Głogów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus paluster",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. paluster Glogau: [...] Schwusen!;[...]",
+  lon = 16.26347,  
+  lat = 51.69028,
+  comments = "Wyszanów, gm. Szlichtyngowa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus paluster",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. paluster [...] Guhrau: Seiffersdorf, [...]",
+  lon = 16.48157, 
+  lat = 51.76095,
+  comments = "Radosław, gm. Góra, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus paluster",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. paluster [...] Guhrau: [...] Langenau (Weidlich)!;[...]",
+  lon = 16.39149,  
+  lat = 51.77986,
+  comments = "Łęgoń, gm. Wschowa, pow. wschowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus paluster",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. paluster [...] Kanth: am Koslauer Fußwege (Schoepke)!",
+  lon = 16.72838, 
+  lat = 51.03821,
+  comments = "Kozłów, gm. Kąty Wrocławskie; na chodniku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus odoratus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. odoratus Kanth: Thiemendorfer Wald (Schoepke)!; [...]",
+  lon = 16.32322, 
+  lat = 51.45644,
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus odoratus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. odoratus [...] Frankenstein: an der Peterwitzer Straße (Rauhut)!",
+  lon = 16.80087,  
+  lat = 50.59068,
+  comments = "Ząbkowice Śląskie, przy drodze na Piotrowice, obecnie Bohaterów Getta"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus niger",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. niger Naumburg a. B.: Poydritz (Tscheppe)!; [...]",
+  lon = 15.21474,  
+  lat = 51.84312,
+  comments = "Podgórzyce, gm. Nowogród Bobrzański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus niger",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. niger [...] Neurode: Hausdorf (Niering)! [...]",
+  lon = 16.50938, 
+  lat = 50.63251,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus niger f. heterophyllus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. niger [...] f. heterophyllus Guhrau: Krowitze bei Rützen (Weidlich)!",
+  lon = 16.49982, 
+  lat = 51.61885,
+  comments = "Krowica, Ryczeń, gm. Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium silvaticum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Geranium silvaticum Bolkenhain: Gr.-Hau bei Ob.-Kunzendorf (Strauch)",
+  lon = 16.04759,  
+  lat = 50.89230,
+  comments = "Groszków, Pastewnik, gm. Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium sanguineum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. sanguineum Wohlau: Mägdeberg bei Mondschütz (Juhnke)!; [...]",
+  lon = 16.61765, 
+  lat = 51.30139,
+  comments = "[wzgórze] Dziewin, Mojęcice, gm. Wołów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium sanguineum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. sanguineum [...] Glatz: Ndr.-Altwilmsdorf!",
+  lon = 16.61012,  
+  lat = 50.41280,
+  comments = "Stary Wielisław Dolny, gm. Kłodzko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium pyrenaicum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. pyrenaicum Guhrau: in Vorgärten (Weidlich)!; [...]",
+  lon = 16.54435, 
+  lat = 51.67060,
+  comments = "Góra, gm. Góra; w ogrodach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium pyrenaicum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. pyrenaicum [...] Neiße: Langendorf (Franke)!",
+  lon = 17.38110, 
+  lat = 50.33828,
+  comments = "Bodzanów, gm. Głuchołazy, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium molle",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. molle Kanth: Brauerei (Schoepke)!",
+  lon = 16.77264, 
+  lat = 51.03146,
+  comments = "Kąty Wrocławskie; dawny browar"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium columbinum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. columbinum Naumburg a.B.: Kohlholzberg (Tscheppe)!; [...]",
+  lon = NA, 
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium columbinum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "G. columbinum [...] Kanth: Bahnhof (Schoepke)!",
+  lon = 16.75027, 
+  lat = 51.03812,
+  comments = "Kąty Wrocławskie, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Oxalis acetosella",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Oxalis Acetosella rotblühend Mensegebirge: unweit der neuen Hochstraße(Rauhut)!",
+  lon = NA, 
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tropaeolum majus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Tropaeolum majus Frankenstein: „Lange Liebe“ (Rauhut)!",
+  lon = 16.80856, 
+  lat = 50.59357, 
+  comments = "Ząbkowice Śląskie, obecnie ul. Młynarska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygala amara",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Polygala amara Wohlau: Seifwiesen bei Kl.Kreidel!",
+  lon = 16.52907,  
+  lat = 51.30866,
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Mercurialis annua",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Mercurialis annua Breslau: Dammstraße (Till)!",
+  lon = 17.00346,  
+  lat = 51.12597,
+  comments = "Wrocław, ul. Starogroblowa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia virgata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Euphorbia virgata Bolkenhain: Kl.-Waltersdorf(Strauch)!; [...]",
+  lon = 16.09249,  
+  lat = 50.92157,
+  comments = "Bolków, okolice ul. Mikołaja Kopernika"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia virgata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Euphorbia virgata [...] Neustadt: Fröbel (Torka)!; [...]",
+  lon = 17.93157,  
+  lat = 50.31432,
+  comments = "Wróblin, gm. Głogówek, pow. prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia virgata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Euphorbia virgata [...] Leobschütz: zwischen Fröbel und Kasimir (Torka)!",
+  lon = 17.91185,  
+  lat = 50.30718,
+  comments = "pomiędzy miejscowościami Wróblin i Kazimierz, gm. Głogówek, pow. prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia dulcis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Euphorbia dulcis Frankenstein: Kleinbahnhof, [...]",
+  lon = 16.80978, 
+  lat = 50.59855,
+  comments = "Ząbkowice Śląskie, dworzec kolejki wąskotorowej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia dulcis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Euphorbia dulcis Frankenstein: [...] Wenzelkoppe (Rauhut)!",
+  lon = 16.69881, 
+  lat = 50.62975,
+  comments = "[wzgórze] Działynia, Różana, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Evonymus latifolius",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Evonymus latifolius Goldberg: Gröditzberg (Buchs)!",
+  lon = 15.75933, 
+  lat = 51.17632,
+  comments = "[wzgórze] Grodziec, Grodziec, gm. Zagrodno, pow. złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Acer campestre",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Acer campestre Görlitz: Landeskrone (Buchs)!",
+  lon = 14.93265, 
+  lat = 51.12933,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Acer negundo",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "A. Negundo Glogau: auf den Dünen bei Kotzemeuschel!; [...]",
+  lon = 16.00328,  
+  lat = 51.72900,
+  comments = "Chociemyśl, gm. Kotla, pow. głogowski; na wydmach (być może w lesie na południe od miejscowości)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Acer negundo",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "A. Negundo [...] Kanth: bei der Koslauer Mühle (Schöpke)!",
+  lon = 16.72153,  
+  lat = 51.03930,
+  comments = "Kozłów, gm. Kąty Wrocławskie; przy młynie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora Görlitz Landeskrone (Buchs)!;[...]",
+  lon = 14.93265, 
+  lat = 51.12933,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Hirschberg: Friedhof der Gnadenkirche (Buchs)!;[...]",
+  lon = 15.74454,  
+  lat = 50.90469,
+  comments = "Jelenia Góra, cmentarz przy kościele pw. Podwyższenia Krzyża Świętego"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Guhrau: Niederwald (Weidlich)!;[...]",
+  lon = 16.55619,
+  lat = 51.68902,
+  comments = "las na północ od m. Góra, za Włodków Dolny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Wohlau: Mondschütz (Juhnke)!;[...]",
+  lon = 16.60603,  
+  lat = 51.31255,
+  comments = "Mojęcice, gm. Wołów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Brieg: Stoberauer Oderwald (Wittig);[...]",
+  lon = 17.64882,  
+  lat = 50.83213,
+  comments = "Stobrawa, gm. Popielów; las nad rzeką Odra, na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Rückers: an der Mündung des Haselflusses (Kramarz)!;[...]",
+  lon = 16.45428,  
+  lat = 50.40586,
+  comments = "ujście (zakładam że strumienia Laska [Hasel = leszczyna, orzech laskowy => Laska]) Haselfiusses, Szczytna, gm. Szczytna, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Leschnitz: Annaberg (Prof. Brinkmann); [...]",
+  lon = 18.16908,  
+  lat = 50.45582,
+  comments = "Góra Świętej Anny, gm. Leśnica, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Impatiens parviflora [...] Gleiwitz: an Gartenzäunen (Czmok)!",
+  lon = 18.70715, 
+  lat = 50.30579,
+  comments = "Gliwice; na płotach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens Roylei",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "I. Roylei Lähn: in einem Rübenacker bei Matzdorf (Buchs)!; [...]",
+  lon = 15.61592, 
+  lat = 50.97137,
+  comments = "Maciejowiec, gm. Lubomierz, pow. lwówecki; na polu buraków"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens Roylei",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "I. Roylei [...] Neurode: Hausdorf Kramarz)!",
+  lon = 16.50938, 
+  lat = 50.63251,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malva moschata Flinsberg (Tscheppe)!; [...]",
+  lon = 15.34430, 
+  lat = 50.91184,
+  comments = "Świeradów Zdrój, wielokrotnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malva moschata [...] Liebenthal: Stadtwald, weißblühend (Buchs)!;[...]",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski; o białych kwiatach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malva moschata [...] Jauer: Leipe (Kruber); [...]",
+  lon = 16.01937,  
+  lat = 50.97023,
+  comments = "Lipa, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malva moschata [...] Glatz: am Neißeufer (Pander);[...]",
+  lon = 16.65937, 
+  lat = 50.44292,
+  comments = "Kłodzko, Nysa Kłodzka, brzeg rzeki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malva moschata [...] Rückers: Galgenberghäuser (Kramarz)!",
+  lon = 16.45912,  
+  lat = 50.42548,
+  comments = "Borowina, Szczytna, gm. Szczytna, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva crispa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "M. crispa Naumburg a. B: Bobergasse, Saganer Straße, Kohlholzweg u. a. (Tscheppe)!",
+  lon = 15.24838, 
+  lat = 51.79763,
+  comments = "Nowogród Bobrzański, droga żagańska; nie potrafię wskazać Bobergasse i Kohlholzweg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malope trifida",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Malope trifida Breslau: Schuttplatz vor Morgenau!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Althaea officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Althaea officinalis Breslau: Schuttplatz vor Friedewalde!",
+  lon = 17.09699, 
+  lat = 51.13491, 
+  comments = "Mirowiec, os. Kowale, Wrocław, wysypisko śmieci"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Kobelwitz", entry))
+  subset(grepl("Friedewalde", entry))
 
   #' TODO - dokońćzyć
 

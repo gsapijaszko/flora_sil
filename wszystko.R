@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Dobrau", entry))
+  subset(grepl("Ujesch", entry))
 
 # lcvplants::lcvp_fuzzy_search(c(  "Vaccinium oxycoccus",
 #                                  "Vaccinium uliginosum",
@@ -75,8 +75,7 @@ pla <- geodata::gadm(country = c("POL"), level=1, path = "data") |>
   sf::st_union() |>
   sf::st_transform(crs = sf::st_crs(a))
 
-aPL <- a |>
-  subset(apply(sf::st_within(a, pla, sparse = FALSE), 1, any))
+aPL <- sf::st_filter(a, pla)
 
 aPL |>
   dplyr::left_join(an, by = "species") |>
@@ -90,11 +89,10 @@ aPL <- aPL |>
   sf::st_drop_geometry() |>
   dplyr::left_join(atpolR::atpol10k(), by = "Name") |>
   subset(select = -c(centroid)) |>
-  subset(select = c("n", "geometry")) |>
+  subset(select = c("n", "geometry", "Name")) |>
   sf::st_as_sf()
 
-a_outPL <- a |>
-  subset(apply(!sf::st_within(a, pla, sparse = FALSE), 1, any)) |>
+a_outPL <- sf::st_filter(a, pla, .predicate = sf::st_disjoint) |>
   subset(select = "geometry")|>
   unique()
 
@@ -160,3 +158,4 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # RefManageR::PrintBibliography(wip)
 # # 
 
+aPL
