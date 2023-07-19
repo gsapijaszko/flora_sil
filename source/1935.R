@@ -911,7 +911,7 @@ jahres <- data.frame(
   entry = "J. tenuis [...] Kanth: Krieblowitz (Schoepke) [...]",
   lon = 16.79916, 
   lat = 51.00836,
-  comments = "Krobielowice"
+  comments = "Krobielowice, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3081,7 +3081,7 @@ jahres <- data.frame(
   entry = "Viola persicifolia Kanth: Krieblowitz (Schoepke)!;",
   lon = 16.79916, 
   lat = 51.00836,
-  comments = "Krobielowice"
+  comments = "Krobielowice, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

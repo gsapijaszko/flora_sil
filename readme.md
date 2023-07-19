@@ -30,18 +30,15 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                  species                                                citation
-    1 Bromus scoparius L. @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2   Teucrium scordium        @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                 entry      lon
-    1 Bromus scoparius L. Breslau: Güterbahnhof West, recht zahlreich! 17.01173
-    2                     Teucrium Scordium [...] Strehlen: Louisdorf! 17.21246
-           lat                                     comments year
-    1 51.11007 Wrocław, między ul. Braniborska a Robotnicza 1933
-    2 50.73748          Łojowice, gm. Wiązów, pow. Strzelin 1935
-             accepted_name
-    1                 <NA>
-    2 Teucrium scordium L.
+                   species                                                citation
+    1 Polemonium coeruleum        @schalowErgebnisseDurchforschungSchlesischen1935
+    2        Carex pendula @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                    entry     lon      lat
+    1 Polemonium coeruleum Liebenthal: Stadtwald (Buchs)! 15.5098 51.00327
+    2          C. pendula Rückers: am Mensekamm (Becker)!      NA       NA
+                        comments year           accepted_name
+    1 Lubomierz, Las Lubomierski 1935 Polemonium caeruleum L.
+    2                            1933     Carex pendula Huds.
 
 </div>
 
@@ -130,14 +127,16 @@ malvas |>
     13                    Malva moschata L. CF11
     14                  Malva parviflora L. BE49
     15 Malva thuringiaca subsp. thuringiaca BE57
-    16        Malva trimestris (L.) Salisb. AE58
-    17        Malva trimestris (L.) Salisb. AE67
-    18                Malva verticillata L. AD59
-    19                Malva verticillata L. AE58
-    20                Malva verticillata L. BE49
-    21                Malva verticillata L. BE59
-    22                Malva verticillata L. BF07
-    23                Malva verticillata L. CF65
+    16 Malva thuringiaca subsp. thuringiaca CF35
+    17        Malva trimestris (L.) Salisb. AE58
+    18        Malva trimestris (L.) Salisb. AE59
+    19        Malva trimestris (L.) Salisb. AE67
+    20                Malva verticillata L. AD59
+    21                Malva verticillata L. AE58
+    22                Malva verticillata L. BE49
+    23                Malva verticillata L. BE59
+    24                Malva verticillata L. BF07
+    25                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -213,7 +212,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2915 records (species - localization) including 2849 with
+total 2920 records (species - localization) including 2854 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

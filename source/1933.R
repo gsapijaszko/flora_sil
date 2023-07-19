@@ -4392,11 +4392,56 @@ jahres <- data.frame(
   comments = "Mirowiec, os. Kowale, Wrocław, wysypisko śmieci"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Lavatera thuringiaca",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Lavatera thuringiaca Oberglogau: Schwesterwitz (Torka)",
+  lon = 17.96594,  
+  lat = 50.33516,
+  comments = "Zwiastowice, gm. Głogówek, pow. prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lavatera trimestris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "L. trimestris Lähn: Arnsberg (Buchs)!",
+  lon = 15.68083,  
+  lat = 51.02045,
+  comments = "Gościdadz, Wleń, gm. Wleń, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hibiscus trionum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Hibiscus Trionum Breslau: Schuttplatz vor Morgenau!",
+  lon = 17.06966, 
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Abutilon Avicennae",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Abutilon Avicennae Reichenbach: auf einem Kartoffelacker bei Ndr.-Peilau (Landwirtschaftskammer)!",
+  lon = 16.69699,  
+  lat = 50.69867,
+  comments = "Piława Dolna, gm. Dzierżoniów; na polu ziemniaków"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hypericum hirsutum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
+  entry = "Hypericum hirsutum Kanth: Kieferberg bei Krieblowitz (Schoepke)!",
+  lon = 16.79848, 
+  lat = 51.01842,
+  comments = "[wzgórze] Wierzchowiska, Krobielowice, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Friedewalde", entry))
+  subset(grepl("Krieblowitz", entry))
 
   #' TODO - dokońćzyć
 
