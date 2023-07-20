@@ -342,21 +342,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Botrychium lunaria",
-  citation = "@schubeErgebnisseDurchforschungSchlesischen1914", 
-  entry = "Botrychium Lunaria. Räuden: rechts der Gleiwitzer Heerstraße, zahlreich (W.)! mit spärlichem f. incisum (W.).",
-  lon = 18.45947, 
-  lat = 50.19339, 
-  comments = "Rudy, gm. Kuźnia Raciborksa, pow. raciborski"
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Botrychium lunaria f. incisum",
+  species = c("Botrychium lunaria", "Botrychium lunaria f. incisum"),
   citation = "@schubeErgebnisseDurchforschungSchlesischen1914", 
   entry = "Botrychium Lunaria. Rauden: rechts der Gleiwitzer Heerstraße, zahlreich (W.)! mit spärlichem f. incisum (W.).",
   lon = 18.45947, 
   lat = 50.19339, 
-  comments = ""
+  comments = "Rudy, gm. Kuźnia Raciborksa, pow. raciborski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1672,9 +1663,9 @@ jahres <- data.frame(
   species = "Lycopodium annotinum f. integrifolium",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Lycopodium annotinum f. integrifolium Rauden: Park Buk (v. Uechtritz, h. s.)!",
-  lon = 18.44710, 
-  lat = 50.18835, 
-  comments = ""
+  lon = 18.43956, 
+  lat = 50.18016, 
+  comments = "Rudy, gm. Kuźnia Raciborska, pow. raciborski; okolice amfiteatru Buk"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

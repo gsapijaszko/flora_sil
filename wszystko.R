@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Ujesch", entry))
+  subset(grepl("Tragopogon orient", entry))
 
 # lcvplants::lcvp_fuzzy_search(c(  "Vaccinium oxycoccus",
 #                                  "Vaccinium uliginosum",
@@ -29,11 +29,13 @@ jahres |>
 # ))
 # 
 
-jahres |>
+jahres <- jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   dplyr::left_join(an, by = "species") |>
-  dplyr::arrange(accepted_name, year) |>
-  saveRDS(file = "data/flora_sil.Rds")
+  dplyr::arrange(accepted_name, year)
+
+saveRDS(jahres, file = "data/flora_sil.Rds")
+write.csv(jahres, file = "data/flora_sil.csv")
 #  openxlsx::write.xlsx(file = "ddd.xlsx")
 
 

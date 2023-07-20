@@ -1,5 +1,3 @@
-# Flora Silesiae
-Grzegorz Sapijaszko
 
 ## Flora Silesiae
 
@@ -20,6 +18,9 @@ using:
 jahres <- readRDS(file = "data/flora_sil.Rds")
 ```
 
+If you prefer `.csv` data format, then you can look on
+`data/flora_sil.csv` file.
+
 Let’s have a look on `jahres` data frame:
 
 <div class="column-page">
@@ -29,18 +30,18 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                   species                                                citation
-    1 Potentilla norvegica        @schalowErgebnisseDurchforschungSchlesischen1934
-    2    Anemone pratensis @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                       entry
-    1                      P. norvegica [...] Falkenberg: Lawnikteich!;[...]
-    2 Anemone pratensis [...] Wohlau: [...] Mägdeberg bei Mondschütz, [...] 
-           lon      lat                                                  comments
-    1 17.64266 50.57072 staw Ławnik, Ligota Tułowicka, gm. Tułowice, pow. opolski
-    2 16.61765 51.30139                    [wzgórze] Dziewin, Mojęcice, gm. Wołów
-      year                          accepted_name
-    1 1934                Potentilla norvegica L.
-    2 1933 Pulsatilla pratensis subsp. pratensis 
+                     species                                         citation
+    1      Cuscuta Epithymum              @wimmerBerichtUberVerhandlungen1850
+    2 Imperatoria ostruthium @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                                                                                                                     entry
+    1 Seltnere Pflanzen von L. Unverricht in Myslowitz. (Cuscuta Epithymum? auf Klee; Lindernia bei Myslowitz; \n  Elatine triandra und E. hexandra, welche letztere neu für Schlesien ist, ebendaselbst.)
+    2                                                                                                                  Imperatoria Ostruthium [...] Habelschwerdt: zwischen Brand und Brandbaude (Rauhut)!
+           lon      lat                                   comments year
+    1       NA       NA                              Lindernia (?) 1850
+    2 16.53807 50.28059 między wsią Spalona a schroniskiem Jagodna 1935
+                  accepted_name
+    1                      <NA>
+    2 Imperatoria ostruthium L.
 
 </div>
 
@@ -106,35 +107,19 @@ malvas |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
   subset(select = c("accepted_name", "Name")) |>
+  dplyr::slice_sample(n = 8) |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                              accepted_name Name
-    1                     Malva moschata L. AE58
-    2                     Malva moschata L. AE67
-    3                     Malva moschata L. AE67
-    4                     Malva moschata L. BE53
-    5                     Malva moschata L. BE62
-    6                     Malva moschata L. BE71
-    7                     Malva moschata L. BE74
-    8                     Malva moschata L. BE82
-    9                     Malva moschata L. BF01
-    10                    Malva moschata L. BF24
-    11                    Malva moschata L. BF26
-    12                    Malva moschata L. CE81
-    13                    Malva moschata L. CF11
-    14                  Malva parviflora L. BE49
-    15 Malva thuringiaca subsp. thuringiaca BE57
-    16 Malva thuringiaca subsp. thuringiaca CF35
-    17        Malva trimestris (L.) Salisb. AE58
-    18        Malva trimestris (L.) Salisb. AE59
-    19        Malva trimestris (L.) Salisb. AE67
-    20                Malva verticillata L. AD59
-    21                Malva verticillata L. AE58
-    22                Malva verticillata L. BE49
-    23                Malva verticillata L. BE59
-    24                Malva verticillata L. BF07
-    25                Malva verticillata L. CF65
+                      accepted_name Name
+    1             Malva moschata L. BE53
+    2             Malva moschata L. BF01
+    3             Malva moschata L. BF26
+    4             Malva moschata L. CE81
+    5             Malva moschata L. CF11
+    6 Malva trimestris (L.) Salisb. AE58
+    7         Malva verticillata L. AD59
+    8         Malva verticillata L. BE49
 
 ### How to participate
 
@@ -210,7 +195,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 2929 records (species - localization) including 2863 with
+total 3042 records (species - localization) including 2976 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

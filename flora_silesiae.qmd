@@ -1,6 +1,6 @@
 ---
-title: "Flora Silesiae"
-author: "Grzegorz Sapijaszko"
+# title: "Flora Silesiae"
+# author: "Grzegorz Sapijaszko"
 format: 
   html:
     toc: true
@@ -35,6 +35,8 @@ jahres <- readRDS(file = "data/flora_sil.Rds")
 #| echo: false
 total_jahres <- nrow(jahres)
 ```
+
+If you prefer `.csv` data format, then you can look on `data/flora_sil.csv` file.
 
 Let's have a look on `jahres` data frame:
 
@@ -116,7 +118,9 @@ malvas |>
   sf::st_join(atpolR::atpol10k()) |>
   sf::st_drop_geometry() |>
   subset(select = c("accepted_name", "Name")) |>
+  dplyr::slice_sample(n = 8) |>
   dplyr::arrange(accepted_name, Name)
+
 ```
 
 ### How to participate

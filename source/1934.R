@@ -5038,9 +5038,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Tragopogon orientälis",
+  species = "Tragopogon orientalis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Tragopogon orientälis Gleiwitz: Langendorf (A. Franke)!",
+  entry = "Tragopogon orientalis Gleiwitz: Langendorf (A. Franke)!",
   lon = 18.61546, 
   lat = 50.51173,
   comments = "Wielowieś, pow. gliwicki"
