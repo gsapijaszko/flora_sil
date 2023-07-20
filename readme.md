@@ -2,7 +2,7 @@
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
-’Botanische Sektion\` in *Jahres-Bericht der Schlesischen Gesellschaft
+‘Botanische Sektion’ in *Jahres-Bericht der Schlesischen Gesellschaft
 für vaterländische Cultur*. Electronic versions of the reports can be
 found at [Opole Digital
 Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and
@@ -30,18 +30,15 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-                     species                                         citation
-    1      Cuscuta Epithymum              @wimmerBerichtUberVerhandlungen1850
-    2 Imperatoria ostruthium @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                                                                                                                     entry
-    1 Seltnere Pflanzen von L. Unverricht in Myslowitz. (Cuscuta Epithymum? auf Klee; Lindernia bei Myslowitz; \n  Elatine triandra und E. hexandra, welche letztere neu für Schlesien ist, ebendaselbst.)
-    2                                                                                                                  Imperatoria Ostruthium [...] Habelschwerdt: zwischen Brand und Brandbaude (Rauhut)!
-           lon      lat                                   comments year
-    1       NA       NA                              Lindernia (?) 1850
-    2 16.53807 50.28059 między wsią Spalona a schroniskiem Jagodna 1935
-                  accepted_name
-    1                      <NA>
-    2 Imperatoria ostruthium L.
+               species                                         citation
+    1  Rumex aquaticus @schalowErgebnisseDurchforschungSchlesischen1934
+    2 Filago apiculata @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                         entry
+    1 R. aquaticus Hoyerswerda: Elsterwiese bei Sollschwitz (Militzer)!; [...]
+    2                                        Filago apiculata Strehlen: Rosen!
+           lon      lat comments year      accepted_name
+    1 14.22238 51.34745          1934 Rumex aquaticus L.
+    2 17.22478 50.69312   Rożnów 1935               <NA>
 
 </div>
 
@@ -66,6 +63,9 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
+<details>
+<summary>Code</summary>
+
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -81,6 +81,8 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
+
+</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -111,15 +113,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. BE53
-    2             Malva moschata L. BF01
-    3             Malva moschata L. BF26
-    4             Malva moschata L. CE81
-    5             Malva moschata L. CF11
-    6 Malva trimestris (L.) Salisb. AE58
-    7         Malva verticillata L. AD59
-    8         Malva verticillata L. BE49
+              accepted_name Name
+    1     Malva moschata L. BE62
+    2     Malva moschata L. BE71
+    3     Malva moschata L. BE74
+    4     Malva moschata L. BF24
+    5     Malva moschata L. CF11
+    6 Malva verticillata L. AD59
+    7 Malva verticillata L. AE58
+    8 Malva verticillata L. BF07
 
 ### How to participate
 
@@ -195,7 +197,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3042 records (species - localization) including 2976 with
+total 3043 records (species - localization) including 2977 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

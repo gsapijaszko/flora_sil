@@ -5301,11 +5301,20 @@ jahres <- data.frame(
   comments = "Borek, Szczytna, gm. Szczytna, pow. kłodzki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Melittis melissophyllum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
+  entry = "Melittis Melissophyllum Lüben: Buchwäldchen (Weimann)!",
+  lon = 16.26346, 
+  lat = 51.29703,
+  comments = "Buczynka, gm. Lubin"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Rudzinitz", entry))
+  subset(grepl("Lüben:", entry))
 
   #' TODO - dokońćzyć
 

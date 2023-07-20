@@ -18,7 +18,7 @@ source("wszystko.R")
 
 ## Flora Silesiae
 
-Historical data of the flora of Silesia based on articles published by 'Botanische Sektion` in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+Historical data of the flora of Silesia based on articles published by 'Botanische Sektion' in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
 
 
 ### How to use
@@ -71,6 +71,7 @@ And plot it on simple map using `tmap` package:
 #| warning: false
 #| message: false
 #| error: false
+#| code-fold: true
 #| 
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
