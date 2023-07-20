@@ -2190,7 +2190,7 @@ jahres <- data.frame(
   entry = "Sedum spurium Liebenthal: Mittel-Schmottseiffen (Buchs)!;",
   lon = 15.59113, 
   lat = 51.05175,
-  comments = "Pławna Średnia"
+  comments = "Pławna Średnia, gm. Lubomierz, pow. lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2199,7 +2199,7 @@ jahres <- data.frame(
   entry = "Sedum spurium [...] Kanth: Klein-Schottkau (Schoepke)!",
   lon = 16.79826, 
   lat = 51.04267,
-  comments = "Sadkówek"
+  comments = "Sadkówek, Sadków, gm. Kąty Wrocławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2352,7 +2352,7 @@ jahres <- data.frame(
   entry = "P. recta Liegnitz: gegen Boberau (Weimann)!",
   lon = 16.13368, 
   lat = 51.23529,
-  comments = "Boborów"
+  comments = "Bobrów, gm. Miłkowice, pow. legnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2361,7 +2361,7 @@ jahres <- data.frame(
   entry = "P. canescens Strehlen: Rosen!;",
   lon = 17.22478, 
   lat = 50.69312,
-  comments = "Rożnów"
+  comments = "Rożnów, gm. Przeworno, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4225,7 +4225,7 @@ jahres <- data.frame(
   entry = "Filago apiculata Strehlen: Rosen!",
   lon = 17.22478, 
   lat = 50.69312,
-  comments = "Rożnów"
+  comments = "Rożnów, gm. Przeworno, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

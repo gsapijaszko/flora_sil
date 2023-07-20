@@ -30,15 +30,21 @@ jahres |>
   dplyr::slice_sample(n = 2) 
 ```
 
-               species                                         citation
-    1  Rumex aquaticus @schalowErgebnisseDurchforschungSchlesischen1934
-    2 Filago apiculata @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                         entry
-    1 R. aquaticus Hoyerswerda: Elsterwiese bei Sollschwitz (Militzer)!; [...]
-    2                                        Filago apiculata Strehlen: Rosen!
-           lon      lat comments year      accepted_name
-    1 14.22238 51.34745          1934 Rumex aquaticus L.
-    2 17.22478 50.69312   Rożnów 1935               <NA>
+                        species
+    1 Limnanthemum nymphaeoides
+    2         Sanguisorba minor
+                                                     citation
+    1        @schalowErgebnisseDurchforschungSchlesischen1936
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                                                                                                                                                     entry
+    1 Bemerkenswert ist ferner, daß Limnanthemum nymphaeoides nach den Angaben von Mittelschullehrer Stürzenbecher, Weißwasser, in den Teichen zwischen Muskau und Niesky jetzt weit verbreitet sein soll.
+    2                                                                                                                                                  Sanguisorba minor Naumburg a. B. (Tscheppe)!; [...]
+           lon      lat                         comments year
+    1 14.78133 51.40996 w stawach między Muskau a Niesky 1936
+    2 15.24084 51.79564              Nowogród Bobrzański 1933
+                                   accepted_name
+    1      Nymphoides peltata (S.G.Gmel.) Kuntze
+    2 Poterium sanguisorba subsp. sanguisorba L.
 
 </div>
 
@@ -89,10 +95,10 @@ tm <- tmap::tm_shape(boundaries) +
 In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with coordinates
 provided by `jahres` data set. For that we will use `atpolR` package. As
-the ATPOL grid is provided in `EPSG:2180` reference system, we have to
-transform our `malvas` set to it, prior to run spatial join. And
-secondly, as it’s used only in Poland, we have to filter out only
-location within Poland’s border.
+the ATPOL grid is provided in `EPSG:2180` coordinate reference system,
+we have to transform our `malvas` set to it, prior to run spatial join.
+And secondly, as ATPOL is used only in Poland, we have to filter out
+locations within Poland’s border.
 
 ``` r
 atpol10 <- atpolR::atpol10k()
@@ -113,15 +119,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. BE62
-    2     Malva moschata L. BE71
-    3     Malva moschata L. BE74
-    4     Malva moschata L. BF24
-    5     Malva moschata L. CF11
-    6 Malva verticillata L. AD59
-    7 Malva verticillata L. AE58
-    8 Malva verticillata L. BF07
+                             accepted_name Name
+    1                    Malva moschata L. BE71
+    2                    Malva moschata L. BF01
+    3                    Malva moschata L. BF24
+    4                    Malva moschata L. BF26
+    5                  Malva parviflora L. BE49
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. AD59
 
 ### How to participate
 

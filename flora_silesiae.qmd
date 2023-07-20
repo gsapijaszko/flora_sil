@@ -100,7 +100,7 @@ tmap::tmap_save(tm, "malvas.png", height = 4)
 
 ![Malvas distribution](malvas.png)
 
-In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as it's used only in Poland, we have to filter out only location within Poland's border.
+In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` coordinate reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as ATPOL is used only in Poland, we have to filter out locations within Poland's border.
 
 ```{r}
 #| label: atpol
