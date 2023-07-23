@@ -18,8 +18,8 @@ using:
 jahres <- readRDS(file = "data/flora_sil.Rds")
 ```
 
-If you prefer `.csv` data format, then you can look on
-`data/flora_sil.csv` file.
+If you prefer `.csv` data format, to load it into *LibreOffice Calc* or
+*Excel* then you will find it in `data/flora_sil.csv` file.
 
 Let’s have a look on `jahres` data frame:
 
@@ -27,30 +27,27 @@ Let’s have a look on `jahres` data frame:
 
 ``` r
 jahres |>
-  dplyr::slice_sample(n = 2) 
+  dplyr::slice_sample(n = 3) 
 ```
 
-                        species
-    1 Limnanthemum nymphaeoides
-    2         Sanguisorba minor
-                                                     citation
-    1        @schalowErgebnisseDurchforschungSchlesischen1936
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                                                                                                                                                     entry
-    1 Bemerkenswert ist ferner, daß Limnanthemum nymphaeoides nach den Angaben von Mittelschullehrer Stürzenbecher, Weißwasser, in den Teichen zwischen Muskau und Niesky jetzt weit verbreitet sein soll.
-    2                                                                                                                                                  Sanguisorba minor Naumburg a. B. (Tscheppe)!; [...]
-           lon      lat                         comments year
-    1 14.78133 51.40996 w stawach między Muskau a Niesky 1936
-    2 15.24084 51.79564              Nowogród Bobrzański 1933
-                                   accepted_name
-    1      Nymphoides peltata (S.G.Gmel.) Kuntze
-    2 Poterium sanguisorba subsp. sanguisorba L.
+                   species                                                citation
+    1 Equisetum variegatum         @schubeErgebnisseDurchforschungSchlesischen1914
+    2 Eriophorum vaginatum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3    Alyssum argenteum        @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                  entry      lon
+    1   Equisetum variegatum. Cosel: Pogorzelletzwiesen bei Rogau (M.). 18.11072
+    2 Eriophorum vaginatum Naumburg a. B.: [...] Erlenbruch (Tscheppe)!       NA
+    3                 Alyssum argenteum Liebenthal: auf Mauern (Buchs)! 15.50856
+           lat             comments year                       accepted_name
+    1 50.35259                      1914      Equisetum variegatum Schleich.
+    2       NA                      1933             Eriophorum vaginatum L.
+    3 51.01254 Lubomierz, na murach 1935 Odontarrhena argentea (All.) Ledeb.
 
 </div>
 
-Having pair of geographical coordinates – `lon`\[gitude\] and
-`lat`\[itude\] – it’s very easy to convert the data frame to simple
-feature df, for example using `sf` package.
+Having pair of geographical coordinates – `lon[gitude]` and `lat[itude]`
+– it’s very easy to convert the data frame to simple feature df, for
+example using `sf` package.
 
 ``` r
 jahres <- jahres |>
@@ -59,7 +56,7 @@ jahres <- jahres |>
 ```
 
 Now it’s quite easy to run any spatial analysis like distribution, or
-density. Let’s look on distribution of malvas:
+density. Let’s have a look on distribution of malvas:
 
 ``` r
 malvas <- jahres |>
@@ -94,10 +91,11 @@ tm <- tmap::tm_shape(boundaries) +
 
 In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with coordinates
-provided by `jahres` data set. For that we will use `atpolR` package. As
-the ATPOL grid is provided in `EPSG:2180` coordinate reference system,
-we have to transform our `malvas` set to it, prior to run spatial join.
-And secondly, as ATPOL is used only in Poland, we have to filter out
+provided by `jahres` data set. For that we will use
+[`atpolR`](https://github.com/gsapijaszko/atpolR) package. As the ATPOL
+grid is provided in `EPSG:2180` coordinate reference system, we have to
+transform our `malvas` set to it, prior to run spatial join. And
+secondly, as ATPOL is used only in Poland, we have to filter out
 locations within Poland’s border.
 
 ``` r
@@ -120,14 +118,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE71
+    1                    Malva moschata L. BE74
     2                    Malva moschata L. BF01
-    3                    Malva moschata L. BF24
-    4                    Malva moschata L. BF26
-    5                  Malva parviflora L. BE49
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. AD59
+    3                    Malva moschata L. CE81
+    4                    Malva moschata L. CF11
+    5 Malva thuringiaca subsp. thuringiaca CF35
+    6                Malva verticillata L. AD59
+    7                Malva verticillata L. BE49
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -184,6 +182,7 @@ please add.
 - [Kartenforum](https://kartenforum.slub-dresden.de/)
 - [Arcanum
   Maps](https://maps.arcanum.com/en/map/europe-19century-secondsurvey/)
+- [Meyers Gazetteer](https://www.meyersgaz.org/)
 
 Two map layers provided by Urząd Marszałkowski Województwa
 Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
@@ -203,7 +202,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3043 records (species - localization) including 2977 with
+total 3108 records (species - localization) including 3041 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -217,32 +216,32 @@ And the number of records per year:
 
 #### WIP
 
-    [1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-    vaterländische Cultur_ 105 (1933), pp. 154-173.
+[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+vaterländische Cultur_ 105 (1933), pp. 154-173.
 
 #### Done
 
-    [1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-    (1850), pp. 75-76.
+[1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+(1850), pp. 75-76.
 
-    [2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-    _Uebersicht der Arbeiten und Veränderungen der schlesischen
-    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+[2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+_Uebersicht der Arbeiten und Veränderungen der schlesischen
+Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-    [3] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-    140-156.
+[3] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+140-156.
 
-    [4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-    55-71.
+[4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+55-71.
 
-    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-    66-81.
+[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+66-81.

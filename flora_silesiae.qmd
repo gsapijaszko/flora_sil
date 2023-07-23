@@ -36,7 +36,7 @@ jahres <- readRDS(file = "data/flora_sil.Rds")
 total_jahres <- nrow(jahres)
 ```
 
-If you prefer `.csv` data format, then you can look on `data/flora_sil.csv` file.
+If you prefer `.csv` data format, to load it into *LibreOffice Calc* or *Excel* then you will find it in `data/flora_sil.csv` file.
 
 Let's have a look on `jahres` data frame:
 
@@ -44,11 +44,11 @@ Let's have a look on `jahres` data frame:
 ```{r}
 
 jahres |>
-  dplyr::slice_sample(n = 2) 
+  dplyr::slice_sample(n = 3) 
 ```
 :::
 
-Having pair of geographical coordinates -- `lon`[gitude] and `lat`[itude] -- it's very easy to convert the data frame to simple feature df, for example using `sf` package.
+Having pair of geographical coordinates -- `lon[gitude]` and `lat[itude]` -- it's very easy to convert the data frame to simple feature df, for example using `sf` package.
 
 ```{r}
 jahres <- jahres |>
@@ -56,7 +56,7 @@ jahres <- jahres |>
   sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326")
 ```
 
-Now it's quite easy to run any spatial analysis like distribution, or density. Let's look on distribution of malvas:
+Now it's quite easy to run any spatial analysis like distribution, or density. Let's have a look on distribution of malvas:
 
 ```{r}
 malvas <- jahres |>
@@ -100,7 +100,7 @@ tmap::tmap_save(tm, "malvas.png", height = 4)
 
 ![Malvas distribution](malvas.png)
 
-In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use `atpolR` package. As the ATPOL grid is provided in `EPSG:2180` coordinate reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as ATPOL is used only in Poland, we have to filter out locations within Poland's border.
+In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use [`atpolR`](https://github.com/gsapijaszko/atpolR) package. As the ATPOL grid is provided in `EPSG:2180` coordinate reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as ATPOL is used only in Poland, we have to filter out locations within Poland's border.
 
 ```{r}
 #| label: atpol
@@ -173,6 +173,7 @@ Feel free to participate, spot an error or add missing data. If you recognize so
 + [Mapster](http://igrek.amzp.pl/)
 + [Kartenforum](https://kartenforum.slub-dresden.de/)
 + [Arcanum Maps](https://maps.arcanum.com/en/map/europe-19century-secondsurvey/)
++ [Meyers Gazetteer](https://www.meyersgaz.org/)
 
 Two map layers provided by Urząd Marszałkowski Województwa Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 
