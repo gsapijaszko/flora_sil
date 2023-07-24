@@ -73,7 +73,6 @@ pla <- geodata::gadm(country = c("POL"), level=1, path = "data") |>
 aPL <- sf::st_filter(a, pla)
 
 aPL |>
-  dplyr::left_join(an, by = "species") |>
   readr::write_rds(file = "data/flora_sil_pl.Rds")
 
 aPL <- aPL |>

@@ -222,6 +222,7 @@ bibliography |>
 
 bibliography <- RefManageR::ReadBib("bibliography.bib")
 # 
+RefManageR::NoCite(bibliography, "schalowErgebnisseSchlesischenPhanerogamenforschung1933")
 RefManageR::NoCite(bibliography, "schalowErgebnisseDurchforschungSchlesischen1934")
 RefManageR::NoCite(bibliography, "wimmerBerichtUberVerhandlungen1850")
 RefManageR::NoCite(bibliography, "wimmerNeueUndSeltenere1850")
@@ -237,7 +238,7 @@ RefManageR::BibOptions(sorting = "ynt")
 ```{r}
 #| label: wip
 #| echo: false
-bibliography[key = "schalowErgebnisseSchlesischenPhanerogamenforschung1933"]
+bibliography[key = "schalowErgebnisseDurchforschungSchlesischen1932"]
 ```
 
 #### Done

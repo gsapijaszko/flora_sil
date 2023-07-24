@@ -30,18 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                                citation
-    1 Equisetum variegatum         @schubeErgebnisseDurchforschungSchlesischen1914
-    2 Eriophorum vaginatum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3    Alyssum argenteum        @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                  entry      lon
-    1   Equisetum variegatum. Cosel: Pogorzelletzwiesen bei Rogau (M.). 18.11072
-    2 Eriophorum vaginatum Naumburg a. B.: [...] Erlenbruch (Tscheppe)!       NA
-    3                 Alyssum argenteum Liebenthal: auf Mauern (Buchs)! 15.50856
-           lat             comments year                       accepted_name
-    1 50.35259                      1914      Equisetum variegatum Schleich.
-    2       NA                      1933             Eriophorum vaginatum L.
-    3 51.01254 Lubomierz, na murach 1935 Odontarrhena argentea (All.) Ledeb.
+                           species
+    1           Drosera intermedia
+    2 Selaginella spinulosa A. Br.
+    3               Inula vulgaris
+                                                  citation
+    1                  @wimmerBerichtUberVerhandlungen1850
+    2 @vonuechtritzResultateDurchforschungSchlesischen1886
+    3     @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
+    1 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Selaginella spinulosa A. Br. Gesenke: Fuhrmannstein, Auerliahnbaude (Form.).
+    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Inula vulgaris Liebenthal: Mittel-Schmottseiffen Buchs)!
+           lon      lat                        comments year
+    1 14.97900 51.78799 Lubsko, gm. Lubsko, pow. żarski 1850
+    2 17.10834 50.15296                                 1886
+    3 15.59113 51.05175                  Pławna Średnia 1935
+                                            accepted_name
+    1                                                <NA>
+    2 Selaginella selaginoides (L.) Schrank & C.F.P.Mart.
+    3                             Inula vulgaris Williams
 
 </div>
 
@@ -118,14 +126,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE74
-    2                    Malva moschata L. BF01
-    3                    Malva moschata L. CE81
-    4                    Malva moschata L. CF11
-    5 Malva thuringiaca subsp. thuringiaca CF35
-    6                Malva verticillata L. AD59
-    7                Malva verticillata L. BE49
-    8                Malva verticillata L. BE59
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE71
+    3                    Malva moschata L. BF24
+    4                    Malva moschata L. CE81
+    5                    Malva moschata L. CF11
+    6                  Malva parviflora L. BE49
+    7 Malva thuringiaca subsp. thuringiaca CF35
+    8                Malva verticillata L. AE58
 
 ### How to participate
 
@@ -202,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3108 records (species - localization) including 3041 with
+total 3179 records (species - localization) including 3112 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -216,32 +224,36 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-[1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[3] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [3] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
+
+    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

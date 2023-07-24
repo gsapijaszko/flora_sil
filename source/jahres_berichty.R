@@ -2824,9 +2824,9 @@ jahres <- data.frame(
   species = "Asplenium viride Huds.",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1895", 
   entry = "Asplenium viride Huds. Landeshuter Kamm: Rothenzechau unweit des untern Marmorbruches (Alt)!",
-  lon = 15.90030, 
-  lat = 50.79570, 
-  comments = ""
+  lon = 15.92383,  
+  lat = 50.81733, 
+  comments = "Czarnów, gm. Kamienna Góra; w pobliżu kamieniołomu marmuru"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

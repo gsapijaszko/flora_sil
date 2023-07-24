@@ -30,6 +30,15 @@ if(exists("bibliography")) {
   bibliography <- c(bibliography, bib)
 }
 
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
+  subset(grepl("Kratz", entry))
+
+#' TODO - dokońćzyć
+
+
 #'
 #' II. Neue Standorte schlesischer Pflanzen.
 #' 

@@ -51,21 +51,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Botrychium matricarifolium",
+  species = c("Botrychium matricarifolium", "Botrychium matricariae"),
   citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
   entry = "Botrychium matricarifolium und B. Matricariae Silb: Bittnerkoppe (D)!",
   lon = 16.64434, 
   lat = 50.37212, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Botrychium matricariae",
-  citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
-  entry = "Botrychium matricarifolium und B. Matricariae Silb: Bittnerkoppe (D)!",
-  lon = 16.64434, 
-  lat = 50.37212, 
-  comments = ""
+  comments = "[wzgórze] Goryczka, Żelazno, gm. Kłodzko"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
