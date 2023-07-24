@@ -238,6 +238,9 @@ RefManageR::BibOptions(sorting = "ynt")
 ```{r}
 #| label: wip
 #| echo: false
+
+bibliography[key = "wimmerSchlesischenCarexArtenAus1850"]
+
 bibliography[key = "schalowErgebnisseDurchforschungSchlesischen1932"]
 ```
 

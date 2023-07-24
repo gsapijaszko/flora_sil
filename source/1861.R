@@ -85,7 +85,7 @@ jahres <- data.frame(
   comments = "os. Karłowice, Wrocław"
 ) |> rbind(jahres)
 
-
+#' TODO - dokończyć
 
 ## uechtrizNachtraegeZurFlora1861 ----------------------------------------------------------
 
@@ -138,5 +138,5 @@ jahres <- data.frame(
   comments = "Racibórz, w przedmiejskim gospodarstwie, być może przywleczone z transportem węgierskich świń"
 ) |> rbind(jahres)
 
-#' TODO - dokończyć
+#' TODO - dokończyć @uechtrizNachtraegeZurFlora1861
 #' TODO - Oestr. bot. Zeitschrift 1860. S. 361

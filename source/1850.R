@@ -285,14 +285,110 @@ Sommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: R
 jahres <- data.frame(
   species = c("Bupleurum tenuissimum", "Myriophyllum spicatum"),
   citation = "@wimmerBerichtUberVerhandlungen1850",
-  entry = "Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in
-Sommerfeld. (Als neu für Schlesien: Bupleurum tenuissimum, bei Naumburg am Bober; [...] während M. spicatum nur bei Naumburg beobachtet wurde; [...])",
+  entry = "Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in Sommerfeld. (Als neu für Schlesien: Bupleurum tenuissimum, bei Naumburg am Bober; [...] während M. spicatum nur bei Naumburg beobachtet wurde; [...])",
 lon = 15.24084, 
 lat = 51.79564,
 comments = "Nowogród Bobrzański"
 ) |> rbind(jahres)
 
-#' TODO "Die schelesischen Carex arten... 77-81
+
+## wimmerSchlesischenCarexArtenAus1850 --------------------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "wimmerSchlesischenCarexArtenAus1850",
+    author = "Friedrich Wimmer",
+    title = "Die schlesischen Carex-Arten aus der Gruppe der C. caespitosa revidirt im December 1848",
+    journal = "Uebersicht der Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849",
+    date = "1850",
+    pages = "77--81"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+jahres <- data.frame(
+  species = "Carex acuta L.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. acuta L. [...] Nur einmal in einem Wassergraben auf einer Wiefe zwischen Jätzdorf unb Jacobine bei Ohlau.",
+  lon = 17.25856, 
+  lat = 50.89538,
+  comments = "pomiędzy miejscowościami Jaczkowice i Jakubowice, Drzemlikowice, gm. Oława, pow. oławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex tricostata Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. tricostata Fries. [...] Um Breslau bei Rosenthal [...]",
+  lon = 17.02550,
+  lat = 51.14110,
+  comments = "Wrocław, Różanka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex tricostata Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. tricostata Fries. [...] Um Breslau [...] Neu-Scheitnich, [...]",
+  lon = 17.07577, 
+  lat = 51.11596,
+  comments = "Wrocław, Szczytniki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex tricostata Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. tricostata Fries. [...] um Ohlau bei Jacobine [...] ",
+  lon = 17.24470, 
+  lat = 50.88539,
+  comments = "Jakubowice, Drzemlikowice, gm. Oława"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex tricostata Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. tricostata Fries. [...] um Neisse.",
+  lon = 17.31405, 
+  lat = 50.47100,
+  comments = "Nysa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex compacta",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "C. compacta [...] Nur einmal auf einer nassen Wiese bei Krittern bei Breslau.",
+  lon = 16.98896, 
+  lat = 51.07205,
+  comments = "[Krietern] Wrocław, Krzyki; na podmokłej łące"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex rudis",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex rudis [...] Diese Art habe ich bisher nur an zwei Orten, auf nassen Wiesen bei Klein-Tschansch bei Breslau [...]",
+  lon = 17.08987, 
+  lat = 51.08419,
+  comments = "Wrocław, Księże Małe; na podmokłych łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex rudis",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex rudis [...] Diese Art habe ich bisher nur an zwei Orten, [...] und im Grunde des grossen Kessels im Gesenke, gessammelt.",
+  lon = 17.23064,
+  lat = 50.08040,
+  comments = "Czechy"
+) |> rbind(jahres)
+
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
+  subset(grepl("Kessel", entry))
+
+#' TODO wimmerSchlesischenCarexArtenAus1850
 #' TODO "Ueber Varietaten und Monstrositaten des Equisetum Telmateia... 81-83
 #' TODO ...
 

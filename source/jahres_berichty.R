@@ -2817,7 +2817,7 @@ jahres <- data.frame(
   entry = "Aspidium Thelypteris (L.) Sw. Breslau: Rosenthal (S.).",
   lon = 17.02550,
   lat = 51.14110, 
-  comments = ""
+  comments = "Wrocław, Różanka"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

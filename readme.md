@@ -30,26 +30,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                           species
-    1           Drosera intermedia
-    2 Selaginella spinulosa A. Br.
-    3               Inula vulgaris
-                                                  citation
-    1                  @wimmerBerichtUberVerhandlungen1850
-    2 @vonuechtritzResultateDurchforschungSchlesischen1886
-    3     @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
-    1 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Selaginella spinulosa A. Br. Gesenke: Fuhrmannstein, Auerliahnbaude (Form.).
-    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Inula vulgaris Liebenthal: Mittel-Schmottseiffen Buchs)!
-           lon      lat                        comments year
-    1 14.97900 51.78799 Lubsko, gm. Lubsko, pow. żarski 1850
-    2 17.10834 50.15296                                 1886
-    3 15.59113 51.05175                  Pławna Średnia 1935
-                                            accepted_name
-    1                                                <NA>
-    2 Selaginella selaginoides (L.) Schrank & C.F.P.Mart.
-    3                             Inula vulgaris Williams
+                            species
+    1 Carlina acaulis f. caulescens
+    2       Salix cinerea-viminalis
+    3            Malcolmia maritima
+                                              citation
+    1 @schalowErgebnisseDurchforschungSchlesischen1935
+    2                      @wimmerNeueUndSeltenere1850
+    3 @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                                                                                                                                                                                                                            entry
+    1                                                                                                                                                                                       Carlina acaulis [...] f. caulescens Liebenthal. „Teufelei“ bei Schmottseiffen (Buchs)
+    2 Salix cinerea-viminalis fem. - Um Pentsch bei Strehlen, von demselbem. Diese Form erinnert an die von uns bei Polsnitz gefundenen (Herb. Salic. Nr. 24) und stimmt ganz genau mit einem bei Goldschmiede wachsenden Exemplare, dessen Blüthen wir noch nicht gesehen haben.
+    3                                                                                                                                                                                                                            Malcolmia maritima Liebenthal: Siedlung (Buchs)!
+           lon      lat
+    1 15.56435 51.07066
+    2 17.03254 50.78939
+    3 15.50094 51.01330
+                                                                                           comments
+    1 'Piekiełko', Pławna Dolna (patrz też: https://polska-org.pl/8562032,Spacer_do_Piekielka.html)
+    2                                                                            Pęcz, gm. Strzelin
+    3                                                                                     Lubomierz
+      year                                                accepted_name
+    1 1935 Carlina acaulis subsp. caulescens (Lam.) Schübl. & G.Martens
+    2 1850                                    Salix ×holosericea Willd.
+    3 1934                            Malcolmia maritima (L.) W.T.Aiton
 
 </div>
 
@@ -127,13 +131,13 @@ malvas |>
 
                              accepted_name Name
     1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE71
-    3                    Malva moschata L. BF24
+    2                    Malva moschata L. BE74
+    3                    Malva moschata L. BF01
     4                    Malva moschata L. CE81
-    5                    Malva moschata L. CF11
-    6                  Malva parviflora L. BE49
-    7 Malva thuringiaca subsp. thuringiaca CF35
-    8                Malva verticillata L. AE58
+    5                  Malva parviflora L. BE49
+    6 Malva thuringiaca subsp. thuringiaca BE57
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -210,7 +214,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3179 records (species - localization) including 3112 with
+total 3187 records (species - localization) including 3120 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -224,36 +228,41 @@ And the number of records per year:
 
 #### WIP
 
-    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+im Jahre 1849_ (1850), pp. 77-81.
+
+E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-    [1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-    (1850), pp. 75-76.
+[1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+(1850), pp. 75-76.
 
-    [2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-    _Uebersicht der Arbeiten und Veränderungen der schlesischen
-    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+[2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+_Uebersicht der Arbeiten und Veränderungen der schlesischen
+Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-    [3] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-    vaterländische Cultur_ 105 (1933), pp. 154-173.
+[3] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-    [4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-    140-156.
+[4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+140-156.
 
-    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-    55-71.
+[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+55-71.
 
-    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-    66-81.
+[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+66-81.

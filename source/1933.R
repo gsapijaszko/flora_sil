@@ -871,8 +871,6 @@ jahres <- data.frame(
   comments = "Wrocław, wysypisko przy szosie berlińskiej, obecnie ul. Lotnicza, Kosmonautów"
 ) |> rbind(jahres)
 
-#' TODO - R. von Uechtritz, Nachträge zur Flora von Schlesien. https://www.biodiversitylibrary.org/item/105849#page/238/mode/1up
-  
 jahres <- data.frame(
   species = "Anthoxanthum odoratum f. picta nov. f.",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",

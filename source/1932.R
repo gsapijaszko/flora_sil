@@ -34,7 +34,7 @@ if(exists("bibliography")) {
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Kratz", entry))
+  subset(grepl("Roschowitzer", entry))
 
 #' TODO - dokońćzyć
 
