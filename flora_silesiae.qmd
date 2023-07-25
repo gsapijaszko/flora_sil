@@ -240,6 +240,8 @@ RefManageR::BibOptions(sorting = "ynt")
 #| label: wip
 #| echo: false
 
+bibliography[key = "mildeUeberVarietatenUnd1850"]
+
 bibliography[key = "schalowErgebnisseDurchforschungSchlesischen1932"]
 ```
 

@@ -527,10 +527,65 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
+## mildeUeberVarietatenUnd1850 ----------------------------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "mildeUeberVarietatenUnd1850",
+    author = "Julius Milde",
+    title = "Ueber Varietäten und Monstrositäten des Equisetum Telmateia Ehrh.",
+    journal = "Uebersicht der Arbeiten und Veränderungen der schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849",
+    date = "1850",
+    pages = "81--83"
+  )
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+jahres <- data.frame(
+  species = "Equisetum Telmateia Ehrh.",
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Seit zwei Jahren hatte ich Gelegenheit, E. Telmateia Ehrh. in Neisse an seinen natürlichen Standorten sehr oft zu beobachten. Es erscheint diese Pflanze an zwei stellen daselbst: in der nahen Besitzung Wangenfield [...]",
+  lon = NA,
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Equisetum Telmateia Ehrh.",
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Seit zwei Jahren hatte ich Gelegenheit, E. Telmateia Ehrh. in Neisse an seinen natürlichen Standorten sehr oft zu beobachten. Es erscheint diese Pflanze an zwei stellen daselbst: [...] an dem sogenannten Steinberge;",
+  lon = 17.41825, 
+  lat = 50.43543,
+  comments = "[wzgórze] Meszna (Ober Stein-Berg), Domaszkowice, gm. Nysa [a może chodzi o  Kamienna Góra, Nadziejów, gm. Otmuchów, pow. nyski, teren kopalni granitu?]"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Carex longifolia", "Equisetum hiemale", "Fegatella conica", "Pellia epiphyla", "Aneura pinguis", "Athamana cretenis"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Bei Oppersdorf findet man Carex longifolia, Equisetum hiemale, Fegatella conica, Pellia epiphyla, Aneura pinguis u. a.; auch entdeckte hier Herr Apotheker Lohmeyer die Athamana cretenis, aber nun in einem einzigen Exemplare.",
+  lon = 17.42764, 
+  lat = 50.42144,
+  comments = "Wierzbięcice, gm. Nysa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Cyperus flavescens", "Thysselinum", "Trifolium ochroleucum", "Calla paustris", "Berula", "Cicuta",  "Cardus crispus", "Carduus nutans"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "An der Sellerie findet man Cyperus flavescens, Thysselinum, Trifolium ochroleucum,Calla paustris. Stratiotes und Sium latifolium fehlen ganz; dagegen findet man ueberall Berula und Cicuta. Cardus crispus ist sehr gemain, waehrend Carduus nutans nur selten sich findet.",
+  lon = 17.29674, 
+  lat = 50.47796,
+  comments = "obecnie teren miejscowości Skorochów, gm. Nysa"
+) |> rbind(jahres)
+
+
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Teufel", entry))
+  subset(grepl("gefallen", entry))
 
 #' TODO "Ueber Varietaten und Monstrositaten des Equisetum Telmateia... 81-83
 #' TODO ...
