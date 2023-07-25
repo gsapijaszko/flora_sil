@@ -30,30 +30,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                            species
-    1 Carlina acaulis f. caulescens
-    2       Salix cinerea-viminalis
-    3            Malcolmia maritima
+                               species
+    1               Botrychium lunaria
+    2 Hieracium stoloniflorum-collinum
+    3         Chaerophyllum aromaticum
                                               citation
-    1 @schalowErgebnisseDurchforschungSchlesischen1935
-    2                      @wimmerNeueUndSeltenere1850
+    1  @schubeErgebnisseDurchforschungSchlesischen1909
+    2              @wimmerBerichtUberVerhandlungen1850
     3 @schalowErgebnisseDurchforschungSchlesischen1934
-                                                                                                                                                                                                                                                                            entry
-    1                                                                                                                                                                                       Carlina acaulis [...] f. caulescens Liebenthal. „Teufelei“ bei Schmottseiffen (Buchs)
-    2 Salix cinerea-viminalis fem. - Um Pentsch bei Strehlen, von demselbem. Diese Form erinnert an die von uns bei Polsnitz gefundenen (Herb. Salic. Nr. 24) und stimmt ganz genau mit einem bei Goldschmiede wachsenden Exemplare, dessen Blüthen wir noch nicht gesehen haben.
-    3                                                                                                                                                                                                                            Malcolmia maritima Liebenthal: Siedlung (Buchs)!
+                                                                                                                            entry
+    1                                                               Botrychium lunaria. Lüben: zw. Koslitz und Gr. Reichen (A.)!;
+    2 Standörter seltnerer Pflanzen Schlesiens vom Musik-Direktor Siegert: [...] H. stoloniflorum-collinum bei [...] Seifersdorf;
+    3                                                           Chaerophyllum aromaticum Niesky: gegen die Sandschenke (Militzer)
            lon      lat
-    1 15.56435 51.07066
-    2 17.03254 50.78939
-    3 15.50094 51.01330
-                                                                                           comments
-    1 'Piekiełko', Pławna Dolna (patrz też: https://polska-org.pl/8562032,Spacer_do_Piekielka.html)
-    2                                                                            Pęcz, gm. Strzelin
-    3                                                                                     Lubomierz
-      year                                                accepted_name
-    1 1935 Carlina acaulis subsp. caulescens (Lam.) Schübl. & G.Martens
-    2 1850                                    Salix ×holosericea Willd.
-    3 1934                            Malcolmia maritima (L.) W.T.Aiton
+    1       NA       NA
+    2       NA       NA
+    3 14.80961 51.33568
+                                                                                              comments
+    1                    bez sensu, Kostlitz leży 7 km na N od Lubina, Gr. Reichen 7 km na S od Lubina
+    2 which Seifersdorf? There were 7 in Schlesien (https://s.meyersgaz.org/search?search=Seifersdorf)
+    3                                                                                                 
+      year               accepted_name
+    1 1909 Botrychium lunaria (L.) Sw.
+    2 1850                            
+    3 1934                        <NA>
 
 </div>
 
@@ -130,14 +130,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE74
-    3                    Malva moschata L. BF01
-    4                    Malva moschata L. CE81
-    5                  Malva parviflora L. BE49
-    6 Malva thuringiaca subsp. thuringiaca BE57
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BF24
+    4                  Malva parviflora L. BE49
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6 Malva thuringiaca subsp. thuringiaca CF35
     7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BF07
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -214,7 +214,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3187 records (species - localization) including 3120 with
+total 3203 records (species - localization) including 3136 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -228,41 +228,41 @@ And the number of records per year:
 
 #### WIP
 
-F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
-
-E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-[1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [1] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[2] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [2] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[3] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [3] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[4] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [4] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
+
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

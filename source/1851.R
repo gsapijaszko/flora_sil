@@ -214,9 +214,9 @@ jahres <- data.frame(
   species = "Leontodon taraxacum",
   citation = "@wimmerEinigeFormenSalix1851",
   entry = "Leontodon Taraxacum, caule trifloro. - Von Herrn Lehrer Bartsch bei Garsuche bei Ohlau gefunden.",
-  lon = 17.38644, 
-  lat = 51.00418,
-  comments = NA
+  lon = 17.38467, 
+  lat = 51.00506,
+  comments = "Gorzucha, Nowy Dwór, gm. Jelcz-Laskowice, pow. oławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

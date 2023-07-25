@@ -19,7 +19,10 @@ jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   subset(grepl("Tragopogon orient", entry))
 
-# lcvplants::lcvp_fuzzy_search(c(  "Stachys alpina f. ochroleucus Correns"))
+lcvplants::lcvp_fuzzy_search(c("Adonis flammeus Jacq.",
+                               "Xeranthemum annuum"
+                               )
+                             )
 
 
 jahres <- jahres |>

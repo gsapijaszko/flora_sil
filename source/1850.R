@@ -382,13 +382,156 @@ jahres <- data.frame(
   comments = "Czechy"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Carex vulgaris Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex vulgaris Fries. [...] Bekanntlich die gemeinste Art auf unferen Wiefen.",
+  lon = 16.98896, 
+  lat = 51.07205,
+  comments = "Wrocław, Krzyki; najczęściej spotykany gatunek na łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex melaena",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex melaena. [...] Von dieser Form, welche Herr Lehrer Bartsch auf einer moorigen Wiese bei Garsuche bei Ohlau fand, sah ich einige 20 Exemplare.",
+  lon = 17.38467, 
+  lat = 51.00506,
+  comments = "na łące koło leśniczówki [Garsuche]; Gorzucha, Nowy Dwór, gm. Jelcz-Laskowice, pow. oławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex chlorocarpa",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex chlorocarpa. [...] Bisher nur auf sumpftgen Wiefen bei Klein-Tschansch bei Breslau beobachtet.",
+  lon = 17.08987, 
+  lat = 51.08419,
+  comments = "Wrocław, Księże Małe; na podmokłych łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex stricta Gooden.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex stricta Gooden. [...] Diese Art ist häufig in unseren Sümpfen, auch in Gräben und an den Rändern der Teiche.",
+  lon = 16.72816, 
+  lat = 50.83866,
+  comments = "[podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka; często spotykana"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex gracilis",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen vor Althof bei Breslau, [...] bei Schmolz und am Fusse des Geiersbergers bei Klein-Silsterwitz beobachtet.",
+  lon = 16.83264,  
+  lat = 51.00941,
+  comments = "Stary Dwór, Gniechowice, gm. Kąty Wrocławskie [a może chodzi o Stary Dwór w gm. Wołów?]"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex gracilis",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen [...] bei Schmolz [...]",
+  lon = 16.88251,  
+  lat = 51.08058,
+  comments = "Smolec, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex gracilis",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen am Fusse des Geiersbergers bei Klein-Silsterwitz beobachtet.",
+  lon = 16.72816, 
+  lat = 50.83866,
+  comments = "[podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex caespitosa L. nach Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex caespitosa L. nach Fries. [...] Bisher auf sumpfigen Wiesen am Geiersberge mit den beiden vorigen [...]",
+  lon = 16.72816, 
+  lat = 50.83866,
+  comments = "[podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex caespitosa L. nach Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex caespitosa L. nach Fries. [...] Bisher auf sumpfigen Wiesen [...]  bei Klein-Tschansch bei Breslau gefunden.",
+  lon = 17.08987, 
+  lat = 51.08419,
+  comments = "Wrocław, Księże Małe; na podmokłych łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex turfosa Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex turfosa Fries. [...] In Suempfen bei Goldschmiede [...]",
+  lon = 16.87782, 
+  lat = 51.14077,
+  comments = "Złotniki, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex turfosa Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex turfosa Fries. [...] In Suempfen bei [...] und Klein-Tschansch [...]",
+  lon = 17.08987, 
+  lat = 51.08419,
+  comments = "Wrocław, Księże Małe; na podmokłych łąkach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex turfosa Fries.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex turfosa Fries. [...] und in einem Wassergraben im Nonnenbusche bei Freiburg.",
+  lon = 16.37844, 
+  lat = 50.90135,
+  comments = "Grochotów, gm. Strzegom; rów w lesie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex rigida Gooden.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex rigida Gooden. [...] Auf den baumlosen Gebirgskämmen. Riesengebirge, [...]",
+  lon = 15.65835, 
+  lat = 50.76138,
+  comments = "Na bezdrzewnych grzbietach. Tępy Szczyt, Przesieka, gm. Podgórzyn, pow. karkonoski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex rigida Gooden.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex rigida Gooden. [...] Auf den baumlosen Gebirgskämmen. [...] Schneeberg, [...]",
+  lon = 16.84758, 
+  lat = 50.20881,
+  comments = "Na bezdrzewnych grzbietach. Śnieżnik, Stronie Śląskie, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex rigida Gooden.",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex rigida Gooden. [...] Auf den baumlosen Gebirgskämmen. [...] Gesenke.",
+  lon = 16.92814, 
+  lat = 50.20936,
+  comments = "Na bezdrzewnych grzbietach. Urlich, Czechy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex decolorans",
+  citation = "@wimmerSchlesischenCarexArtenAus1850",
+  entry = "Carex decolorans. [...] Auf dem Lahnberge im Riesengebirge um Knieholzbüsche.",
+  lon = 15.67649, 
+  lat = 50.75560,
+  comments = "Smogornia, Borowice, gm. Podgórzyn, pow. karkonoski; w kosodrzewinie"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Kessel", entry))
+  subset(grepl("Teufel", entry))
 
-#' TODO wimmerSchlesischenCarexArtenAus1850
 #' TODO "Ueber Varietaten und Monstrositaten des Equisetum Telmateia... 81-83
 #' TODO ...
 
