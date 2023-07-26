@@ -74,6 +74,7 @@ an <- c(
   "Barbaraea stricta", "Barbarea stricta Andrz. ex Besser",
   "Berberis vulgaris", "Berberis vulgaris L.",
   "Berteroa incana", "Berteroa incana (L.) DC.",
+  "Berula", "Berula erecta (Huds.)",
   "Beta maritima L.", "Beta maritima L.", 
   "Betula pubescens x verrucosa", "", 
   "Bidens connatus", "Bidens connata Muhl. ex Willd.", 

@@ -17,13 +17,13 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Tragopogon orient", entry))
+  subset(grepl("Equisetum", entry))
 
-lcvplants::lcvp_fuzzy_search(c("Adonis flammeus Jacq.",
-                               "Xeranthemum annuum"
-                               )
-                             )
-
+# lcvplants::lcvp_fuzzy_search(c("Adonis flammeus Jacq.",
+#                                "Xeranthemum annuum"
+#                                )
+#                              )
+# 
 
 jahres <- jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
@@ -32,8 +32,6 @@ jahres <- jahres |>
 
 saveRDS(jahres, file = "data/flora_sil.Rds")
 write.csv(jahres, file = "data/flora_sil.csv")
-#  openxlsx::write.xlsx(file = "ddd.xlsx")
-
 
 # print & plot --------------------------------------------------------------------------------
 #' Tanacetum macrophyllum i Achillea macrophylla
@@ -156,3 +154,11 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # # 
 
 aPL
+# 
+# jahres |>
+#   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
+#   dplyr::left_join(an, by = "species") |>
+#   subset(grepl("Equisetum arvense", accepted_name)) |>
+#   subset(select = c(year, entry, lon, lat, comments)) |>
+#   dplyr::arrange(year)
+# 

@@ -546,12 +546,12 @@ if(exists("bibliography")) {
 }
 
 jahres <- data.frame(
-  species = "Equisetum Telmateia Ehrh.",
+  species = c("Equisetum Telmateia Ehrh.", "Symphytum tuberosum", "Heleocharis ovata", "Epipactis palustris", "Leersia oryzoides", "Riccia fluitans", "Cirsium rivulare", "Cicuta virosa", "Berula", "Epilobium Dodonaei", "Mimulus guttatus", "Blasia pusilla", "Fossombronia", "Anthoceros", "Riccia"),
   citation = "@mildeUeberVarietatenUnd1850",
-  entry = "Seit zwei Jahren hatte ich Gelegenheit, E. Telmateia Ehrh. in Neisse an seinen natürlichen Standorten sehr oft zu beobachten. Es erscheint diese Pflanze an zwei stellen daselbst: in der nahen Besitzung Wangenfield [...]",
-  lon = NA,
-  lat = NA,
-  comments = ""
+  entry = "Seit zwei Jahren hatte ich Gelegenheit, E. Telmateia Ehrh. in Neisse an seinen natürlichen Standorten sehr oft zu beobachten. Es erscheint diese Pflanze an zwei stellen daselbst: in der nahen Besitzung Wangenfield [...] Mit E. Telmateia erscheint bei Wangenfield Symphytum tuberosum, Heleocharis ovata, Epipactis palustris, Leersia oryzoides, Riccia fluitans, Cirsium rivulare, Cicuta, Berula, und im trocknen Bette der Neisse daselbst Epilobium Dodonaei in Menge, zuweilen auch Mimulus guttatus; an Grabenrander Blasia pusilla mit Fossombronia und beiden Anthoceros und den gemeineren Riccia-Arten.",
+  lon = 17.39939, 
+  lat = 50.48496,
+  comments = "Nie znalazłem Wagenfield na mapach. Jedynym źródłem może być wpis w  https://wiki.genealogy.net/Gro%C3%9F_Neundorf: 'Die Erbscholtisei (54 ha) war im Besitz der Familie Kinne, ein Bauergut (74 ha) seit 1650 im Besitz der Familie Beier, außerdem gab es im Ort mehrere große Bauernhöfe. Auf der Adalberthöhe, auf dem Ziegelberg östlich von Maria Hilf gelegen, hatte der Neisser Redakteur und Verleger Moritz Wangenfield um 1831 ein Gasthaus mit Sommerwohnungen und einen parkartigen Garten mit vielen seltenen Bäumen und Sträuchern angelegt. Aus finanziellen Gründen wurde die Anlage 1866 vom späteren Besitzer aufgegeben und abgetragen.' Można przypuszczać, że Wagenfield położone było na terenach wsi Złotogłowice (Groß Neundorf); natomiast z listy gatunków można przypuszczać, że teren był podmokły/położony nad rzeką. Złotogłowice, gm. Nysa"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -581,13 +581,48 @@ jahres <- data.frame(
   comments = "obecnie teren miejscowości Skorochów, gm. Nysa"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = c("Cirsium rivulare", "Cirsium palustre-rivulare", "Cirsium oleraceum-rivulare", "Cirsium oleraceum-palustre", "Cirsium oleraceum-arvense"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Auf den meisten Wiesen findet man Cirsium rivulare mit dem Bastarden: Cirsium palustre-rivulare, C. oleraceum-rivulare; auch wurden C. oleraceum-palustre und C. oleraceum-arvense beobachtet; vergeblich sucht man nach C. canum",
+  lon = 17.40859, 
+  lat = 50.47889,
+  comments = "łąki nad rzeką Nysa Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Cardamine trifolia", "Leucojum vernum", "Utricularia vulgaris", "Alnus incana"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Bei Briesen wurden gefunden: Cardamine trifolia! Leucojum vernum, Utricularia vulgaris, Alnus incana.",
+  lon = 17.46018, 
+  lat = 50.61330,
+  comments = "Brzeziny, gm. Skoroszyce, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Carex paradoxa", "Carex paniculata", "Carex turfosa", "Carex vulgaris", "Carex caespitosa", "Eriophorum gracile", "Aspidium Thelypteris"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = "Auf den Torfwiesen bei Beigwitz findet man: Carex paradoxa, C. paniculata, C. turfosa, C. vulgaris, C. caespitosa, Eriophorum gracile; im Gebuesch: Aspidium Thelypteris.",
+  lon = 17.32241, 
+  lat = 50.52011,
+  comments = "Bykowice, gm. Pakosławice, pow. nyski; na łąkach torfowiskowych"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Cicuta virosa", "Trapa natans", "Preissia commutata"),
+  citation = "@mildeUeberVarietatenUnd1850",
+  entry = " In den Wallgraeben erscheint sehr haeufig Cicuta virosa und Trapa natans. An einzeinen Festungwerken kommt auch Preissia commutata vor.",
+  lon = 17.33587, 
+  lat = 50.46741,
+  comments = "Nysa, w fosie / fortyfikacjach"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
   subset(grepl("gefallen", entry))
 
-#' TODO "Ueber Varietaten und Monstrositaten des Equisetum Telmateia... 81-83
 #' TODO ...
 
 ## wimmerNeueUndSeltenere1850 ------------------------------------------------------------------
