@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Equisetum", entry))
+  subset(grepl("Heidau", entry))
 
 # lcvplants::lcvp_fuzzy_search(c("Adonis flammeus Jacq.",
 #                                "Xeranthemum annuum"
@@ -158,7 +158,9 @@ aPL
 # jahres |>
 #   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
 #   dplyr::left_join(an, by = "species") |>
-#   subset(grepl("Equisetum arvense", accepted_name)) |>
+#   subset(grepl("Equisetum pratense", accepted_name)) |>
 #   subset(select = c(year, entry, lon, lat, comments)) |>
-#   dplyr::arrange(year)
+#   dplyr::arrange(year) |>
+#   write.csv2("/home/sapi/Downloads/eq.csv")
+#   
 # 

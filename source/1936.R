@@ -232,7 +232,7 @@ jahres <- data.frame(
   entry = "Sonst ist noch Cerastium anomalum zu erwähnen, das von Mittelschulkonrektor Thielscher, Breslau, auch am Oderufer bei Auras festgestellt werden konnte.",
   lon = 16.84991, 
   lat = 51.24402,
-  comments = "brzeg Odry, Uraz"
+  comments = "brzeg Odry, Uraz, gm. Oborniki Śląśkie, pow. trzebnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
