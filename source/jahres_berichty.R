@@ -146,7 +146,7 @@ jahres <- data.frame(
   entry = "Equisetum hiemale. Breslau: Oderufer hinter Tschirne (Schalow )!",
   lon = 17.24000, 
   lat = 51.04114, 
-  comments = ""
+  comments = "Czernica, gm. Czernica, pow. wrocławski; brzeg rzeki Odra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -711,7 +711,7 @@ jahres <- data.frame(
   entry = "Equisetum variegatum. Cosel: Wiegschütz (Sch.)!;",
   lon = 18.10644, 
   lat = 50.33923, 
-  comments = ""
+  comments = "Większyce, gm. Reńska Wieś, pow. kędzierzyńsko-kozielski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -747,7 +747,7 @@ jahres <- data.frame(
   entry = "Lycopodium inundatum. Cosel: bei Wiegschütz mehrfach (Sch., We.)!;",
   lon = 18.10644, 
   lat = 50.33923, 
-  comments = ""
+  comments = "Większyce, gm. Reńska Wieś, pow. kędzierzyńsko-kozielski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1654,7 +1654,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense. Breslau: Gebüsch bei Pleische!",
   lon = 16.87172, 
   lat = 51.04059, 
-  comments = ""
+  comments = "Bliż, Baranowice, gm. Kąty Wrocławskie, pow. wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1807,7 +1807,7 @@ jahres <- data.frame(
   entry = "Ophioglossum vulgatum. Trachenberg: Gr.-Bargen (Sw.);",
   lon = 16.79693, 
   lat = 51.49061, 
-  comments = ""
+  comments = "Barkowo, gm. Żmigród, pow. trzebnicki"
 ) |> rbind(jahres)
 
 #' 1897
@@ -3044,21 +3044,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Botrychium matricariaefolium",
+  species = c("Botrychium lunaria", "Botrychium matricariaefolium"),
   citation = "@fiekResultateDurchforschungSchlesischen1890", 
   entry = "Botrychium matricariaefolium A. Br. Trachenberg: sparsam unter B. Lunaria an einem Teiche bei Klein Bargen (Schwarz)!;",
-  lon = 16.83554, 
-  lat = 51.46563, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Botrychium lunaria",
-  citation = "@fiekResultateDurchforschungSchlesischen1890", 
-  entry = "Botrychium matricariaefolium A. Br. Trachenberg: sparsam unter B. Lunaria an einem Teiche bei Klein Bargen (Schwarz)!;",
-  lon = 16.83554, 
-  lat = 51.46563, 
-  comments = ""
+  lon = 16.81501, 
+  lat = 51.47265, 
+  comments = "Barkówko, Barkowo, gm. Żmigród, pow. trzebnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3824,7 +3815,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Breslau: Oderdamm im Maxgarten in Scheitnig häufig, aber nur steril.",
   lon = 17.07087, 
   lat = 51.11134, 
-  comments = ""
+  comments = "Wrocław, Stara Odra, brzeg, przed Parkiem Szczytnickim"
 ) |> rbind(jahres)
 
 #' 1881 - brak

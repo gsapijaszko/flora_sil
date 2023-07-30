@@ -233,10 +233,172 @@ schube <- data.frame(
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] [...]",
-  lon = , 
-  lat = , 
-  comments = ""
+  entry = "[...] IIId [...] B: Sandberg (F), [...]",
+  lon = 16.91533,  
+  lat = 51.18659, 
+  comments = "Nowa Karczma, os. Pracze Odrzańskie, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Masselwitz (F) [...]",
+  lon = 16.92646, 
+  lat = 51.16622, 
+  comments = "os. Maślice, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Kosel (F)! [...]",
+  lon = 16.97986,  
+  lat = 51.14095, 
+  comments = "os. Kozanów, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] vor der Alten Gröschelbrücke (F)!, [...]",
+  lon = 17.02785,   
+  lat = 51.13018, 
+  comments = "Wrocław, Most Osobowicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekResultateDurchforschungSchlesischen1889, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Pilsnitzer Wald (88), [...]",
+  lon = 16.95937,  
+  lat = 51.15328, 
+  comments = "Wrocław, las Pilczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1898, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] zw. Pleische u. P.-Peterwitz (97), [...]",
+  lon = 16.87172, 
+  lat = 51.04059, 
+  comments = "Bliż, Baranowice, gm. Kąty Wrocławskie, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Kottwitz (F), [...]",
+  lon = 17.24399, 
+  lat = 51.02545,
+  comments = "Kotowice, gm. Siechnice, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Tschirne (F), [...]",
+  lon = 17.24000, 
+  lat = 51.04114, 
+  comments = "Czernica, gm. Czernica, pow. wrocławski; brzeg rzeki Odra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Weinberg bei Skarsine (F)!, [...]",
+  lon = 17.14422,  
+  lat = 51.25175, 
+  comments = "Skarszyn, gm. Trzebnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Mahlen (F), [...]",
+  lon = 17.06683, 
+  lat = 51.22548, 
+  comments = "Malin, gm. Wisznia Mała, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Süßwinkel (F), [...]",
+  lon = 17.29672, 
+  lat = 51.12648, 
+  comments = "Kątna, gm. Długołęka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1882, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Maxgarten (81, fr)!, [...]",
+  lon = 17.07087, 
+  lat = 51.11134, 
+  comments = "Wrocław, Stara Odra, brzeg, przed Parkiem Szczytnickim"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Ottwitz (F), [...]",
+  lon = 17.12965, 
+  lat = 51.09221,
+  comments = "Wrocław, Opatowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Treschen (F)!, [...]",
+  lon = 17.14988, 
+  lat = 51.07833, 
+  comments = "Trestno, Blizanowice, gm. Siechnice, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Strachate (F), [...]",
+  lon = 17.23059,  
+  lat = 51.02844, 
+  comments = "Kotowice, gm. Siechnice, pow. wrocławski; koło dawnej leśniczówki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Bischofswalde (F)! [...]",
+  lon = 17.09846, 
+  lat = 51.09952, 
+  comments = "Wrocław, Biskupin"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Grüneiche (F)!, [...]",
+  lon = 17.08049,  
+  lat = 51.09958, 
+  comments = "Wrocław, Dąbie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Alte Oder am Zool. Garten (F)!, [...]",
+  lon = 17.06901,  
+  lat = 51.10640, 
+  comments = "Wrocław, Stara Odra przy ogrodzie zoologicznym"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] B: [...] Leerbeutel (F ); [...]",
+  lon = 17.08322,  
+  lat = 51.12464, 
+  comments = "Wrocław, kąpielisko Morskie Oko"
 ) |> rbind(schube)
 
 schube <- data.frame(
@@ -249,5 +411,5 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 
-IIId [...] B: Sandberg (F), Masselwitz (F), Koset (F )!, vor der Alten Gröschelbrücke (F )!, Pilsnitzer W ald (88), zw. Fleische u. P.-Peterw itz (97), Kottwitz (F), Tschirne (F), W einberg bei Skarsine (F )!, Mahlen (F), Süßwinkel (F), Maxgarten (81, fr)!, Ottwitz (F), Preschen (F )!, Strachate (F), Bischofs­ walde (F )!, Grüneiche (F )!, Alte Oder am Zool. Garten (F )!, Leerbeutel (F ); A uras (F); M altsch: Oderdamna geg. Regnitz (02)!; IV a Frd: Langwaltersdorf (F); IV b Bärmersgrund (F); IV d Rein: beim Bade (F); IV e Landeck: zw. Olbersd orf u. Schreckendorf (F ); GISch: Quarglöcher (F); Vb K arlsruhe (F )!; Opp: Bolko (F )!, Pascheke (F), Brinnitzer W ald (F)!; V c Nei: Wangenfield (F, fr), R itters­ walde (F); Zie: Bieletal geg. N ielasdorf (01)!; V d Ka: Rösnitzer W ald (F); V e Glei: Labander W ald (01)!; VI a Reiwiesen (F); zvy. der Gabel u. dem Altvater (F); A rnsdorf geg. d. Bischofskoppe (O); V Ib dag: Gemeindeberg (02).
+IIId [...] B: [...] Leerbeutel (F ); A uras (F); M altsch: Oderdamna geg. Regnitz (02)!; IV a Frd: Langwaltersdorf (F); IV b Bärmersgrund (F); IV d Rein: beim Bade (F); IV e Landeck: zw. Olbersd orf u. Schreckendorf (F ); GISch: Quarglöcher (F); Vb K arlsruhe (F )!; Opp: Bolko (F )!, Pascheke (F), Brinnitzer W ald (F)!; V c Nei: Wangenfield (F, fr), R itters­ walde (F); Zie: Bieletal geg. N ielasdorf (01)!; V d Ka: Rösnitzer W ald (F); V e Glei: Labander W ald (01)!; VI a Reiwiesen (F); zvy. der Gabel u. dem Altvater (F); A rnsdorf geg. d. Bischofskoppe (O); V Ib dag: Gemeindeberg (02).
 

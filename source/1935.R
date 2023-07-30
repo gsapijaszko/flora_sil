@@ -268,7 +268,7 @@ jahres <- data.frame(
   entry = "Hieracium Tauschii [...] ssp. acrosciadium N. P. Kätscher: Rösnitz (Klimke)!",
   lon = 17.97362, 
   lat = 50.02013,
-  comments = "Rozumice, gm. Kietrz"
+  comments = "Rozumice, gm. Kietrz, pow. głubczycki"
 ) |> rbind(jahres)
 
 #' 
@@ -3018,7 +3018,7 @@ jahres <- data.frame(
   entry = "M. verticillata [...] var. crispa [...] Kätscher: bei der Kirche Mater dei (Klimke)!!",
   lon = 18.00312, 
   lat = 50.07954,
-  comments = "Kietrz, gm. Kietrz, pow. Głubczyce, przy kościele"
+  comments = "Kietrz, gm. Kietrz, pow. głubczycki, przy kościele"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5044,7 +5044,7 @@ jahres <- data.frame(
   entry = "H. cymosum [...] ssp. pulveratum [...] Kätscher: Rosen (Klimke)!",
   lon = 17.90661, 
   lat = 50.09276,
-  comments = "Rogożany, gm. Kietrz, pow. Głubczyce"
+  comments = "Rogożany, gm. Kietrz, pow. głubczycki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
