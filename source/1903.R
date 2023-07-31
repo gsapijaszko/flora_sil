@@ -188,9 +188,9 @@ jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Equisetum pratense. Maltsch: Oderdamm gegen Regnitz (C. Scholz)!;",
-  lon = 16.52324, 
-  lat = 51.23737, 
-  comments = ""
+  lon = 16.53635,  
+  lat = 51.24035, 
+  comments = "Rzeczyca, gm. Środa Śląska, pow. średzki; wał przeciwpowodziowy rzeki Odra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

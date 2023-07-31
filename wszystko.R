@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Leerbeutel", entry))
+  subset(grepl("Quarglöcher", entry))
 
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",
 #                                "Saxifraga tridactylites",

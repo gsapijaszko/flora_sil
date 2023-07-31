@@ -196,15 +196,6 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
-  citation = "@fiekFloraSchlesienPreussischen1881",
-  entry = "[...] Wohl: [...] Auras (M.); [...]",
-  lon = 16.84991, 
-  lat = 51.24402,
-  comments = "Uraz, gm. Oborniki Śląśkie, pow. trzebnicki"
-) |> rbind(schube)
-
-schube <- data.frame(
-  species = "Equisetum pratense Ehrh.",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1902, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IIIc Br (F): Baruthe (01)!, [...]",
   lon = 17.55783, 
@@ -404,6 +395,87 @@ schube <- data.frame(
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] Auras (F); [...]",
+  lon = 16.84991, 
+  lat = 51.24402,
+  comments = "Uraz, gm. Oborniki Śląśkie, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] Maltsch: Oderdamm geg. Regnitz (02)!; [...]",
+  lon = 16.53635,  
+  lat = 51.24035, 
+  comments = "Rzeczyca, gm. Środa Śląska, pow. średzki; wał przeciwpowodziowy rzeki Odra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVa Frd: Langwaltersdorf (F); [...]",
+  lon = 16.23213,  
+  lat = 50.70955, 
+  comments = "Unisław Śląski, gm. Mieroszów, pow. wałbrzyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVb Bärmersgrund (F); [...]",
+  lon = 16.54164, 
+  lat = 50.66260, 
+  comments = "Kamionki Górne, Kamionki, gm. Pieszyce, pow. dzierżoniowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVd Rein: beim Bade (F); [...]",
+  lon = 16.38224, 
+  lat = 50.39228, 
+  comments = "Duszniki Zdrój"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVe Landeck: zw. Olbersdorf u. Schreckendorf (F); [...]",
+  lon = 16.88630,  
+  lat = 50.31741, 
+  comments = "pomiędzy miejscowościami Stójków, gm. Lądek-Zdrój  i Strachocin, gm. Stronie Śląskie, pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVe [...] GlSch: Quarglöcher (F); [...]",
+  lon = , 
+  lat = , 
+  comments = ""
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] [...]",
+  lon = , 
+  lat = , 
+  comments = ""
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] [...]",
+  lon = , 
+  lat = , 
+  comments = ""
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] [...]",
   lon = , 
   lat = , 
@@ -411,5 +483,6 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 
-IIId [...] B: [...] Leerbeutel (F ); A uras (F); M altsch: Oderdamna geg. Regnitz (02)!; IV a Frd: Langwaltersdorf (F); IV b Bärmersgrund (F); IV d Rein: beim Bade (F); IV e Landeck: zw. Olbersd orf u. Schreckendorf (F ); GISch: Quarglöcher (F); Vb K arlsruhe (F )!; Opp: Bolko (F )!, Pascheke (F), Brinnitzer W ald (F)!; V c Nei: Wangenfield (F, fr), R itters­ walde (F); Zie: Bieletal geg. N ielasdorf (01)!; V d Ka: Rösnitzer W ald (F); V e Glei: Labander W ald (01)!; VI a Reiwiesen (F); zvy. der Gabel u. dem Altvater (F); A rnsdorf geg. d. Bischofskoppe (O); V Ib dag: Gemeindeberg (02).
+
+ IVe [...] GlSch: Quarglöcher (F); Vb K arlsruhe (F )!; Opp: Bolko (F )!, Pascheke (F), Brinnitzer W ald (F)!; V c Nei: Wangenfield (F, fr), R itters­ walde (F); Zie: Bieletal geg. N ielasdorf (01)!; V d Ka: Rösnitzer W ald (F); V e Glei: Labander W ald (01)!; VI a Reiwiesen (F); zvy. der Gabel u. dem Altvater (F); A rnsdorf geg. d. Bischofskoppe (O); V Ib dag: Gemeindeberg (02).
 

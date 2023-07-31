@@ -1934,7 +1934,7 @@ jahres <- data.frame(
   entry = "Ophioglossum vulgatum L. Breslau: Sibyllenort (Schröder, S.).",
   lon = 17.17621, 
   lat = 51.19642, 
-  comments = ""
+  comments = "Szczodre, gm. Długołęka, pow. wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2106,7 +2106,7 @@ jahres <- data.frame(
   entry = "Lycopodium complanatum L. subsp. anceps Wallr. Bärmersgrund im Eulengebirge (M . Fiek)!",
   lon = 16.54164, 
   lat = 50.66260, 
-  comments = ""
+  comments = "Kamionki Górne, Kamionki, gm. Pieszyce, pow. dzierżoniowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3022,7 +3022,7 @@ jahres <- data.frame(
   entry = "Botrychium Lunaria L. Breslau: zwischen Bahnhof und Schloss Sibyllenort (Hieronymus)",
   lon = 17.19211, 
   lat = 51.18884, 
-  comments = ""
+  comments = "Szczodre, gm. Długołęka, pow. wrocławski; między dworcem a pałacem"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

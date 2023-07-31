@@ -30,22 +30,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                                citation
-    1   Abutilon avicennae        @schalowErgebnisseDurchforschungSchlesischen1935
-    2 Equisetum variegatum            @fiekResultateDurchforschungSchlesischen1890
-    3   Cucubalus baccifer @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                                                  entry
-    1                                          Abutilon Avicennae Niesky: Großteich Kaschel (Militzer)!
-    2 Equisetum variegatum Schleich. Teschen: Bystrzitz am Gluchowa-Bache oberhalb der Kirche (Kotula).
-    3                       Cucubalus baccifer Liegnitz: Rufferpark, gegen Weißenhof (Weimann)!; [...] 
-           lon      lat                            comments year
-    1 14.54395 51.34223                                     1935
-    2 18.73301 49.63909                                     1890
-    3 16.13168 51.19827 okolice wzgórza Sępia Góra, Legnica 1933
-                       accepted_name
-    1    Abutilon theophrasti Medik.
-    2 Equisetum variegatum Schleich.
-    3     Silene baccifera (L.) Roth
+                                     species
+    1                        Osmunda regalis
+    2 Phegopteris robertiana (Hoffm.) A. Br.
+    3                      Equisetum limosum
+                                                     citation
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    2         @schubeErgebnisseDurchforschungSchlesischen1897
+    3         @schubeErgebnisseDurchforschungSchlesischen1903
+                                                                     entry      lon
+    1             Osmunda regalis [...] Bunzlau: Stadtforst (Jopke); [...] 15.51275
+    2 Phegopteris Robertiana (Hoffm.) A. Br. Falkenberg: in Schedlau (S.). 17.62249
+    3                    Equisetum limosum. Riesengebirge: beim Torsteine!       NA
+           lat
+    1 51.29734
+    2 50.68434
+    3       NA
+                                                                                                    comments
+    1 Puszcza Bolesławiecka, Bolesławiec (might be a part of the forest at the south of Bolesławiec as well)
+    2                                                                                                       
+    3                                                                                                       
+      year                            accepted_name
+    1 1931                       Osmunda regalis L.
+    2 1897 Gymnocarpium robertianum (Hoffm.) Newman
+    3 1903                  Equisetum fluviatile L.
 
 </div>
 
@@ -70,9 +78,6 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
-<summary>Code</summary>
-
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -88,8 +93,6 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
-
-</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -124,12 +127,12 @@ malvas |>
                              accepted_name Name
     1                    Malva moschata L. AE67
     2                    Malva moschata L. BE74
-    3                    Malva moschata L. BF24
-    4 Malva thuringiaca subsp. thuringiaca CF35
-    5        Malva trimestris (L.) Salisb. AE67
-    6                Malva verticillata L. AE58
-    7                Malva verticillata L. BE49
-    8                Malva verticillata L. BE59
+    3                    Malva moschata L. CE81
+    4                  Malva parviflora L. BE49
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7                Malva verticillata L. AE58
+    8                Malva verticillata L. BE49
 
 ### How to participate
 
@@ -206,7 +209,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3412 records (species - localization) including 3343 with
+total 3460 records (species - localization) including 3391 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
