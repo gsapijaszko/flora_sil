@@ -30,30 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                     species
-    1                        Osmunda regalis
-    2 Phegopteris robertiana (Hoffm.) A. Br.
-    3                      Equisetum limosum
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2         @schubeErgebnisseDurchforschungSchlesischen1897
-    3         @schubeErgebnisseDurchforschungSchlesischen1903
-                                                                     entry      lon
-    1             Osmunda regalis [...] Bunzlau: Stadtforst (Jopke); [...] 15.51275
-    2 Phegopteris Robertiana (Hoffm.) A. Br. Falkenberg: in Schedlau (S.). 17.62249
-    3                    Equisetum limosum. Riesengebirge: beim Torsteine!       NA
-           lat
-    1 51.29734
-    2 50.68434
-    3       NA
-                                                                                                    comments
-    1 Puszcza Bolesławiecka, Bolesławiec (might be a part of the forest at the south of Bolesławiec as well)
-    2                                                                                                       
-    3                                                                                                       
-      year                            accepted_name
-    1 1931                       Osmunda regalis L.
-    2 1897 Gymnocarpium robertianum (Hoffm.) Newman
-    3 1903                  Equisetum fluviatile L.
+                 species                                         citation
+    1     Arabis Halleri @schalowErgebnisseDurchforschungSchlesischen1934
+    2   Viola silvestris @schalowErgebnisseDurchforschungSchlesischen1934
+    3 Pulicaria vulgaris @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                 entry
+    1                                  A. Halleri Löwenberg: Schloß Hohlstein (Buchs)!
+    2 Viola silvestris mit kurzem verdickten Sporn Strehlen: „Häbsch“ bei Ruppersdorf!
+    3                        Pulicaria vulgaris [...] Freiburg: Liebichauer Tal (Loge)
+           lon      lat
+    1 15.59100 51.15903
+    2 17.16302 50.77817
+    3 16.33349 50.83299
+                                                                       comments
+    1                                   Pałac w Skale, Skała, gm. Lwówek Śląski
+    2 Wyszonowice, gm. Wiązów, pow. strzeliński (aber was und wo 'Häbsch' war?)
+    3                                              Lubiechów, Wałbrzych, dolina
+      year                         accepted_name
+    1 1934                                  <NA>
+    2 1934 Viola reichenbachiana Jord. ex Boreau
+    3 1935            Pulicaria vulgaris Gaertn.
 
 </div>
 
@@ -78,6 +74,9 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
+<details>
+<summary>Code</summary>
+
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -93,6 +92,8 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
+
+</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -124,15 +125,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE74
-    3                    Malva moschata L. CE81
-    4                  Malva parviflora L. BE49
-    5 Malva thuringiaca subsp. thuringiaca BE57
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7                Malva verticillata L. AE58
-    8                Malva verticillata L. BE49
+              accepted_name Name
+    1     Malva moschata L. AE67
+    2     Malva moschata L. AE67
+    3     Malva moschata L. BE53
+    4     Malva moschata L. BE62
+    5     Malva moschata L. BE71
+    6     Malva moschata L. BE74
+    7   Malva parviflora L. BE49
+    8 Malva verticillata L. AE58
 
 ### How to participate
 
@@ -209,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3460 records (species - localization) including 3391 with
+total 3479 records (species - localization) including 3411 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

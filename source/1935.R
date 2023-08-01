@@ -308,7 +308,7 @@ jahres <- data.frame(
   entry = "A. Phegopteris Münsterberg: Moschwitzer Buchenwald (Kruber);",
   lon = 16.95448, 
   lat = 50.64363,
-  comments = "Muszkowice, las bukowy"
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -857,7 +857,7 @@ jahres <- data.frame(
   entry = "C. pendula Münsterberg: Moschwitzer Buchenwald (Frl. Bodlee)!",
   lon = 16.95448, 
   lat = 50.64363,
-  comments = "Muszkowice, las bukowy"
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1073,7 +1073,7 @@ jahres <- data.frame(
   entry = "Orchis mascula Münsterberg: Moschwitzer Buchenwald (Rauhut)",
   lon = 16.95448, 
   lat = 50.64363,
-  comments = "Muszkowice, las bukowy"
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2739,7 +2739,7 @@ jahres <- data.frame(
   entry = "V. dumetorum Münsterberg: Moschwitzer Buchenwald!",
   lon = 16.95448, 
   lat = 50.64363,
-  comments = "Muszkowice, las bukowy"
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3621,7 +3621,7 @@ jahres <- data.frame(
   entry = "Cerinthe minor Münsterberg: am Moschwitzer Buchenwald (Loge);",
   lon = 16.95448, 
   lat = 50.64363,
-  comments = "Muszkowice, las bukowy"
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

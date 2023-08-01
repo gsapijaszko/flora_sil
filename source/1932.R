@@ -1842,12 +1842,164 @@ jahres <- data.frame(
   comments = "Popielówek, gm. Lubomierz, pow. lwówecki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Iris sibirica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Iris sibirica Kotzenau: Hammerwald (Klopfer)!; [...]",
+  lon = 15.83285, 
+  lat = 51.39410,
+  comments = "Nowa Kuźnia, gm. Gromadka, pow. bolesławiecki; las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Iris sibirica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Iris sibirica [...] Bolkenhain: Ober-Hohendorf (Strauch); [...]",
+  lon = 16.08340, 
+  lat = 50.94499,
+  comments = "Gorzanowice, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Iris sibirica",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Iris sibirica [...] Neumarkt: Dünen südlich von Kobelnik!",
+  lon = 16.67918, 
+  lat = 51.21868,
+  comments = "wydmy przed miejscowością Kobylniki, obecnie wzgórze Wielka Wydma, Lubiatów, Zabór Wielki, gm. Miękinia, pow średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gladiolus imbricatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Gladiolus imbricatus Kanth: Thiemendorfer Wald (Schoepke)!; [...]",
+  lon = 16.32322, 
+  lat = 51.45644,
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gladiolus imbricatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Gladiolus imbricatus [...] Gleiwitz: Hüttenwiesen bei Sosnitza (Czmok)!",
+  lon = 18.72092, 
+  lat = 50.29388,
+  comments = "Sośnica, Gliwice"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis ustulata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Orchis ustulata Frankenstein: Riegersdorf (Rauhut)!; [...] Silberberg: Südabhang des Hohensteins, Niklasdorfer Wiesen (Dittrich)!",
+  lon = 16.75400, 
+  lat = 50.53019,
+  comments = "Potworów, gm. Bardo, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis ustulata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Orchis ustulata [...] Silberberg: Südabhang des Hohensteins, [...]",
+  lon = 16.64818, 
+  lat = 50.57499,
+  comments = "południowy stok Warowna Góra, Srebrena Góra, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis ustulata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Orchis ustulata [...] Silberberg: [...] Niklasdorfer Wiesen (Dittrich)!",
+  lon = 16.69245,
+  lat = 50.55711,
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis mascula",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "O. mascula Liebenthal: Kreuzberg bei Mittel-Schmottseiffen (O. u. E. Behr)",
+  lon = 15.59216, 
+  lat = 51.05122,
+  comments = "[wzgórze] Kalwaria, Pławna Dolna, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis sambucina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "O. sambucina Schweidnitz: Hohgiersdorf (Tscheppe)!;[...]",
+  lon = 16.39127, 
+  lat = 50.79533,
+  comments = "Modliszów, gm. Świdnica"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis sambucina",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "O. sambucina [...] Neurode: Pfaffenhügel bei Rothwaltersdorf (Kick)!; [...]",
+  lon = 16.62399, 
+  lat = 50.53453,
+  comments = "[wzgórze] Księżówka, Czerwieńczyce, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Orchis sambucina", "Gymnadenia conopea"),
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "O. sambucina [...] Neustadt: Neudeck, hier mit Gymnadenia conopea (Hans Schubert)! [...]",
+  lon = 17.51103, 
+  lat = 50.28254,
+  comments = "Wieszczyna, Dębowiec, gm. Prudnik, pow. prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Cephalanthera xiphophyllum Liebenthal: Kol. Feldhäuser b. Kl.-Röhrsdorf (Buchs)!; [...]",
+  lon = 15.59634, 
+  lat = 51.03427,
+  comments = "Przysiodłek, Pławna Górna, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Cephalanthera xiphophyllum [...] Kanth: im Herzerschen Park (Schoepke)!; [...]",
+  lon = NA,
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Cephalanthera xiphophyllum [...] Neustadt: Neudeck (Hans Schubert)!",
+  lon = 17.51103, 
+  lat = 50.28254,
+  comments = "Wieszczyna, Dębowiec, gm. Prudnik, pow. prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis rubiginosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Epipactis rubiginosa Neustadt: oberhalb Wildgrund (Hans Schubert)!",
+  lon = 17.45171, 
+  lat = 50.28347,
+  comments = "obecnie część miejscowości Pokrzywna, gm. Głuchołazy, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Spiranthes spiralis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Spiranthes spiralis Rosenberg: Ellguther Berge (Klonek).",
+  lon = 18.53262, 
+  lat = 50.97289,
+  comments = "wzgórza niedaleko Ligota Oleska, gm. Radków, pow. oleski"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Albrechtsdorf", entry))
+  subset(grepl("Rosenberg: Ellguther", entry))
 
 #' TODO: continue
 

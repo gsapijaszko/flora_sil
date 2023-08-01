@@ -848,7 +848,7 @@ jahres <- data.frame(
   entry = "C. disticha Frankenstein: Niklasdorfer Wiesen (Rauhut)!",
   lon = 16.69245, 
   lat = 50.55711,
-  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -911,7 +911,7 @@ jahres <- data.frame(
   entry = "C. Buxbaumi Frankenstein: Niklasdorfer Wiesen!",
   lon = 16.69245, 
   lat = 50.55711,
-  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -929,7 +929,7 @@ jahres <- data.frame(
   entry = "C. tomentosa [...] Frankenstein: Niklasdorfer Wiesen, [...]",
   lon = 16.69245, 
   lat = 50.55711,
-  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+  comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -954,8 +954,8 @@ jahres <- data.frame(
   species = "Carex montana",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "C. montana Frankenstein: Niklasdorfer Wiesen!",
-  lon = 16.68935, 
-  lat = 50.55098,
+  lon = 16.69245, 
+  lat = 50.55711,
   comments = "Mikołajów, gm. Stoszowice, pow. ząbkowicki, łąki"
 ) |> rbind(jahres)
 

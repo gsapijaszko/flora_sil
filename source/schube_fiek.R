@@ -450,39 +450,484 @@ schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IVe [...] GlSch: Quarglöcher (F); [...]",
-  lon = , 
-  lat = , 
-  comments = ""
+  lon = 16.83889,  
+  lat = 50.18430, 
+  comments = "Tvarozne diry, Czechy, http://maps.mapywig.org/m/K.u.K._maps/series/075K/200dpi_NYPL/5_XVI_Freiwaldau_1894_200dpi_NYPL1226317.jpg"
 ) |> rbind(schube)
 
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] [...]",
-  lon = , 
-  lat = , 
-  comments = ""
+  entry = "[...] Vb Karlsruhe (F )!; [...]",
+  lon = 17.84366,  
+  lat = 50.89549, 
+  comments = "Pokój, gm. Pokój, pow. namysłowski"
 ) |> rbind(schube)
 
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] [...]",
-  lon = , 
-  lat = , 
-  comments = ""
+  entry = "[...] Vb [...] Opp: Bolko (F)!, [...]",
+  lon = 17.92799, 
+  lat = 50.64651, 
+  comments = "Opole, wyspa Bolko"
 ) |> rbind(schube)
 
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] [...]",
-  lon = , 
-  lat = , 
-  comments = ""
+  entry = "[...]  Vb [...] Opp: [...] Pascheke (F), [...]",
+  lon = 17.91985,  
+  lat = 50.65982, 
+  comments = "Opole, wyspa Pasieka"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@vonuechtritzWichtigerenErgebnisseErforschung1878, @fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vb [...] Opp: [...] Brinnitzer Wald (F)!; [...]",
+  lon = 17.91469,  
+  lat = 50.79479, 
+  comments = "Brynica, gm. Łubiany, pow. opolski; las na południowy-zachód od miejscowości"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: Wangenfield (F, fr), [...]",
+  lon = 17.39939, 
+  lat = 50.48496,
+  comments = "Nie znalazłem Wagenfield na mapach. Jedynym źródłem może być wpis w  https://wiki.genealogy.net/Gro%C3%9F_Neundorf: 'Die Erbscholtisei (54 ha) war im Besitz der Familie Kinne, ein Bauergut (74 ha) seit 1650 im Besitz der Familie Beier, außerdem gab es im Ort mehrere große Bauernhöfe. Auf der Adalberthöhe, auf dem Ziegelberg östlich von Maria Hilf gelegen, hatte der Neisser Redakteur und Verleger Moritz Wangenfield um 1831 ein Gasthaus mit Sommerwohnungen und einen parkartigen Garten mit vielen seltenen Bäumen und Sträuchern angelegt. Aus finanziellen Gründen wurde die Anlage 1866 vom späteren Besitzer aufgegeben und abgetragen.' Można przypuszczać, że Wagenfield położone było na terenach wsi Złotogłowice (Groß Neundorf); natomiast z listy gatunków można przypuszczać, że teren był podmokły/położony nad rzeką. Złotogłowice, gm. Nysa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: [...] Ritterswalde (F); [...]",
+  lon = 17.46886, 
+  lat = 50.45912, 
+  comments = "las między miejscowościami Domaszkowice, gm. Nysa a Włodary, gm. Korfantów, pow. nyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884, @schubeErgebnisseDurchforschungSchlesischen1902, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc [...] Zie: Bieletal geg. Niclasdorf (01)!; [...]",
+  lon = 17.36094, 
+  lat = 50.30973, 
+  comments = "dolina rzeki Biała Głuchołaska, Głuchołazy, w kierunku na Mikułowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Ka: Rösnitzer Wald (F); [...]",
+  lon = 17.98721,  
+  lat = 50.01633, 
+  comments = "Rozumice, gm. Kietrz, pow. głubczycki; las na południowy-wschód od miejscowości, obecnie Rezerwat Rozumice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884, @schubeErgebnisseDurchforschungSchlesischen1902, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Ve Glei: Labander Wald (01)!; [...]",
+  lon = 18.63655, 
+  lat = 50.34904, 
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowści"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIa Reiwiesen (F); [...]",
+  lon = 17.30228,  
+  lat = 50.22120, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIa [...] zw. der Gabel u. dem Altvater (F); [...]",
+  lon = 17.24708, 
+  lat = 50.09327, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIa [...] Arnsdorf geg. d. Bischofskoppe (O); [...]",
+  lon = 17.47932,  
+  lat = 50.25346, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum pratense Ehrh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIb Jag: Gemeindeberg (02).",
+  lon = 17.50989, 
+  lat = 50.10219, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+### 45. E. maximum Lam. ---- 
+#' Feuchte, insbesondere quellige Waldstellen, Gebüsche, seltener feuchte Wiesen und selbst Acker;
+#' in der Eb. und dem Vgb. 2—3, von Westen nach Osten zunehmend.
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id NaB: Briesnitz (F); [...]",
+  lon = 15.38329, 
+  lat = 51.72091, 
+  comments = "Brzeźnica, gm. Brzeźnica, pow. żagański"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIa [Gö: zw. Jauernik u. Schönau (F)!]; [...]",
+  lon = 14.89383,  
+  lat = 51.08159, 
+  comments = "Niemcy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIa [...] Löw: Ob.Gießmannsdorfer Kalkbrüche (F); [...]",
+  lon = 15.47316,  
+  lat = 51.14623, 
+  comments = "Gościszów, gm. Nowogrodziec, pow. bolesławiecki; kamieniołomy wapienia"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1899, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIb Jauer: Mühlgrund bei Poischwitz (98)!; [...]",
+  lon = 16.14051, 
+  lat = 51.00300, 
+  comments = "Paszowice, gm. Paszowice, pow. jaworski; teren obok młyna"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIb Festenberg: Gr.-Graben (F); [...]",
+  lon = 17.40846, 
+  lat = 51.33841,
+  comments = "Grabowno Wielkie, gm. Twardogóra, pow. oleśnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId Obernigk: östl. vom Dorfe mehrfach (F)! [...]",
+  lon = 16.92493, 
+  lat = 51.30777, 
+  comments = "Oborniki Śląskie, pow. trzebnicki; na wschód od miejscowości"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId Obernigk: [...] auch Heidewilxener Waldrand (F); [...]",
+  lon = 16.94645,  
+  lat = 51.27908, 
+  comments = "Wilczyn Leśny, gm. Oborniki Śląskie, pow. trzebnicki; brzeg lasu"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIe Zbg: Südabhang über Kl.-Silsterwitz (F); [...]",
+  lon = 16.72543,  
+  lat = 50.84828, 
+  comments = "Ślęża, południowy stok nad miejscowością Sulistrowiczki, gm. Sobótka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIf Frk: gegen Stolz (F)!; [...]",
+  lon = 16.90782, 
+  lat = 50.59331, 
+  comments = "Stolec, gm. Ząbkowice Śląskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIg Str: Siebenhufen (F); [...]",
+  lon = 17.14796,  
+  lat = 50.68720, 
+  comments = "Siedmino, Przeworno, gm. Przeworno, pow. strzeliński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @fiekErgebnisseDurchforschungSchlesischen1894, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIg [...] Heinrichau: Buchenwald (F, wohl = Moschwitzer Wald, 93); [...]",
+  lon = 16.94932, 
+  lat = 50.63973, 
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVa Salzbrunn (F); [...]",
+  lon = 16.26200,  
+  lat = 50.80415, 
+  comments = "Szczawienko, Wałbrzych"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVd Rein: Grunwalder Tal (F)!; [...]",
+  lon = 16.41531,  
+  lat = 50.34307, 
+  comments = "Szczytna, gm. Szczytna, pow. kłodzki; dolina, obecnie Rezerwat Torfowisko pod Zieleńcem"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVd Rein: [...] Cudowa (F);[...]",
+  lon = 16.24347,  
+  lat = 50.44458, 
+  comments = "Kudowa-Zdrój, pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Va Ros: Skronskau (96)!; [...]",
+  lon = 18.43300, 
+  lat = 50.96310, 
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski; las na południowy-zachód od miejscowości"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vb Opp: gegen Grudschütz (F); [...]",
+  lon = 18.02351, 
+  lat = 50.64372, 
+  comments = "Grudzice, Opole"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: Wangenfield (F, fr)!, [...]",
+  lon = 17.39939, 
+  lat = 50.48496,
+  comments = "Nie znalazłem Wagenfield na mapach. Jedynym źródłem może być wpis w  https://wiki.genealogy.net/Gro%C3%9F_Neundorf: 'Die Erbscholtisei (54 ha) war im Besitz der Familie Kinne, ein Bauergut (74 ha) seit 1650 im Besitz der Familie Beier, außerdem gab es im Ort mehrere große Bauernhöfe. Auf der Adalberthöhe, auf dem Ziegelberg östlich von Maria Hilf gelegen, hatte der Neisser Redakteur und Verleger Moritz Wangenfield um 1831 ein Gasthaus mit Sommerwohnungen und einen parkartigen Garten mit vielen seltenen Bäumen und Sträuchern angelegt. Aus finanziellen Gründen wurde die Anlage 1866 vom späteren Besitzer aufgegeben und abgetragen.' Można przypuszczać, że Wagenfield położone było na terenach wsi Złotogłowice (Groß Neundorf); natomiast z listy gatunków można przypuszczać, że teren był podmokły/położony nad rzeką. Złotogłowice, gm. Nysa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@mildeUeberVarietatenUnd1850, @fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: [...] Steinberg (F), [...]",
+  lon = 17.41825, 
+  lat = 50.43543,
+  comments = "[wzgórze] Meszna (Ober Stein-Berg), Domaszkowice, gm. Nysa [a może chodzi o Kamienna Góra, Nadziejów, gm. Otmuchów, pow. nyski, teren kopalni granitu?]"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: [...] Rochus (F); [...]",
+  lon = 17.37251,   
+  lat = 50.48809, 
+  comments = "Rochus, Nysa, gm. Nysa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc [...] Ott: Zedlitz (F); [...]",
+  lon = 17.19732,  
+  lat = 50.51449, 
+  comments = "Siedlec, gm. Otmuchów, pow. nyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Rat: Obora (F)!, [...]",
+  lon = 18.26857,  
+  lat = 50.09745,
+  comments = "las Obora, Dębicz, Racibórz, pow. raciborski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1901, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Rat: [...] Aussicht (00)! [...]",
+  lon = 18.27690, 
+  lat = 50.06100,
+  comments = "Las Widok, Pogrzebień, gm. Kornowac, pow. raciborski; wieża widokowa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Rat: [...] Olsalehnen bei Kl.-Gorzütz (F)!; [...]",
+  lon = 18.38825,  
+  lat = 49.93588, 
+  comments = "Gorzyczki, gm. Gorzyce, pow. wodzisławski; zakola rzeki Olza"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Ve Peisk: Kemczowitz (F); [...]",
+  lon = 18.73766,  
+  lat = 50.41007, 
+  comments = "Kępczowice, Zbrosławice, gm. Zbrosławice, pow. tarnogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@vonuechtritzWichtigerenErgebnisseErforschung1876, @fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Ve [...] Beu: Biskupitzer Forst (F)!; [...]",
+  lon = 18.81310, 
+  lat = 50.31376, 
+  comments = "Biskupice, Zabrze; las"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: Czernitz (F), [...]",
+  lon = 18.39896,  
+  lat = 50.08164, 
+  comments = "Czernica, gm. Gaszowice, pow. rybnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Charlottengrube hint. d. Czernitzer Tunnel (F)!, [...]",
+  lon = 18.41649,  
+  lat = 50.08100, 
+  comments = "Czernica, gm. Gaszowice, pow. rybnicki; dawna kopalnia Charlottengrube"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Mschanna (86), [...]",
+  lon = 18.52614, 
+  lat = 49.96746, 
+  comments = "Mszana, gm. Mszana, pow. wodzisławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Gogolau (86), [...]",
+  lon = 18.58837, 
+  lat = 49.98465, 
+  comments = "Gogołowa, gm. Mszana, pow. wodzisławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Pohlom (86) [...]",
+  lon = 18.55237, 
+  lat = 49.99107, 
+  comments = "Połomia, gm. Mszana, pow. wodzisławski"
 ) |> rbind(schube)
 
 
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@mildeVerzeichnissNeueStandorte1870, @fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Pschow (F)!, [...]",
+  lon = 18.39868, 
+  lat = 50.04464, 
+  comments = "Pszów, pow. wodzisławski"
+) |> rbind(schube)
 
- IVe [...] GlSch: Quarglöcher (F); Vb K arlsruhe (F )!; Opp: Bolko (F )!, Pascheke (F), Brinnitzer W ald (F)!; V c Nei: Wangenfield (F, fr), R itters­ walde (F); Zie: Bieletal geg. N ielasdorf (01)!; V d Ka: Rösnitzer W ald (F); V e Glei: Labander W ald (01)!; VI a Reiwiesen (F); zvy. der Gabel u. dem Altvater (F); A rnsdorf geg. d. Bischofskoppe (O); V Ib dag: Gemeindeberg (02).
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886, @schubeErgebnisseDurchforschungSchlesischen1900, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vf Ry: [...] Jastrzemb (99); [...]",
+  lon = 18.57020, 
+  lat = 49.95325, 
+  comments = "Jastrzębie-Zdrój"
+) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIa Gräfenberg (F): Preußenquelle (93); [...]",
+  lon = 17.18435, 
+  lat = 50.24872, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: Holzhof in d. Stadt (F, fr?), [...]",
+  lon = 18.64424,  
+  lat = 49.75041, 
+  comments = "Cieszyn; skład drewna w mieście"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Olsaabhänge oberh. d. Stadt!, [...]",
+  lon = 18.59410, 
+  lat = 49.80163, 
+  comments = "Cieszyn; zbocza doliny Olzy powyżej miasta"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Konska (F), [...]",
+  lon = 18.64588,  
+  lat = 49.68691, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Roppitz (F), [...]",
+  lon = 18.61077, 
+  lat = 49.70298, 
+  comments = "Czechy"
+) |> rbind(schube)
+
+#### end ----
+
+# schube <- data.frame(
+#   species = "Equisetum maximum Lam.",
+#   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+#   entry = "[...] [...]",
+#   lon = , 
+#   lat = , 
+#   comments = ""
+# ) |> rbind(schube)
+# 
+# 
+# 
+# VIc Te: [...] Zuckau (F), Boguschowitz (F), Trzinietz (F), Blogotitz (F)!, Löwitz (O, ob Vd?), Bystrzitz (F )!, Golleschau (F); VI d U stroń (F), Oberweichsel (F), Białka (F )! 
+#                                                                                                                                    
+# f. s e r o t i n u m A . B r . Zbg: über Kl.-Silsterwitz (95); Nei: Wangenfield (F, fr); Gräfenberg (F). 
+# 
+# f. c o m o s u m M ilde. Nei. (Milde, Schics. Gef.-Cr.). 
+# 
+# v. g r a c i l e M ilde. Obernigk (F), Heidewilxert (F )!; Zbg: über Kl.-Silster­ witz (F )!; Str: Prieborn (01)!; Miln: Schlange (01)!; Rein: Grunwalder T al (95). Außerdem f. b r e v e M ild e !
+#  

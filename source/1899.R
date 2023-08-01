@@ -46,7 +46,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum. Jauer: Mühlgrund bei Poischwitz (Sm.)!",
   lon = 16.14051, 
   lat = 51.00300, 
-  comments = "Paszowice, Jawor, teren obok młyna"
+  comments = "Paszowice, gm. Paszowice, pow. jaworski; teren obok młyna"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
-  subset(grepl("Quarglöcher", entry))
+  subset(grepl("Preußenquelle", entry)) 
 
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",
 #                                "Saxifraga tridactylites",
@@ -154,14 +154,30 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # RefManageR::PrintBibliography(wip)
 # # 
 
-aPL
-# 
+# aPL
+# # 
 # jahres |>
 #   dplyr::mutate(year = substr(citation, nchar(jahres[, "citation"])-3, nchar(jahres[, "citation"]))) |>
 #   dplyr::left_join(an, by = "species") |>
-#   subset(grepl("Equisetum pratense", accepted_name)) |>
+#   subset(grepl("Equisetum telmateia Ehrh.", accepted_name)) |>
 #   subset(select = c(year, entry, lon, lat, comments)) |>
 #   dplyr::arrange(year) |>
 #   write.csv2("/home/sapi/Downloads/eq.csv")
-#   
 # 
+# 
+
+
+# b <- sf::st_point(x=c(17.92882, 50.64880)) |>
+#   sf::st_sfc(crs = "EPSG:4326") |>
+#   sf::st_sf() |>
+#   sf::st_transform(crs = sf::st_crs(atpol)) |>
+#   sf::st_buffer(dist = 1000)
+# 
+# aPL |>
+#   sf::st_filter(b)
+# 
+# 
+# source("source/schube_fiek.R")
+# 
+# jahres <- schube |>
+#   rbind(jahres)

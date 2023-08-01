@@ -136,7 +136,7 @@ jahres <- data.frame(
   entry = "E. Telmateja Ehrh. Loslau: Pohlom, [...] (M.).",
   lon = 18.55237, 
   lat = 49.99107, 
-  comments = "Połomia, gm. Mszana"
+  comments = "Połomia, gm. Mszana, pow. wodzisławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -145,7 +145,7 @@ jahres <- data.frame(
   entry = "E. Telmateja Ehrh. Loslau: [...] Mschanna, [...]",
   lon = 18.52614, 
   lat = 49.96746, 
-  comments = "Mszana, gm. Mszana"
+  comments = "Mszana, gm. Mszana, pow. wodzisławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -154,7 +154,7 @@ jahres <- data.frame(
   entry = "E. Telmateja Ehrh. Loslau: [...] Gogolau (M.).",
   lon = 18.58837, 
   lat = 49.98465, 
-  comments = "Gogołowa, gm. Mszana"
+  comments = "Gogołowa, gm. Mszana, pow. wodzisławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

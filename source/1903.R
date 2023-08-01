@@ -197,9 +197,9 @@ jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Equisetum pratense. Jägerndorf: Gemeindeberg (Oborny.) ",
-  lon = NA, 
-  lat = NA, 
-  comments = ""
+  lon = 17.50989, 
+  lat = 50.10219, 
+  comments = "Czechy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

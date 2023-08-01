@@ -1323,7 +1323,7 @@ jahres <- data.frame(
   entry = "Die Nachforschungen von Lehrer Simon in der Umgebung von Neisse ergaben: [...] Viscum album (Forst Ritterswalde—Volkmannsdorf, auf Tannen), [...]",
   lon = 17.46886, 
   lat = 50.45912, 
-  comments = "las między miejscowościami Domaszkowice a Włodary"
+  comments = "las między miejscowościami Domaszkowice, gm. Nysa a Włodary, gm. Korfantów, pow. nyski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -675,7 +675,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum. Gleiwitz: Labander Wald (W.)!;",
   lon = 18.63655, 
   lat = 50.34904, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1334,7 +1334,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense. Ziegenhals: im Bielethal gegen Niklasdorf (Richter in h. s.)!;",
   lon = 17.36094, 
   lat = 50.30973, 
-  comments = "Głuchołazy, dolina rz. Biała"
+  comments = "Głuchołazy, dolina rz. Biała, w kierunku na Mikułowice"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1343,7 +1343,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense. Gleiwitz: Labander Wald (Jungek im h. s.)!",
   lon = 18.63655, 
   lat = 50.34904, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowści"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1422,7 +1422,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Botrychium matricariae",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1901", 
-  entry = "Botrychium matricariae. Bielitz: am Kolowrat! ",
+  entry = "Botrychium matricariae. Bielitz: am Kolowrat!",
   lon = 19.01615, 
   lat = 49.76480, 
   comments = ""
@@ -1431,10 +1431,10 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Equisetum maximum",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1901", 
-  entry = "Equisetum maximum. Ratiboř: bei der Aussicht (Sp.)!",
-  lon = NA, 
-  lat = NA, 
-  comments = ""
+  entry = "Equisetum maximum. Ratibor: bei der Aussicht (Sp.)!",
+  lon = 18.27690, 
+  lat = 50.06100,
+  comments = "Las Widok, Pogrzebień, gm. Kornowac, pow. raciborski; wieża widokowa"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1577,9 +1577,9 @@ jahres <- data.frame(
   species = "Equisetum maximum",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1900", 
   entry = "Equisetum maximum. Loslau: Jastrzemb (Migula t. Uechtritz)",
-  lon = 18.55485, 
-  lat = 49.96755, 
-  comments = ""
+  lon = 18.57020, 
+  lat = 49.95325, 
+  comments = "Jastrzębie-Zdrój"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1898,7 +1898,7 @@ jahres <- data.frame(
   entry = "Equisetum Telmateja Ehrh. Rosenberg: Skronskauer Buchenwald, hier nur steril (Zuschke)!",
   lon = 18.43300, 
   lat = 50.96310, 
-  comments = ""
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski; las na południowy-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1983,30 +1983,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Aspidium lonchitis (L.) Sw.",
+  species = c("Aspidium lonchitis (L.) Sw.", "Asplenium trichomanes L.",  "Asplenium ruta-muraria"),
   citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
   entry = "Aspidium Lonchitis (L.) Sw. Rosenberg: ein Stock an der Brücke bei Skronskau mit Asplenium Trichomanes L. und A. Ruta muraria L. (Zuschke)!",
   lon = 18.46402, 
   lat = 50.97297, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Asplenium ruta-muraria",
-  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
-  entry = "Aspidium Lonchitis (L.) Sw. Rosenberg: ein Stock an der Brücke bei Skronskau mit Asplenium Trichomanes L. und A. Ruta muraria L. (Zuschke)!",
-  lon = 18.46402, 
-  lat = 50.97297, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Asplenium trichomanes L.",
-  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
-  entry = "Aspidium Lonchitis (L.) Sw. Rosenberg: ein Stock an der Brücke bei Skronskau mit Asplenium Trichomanes L. und A. Ruta muraria L. (Zuschke)!",
-  lon = 18.46402, 
-  lat = 50.97297, 
-  comments = ""
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski; na moście"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2033,7 +2015,7 @@ jahres <- data.frame(
   entry = "Aspidium montanum (Vogler) Aschs. Rosenberg: Skronskauer Buchenwald früher",
   lon = 18.43300, 
   lat = 50.96310, 
-  comments = ""
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski; las na południowy-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2459,7 +2441,7 @@ jahres <- data.frame(
   entry = "Equisetum Telmateja Ehrh. Münsterberg: Moschwitzer Buchenwald (Wegehaupt und Kruber)!;",
   lon = 16.94932, 
   lat = 50.63973, 
-  comments = ""
+  comments = "Muszkowice, gm. Ciepłowody, pow. ząbkowicki; las bukowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2468,7 +2450,7 @@ jahres <- data.frame(
   entry = "Equisetum Telmateja Ehrh. Gräfenberg: bei der Preussenquelle, sowohl var. gracile Milde als var. breve Milde (Baenitz, Herb, europ. Nr. 7485).",
   lon = 17.18435, 
   lat = 50.24872, 
-  comments = ""
+  comments = "Czechy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3186,7 +3168,7 @@ jahres <- data.frame(
   entry = "Botrychium rutaefolium A. Br. Oppeln: Grudschützer Forst in feuchtem Mischwald nicht eben selten, aber oft unfruchtbar (Wetschky)!",
   lon = 18.02351, 
   lat = 50.64372, 
-  comments = ""
+  comments = "Grudzice, Opole, las na wschód od miejscowości"
 ) |> rbind(jahres)
 
 #' 1888
@@ -3233,9 +3215,9 @@ jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
   entry = "Salvinia natans All. Rybnik: [...] Jastrzemb, [...] überhaupt in vielen Teichen dieses Theiles des Kreises (Migula)",
-  lon = 18.55485, 
-  lat = 49.96755, 
-  comments = ""
+  lon = 18.57020, 
+  lat = 49.95325, 
+  comments = "Jastrzębie-Zdrój"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3257,7 +3239,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Lycopodium complanatum L. ssp. anceps (Wallr.)",
+  species = c("Lycopodium complanatum L. ssp. anceps (Wallr.)", "Calluna vulgaris", "Thesium alpinum", "Lathyrus silvestris"),
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
   entry = "Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).",
   lon = 16.73092, 
@@ -3266,30 +3248,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Thesium alpinum",
+  species = "Equisetum Telmateja Ehrh.",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
-  entry = "Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).",
-  lon = 16.73092, 
-  lat = 50.85032, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Lathyrus sylvestris",
-  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
-  entry = "Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).",
-  lon = 16.73092, 
-  lat = 50.85032, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Lathyrus sylvestris",
-  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
-  entry = "Equisetum Telmateja Ehrli. Rybnik: Jastrzemb (Migula).",
-  lon = 18.55485, 
-  lat = 49.96755, 
-  comments = ""
+  entry = "Equisetum Telmateja Ehrh. Rybnik: Jastrzemb (Migula).",
+  lon = 18.57020, 
+  lat = 49.95325, 
+  comments = "Jastrzębie-Zdrój"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3479,7 +3443,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria Sw. Gleiwitz: Labander Wald! (Jungck);",
   lon = 18.63655, 
   lat = 50.34904, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowści"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3538,21 +3502,12 @@ jahres <- data.frame(
 
 #' 1884
 jahres <- data.frame(
-  species = "Lycopodium selago",
+  species = c("Lycopodium selago", "Lycopodium annotinum"),
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
   entry = "Lycopodium Selago L. Gleiwitz: Labander Wald und zwar die var. recurvum (Kit.)! (Jungck); ebendort L. annotinum",
   lon = 18.63655, 
   lat = 50.34904, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Lycopodium annotinum",
-  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
-  entry = "Lycopodium Selago L. Gleiwitz: Labander Wald und zwar die var. recurvum (Kit.)! (Jungck); ebendort L. annotinum",
-  lon = 18.63655, 
-  lat = 50.34904, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3561,7 +3516,7 @@ jahres <- data.frame(
   entry = "Lycopodium inundatum L. Gleiwitz: Sümpfe am Labander Walde! (Jungck).",
   lon = 18.65574, 
   lat = 50.35637, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3597,7 +3552,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Gleiwitz: an zwei Stellen im Labander Walde in Menge, doch nur steril! (Jungck);",
   lon = 18.63655, 
   lat = 50.34904, 
-  comments = ""
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3606,7 +3561,7 @@ jahres <- data.frame(
   entry = "Equisetum pratense Ehrh. Ziegenhals: Bielethal gegen Niclasdorf (Richter).",
   lon = 17.36094, 
   lat = 50.30973, 
-  comments = ""
+  comments = "dolina rzeki Biała Głuchołaska, Głuchołazy, w kierunku na Mikułowice"
 ) |> rbind(jahres)
 
 #' 1883
@@ -3833,9 +3788,9 @@ jahres <- data.frame(
   species = "Equisetum hiemale",
   citation = "@vonuechtritzResultateDurchforschunSchlesischen1880", 
   entry = "Equisetum hiemale L. Oppeln: und bei Brinnitze (Schöbel).",
-  lon = 17.95101, 
-  lat = 50.81546, 
-  comments = ""
+  lon = 17.91469,  
+  lat = 50.79479, 
+  comments = "Brynica, gm. Łubiany, pow. opolski; las na południowy-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3907,9 +3862,9 @@ jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@vonuechtritzWichtigerenErgebnisseErforschung1878", 
   entry = "Equisetum pratense Ehrh. Oppeln: Brinnitzer Wald ! (Schübel.)",
-  lon = 17.95101, 
-  lat = 50.81546, 
-  comments = ""
+  lon = 17.91469,  
+  lat = 50.79479, 
+  comments = "Brynica, gm. Łubiany, pow. opolski; las na południowy-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3934,9 +3889,10 @@ jahres <- data.frame(
   species = "Lycopodium inundatum",
   citation = "@vonuechtritzWichtigerenErgebnisseErforschung1878", 
   entry = "Lycopodium inundatum L. Brinnitz, Kr. Oppeln! (Schöbel.)",
-  lon = 16.89153, 
-  lat = 50.30129, 
-  comments = ""
+  lon = 17.91469,  
+  lat = 50.79479, 
+  comments = "Brynica, gm. Łubiany, pow. opolski; las na południowy-zachód od miejscowości"
+  
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3974,7 +3930,7 @@ jahres <- data.frame(
   entry = "Equisetum Telmateja Ehrh. Im Biskupitzer Forst bei Zabrze O.-S. (Nagel).",
   lon = 18.81310, 
   lat = 50.31376, 
-  comments = ""
+  comments = "Biskupice, Zabrze; las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4323,7 +4279,7 @@ jahres <- data.frame(
   entry = "Equisetum Telmateia Ehrh. Die fruchtbaren Schafte mit 3 bis 4-theiliger Aehre. Kalkbruch bei Pschow (Ders.).",
   lon = 18.39868, 
   lat = 50.04464, 
-  comments = ""
+  comments = "Pszów, pow. wodzisławski; kamieniołom wapienia"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
