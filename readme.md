@@ -30,26 +30,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                 species                                         citation
-    1     Arabis Halleri @schalowErgebnisseDurchforschungSchlesischen1934
-    2   Viola silvestris @schalowErgebnisseDurchforschungSchlesischen1934
-    3 Pulicaria vulgaris @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                 entry
-    1                                  A. Halleri Löwenberg: Schloß Hohlstein (Buchs)!
-    2 Viola silvestris mit kurzem verdickten Sporn Strehlen: „Häbsch“ bei Ruppersdorf!
-    3                        Pulicaria vulgaris [...] Freiburg: Liebichauer Tal (Loge)
+                                 species
+    1    Carex caespitosa L. nach Fries.
+    2 Equisetum palustre f. polystachium
+    3          Thalictrum aquilegifolium
+                                              citation
+    1             @wimmerSchlesischenCarexArtenAus1850
+    2 @schalowErgebnisseDurchforschungSchlesischen1932
+    3 @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                              entry
+    1 Carex caespitosa L. nach Fries. [...] Bisher auf sumpfigen Wiesen am Geiersberge mit den beiden vorigen [...]
+    2                              Equisetum palustre f. polystachyum Guhrau: Dünen zwischen Groß-Osten und Mechau!
+    3                                   Thalictrum aquilegifolium Niesky: nördlich vom Großteich Dauban (Militzer);
            lon      lat
-    1 15.59100 51.15903
-    2 17.16302 50.77817
-    3 16.33349 50.83299
-                                                                       comments
-    1                                   Pałac w Skale, Skała, gm. Lwówek Śląski
-    2 Wyszonowice, gm. Wiązów, pow. strzeliński (aber was und wo 'Häbsch' war?)
-    3                                              Lubiechów, Wałbrzych, dolina
-      year                         accepted_name
-    1 1934                                  <NA>
-    2 1934 Viola reichenbachiana Jord. ex Boreau
-    3 1935            Pulicaria vulgaris Gaertn.
+    1 16.72816 50.83866
+    2 16.42335 51.65229
+    3 14.61984 51.30702
+                                                                                     comments
+    1 [podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka
+    2                                   wydmy między Osetno, gm. Góra a Miechów, gm. Niechlów
+    3                                                                                        
+      year                 accepted_name
+    1 1850            Carex cespitosa L.
+    2 1932         Equisetum palustre L.
+    3 1935 Thalictrum aquilegiifolium L.
 
 </div>
 
@@ -74,9 +78,6 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
-<summary>Code</summary>
-
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -92,8 +93,6 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
-
-</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -125,15 +124,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. AE67
-    2     Malva moschata L. AE67
-    3     Malva moschata L. BE53
-    4     Malva moschata L. BE62
-    5     Malva moschata L. BE71
-    6     Malva moschata L. BE74
-    7   Malva parviflora L. BE49
-    8 Malva verticillata L. AE58
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. AE67
+    4                    Malva moschata L. BE53
+    5 Malva thuringiaca subsp. thuringiaca CF35
+    6        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE67
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -210,7 +209,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3479 records (species - localization) including 3411 with
+total 3533 records (species - localization) including 3464 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

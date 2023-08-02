@@ -338,7 +338,7 @@ jahres <- data.frame(
   entry = "Botrychium Lunaria. Lähn: Wünschendorfer Kalkberg (Kr.);",
   lon = 15.62226, 
   lat = 50.99685, 
-  comments = ""
+  comments = "Radomice, gm. Wleń, pow. lwówecki; kamieniołom wapienia"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2106,7 +2106,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum Lmk. var. serotinum A. Br. Sumpfige Stellen des Zobtenwaldes oberhalb Kl.-Silsterwitz (M. Fiek)!",
   lon = 16.72380, 
   lat = 50.85616, 
-  comments = ""
+  comments = "Ślęża, południowy stok nad miejscowością Sulistrowiczki, gm. Sobótka, pow. wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2914,7 +2914,7 @@ jahres <- data.frame(
   entry = "Lycopodium inundatum L. Teschen: Bystrzitz (Prof. Bol. Kotula).",
   lon = 18.75266, 
   lat = 49.64203, 
-  comments = ""
+  comments = "Bystrice, Czechy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2959,7 +2959,7 @@ jahres <- data.frame(
   entry = "Equisetum variegatum Schleich. Teschen: Bystrzitz am Gluchowa-Bache oberhalb der Kirche (Kotula).",
   lon = 18.73301, 
   lat = 49.63909, 
-  comments = ""
+  comments = "Bystrice, Czechy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3150,7 +3150,7 @@ jahres <- data.frame(
   entry = "Ophioglossum vulgatum L. Teschen: Golleschauer Berg (Kotula)!! ",
   lon = 18.73767, 
   lat = 49.72572, 
-  comments = ""
+  comments = "Wyrchgóra, Goleszów, gm. Goleszów, pow. cieszyński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

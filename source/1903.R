@@ -530,9 +530,9 @@ jahres <- data.frame(
   species = "Lycopodium complanatum",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Lycopodium complanatum. Teschen: Löwitz (Oborny).",
-  lon = NA, 
-  lat = NA, 
-  comments = ""
+  lon = 17.79031, 
+  lat = 50.10045,
+  comments = "Lewice, gm. Branice, pow. głubczycki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

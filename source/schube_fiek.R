@@ -910,24 +910,130 @@ schube <- data.frame(
   comments = "Czechy"
 ) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Zuckau (F), [...]",
+  lon = 18.58246, 
+  lat = 49.72108,
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Boguschowitz (F), [...]",
+  lon = 18.62152,
+  lat = 49.76816,
+  comments = "Boguszowice, Cieszyn"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Trzinietz (F), [...]",
+  lon = 18.67634, 
+  lat = 49.68154,
+  comments = "Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Blogotitz (F)!, [...]",
+  lon = 18.62916, 
+  lat = 49.72965,
+  comments = "Błogocice, Cieszyn"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Löwitz (O, ob Vd?), [...]",
+  lon = 17.79031, 
+  lat = 50.10045,
+  comments = "Lewice, gm. Branice, pow. głubczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Bystrzitz (F)!, [...]",
+  lon = 18.73301, 
+  lat = 49.63909, 
+  comments = "Bystrice, Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Te: [...] Golleschau (F); [...]",
+  lon = 18.73585,  
+  lat = 49.73001, 
+  comments = "Goleszów, gm. Goleszów, pow. cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VId Ustroń (F), [...]",
+  lon = 18.82670, 
+  lat = 49.70384,
+  comments = "Ustroń, pow. cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VId [...] Oberweichsel (F), [...]",
+  lon = 18.88941, 
+  lat = 49.62817,
+  comments = "Wisła, pow. cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum Lam.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VId [...] Bialka (F)! [...]",
+  lon = NA,
+  lat = NA,
+  comments = ""
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum f. serotinum A. Br.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1896, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. serotinum A. Br. [...] Zbg: über Kl.-Silsterwitz (95); [...]",
+  lon = 16.72380, 
+  lat = 50.85616, 
+  comments = "Ślęża, południowy stok nad miejscowością Sulistrowiczki, gm. Sobótka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum f. serotinum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. serotinum A. Br. [...] Nei: Wangenfield (F, fr); [...]",
+  lon = 17.39939, 
+  lat = 50.48496,
+  comments = "Nie znalazłem Wagenfield na mapach. Jedynym źródłem może być wpis w  https://wiki.genealogy.net/Gro%C3%9F_Neundorf: 'Die Erbscholtisei (54 ha) war im Besitz der Familie Kinne, ein Bauergut (74 ha) seit 1650 im Besitz der Familie Beier, außerdem gab es im Ort mehrere große Bauernhöfe. Auf der Adalberthöhe, auf dem Ziegelberg östlich von Maria Hilf gelegen, hatte der Neisser Redakteur und Verleger Moritz Wangenfield um 1831 ein Gasthaus mit Sommerwohnungen und einen parkartigen Garten mit vielen seltenen Bäumen und Sträuchern angelegt. Aus finanziellen Gründen wurde die Anlage 1866 vom späteren Besitzer aufgegeben und abgetragen.' Można przypuszczać, że Wagenfield położone było na terenach wsi Złotogłowice (Groß Neundorf); natomiast z listy gatunków można przypuszczać, że teren był podmokły/położony nad rzeką. Złotogłowice, gm. Nysa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum f. serotinum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. serotinum A. Br. [...] Gräfenberg (F). [...]",
+  lon = 17.18999, 
+  lat = 50.23962,
+  comments = "Jesenik, Czechy"
+) |> rbind(schube)
+
+
 #### end ----
 
-# schube <- data.frame(
-#   species = "Equisetum maximum Lam.",
-#   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-#   entry = "[...] [...]",
-#   lon = , 
-#   lat = , 
-#   comments = ""
-# ) |> rbind(schube)
+
+#    
 # 
-# 
-# 
-# VIc Te: [...] Zuckau (F), Boguschowitz (F), Trzinietz (F), Blogotitz (F)!, Löwitz (O, ob Vd?), Bystrzitz (F )!, Golleschau (F); VI d U stroń (F), Oberweichsel (F), Białka (F )! 
-#                                                                                                                                    
-# f. s e r o t i n u m A . B r . Zbg: über Kl.-Silsterwitz (95); Nei: Wangenfield (F, fr); Gräfenberg (F). 
-# 
-# f. c o m o s u m M ilde. Nei. (Milde, Schics. Gef.-Cr.). 
+# f. comosum M ilde. Nei. (Milde, Schics. Gef.-Cr.). 
 # 
 # v. g r a c i l e M ilde. Obernigk (F), Heidewilxert (F )!; Zbg: über Kl.-Silster­ witz (F )!; Str: Prieborn (01)!; Miln: Schlange (01)!; Rein: Grunwalder T al (95). Außerdem f. b r e v e M ild e !
 #  

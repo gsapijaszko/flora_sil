@@ -203,7 +203,7 @@ grDevices::png(filename = "barplot.png", width = 1200)
 c <- jahres |>
   dplyr::group_by(year) |>
   dplyr::count()
-barplot(n ~ year, data = c) 
+barplot(n ~ year, data = c, ylab = "") 
 grDevices::dev.off()
 ```
 

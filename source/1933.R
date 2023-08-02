@@ -649,7 +649,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Taxus baccata",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Taxus baccata Bolkenhain: am Burgberge zwei größere Exemplare (Strauch); [...] ",
+  entry = "Taxus baccata Bolkenhain: am Burgberge zwei größere Exemplare (Strauch); [...]",
   lon = 16.09789, 
   lat = 50.92163,
   comments = "wzgórze zamkowe, Zamek Bolków, Bolków"
@@ -820,7 +820,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Leersia oryzoides",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Leersia oryzoides Liebenthal: Obertorteich [...] ",
+  entry = "Leersia oryzoides Liebenthal: Obertorteich [...]",
   lon = 15.50458, 
   lat = 51.01392,
   comments = "Lubomierz, staw"
@@ -1126,7 +1126,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Eriophorum vaginatum",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933", 
-  entry = "Eriophorum vaginatum Naumburg a. B.: Theuern, [...] ",
+  entry = "Eriophorum vaginatum Naumburg a. B.: Theuern, [...]",
   lon = 15.23708,  
   lat = 51.82937,
   comments = "Turów, Cieszów, gm. Nowogród Bobrzański"
@@ -2260,7 +2260,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Amarantus hybridus ssp. cruentus Thell. var. paniculatus Thell.",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Amarantus hybridus ssp. cruentus Thell. var. paniculatus Thell. Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!; [...] ",
+  entry = "Amarantus hybridus ssp. cruentus Thell. var. paniculatus Thell. Liegnitz: Schuttplatz an der Koischwitzer Straße (Weimann)!; [...]",
   lon = 16.19370, 
   lat = 51.20265,
   comments = "Legnica, ul. Koskowicka / Al. Marszałka Józefa Piłsudskiego, wysypisko śmieci"
@@ -2359,7 +2359,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Cucubalus baccifer",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Cucubalus baccifer Liegnitz: Rufferpark, gegen Weißenhof (Weimann)!; [...] ",
+  entry = "Cucubalus baccifer Liegnitz: Rufferpark, gegen Weißenhof (Weimann)!; [...]",
   lon = 16.13168, 
   lat = 51.19827,
   comments = "okolice wzgórza Sępia Góra, Legnica"
@@ -2467,7 +2467,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Illecebrum verticillatum",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Illecebrum verticillatum Naumburg a. B.: [...] Alt-Kleppen (Tscheppe)!; [...] ",
+  entry = "Illecebrum verticillatum Naumburg a. B.: [...] Alt-Kleppen (Tscheppe)!; [...]",
   lon = 15.28373, 
   lat = 51.79952,
   comments = "Klępina Stara, Klępina, gm. Nowogród Bobrzański, pow. zielonogórski"
@@ -2557,7 +2557,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Anemone pratensis",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Anemone pratensis [...] Wohlau: Knechte[berg] [...] bei Mondschütz, [...] ",
+  entry = "Anemone pratensis [...] Wohlau: Knechte[berg] [...] bei Mondschütz, [...]",
   lon = 16.61024, 
   lat = 51.29279,
   comments = "wzgórze bez nazwy, Mojęcice, gm. Wołów"
@@ -2566,7 +2566,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Anemone pratensis",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "Anemone pratensis [...] Wohlau: [...] Mägdeberg bei Mondschütz, [...] ",
+  entry = "Anemone pratensis [...] Wohlau: [...] Mägdeberg bei Mondschütz, [...]",
   lon = 16.61765, 
   lat = 51.30139,
   comments = "[wzgórze] Dziewin, Mojęcice, gm. Wołów"
@@ -2755,7 +2755,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Corydalis intermedia",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1933",
-  entry = "C. intermedia Naumburg a. B.: alter Friedhof, [...] ",
+  entry = "C. intermedia Naumburg a. B.: alter Friedhof, [...]",
   lon = 15.24585, 
   lat = 51.80033,
   comments = "Nowogród Bobrzański, stary cmentarz"
@@ -3280,7 +3280,7 @@ jahres <- data.frame(
   entry = "R. aureum [...] Frankenstein: Ödland in der Silberberger Vorstadt (Rauhut)!",
   lon = 16.66320, 
   lat = 50.57451,
-  comments = "pustkowia na przedmieściu Srebrna Góra, gm. Stoszowice, pow. ząbkowicki "
+  comments = "pustkowia na przedmieściu Srebrna Góra, gm. Stoszowice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5170,7 +5170,7 @@ jahres <- data.frame(
   entry = "Asperugo procumbens [...] Frankenstein: Silberberger Vorstadt (Rauhut)!",
   lon = 16.66320, 
   lat = 50.57451,
-  comments = "przedmieście, Srebrna Góra, gm. Stoszowice, pow. ząbkowicki "
+  comments = "przedmieście, Srebrna Góra, gm. Stoszowice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
