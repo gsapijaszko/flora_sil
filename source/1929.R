@@ -103,3 +103,26 @@ jahres <- data.frame(
   lat = 50.78167, 
   comments = "Leszczyniec, gm. Kamienna Góra"
 ) |> rbind(jahres)
+
+#'
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
+  entry = "Cynodon Dactylon L. B: vor Hundsfeld [...]",
+  lon = 17.09960, 
+  lat = 51.14273, 
+  comments = "Wrocław, przed os. Psie Pole"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
+  entry = "Cynodon Dactylon L. B: [...] am Kinderzobten (Sl)!",
+  lon = 16.99758, 
+  lat = 51.08158, 
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka"
+) |> rbind(jahres)
+

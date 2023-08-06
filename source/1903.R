@@ -206,9 +206,9 @@ jahres <- data.frame(
   species = "Equisetum arvense f. campestre",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Equisetum arvense f. campestre. Bunzlau: Tillendorf (Alt)!;",
-  lon = 15.54474, 
-  lat = 51.26803, 
-  comments = ""
+  lon = 15.53643,  
+  lat = 51.25915, 
+  comments = "Bolesławiec, obecnie okolice ul. Zabobrze"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -217,7 +217,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense f. campestre. Grünberg: Maugschtvorverk (Hellwig)!,",
   lon = 15.47659, 
   lat = 51.96110, 
-  comments = "http://maps.mapywig.org/m/German_maps/series/050K_Deutsche_Karte_KDR100/DK_50K_346_Gruenberg_i_Schl._1938.jpg"
+  comments = "obecnie teren miasta Zielone Góra, http://maps.mapywig.org/m/German_maps/series/050K_Deutsche_Karte_KDR100/DK_50K_346_Gruenberg_i_Schl._1938.jpg"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -226,7 +226,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense f. campestre. Grünberg: Krampe (ders.)!",
   lon = 15.53103, 
   lat = 52.00299, 
-  comments = ""
+  comments = "Krępa, Nowe Miasto, Zielona Góra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -235,7 +235,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense f. campestre. Grünberg: Pirniger Fähre (ders.)!",
   lon = 15.77931, 
   lat = 51.91841, 
-  comments = ""
+  comments = "dawna przeprawa przez rzekę Odra obok miejscowości Pyrnik, gm. Bojadła, pow. zielonogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -243,8 +243,8 @@ jahres <- data.frame(
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Equisetum arvense f. campestre. Dyhernfurt: Gloschkau (E. Fiek, h. s.)!",
   lon = 16.73047, 
-  lat = 51.25732, 
-  comments = ""
+  lat = 51.24444, 
+  comments = "Głoska, gm. Miękinia, pow. średzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -262,7 +262,7 @@ jahres <- data.frame(
   entry = "Equisetum palustre f. arcuatum. Breslau: Neuholland (v. Uechtritz, h. s.) !",
   lon = 17.06852, 
   lat = 51.10276, 
-  comments = ""
+  comments = "Wrocław, okoulice ulicy Na Grobli"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

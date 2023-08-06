@@ -993,7 +993,7 @@ jahres <- data.frame(
   entry = "Salvinia natans. Brieg: Waldteich im Jagen 15 des Scheidelwitzer Reviers (Rothe)!;",
   lon = 17.42399, 
   lat = 50.91741, 
-  comments = ""
+  comments = "Szydłowice, gm. Lubsza, pow. brzeski; staw leśny"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1352,7 +1352,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum v. gracile. Strehlen: Prieborn;",
   lon = 17.20248, 
   lat = 50.68262, 
-  comments = ""
+  comments = "Przeworno, gm. Przeworno, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1361,7 +1361,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum v. gracile. Münsterberg: Schlause (Hilse in h. s.)!",
   lon = 16.99168, 
   lat = 50.57557, 
-  comments = ""
+  comments = "Służejów, gm. Ziębice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1663,7 +1663,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense v. campestre. Grünberg: Heinersdorf (Hw.)!",
   lon = 15.49778, 
   lat = 51.90627, 
-  comments = ""
+  comments = "Jędrzychów, Zielona Góra, pow. zielonogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2115,7 +2115,7 @@ jahres <- data.frame(
   entry = "Equisetum maximum v. breve Milde. Reinerz: Weistritzthal (Bänitz, S).",
   lon = 16.38800, 
   lat = 50.39828, 
-  comments = ""
+  comments = "Duszniki Zdrój, dolina rzeki Bystrzyca Dusznicka "
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2315,16 +2315,16 @@ jahres <- data.frame(
   entry = "Salvinia natans (L.) All. Neumarkt: Seedorf,",
   lon = 16.62111, 
   lat = 51.24190, 
-  comments = "Zakrzów, gm. Środa Śląska"
+  comments = "Zakrzów, gm. Środa Śląska; starorzecze"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
   entry = "Salvinia natans (L.) All. Neumarkt: Breitenau,",
-  lon = 16.58916, 
-  lat = 51.23018, 
-  comments = ""
+  lon = 16.59118, 
+  lat = 51.22973, 
+  comments = "Brodno, gm. Środa Śląska, jezioro (starorzecze)"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2427,12 +2427,12 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-species = "Equisetum arvense L. var. boreale (Rup.) f. normalis",
-citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
-entry = "Equisetum arvense L. var. boreale (Rup.) f. normalis. Breslau: Scheitniger Park (Baenitz)",
-lon = 17.08199, 
-lat = 51.11493, 
-comments = ""
+  species = "Equisetum arvense L. var. boreale (Rup.) f. normalis",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
+  entry = "Equisetum arvense L. var. boreale (Rup.) f. normalis. Breslau: Scheitniger Park (Baenitz)",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Wrocław, Park Szczytnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2569,7 +2569,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense var. serotinum G. F. W. Mey. Lüben: Jauschwitz (Figert).",
   lon = 16.25412, 
   lat = 51.47956, 
-  comments = ""
+  comments = "Juszowice, gm. Rudna, pow. lubiński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3013,7 +3013,7 @@ jahres <- data.frame(
   entry = "Botrychium matricariaefolium A. Br. Grünberg: Weg am Kirchhofe in Heinersdorf (Schröder) !",
   lon = 15.50134, 
   lat = 51.90771, 
-  comments = ""
+  comments = "Jędrzychów, Zielona Góra, pow. zielonogórski; droga na cmentarz"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3543,7 +3543,7 @@ jahres <- data.frame(
   entry = "Equisetum arvense L. var. campestre (C.F. Schultz, nicht wie Fiek schreibt, F. Schultz). Liegnitz: auf einer Brache südöstlich von Weissenrode (Gerhardt).",
   lon = 16.18351, 
   lat = 51.19185, 
-  comments = ""
+  comments = "obecnie teren miasta Legnica"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3880,9 +3880,9 @@ jahres <- data.frame(
   species = "Asplenium germanicum Weis.",
   citation = "@vonuechtritzWichtigerenErgebnisseErforschung1878", 
   entry = "Asplenium germanicum Weis. Am Eulenberge bei Seitenberg, Grafschaft Glatz! (M. Preuss.)",
-  lon = 16.89153, 
-  lat = 50.30129, 
-  comments = ""
+  lon = 16.82878, 
+  lat = 50.28263, 
+  comments = "Stronie Śląskie - Wieś, gm. Stronie Śląskie, pow. kłodzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

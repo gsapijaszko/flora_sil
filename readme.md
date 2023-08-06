@@ -30,30 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                 species
-    1    Carex caespitosa L. nach Fries.
-    2 Equisetum palustre f. polystachium
-    3          Thalictrum aquilegifolium
-                                              citation
-    1             @wimmerSchlesischenCarexArtenAus1850
-    2 @schalowErgebnisseDurchforschungSchlesischen1932
-    3 @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                              entry
-    1 Carex caespitosa L. nach Fries. [...] Bisher auf sumpfigen Wiesen am Geiersberge mit den beiden vorigen [...]
-    2                              Equisetum palustre f. polystachyum Guhrau: Dünen zwischen Groß-Osten und Mechau!
-    3                                   Thalictrum aquilegifolium Niesky: nördlich vom Großteich Dauban (Militzer);
-           lon      lat
-    1 16.72816 50.83866
-    2 16.42335 51.65229
-    3 14.61984 51.30702
-                                                                                     comments
-    1 [podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka
-    2                                   wydmy między Osetno, gm. Góra a Miechów, gm. Niechlów
-    3                                                                                        
-      year                 accepted_name
-    1 1850            Carex cespitosa L.
-    2 1932         Equisetum palustre L.
-    3 1935 Thalictrum aquilegiifolium L.
+                    species                                                citation
+    1       Carex brizoides        @schalowErgebnisseDurchforschungSchlesischen1936
+    2 Nasturtium austriacum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3          Reseda lutea        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
+    1 Zu den letzten Resten der alten Urwalddecke gehört auch der Stadtwald von Grottkau, ein Laubmischwald von recht verschiedenartiger Zusammensetzung. Ich durchstreifte nur seinen nördlichsten Teil und fand hier den Boden mit Vinca minor vielfach dicht übersponnen. An ändern Stellen trat Carex brizoides bestandbildend auf. Doch sah ich auch ausgesprochen sumpfige Stellen, für die Aspidium Thelypteris bezeichnend ist. Hier ist auch Anthriscus nitida recht häufig.
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                      N. austriacum Ohlau: Oderufer bei Zedlitz!
+    3                                                                                                                                                                                                                                                                                                                                                                                                               Reseda lutea Hoyerswerda: alte Berliner Straße (Militzer); [...] 
+           lon      lat                                 comments year
+    1 17.42759 50.69195 Żelazna k. Grodkowa, las, część północna 1936
+    2 17.29795 51.01032     brzek rzeki Odra, Siedlce, gm. Oława 1933
+    3 14.23576 51.44315                                          1934
+           accepted_name
+    1 Carex brizoides L.
+    2               <NA>
+    3    Reseda lutea L.
 
 </div>
 
@@ -78,6 +70,9 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
+<details>
+<summary>Code</summary>
+
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -93,6 +88,8 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
+
+</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -125,14 +122,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE67
-    3                    Malva moschata L. AE67
-    4                    Malva moschata L. BE53
-    5 Malva thuringiaca subsp. thuringiaca CF35
-    6        Malva trimestris (L.) Salisb. AE58
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BE62
+    4                    Malva moschata L. BF01
+    5                    Malva moschata L. CF11
+    6 Malva thuringiaca subsp. thuringiaca CF35
     7        Malva trimestris (L.) Salisb. AE67
-    8                Malva verticillata L. BE59
+    8                Malva verticillata L. AD59
 
 ### How to participate
 
@@ -209,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3533 records (species - localization) including 3464 with
+total 3615 records (species - localization) including 3544 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -223,46 +220,46 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

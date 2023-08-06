@@ -96,7 +96,7 @@ jahres <- data.frame(
   entry = "S. aurita, von Lissa bei Br., mit sehr ausgebildeten proleptischen Rätzchen, im Juni d. J. gesammelt.",
   lon = 16.87443, 
   lat = 51.14891,
-  comments = NA
+  comments = "Wrocław, Leśnica"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -153,7 +153,7 @@ jahres <- data.frame(
 einer Waldwiese bei Lissa bei Breslau, etwa 12 Exemplare auf einer Stelle nahe bei einander.",
   lon = 16.86094, 
   lat = 51.16602,
-  comments = NA
+  comments = "Leśnica, Wrocław, Las Mokrzański; na śródleśnej łące"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

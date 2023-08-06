@@ -1172,7 +1172,7 @@ jahres <- data.frame(
   entry = "Thesium pratense Kupferberg: unterhalb von Kreuzwiese (Strauch)",
   lon = 15.94275, 
   lat = 50.84424,
-  comments = ""
+  comments = "nieistniejący przysiółek Gniewczyce, Mniszków, gm. Janowice Wielkie, pow. karkonoski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1829,7 +1829,7 @@ jahres <- data.frame(
   entry = "Thalictrum aquilegifolium [...] Steinau a. d. O.: zwischen Krehlau und Beschine (Pfeiffer)!; [...] ",
   lon = 16.57263, 
   lat = 51.43549,
-  comments = "między Krzelów a Baszyn"
+  comments = "między Krzelów a Baszyn, gm. Wińsko, pow. wołowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3108,7 +3108,7 @@ jahres <- data.frame(
   entry = "Daphne mezereum Steinau a. d. O.: zwischen Krehlau und Beschine (Pfeiffer)!",
   lon = 16.57263, 
   lat = 51.43549,
-  comments = "między Krzelów a Baszyn"
+  comments = "między Krzelów a Baszyn, gm. Wińsko, pow. wołowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4080,7 +4080,7 @@ jahres <- data.frame(
   entry = "V. dioeca Wohlau: zwischen Krehlau und Beschine (Pfeiffer)!",
   lon = 16.57263, 
   lat = 51.43549,
-  comments = "między Krzelów a Baszyn"
+  comments = "między Krzelów a Baszyn, gm. Wińsko, pow. wołowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5447,3 +5447,35 @@ jahres <- data.frame(
   comments = "Konradowa, Nysa"
 ) |> rbind(jahres)
 
+
+## meyerNeueFremdpflanzenSchlesiens1935 --------------------------------------------
+
+bib <- RefManageR::as.BibEntry(
+  c(bibtype = "article",
+    key  = "meyerNeueFremdpflanzenSchlesiens1935",
+    author = "Kurt Meyer",
+    title = "Neue Fremdpflanzen Schlesiens",
+    journaltitle = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1934, Jg.107",
+    date = "1935",
+    volume = 107,
+    pages = "44--51")
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+#' 
+#' b) Die Breslauer Bahnhöfe 1933/34.
+#' 
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon L.",
+  citation = "@meyerNeueFremdpflanzenSchlesiens1935",
+  entry = "Cynodon Dactylon L. nach Scheuermann Einwanderer BH 1",
+  lon = 17.01999, 
+  lat = 51.12865,
+  comments = "Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+#' TODO - dokończyć @meyerNeueFremdpflanzenSchlesiens1935

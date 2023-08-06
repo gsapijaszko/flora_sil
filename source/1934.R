@@ -3036,7 +3036,7 @@ jahres <- data.frame(
   entry = "P. serotina [...] Rosenberg: Ellguther Berge (Klonek)!.",
   lon = 18.53262, 
   lat = 50.97289,
-  comments = "wzgórza niedaleko Ligota Oleska, gm. Radków, pow. oleski"
+  comments = "wzgórza niedaleko Ligota Oleska, gm. Radłów, pow. oleski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3252,7 +3252,7 @@ jahres <- data.frame(
   entry = "G. pyrenaicum Landeshut: mehrfach, [...]",
   lon = 16.03702, 
   lat = 50.78187,
-  comments = "Kamienna Góra"
+  comments = "Kamienna Góra; wielokrotnie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3430,9 +3430,9 @@ jahres <- data.frame(
   species = "Impatiens parviflora",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "Impatiens parviflora [...] Landeshut: mehrfach (Strauch)!; [...]",
-  lon = 16.00632, 
-  lat = 50.76995,
-  comments = "Kamienna Góra, wielokrotnie"
+  lon = 16.03702, 
+  lat = 50.78187,
+  comments = "Kamienna Góra; wielokrotnie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3936,7 +3936,7 @@ jahres <- data.frame(
   entry = "Gentiana Pneumonanthe Rosenberg: [...] Ellguth (Klonek)",
   lon = 18.53924, 
   lat = 50.96096,
-  comments = "Ligota Oleska, gm. Radków, pow. oleski"
+  comments = "Ligota Oleska, gm. Radłów, pow. oleski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -340,6 +340,19 @@ jahres <- data.frame(
   comments = "Dąbrowa, gm. Krośnice"
 ) |> rbind(jahres)
 
+#'
+#' [....]
+#'
+
+jahres <- data.frame(
+  species = "Cynodon dactylon",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931", 
+  entry = "Cynodon dactylon Breslau: Schuttplatz hei Morgenau (Dr. K. Meyer)!",
+  lon = 17.06966,
+  lat = 51.09861, 
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
 
 # meyerPflanzenweltBreslauerGuterbahnhofe1931 -------------------------------------------------
 

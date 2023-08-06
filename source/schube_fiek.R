@@ -27,7 +27,16 @@ bib <- RefManageR::as.BibEntry(list(
     publisher = "Druck von R. Nischkowsky",
     address = "Breslau",
     date = "1903",
-    pages = 362)
+    pages = 362),
+  c(
+    bibtype = "article",
+    key  = "mildeGefaessCryptogamenSchlesienPreussischen1858",
+    author = "Julius Milde",
+    title = "Die Gefäss-Cryptogamen in Schlesien preussischen und österreichischen Antheils",
+    journal = "Verhandlunfen der Keiserlichen Leopoldinisch-Carolinischen Akademie der Naturforscher",
+    date = "1858",
+    volume = "26, Abt. 2", 
+    pages = "369--785")
   )
 )
 
@@ -386,7 +395,7 @@ schube <- data.frame(
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] IIId [...] B: [...] Leerbeutel (F ); [...]",
+  entry = "[...] IIId [...] B: [...] Leerbeutel (F); [...]",
   lon = 17.08322,  
   lat = 51.12464, 
   comments = "Wrocław, kąpielisko Morskie Oko"
@@ -458,7 +467,7 @@ schube <- data.frame(
 schube <- data.frame(
   species = "Equisetum pratense Ehrh.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
-  entry = "[...] Vb Karlsruhe (F )!; [...]",
+  entry = "[...] Vb Karlsruhe (F)!; [...]",
   lon = 17.84366,  
   lat = 50.89549, 
   comments = "Pokój, gm. Pokój, pow. namysłowski"
@@ -643,8 +652,8 @@ schube <- data.frame(
   species = "Equisetum maximum Lam.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IIIe Zbg: Südabhang über Kl.-Silsterwitz (F); [...]",
-  lon = 16.72543,  
-  lat = 50.84828, 
+  lon = 16.72380, 
+  lat = 50.85616, 
   comments = "Ślęża, południowy stok nad miejscowością Sulistrowiczki, gm. Sobótka, pow. wrocławski"
 ) |> rbind(schube)
 
@@ -948,7 +957,7 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Equisetum maximum Lam.",
-  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] VIc Te: [...] Löwitz (O, ob Vd?), [...]",
   lon = 17.79031, 
   lat = 50.10045,
@@ -1027,13 +1036,565 @@ schube <- data.frame(
   comments = "Jesenik, Czechy"
 ) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Equisetum maximum f. comosum Milde.",
+  citation = "@mildeGefaessCryptogamenSchlesienPreussischen1858, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. comosum Milde. Nei. (Milde, Schles. Gef.-Cr.). [...]",
+  lon = 17.31205, 
+  lat = 50.46472,
+  comments = "Nysa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] v. gracile Milde. Obernigk (F), [...]",
+  lon = 16.92493, 
+  lat = 51.30777, 
+  comments = "Oborniki Śląskie, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] v. gracile Milde. [...] Heidewilxen (F)!; [...]",
+  lon = 16.94645,  
+  lat = 51.27908, 
+  comments = "Wilczyn Leśny, gm. Oborniki Śląskie, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] v. gracile Milde. [...] Zbg: über Kl.-Silsterwitz (F)!; [...]",
+  lon = 16.72380, 
+  lat = 50.85616, 
+  comments = "Ślęża, południowy stok nad miejscowością Sulistrowiczki, gm. Sobótka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1902, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] v. gracile Milde. [...] Str: Prieborn (01)!; [...]",
+  lon = 17.20248, 
+  lat = 50.68262, 
+  comments = "Przeworno, gm. Przeworno, pow. strzeliński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1902, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] v. gracile Milde. [...] Mün: Schlange (01)!; [...]",
+  lon = 16.99168, 
+  lat = 50.57557, 
+  comments = "Służejów, gm. Ziębice, pow. ząbkowicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum maximum v. gracile Milde.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1896, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...]  v. gracile Milde. [...] Rein: Grunwalder Tal (95). Außerdem f. breve Milde!",
+  lon = 16.38800, 
+  lat = 50.39828, 
+  comments = "Duszniki Zdrój, dolina rzeki Bystrzyca Dusznicka; uwaga: w Jahres 1896 jest: 'Equisetum maximum v. breve Milde. Reinerz: Weistritzthal (Bänitz, S).' zaś u Schubego 'Rein: Grunwalder Tal (95).'"
+) |> rbind(schube)
+
+
+### 46. E. arvense L. ---- 
+#' Äcker, trockene Wiesen und Triften, Wegränder; in der Eb. 5, im Vgb. 4, im Hgb. 1.
+#' Id 9!;
+
+schube <- data.frame(
+  species = "Equisetum arvense L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IId Hgb: Riesengrund (F); [...]",
+  lon = 15.72742, 
+  lat = 50.72287,
+  comments = "Czechy"
+) |> rbind(schube)
+
+#'
+#' IIId 9!; IIIe!; IIIf!; IIIg!; Va!; Vd!; Ve!; 
+#'
+
+schube <- data.frame(
+  species = "Equisetum arvense L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIa Hgb: Gr. Kessel (F).",
+  lon = 17.23064,
+  lat = 50.08040,
+  comments = "Wielki Kocioł, Morawy; (https://www.jstor.org/stable/43792698?seq=1)"
+) |> rbind(schube)
+
+#### E. arvense f. boreale Ruprecht ----
+#'
+schube <- data.frame(
+  species = "Equisetum arvense f. boreale Ruprecht",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. boreale Ruprecht. B: Scheitnig (93)!",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Wrocław, Szczytniki"
+) |> rbind(schube)
+
+#### E. arvense f. irriguum Milde ----
+#'
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. irriguum Milde. B: vielfach (F)!; [...]",
+  lon = 16.97986,  
+  lat = 51.14095, 
+  comments = "Wrocław, często występujący, współrzędne przykładowe: os. Kozanów, Wrocław"
+) |> rbind(schube)
+
+#' poniżej z @fiekFloraSchlesienPreussischen1881
+#'  
+#' Ueberechwemmt gewesene Stellen, besonders an sandigen Oderuferu. Bisher nur um Br. bei Auras, 
+#' Sandberg, Masselwitz, Kosel, Pöpelwitz, Carlowitz (M.), am Lehmdamm, Scheitnig (Sochański),
+#' beim zool. Garten (U.), Grüneiche, Kottwitz, Tschirne (M.); dann nur b. Landeck: Seltenberg (M.).
+#' 
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Auras  [...]",
+  lon = 16.84991, 
+  lat = 51.24402,
+  comments = "Uraz, gm. Oborniki Śląśkie, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Sandberg [...]",
+  lon = 16.91533,  
+  lat = 51.18659, 
+  comments = "Nowa Karczma, os. Pracze Odrzańskie, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Masselwitz [...]",
+  lon = 16.92646, 
+  lat = 51.16622, 
+  comments = "os. Maślice, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Pöpelwitz [...]",
+  lon = 16.99781,  
+  lat = 51.12974,
+  comments = "Wrocław, Popowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Carlowitz [...]",
+  lon = 17.06895,  
+  lat = 51.13218,
+  comments = "Wrocław, Karłowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Lehmdamm, [...]",
+  lon = 17.05547,   
+  lat = 51.11949, 
+  comments = "Wrocław, okolice ulicy Prusa"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Scheitnig [...]",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Wrocław, Szczytniki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] beim zool. Garten (U.), [...]",
+  lon = 17.06901,  
+  lat = 51.10640, 
+  comments = "Wrocław, przy ogrodzie zoologicznym"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Grüneiche, [...]",
+  lon = 17.08049,  
+  lat = 51.09958, 
+  comments = "Wrocław, Dąbie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Kottwitz, [...]",
+  lon = 17.24399, 
+  lat = 51.02545,
+  comments = "Kotowice, gm. Siechnice, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881,",
+  entry = "[...] Tschirne (M.); [...]",
+  lon = 17.24000, 
+  lat = 51.04114, 
+  comments = "Czernica, gm. Czernica, pow. wrocławski"
+) |> rbind(schube)
+#' 
+#' powyżej z @fiekFloraSchlesienPreussischen1881
+#' 
+
+schube <- data.frame(
+  species = "Equisetum arvense f. irriguum Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. irriguum Milde. [...] Landeck: Seitenberg (F).",
+  lon = 16.82878, 
+  lat = 50.28263, 
+  comments = "Stronie Śląskie - Wieś, gm. Stronie Śląskie, pow. kłodzki"
+) |> rbind(schube)
+
+#### E. arvense f. campestre Milde ----
+#'
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. Bu: Tillendorf (02)!; [...]",
+  lon = 15.53643,  
+  lat = 51.25915, 
+  comments = "Bolesławiec, obecnie okolice ul. Zabobrze"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1898, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Grü: Heinersdorf (97), [...]",
+  lon = 15.49778, 
+  lat = 51.90627, 
+  comments = "Jędrzychów, Zielona Góra, pow. zielonogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Grü: [...] Krampe (02)!, [...]",
+  lon = 15.53103, 
+  lat = 52.00299, 
+  comments = "Krępa, Nowe Miasto, Zielona Góra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Grü: [...] Maugschtvorwerk (02)!, [...]",
+  lon = 15.47659, 
+  lat = 51.96110, 
+  comments = "obecnie teren miasta Zielone Góra, http://maps.mapywig.org/m/German_maps/series/050K_Deutsche_Karte_KDR100/DK_50K_346_Gruenberg_i_Schl._1938.jpg"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Grü: [...] Pirniger Fähre (02)!; [...]",
+  lon = 15.77931, 
+  lat = 51.91841, 
+  comments = "dawna przeprawa przez rzekę Odra obok miejscowości Pyrnik, gm. Bojadła, pow. zielonogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1893, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Lü: Jauschwitz (92); [...]",
+  lon = 16.25412, 
+  lat = 51.47956, 
+  comments = "Juszowice, gm. Rudna, pow. lubiński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Lie: Weißenrode (83); [...]",
+  lon = 16.18351, 
+  lat = 51.19185, 
+  comments = "obecnie teren miasta Legnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Dyhernfurt: Gloschkau (02); [...]",
+  lon = 16.73047, 
+  lat = 51.24444, 
+  comments = "Głoska, gm. Miękinia, pow. średzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Br: Scheidelwitz (F); [...]",
+  lon = 17.42399, 
+  lat = 50.91741, 
+  comments = "Szydłowice, gm. Lubsza, pow. brzeski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] B: vielfach (F)!; [...]",
+  lon = 17.08049,  
+  lat = 51.09958, 
+  comments = "Wrocław, często spotykany, tutaj współrzędne na Dąbie; w @fiekFloraSchlesienPreussischen1881 wymienione 'Grüneiche'"
+) |> rbind(schube)
+
+#' poniżej z @fiekFloraSchlesienPreussischen1881
+#'  
+#' Auf Sandboden namentlich auf Aeckern, selten. Br: [...] Sandberg, Lissa, Masselwitz, Kosel,
+#' Pöpelwitz, bei der Gröschelbrücke, Carlowitz, P. Neudorf, Scheitnig, [...] Mirkau (M.);
+#' 
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Sandberg [...]",
+  lon = 16.91533,  
+  lat = 51.18659, 
+  comments = "Nowa Karczma, os. Pracze Odrzańskie, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Lissa [...]",
+  lon = 16.87443, 
+  lat = 51.14891,
+  comments = "Wrocław, Leśnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Masselwitz [...]",
+  lon = 16.92646, 
+  lat = 51.16622, 
+  comments = "os. Maślice, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Kosel [...]",
+  lon = 16.97986,  
+  lat = 51.14095, 
+  comments = "os. Kozanów, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Pöpelwitz [...]",
+  lon = 16.99781,  
+  lat = 51.12974,
+  comments = "Wrocław, Popowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] bei der Gröschelbrücke [...]",
+  lon = 17.02785,   
+  lat = 51.13018, 
+  comments = "Wrocław, Most Osobowicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Carlowitz, [...]",
+  lon = 17.06895,  
+  lat = 51.13218,
+  comments = "Wrocław, Karłowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] P. Neudorf, [...]",
+  lon = 16.91083,  
+  lat = 51.04620,
+  comments = "Nowa Wieś Wrocławska, gm. Kąty Wrocławskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...]  Scheitnig, [...]",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Wrocław, Szczytniki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Mirkau [...]",
+  lon = 17.15821,  
+  lat = 51.15978,
+  comments = "Mirków, gm. Długołęka, pow. wrocławski"
+) |> rbind(schube)
+
+#' 
+#' powyżej z @fiekFloraSchlesienPreussischen1881
+#' 
+
+schube <- data.frame(
+  species = "Equisetum arvense f. campestre Milde",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] f. campestre Milde. [...] Auras (F). [...]",
+  lon = 16.84991, 
+  lat = 51.24402,
+  comments = "Uraz, gm. Oborniki Śląśkie, pow. trzebnicki"
+) |> rbind(schube)
+
+#### E. arvense v. nemorosum A. Br. ----
+#' 
+#' v. nemorosum A. Br. Nicht selten. Id 3!; IIId 7!
+#' 
+#' 
+#' poniżej z @fiekFloraSchlesienPreussischen1881
+#'  
+#' d) nemorosum A. Br. Unfruchtbar; St. grünlichweiss, bis über 1,00 m. hoch, dicker, aufrecht,
+#' ihre untere Hälfte astlos; Aeste wagerecht-abstehend, oft stark verlängert.
+#' 
+#' Wälder u. Gebüsche zerstreut, oft häufig. — Um Br. bei Canth, Nimkau, Lissa, vor Oltaschin, 
+#' Neuholland, Marienauer Dämme, am Strauchwehr, Strachate, Scheitnig, Mahlen, Obernigk etc. —
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Canth [...]",
+  lon = 16.77783, 
+  lat = 51.02917,
+  comments = "Kąty Wrocławskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Nimkau [...]",
+  lon = 16.72799, 
+  lat = 51.19567,
+  comments = "Miękinia, gm. Środa Śląska"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Lissa [...]",
+  lon = 16.87443, 
+  lat = 51.14891,
+  comments = "Wrocław, Leśnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] vor Oltaschin,  [...]",
+  lon = 17.02546, 
+  lat = 51.06961,
+  comments = "Wrocław, Ołtaszyn"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Neuholland,  [...]",
+  lon = 17.06852, 
+  lat = 51.10276, 
+  comments = "Wrocław, okoulice ulicy Na Grobli"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Marienauer Dämme, [...]",
+  lon = 17.05764,  
+  lat = 51.09896,
+  comments = "Wrocław, Rakowiec; grobla, tama"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] am Strauchwehr, [...]",
+  lon = 17.06865, 
+  lat = 51.10547,
+  comments = "Wrocław, [przy] Jaz Szczytnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Strachate, [...]",
+  lon = 17.23059,  
+  lat = 51.02844, 
+  comments = "Kotowice, gm. Siechnice, pow. wrocławski; koło dawnej leśniczówki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Scheitnig, [...]",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Wrocław, Szczytniki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Mahlen,  [...]",
+  lon = 17.06683, 
+  lat = 51.22548, 
+  comments = "Malin, gm. Wisznia Mała, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Equisetum arvense v. nemorosum A. Br.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "[...] Obernigk [...]",
+  lon = 16.92493, 
+  lat = 51.30777, 
+  comments = "Oborniki Śląskie, pow. trzebnicki"
+) |> rbind(schube)
+
+#' 
+#' powyżej z @fiekFloraSchlesienPreussischen1881
+#' 
 
 #### end ----
 
+# schube <- data.frame(
+#   species = "Equisetum XXX",
+#   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+#   entry = "[...]  [...]",
+#   lon = ,
+#   lat = ,
+#   comments = ""
+# ) |> rbind(schube)
+# 
 
-#    
-# 
-# f. comosum M ilde. Nei. (Milde, Schics. Gef.-Cr.). 
-# 
-# v. g r a c i l e M ilde. Obernigk (F), Heidewilxert (F )!; Zbg: über Kl.-Silster­ witz (F )!; Str: Prieborn (01)!; Miln: Schlange (01)!; Rein: Grunwalder T al (95). Außerdem f. b r e v e M ild e !
-#  
+schube |>
+  subset(grepl("@fiekFloraSchlesienPreussischen1881", citation)) |>
+  subset(!grepl("(F)", entry))
+

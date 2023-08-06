@@ -131,7 +131,7 @@ jahres <- data.frame(
 
 jahres <- data.frame(
   species = c("Xanthium spinosum", "Atriplex laciniata", "Cynodon dactylon"),
-  citation = "@uechtrizNachtraegeZurFlora1861",
+  citation = "@heuserEinigeBemerkungenUeber1860, @uechtrizNachtraegeZurFlora1861",
   entry = "X. spinosum L. [...] Mit Atriplex laciniata und Cynodon Dactylon in einem vorstädtischen Hofe zu Ratibor. Wahrscheinlich durch ungarische Schweine, welche dort untergebracht werden, eingeschleppt. (Oestr. bot. Zeitschrift 1860. S. 361). A. W.",
   lon = 18.21007, 
   lat = 50.07550,
@@ -139,4 +139,3 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' TODO - dokończyć @uechtrizNachtraegeZurFlora1861
-#' TODO - Oestr. bot. Zeitschrift 1860. S. 361

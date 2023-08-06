@@ -112,3 +112,35 @@ jahres <- data.frame(
   lat = 50.51102, 
   comments = ""
 ) |> rbind(jahres)
+
+#'
+#'[...]
+#'
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930", 
+  entry = "Cynodon Dactylon B: vor Oltaschin [...]",
+  lon = 17.02546, 
+  lat = 51.06961, 
+  comments = "Wrocław, Ołtaszyn"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930", 
+  entry = "Cynodon Dactylon B: [...] und Woischwitz (Sl)!, [...]",
+  lon = 17.03468, 
+  lat = 51.07134, 
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynodon Dactylon",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930", 
+  entry = "Cynodon Dactylon B: [...] Wilhelmshafener Straße (M)!",
+  lon = 17.09415,  
+  lat = 51.10362, 
+  comments = "Wrocław, Biskupin, obecnie okolice ul. Karola Olszewskiego"
+) |> rbind(jahres)
+
