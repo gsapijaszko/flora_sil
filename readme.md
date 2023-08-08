@@ -30,22 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                    species                                                citation
-    1       Carex brizoides        @schalowErgebnisseDurchforschungSchlesischen1936
-    2 Nasturtium austriacum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3          Reseda lutea        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
-    1 Zu den letzten Resten der alten Urwalddecke gehört auch der Stadtwald von Grottkau, ein Laubmischwald von recht verschiedenartiger Zusammensetzung. Ich durchstreifte nur seinen nördlichsten Teil und fand hier den Boden mit Vinca minor vielfach dicht übersponnen. An ändern Stellen trat Carex brizoides bestandbildend auf. Doch sah ich auch ausgesprochen sumpfige Stellen, für die Aspidium Thelypteris bezeichnend ist. Hier ist auch Anthriscus nitida recht häufig.
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                      N. austriacum Ohlau: Oderufer bei Zedlitz!
-    3                                                                                                                                                                                                                                                                                                                                                                                                               Reseda lutea Hoyerswerda: alte Berliner Straße (Militzer); [...] 
-           lon      lat                                 comments year
-    1 17.42759 50.69195 Żelazna k. Grodkowa, las, część północna 1936
-    2 17.29795 51.01032     brzek rzeki Odra, Siedlce, gm. Oława 1933
-    3 14.23576 51.44315                                          1934
-           accepted_name
-    1 Carex brizoides L.
-    2               <NA>
-    3    Reseda lutea L.
+                      species                                         citation
+    1 Sempervivum soboliferum @schalowErgebnisseDurchforschungSchlesischen1935
+    2  Ceratophyllum demersum @schalowErgebnisseDurchforschungSchlesischen1935
+    3       Aster novi-belgii @schalowErgebnisseDurchforschungSchlesischen1935
+                                                        entry      lon      lat
+    1 Sempervivum soboliferum [...] Jauer: mehrfach (Strauch) 16.18655 51.05176
+    2       Ceratophyllum demersum Freiburg: Kalkbruch (Loge)       NA       NA
+    3         Aster Novi Belgii Jauer: Semmelwitz (Strauch)!; 16.21320 51.03772
+                                 comments year
+    1                               Jawor 1935
+    2       Świebodzice, wyrobisko wapnia 1935
+    3 Zębowice, gm. Paszowice, pow. Jawor 1935
+                                  accepted_name
+    1  Sempervivum globiferum subsp. globiferum
+    2                 Ceratophyllum demersum L.
+    3 Symphyotrichum novi-belgii (L.) G.L.Nesom
 
 </div>
 
@@ -122,14 +122,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BE62
-    4                    Malva moschata L. BF01
-    5                    Malva moschata L. CF11
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE67
-    8                Malva verticillata L. AD59
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. AE67
+    4                    Malva moschata L. BE53
+    5                    Malva moschata L. BE62
+    6                    Malva moschata L. BE74
+    7                  Malva parviflora L. BE49
+    8 Malva thuringiaca subsp. thuringiaca BE57
 
 ### How to participate
 
@@ -206,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3615 records (species - localization) including 3544 with
+total 3691 records (species - localization) including 3620 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -220,46 +220,46 @@ And the number of records per year:
 
 #### WIP
 
-    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+[1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-    (1850), pp. 81-83.
+[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+(1850), pp. 81-83.
 
-    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-    (1850), pp. 75-76.
+[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+(1850), pp. 75-76.
 
-    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-    im Jahre 1849_ (1850), pp. 77-81.
+[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+im Jahre 1849_ (1850), pp. 77-81.
 
-    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-    _Uebersicht der Arbeiten und Veränderungen der schlesischen
-    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+_Uebersicht der Arbeiten und Veränderungen der schlesischen
+Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-    [5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-    vaterländische Cultur_ 105 (1933), pp. 154-173.
+[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-    140-156.
+[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+140-156.
 
-    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-    55-71.
+[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+55-71.
 
-    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-    66-81.
+[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+66-81.

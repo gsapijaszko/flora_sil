@@ -211,7 +211,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria Liebenthal: Brandberg (Frl. Ursula Buchs)!",
   lon = 15.47937, 
   lat = 50.93046, 
-  comments = ""
+  comments = "[wzgórze] Wygorzel, Rębiszów, gm. Mirsk, pow. lwówecki; obok Kamieniołom Bazaltu Rębiszów"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

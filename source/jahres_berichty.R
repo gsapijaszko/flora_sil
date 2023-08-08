@@ -1452,7 +1452,7 @@ jahres <- data.frame(
   entry = "Lycopodium Selago. Militsch: zw. Postel und dem Waldkretscham! (v. Salisch);",
   lon = 17.25395, 
   lat = 51.46474, 
-  comments = ""
+  comments = "pomiędzy miejscowościami Postolin i przysiółkiem Lasowice, Postolin, gm. Milicz"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3060,7 +3060,7 @@ jahres <- data.frame(
   entry = "Salvinia natans (L.) All. Oderwald bei Grünberg (Hellwig)!;",
   lon = 15.51133, 
   lat = 52.03194, 
-  comments = ""
+  comments = "las przy Odrze, gm. Czerwieńsk, pow. zielonogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
