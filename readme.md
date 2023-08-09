@@ -30,22 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                      species                                         citation
-    1 Sempervivum soboliferum @schalowErgebnisseDurchforschungSchlesischen1935
-    2  Ceratophyllum demersum @schalowErgebnisseDurchforschungSchlesischen1935
-    3       Aster novi-belgii @schalowErgebnisseDurchforschungSchlesischen1935
-                                                        entry      lon      lat
-    1 Sempervivum soboliferum [...] Jauer: mehrfach (Strauch) 16.18655 51.05176
-    2       Ceratophyllum demersum Freiburg: Kalkbruch (Loge)       NA       NA
-    3         Aster Novi Belgii Jauer: Semmelwitz (Strauch)!; 16.21320 51.03772
-                                 comments year
-    1                               Jawor 1935
-    2       Świebodzice, wyrobisko wapnia 1935
-    3 Zębowice, gm. Paszowice, pow. Jawor 1935
-                                  accepted_name
-    1  Sempervivum globiferum subsp. globiferum
-    2                 Ceratophyllum demersum L.
-    3 Symphyotrichum novi-belgii (L.) G.L.Nesom
+                      species
+    1 Carex tricostata Fries.
+    2      Portulaca oleracea
+    3      Satureja hortensis
+                                                     citation
+    1                    @wimmerSchlesischenCarexArtenAus1850
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                          entry      lon     lat
+    1 C. tricostata Fries. [...] Um Breslau bei Rosenthal [...] 17.02550 51.1411
+    2        Portulaca oleracea Guhrau: Kunzegarten (Weidlich)! 16.54435 51.6706
+    3        Satureja hortensis Liebenthal: auf Schutt (Buchs)! 15.50094 51.0133
+                     comments year         accepted_name
+    1        Wrocław, Różanka 1850                  <NA>
+    2          Góra, gm. Góra 1933 Portulaca oleracea L.
+    3 Lubomierz, na wysypisku 1934 Satureja hortensis L.
 
 </div>
 
@@ -70,9 +70,6 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
-<summary>Code</summary>
-
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -88,8 +85,6 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
-
-</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -122,14 +117,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE67
-    3                    Malva moschata L. AE67
-    4                    Malva moschata L. BE53
-    5                    Malva moschata L. BE62
-    6                    Malva moschata L. BE74
-    7                  Malva parviflora L. BE49
-    8 Malva thuringiaca subsp. thuringiaca BE57
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BF24
+    3                    Malva moschata L. CF11
+    4                  Malva parviflora L. BE49
+    5 Malva thuringiaca subsp. thuringiaca CF35
+    6        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE67
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -206,7 +201,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3691 records (species - localization) including 3620 with
+total 3708 records (species - localization) including 3636 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -220,46 +215,46 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
 Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
 schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
 (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
 im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
 schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
 (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
 caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
 Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
 im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
 _Uebersicht der Arbeiten und Veränderungen der schlesischen
 Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
 Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
 vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
 140-156.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
 55-71.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
 66-81.
