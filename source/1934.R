@@ -4804,9 +4804,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Matmaria chamomilla f. eradiata",
+  species = "Matricaria chamomilla f. eradiata",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
-  entry = "Matmaria chamomilla f. eradiata Breslau: vor Morgenau!",
+  entry = "Matricaria Chamomilla f. eradiata Breslau: vor Morgenau!",
   lon = 17.06966, 
   lat = 51.09861,
   comments = "Wrocław, Rakowiec"

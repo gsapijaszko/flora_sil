@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Koźle", comments)) 
+  subset(grepl("Viola persicifolia x  canina", species)) 
 # subset(grepl("Cynodon", accepted_name))
 
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",
@@ -100,7 +100,10 @@ tm <- tmap::tm_shape(boundaries) +
   tmap::tm_shape(a_outPL) +
   tmap::tm_symbols(size = 0.1, shape = 18, col = "red") +
   tmap::tm_shape(aPL) +
-  tmap::tm_polygons("n", palette = "Blues", alpha = 0.8) +
+  tmap::tm_polygons("n", palette = "Blues", 
+                    alpha = 0.8, 
+#                    style = "log10_pretty"
+                    ) +
   tmap::tm_legend(legend.position = c(0.1,0.1), legend.bg.color = "white", legend.title.color = "white")
 tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
@@ -184,3 +187,7 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   rbind(jahres)
 # 
 aPL
+
+jahres |>
+  subset(is.na(lat)) |>
+  write.csv2(file = "NA.csv")

@@ -73,16 +73,16 @@ jahres <- data.frame(
   entry = "Lycopodium selago Kon[stadt]: Bürgsdorf! (H)",
   lon = 18.08130, 
   lat = 51.02586, 
-  comments = "Brzezinki, Wołczyn"
+  comments = "Brzezinki, gm. Wołczyn, pow. kluczborski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Lycopodium selago",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1928", 
   entry = "Lycopodium selago Kon[stadt]: Stadtwald (H).",
-  lon = NA, 
-  lat = NA, 
-  comments = "brak Stadtwald Konstadt, chyba, że przyjąć ten na E, w kierunku na Unieszów"
+  lon = 18.07842, 
+  lat = 51.01949, 
+  comments = "Wołczyn, pow. kluczborski; las"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -254,7 +254,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = c("Cnidium venosum", "Inula salicina", "Viola persicifolia",  "Viola persicifolia x  canina", "Serratula tinctoria var. pinnata Kit."),
+  species = c("Cnidium venosum", "Inula salicina", "Viola persicifolia",  "Viola persicifolia x canina", "Serratula tinctoria var. pinnata Kit."),
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
   entry = "Auch sonst finden sich im Gebiet der Glatzer Neiße noch mancherlei Anklänge an das Odertal, wie z. B. Cnidium venosum, Inula salicina, Viola persicifolia (auch in der Kreuzung mit V. canina), Serratula tinctoria var. pinnata Kit. u. a., die ich sämtlich in dem einstigen Überschwemmungsgebiet der Glatzer Neiße zwischen Märzdorf und Tiefensee (Kr. Grottkau) antraf.",
   lon = 17.48037, 

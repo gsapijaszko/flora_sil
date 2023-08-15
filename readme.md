@@ -30,22 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                      species
-    1 Carex tricostata Fries.
-    2      Portulaca oleracea
-    3      Satureja hortensis
-                                                     citation
-    1                    @wimmerSchlesischenCarexArtenAus1850
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                          entry      lon     lat
-    1 C. tricostata Fries. [...] Um Breslau bei Rosenthal [...] 17.02550 51.1411
-    2        Portulaca oleracea Guhrau: Kunzegarten (Weidlich)! 16.54435 51.6706
-    3        Satureja hortensis Liebenthal: auf Schutt (Buchs)! 15.50094 51.0133
-                     comments year         accepted_name
-    1        Wrocław, Różanka 1850                  <NA>
-    2          Góra, gm. Góra 1933 Portulaca oleracea L.
-    3 Lubomierz, na wysypisku 1934 Satureja hortensis L.
+                    species                                         citation
+    1       Brassica juncea @schalowErgebnisseDurchforschungSchlesischen1935
+    2 Calamagostris stricta              @wimmerBerichtUberVerhandlungen1850
+    3    Aquilegia vulgaris @schalowErgebnisseDurchforschungSchlesischen1932
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
+    1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Brassica juncea Kanth: in Rübsenfeldern (Schoepke)!
+    2 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
+    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Aquilegia vulgaris [...] Neiße: an der Biele b. Langendorf (Franke)!
+           lon      lat                                               comments year
+    1 16.77783 51.02917                      Kąty Wrocławskie, na polach rzepy 1935
+    2 14.97900 51.78799                        Lubsko, gm. Lubsko, pow. żarski 1850
+    3 17.37385 50.33593 przy rzece Biała, Bodzanów, gm. Głuchołazy, pow. nyski 1932
+                    accepted_name
+    1 Brassica juncea (L.) Czern.
+    2                        <NA>
+    3       Aquilegia vulgaris L.
 
 </div>
 
@@ -70,6 +70,9 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
+<details>
+<summary>Code</summary>
+
 ``` r
 boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
   sf::st_as_sf() |>
@@ -85,6 +88,8 @@ tm <- tmap::tm_shape(boundaries) +
     legend.text.size = 0.7,
     legend.bg.color = "white")
 ```
+
+</details>
 
 ![Malvas distribution](malvas.png)
 
@@ -118,13 +123,13 @@ malvas |>
 
                              accepted_name Name
     1                    Malva moschata L. AE67
-    2                    Malva moschata L. BF24
-    3                    Malva moschata L. CF11
-    4                  Malva parviflora L. BE49
-    5 Malva thuringiaca subsp. thuringiaca CF35
-    6        Malva trimestris (L.) Salisb. AE58
-    7        Malva trimestris (L.) Salisb. AE67
-    8                Malva verticillata L. BE59
+    2                    Malva moschata L. BE72
+    3                    Malva moschata L. BE97
+    4                    Malva pusilla Sm. AD93
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6                Malva verticillata L. AD67
+    7                Malva verticillata L. AE58
+    8                Malva verticillata L. BE49
 
 ### How to participate
 
@@ -201,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3708 records (species - localization) including 3636 with
+total 3848 records (species - localization) including 3775 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -215,46 +220,46 @@ And the number of records per year:
 
 #### WIP
 
-E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
 #### Done
 
-J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

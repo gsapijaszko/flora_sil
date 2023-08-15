@@ -1634,9 +1634,9 @@ jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1898", 
   entry = "Botrychium Lunaria. Kreuzburg: Chaussee am Birtultschützer Walde (Ei.)!",
-  lon = NA, 
-  lat = NA, 
-  comments = ""
+  lon = 18.13961, 
+  lat = 51.01330, 
+  comments = "Berthelschütz = Unieszów, gm. Kluczbork; przy szosie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

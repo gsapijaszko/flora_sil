@@ -82,7 +82,7 @@ jahres <- data.frame(
   entry = "Botrychium Lunaria. Bennisch (Oborny);",
   lon = 17.59959, 
   lat = 49.97146, 
-  comments = ""
+  comments = "Czechy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
