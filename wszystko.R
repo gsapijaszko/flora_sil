@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Viola persicifolia x  canina", species)) 
+  subset(grepl("Langnickel", entry)) 
 # subset(grepl("Cynodon", accepted_name))
 
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",

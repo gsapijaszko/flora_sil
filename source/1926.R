@@ -38,7 +38,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria Frank[enstein]: Grochberg,",
   lon = 16.76104, 
   lat = 50.56467, 
-  comments = ""
+  comments = "Grochowska Góra, Braszowice, gm. Ząbkowice Śląskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

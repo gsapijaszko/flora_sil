@@ -45,9 +45,9 @@ jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
   entry = "Botrychium Lunaria Silb: auch Langnickeltal u. a. (ders.)",
-  lon = NA,  
-  lat = NA, 
-  comments = ""
+  lon = 16.68866,   
+  lat = 50.58025, 
+  comments = "Budzów, gm. Stoszowice, pow. ząbkowicki; w pobliżu zajazdu 'Gasthaus Langnickel' (https://polska-org.pl/6551156,foto.html?idEntity=506904)"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

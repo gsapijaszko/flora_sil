@@ -2714,7 +2714,7 @@ jahres <- data.frame(
   entry = "Ophioglossum vulgatum L. Freistadt: Hartmannsdorf!;",
   lon = 15.50670,  
   lat = 51.82948, 
-  comments = ""
+  comments = "Jarogniewice, Nowe Miasto, Zielona Góra"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2732,7 +2732,7 @@ jahres <- data.frame(
   entry = "Botrychium simplex Hitchcock Freistadt: Hartmannsdorf auf Droschheidau zu!;",
   lon = 15.47058, 
   lat = 51.83986, 
-  comments = ""
+  comments = "Jarogniewice, Nowe Miasto, Zielona Góra; w kierunku na Jeleniów"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2750,7 +2750,7 @@ jahres <- data.frame(
   entry = "Botrychium matricariaefolium A. Br. Freistadt: Hartmannsdorf auf Droschheidau zu (Schröder)!;",
   lon = 15.47058, 
   lat = 51.83986, 
-  comments = ""
+  comments = "Jarogniewice, Nowe Miasto, Zielona Góra; w kierunku na Jeleniów"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

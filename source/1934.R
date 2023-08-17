@@ -4687,9 +4687,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Inula salkina",
+  species = "Inula salicina",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
-  entry = "Inula salkina Görlitz: Ober-Prauske (Militzer)!",
+  entry = "Inula salicina Görlitz: Ober-Prauske (Militzer)!",
   lon = 14.65886,  
   lat = 51.25444,
   comments = ""

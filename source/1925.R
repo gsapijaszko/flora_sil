@@ -38,7 +38,7 @@ jahres <- data.frame(
   entry = "Botrychium lunaria Neur(ode): Eckersdorf;",
   lon = 16.58004, 
   lat = 50.51360, 
-  comments = ""
+  comments = "Bożków, gm. Nowa Ruda, pow. kłodzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
