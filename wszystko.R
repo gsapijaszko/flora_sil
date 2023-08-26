@@ -17,7 +17,8 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Langnickel", entry)) 
+  subset(grepl("Flieracium", entry))
+
 # subset(grepl("Cynodon", accepted_name))
 
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",
@@ -186,8 +187,8 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # jahres <- schube |>
 #   rbind(jahres)
 # 
-aPL
-
-jahres |>
-  subset(is.na(lat)) |>
-  write.csv2(file = "NA.csv")
+# aPL
+# 
+# jahres |>
+#   subset(is.na(lat)) |>
+#   write.csv2(file = "NA.csv")

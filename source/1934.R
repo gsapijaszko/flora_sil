@@ -4075,27 +4075,27 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Gateopsis angustifolia",
+  species = "Galeopsis angustifolia",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Gateopsis angustifolia Lauban: Güterbahnhof(Buchs)!;[...]",
+  entry = "Galeopsis angustifolia Lauban: Güterbahnhof(Buchs)!;[...]",
   lon = 15.29498, 
   lat = 51.10889,
   comments = "Lubań, dworzec towarowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Gateopsis angustifolia",
+  species = "Galeopsis angustifolia",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Gateopsis angustifolia [...] Kanth: Güterbahnhof, [...] ",
+  entry = "Galeopsis angustifolia [...] Kanth: Güterbahnhof, [...] ",
   lon = 16.75027, 
   lat = 51.03812,
   comments = "Kąty Wrocławskie, dworzec towarowy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Gateopsis angustifolia",
+  species = "Galeopsis angustifolia",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Gateopsis angustifolia [...] Kanth: [...] Bahndämme bei Schimmelwitz (Schoepke)!",
+  entry = "Galeopsis angustifolia [...] Kanth: [...] Bahndämme bei Schimmelwitz (Schoepke)!",
   lon = 16.77393, 
   lat = 51.04546,
   comments = "szemiłowice, gm. Kąty Wrocławskie, nasyp kolejowy"

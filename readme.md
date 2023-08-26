@@ -30,26 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                   species
-    1 Carex caespitosa x Carex Goodenoughi
-    2          Lycopodium chamaecyparissus
-    3               Orobanche caryophyllea
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2            @fiekResultateDurchforschungSchlesischen1890
-    3        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                             entry
-    1                                             C. caespitosa x Goodenoughi Glogau: Oderufer vor Schwusen; [...]
-    2  Lycopodium Chamaecyparissus A. Br. Görlitzer Haide: Revier Langenau an der Kohlfurter Bahnstrecke (Barber)!
-    3 Erwähnenswert ist vor allem ein neues Vorkommen von Orobanche caryophyllea an den Ohleabhängen bei Nimptsch.
-           lon      lat                                      comments year
-    1 16.25483 51.68449 Wyszanów, gm. Szlichtyngowa, brzeg rzeki Odra 1933
-    2 15.12242 51.25475                                               1890
-    3       NA       NA                              xxx obok Niemczy 1936
-                                accepted_name
-    1                                    <NA>
-    2 Diphasiastrum tristachyum (Pursh) Holub
-    3            Orobanche caryophyllacea Sm.
+                        species                                         citation
+    1 Melandryum album x rubrum @schalowErgebnisseDurchforschungSchlesischen1935
+    2           Lilium Martagon @schalowErgebnisseDurchforschungSchlesischen1932
+    3            Carex buxbaumi @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                        entry
+    1           Melandryum album X rubrum [...] Ottmachau: Fasanerie (Buchs)!
+    2 Lilium Martagon Riesengebirge: Kleine Schneegrube, weißblühend (Rauhut)
+    3                    C. Buxbaumi Kanth: Schimmelwitzer Wiesen (Schoepke)!
+           lon      lat
+    1 17.16671 50.47743
+    2 15.55645 50.78167
+    3 16.76804 51.05716
+                                                             comments year
+    1                                          Otmuchów, bażanciarnia 1935
+    2 Mały Śnieżny Kocioł, Piechowice, pow. karkonoski; białokwitnąca 1932
+    3                        Wszemiłowice, gm. Kąty Wrocławskie, łąki 1935
+                  accepted_name
+    1 Melandryum album X rubrum
+    2        Lilium martagon L.
+    3  Carex buxbaumii Wahlenb.
 
 </div>
 
@@ -126,14 +126,14 @@ malvas |>
 ```
 
                       accepted_name Name
-    1             Malva moschata L. AE78
-    2             Malva moschata L. BE53
-    3             Malva moschata L. BE62
-    4             Malva moschata L. BE74
-    5             Malva moschata L. CF11
+    1             Malva moschata L. BE62
+    2             Malva moschata L. BE74
+    3             Malva moschata L. BF05
+    4             Malva moschata L. BF26
+    5           Malva parviflora L. BE49
     6             Malva pusilla Sm. AD93
     7 Malva trimestris (L.) Salisb. AE58
-    8 Malva trimestris (L.) Salisb. AE59
+    8         Malva verticillata L. BE59
 
 ### How to participate
 
@@ -210,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3911 records (species - localization) including 3838 with
+total 3935 records (species - localization) including 3862 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
