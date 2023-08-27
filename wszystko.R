@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Flieracium", entry))
+  subset(grepl("Edgeron ramosus", entry))
 
 # subset(grepl("Cynodon", accepted_name))
 

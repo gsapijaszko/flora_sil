@@ -30,26 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                        species                                         citation
-    1 Melandryum album x rubrum @schalowErgebnisseDurchforschungSchlesischen1935
-    2           Lilium Martagon @schalowErgebnisseDurchforschungSchlesischen1932
-    3            Carex buxbaumi @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                        entry
-    1           Melandryum album X rubrum [...] Ottmachau: Fasanerie (Buchs)!
-    2 Lilium Martagon Riesengebirge: Kleine Schneegrube, weißblühend (Rauhut)
-    3                    C. Buxbaumi Kanth: Schimmelwitzer Wiesen (Schoepke)!
-           lon      lat
-    1 17.16671 50.47743
-    2 15.55645 50.78167
-    3 16.76804 51.05716
-                                                             comments year
-    1                                          Otmuchów, bażanciarnia 1935
-    2 Mały Śnieżny Kocioł, Piechowice, pow. karkonoski; białokwitnąca 1932
-    3                        Wszemiłowice, gm. Kąty Wrocławskie, łąki 1935
-                  accepted_name
-    1 Melandryum album X rubrum
-    2        Lilium martagon L.
-    3  Carex buxbaumii Wahlenb.
+                        species
+    1     Pilularia globulifera
+    2 Thalictrum aquilegifolium
+    3           Rosa coriifolia
+                                                  citation
+    1 @vonuechtritzResultateDurchforschungSchlesischen1885
+    2     @schalowErgebnisseDurchforschungSchlesischen1932
+    3     @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                                                               entry
+    1 Pilularia globulifera L. Zwischen Rietschen und Werda in einem Ausstiche der Schöpsniederung (Hirche t. Fiek).
+    2                                                 Thalictrum aquilegifolium Liebenthal: mehrfach (Buchs)!; [...]
+    3                                                                         R. coriifolia Grottkau: Mogwitz, [...]
+           lon      lat                             comments year
+    1 14.77859 51.39850                                      1885
+    2 15.50094 51.01330                    Lubomierz; często 1932
+    3 17.37889 50.56414 Makowice, gm. Skoroszyce, pow. nyski 1934
+                      accepted_name
+    1      Pilularia globulifera L.
+    2 Thalictrum aquilegiifolium L.
+    3               Rosa caesia Sm.
 
 </div>
 
@@ -125,15 +125,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. BE62
-    2             Malva moschata L. BE74
-    3             Malva moschata L. BF05
-    4             Malva moschata L. BF26
-    5           Malva parviflora L. BE49
-    6             Malva pusilla Sm. AD93
-    7 Malva trimestris (L.) Salisb. AE58
-    8         Malva verticillata L. BE59
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE62
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BF05
+    5                    Malva moschata L. BF26
+    6                    Malva moschata L. CF11
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8                Malva verticillata L. AD67
 
 ### How to participate
 
@@ -210,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3935 records (species - localization) including 3862 with
+total 3947 records (species - localization) including 3874 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

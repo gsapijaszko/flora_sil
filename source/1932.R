@@ -5974,11 +5974,120 @@ jahres <- data.frame(
   comments = "Zakrzów, Opole"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Linaria minor",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. minor Liebenthal: Bahnhof, [...]",
+  lon = 15.50299, 
+  lat = 51.02160,
+  comments = "Lubomierz, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria minor",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. minor Liebenthal: [...] Bergwerk b. Ober-Schmottseiffen (O. u. E. Behr);[...]",
+  lon = 15.54147, 
+  lat = 51.02845,
+  comments = "Milęcice, gm. Lubomierz, pow. lwówecki; kopalnia/kamieniołom tuż przy granicy z Pławną Górną"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria minor",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. minor [...] Steinau a. O.: Bahnhof (Pfeiffer)!; [...]",
+  lon = 16.42165, 
+  lat = 51.40905,
+  comments = "Ścinawa, gm. Ścinawa; dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria minor",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. minor [...] Deutsch-Wette: Bahnhof (Franke)!",
+  lon = 17.37077, 
+  lat = 50.37707,
+  comments = "Nowy Świętów, gm. Głuchołazy, pow. nyski; dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria genistifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. genistifolia Grünberg: zwischen Dammerau u. Zahn, hier mit Schottermaterial eingeschleppt (Wilpert t. Dr. Gruhl): [...]",
+  lon = 15.72320, 
+  lat = 51.91065,
+  comments = "pomiędzy miejscowościami Dąbrowa i Czarna, gm. Zabór, pow. zielonogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria genistifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. genistifolia [...] Liebenthal: Straßenrand b. Ober-Schmottseiffen (Buchs)!",
+  lon = 15.56715,
+  lat = 51.03917,
+  comments = "Pławna Górna, gm. Lubomierz, pow. lwówecki; krawędź drogi"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Anthirrhinum majus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Anthirrhinum majus Frankenstein: bei der Sporthalle (Rauhut)!",
+  lon = 16.82632, 
+  lat = 50.59343,
+  comments = "Ząbkowice Śląskie; przy hali sportowej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scrofularia alata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Scrofularia alata Nimptsch: gegen Gaumitz (Schölzel)!; [...]",
+  lon = 16.81997, 
+  lat = 50.70663,
+  comments = "Gumin, Niemcza, gm. Niemcza, pow. dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scrofularia alata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Scrofularia alata [...] Kätscher: Krastillau (Klimke)!",
+  lon = 17.90452, 
+  lat = 50.06774,
+  comments = "Chróścielów, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Mimulus moschatus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Mimulus moschatus Flinsberg: Weg nach Waldfrieden (Tscheppe)!",
+  lon = 15.33353, 
+  lat = 50.91348,
+  comments = "Świeradów-Zdrój, pow. lubański; obecnie ul. Gajowa"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica longifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Veronica longifolia Sprottau: Wichtelsdorf (Kruber); [...]",
+  lon = 15.59432, 
+  lat = 51.56945,
+  comments = "Wichelsdorf == Wiechlice, gm. Szprotawa, pow. żagański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica longifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Veronica longifolia [...] Kanth: Thiemendorfer Wald (Schoepke)!",
+  lon = 16.32322, 
+  lat = 51.45644,
+  comments = "Tymowa, gm. Ścinawa, pow. lubiński, las"
+) |> rbind(jahres)
+
 
 #' TODO: continue
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Herzogswalde", entry)) 
-
+  subset(grepl("Wichtelsdorf", entry))
+# |>
+#   subset(grepl("Bahnhof", entry))
 

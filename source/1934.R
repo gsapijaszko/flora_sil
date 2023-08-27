@@ -4651,18 +4651,18 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Edgeron ramosus",
+  species = "Erigeron ramosus",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
-  entry = "Edgeron ramosus Hoyerswerda: Sprey (Militzer); [...]",
+  entry = "Erigeron ramosus Hoyerswerda: Sprey (Militzer); [...]",
   lon = 14.54038, 
   lat = 51.42435,
   comments = ""
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Edgeron ramosus",
+  species = "Erigeron ramosus",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
-  entry = "Edgeron ramosus [...] Lauban: Güterbahnhof (Buchs)!",
+  entry = "Erigeron ramosus [...] Lauban: Güterbahnhof (Buchs)!",
   lon = 15.29498, 
   lat = 51.10889,
   comments = "Lubań, dworzec towarowy"
