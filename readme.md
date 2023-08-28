@@ -30,26 +30,18 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                        species
-    1     Pilularia globulifera
-    2 Thalictrum aquilegifolium
-    3           Rosa coriifolia
-                                                  citation
-    1 @vonuechtritzResultateDurchforschungSchlesischen1885
-    2     @schalowErgebnisseDurchforschungSchlesischen1932
-    3     @schalowErgebnisseDurchforschungSchlesischen1934
-                                                                                                               entry
-    1 Pilularia globulifera L. Zwischen Rietschen und Werda in einem Ausstiche der Schöpsniederung (Hirche t. Fiek).
-    2                                                 Thalictrum aquilegifolium Liebenthal: mehrfach (Buchs)!; [...]
-    3                                                                         R. coriifolia Grottkau: Mogwitz, [...]
-           lon      lat                             comments year
-    1 14.77859 51.39850                                      1885
-    2 15.50094 51.01330                    Lubomierz; często 1932
-    3 17.37889 50.56414 Makowice, gm. Skoroszyce, pow. nyski 1934
-                      accepted_name
-    1      Pilularia globulifera L.
-    2 Thalictrum aquilegiifolium L.
-    3               Rosa caesia Sm.
+                 species                                         citation
+    1 Botrychium lunaria  @schubeErgebnisseDurchforschungSchlesischen1907
+    2   Silene dichotoma @schalowErgebnisseDurchforschungSchlesischen1935
+    3    Atriplex nitens @schalowErgebnisseDurchforschungSchlesischen1935
+                                                     entry      lon      lat
+    1                   Botrychium lunaria. Muskau: Eiland 14.68497 51.54596
+    2   Silene dichotoma [...] Friedland: mehrfach!; [...] 16.19486 50.66958
+    3 Atriplex nitens [...] Jauer: gegen Lobris (Strauch)! 16.29748 51.05967
+                                 comments year               accepted_name
+    1                                     1907 Botrychium lunaria (L.) Sw.
+    2                           Mieroszów 1935      Silene dichotoma Ehrh.
+    3 Luboradz, gm. Mściwojów, pow. Jawor 1935   Atriplex sagittata Borkh.
 
 </div>
 
@@ -126,14 +118,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE62
-    3                    Malva moschata L. BE71
-    4                    Malva moschata L. BF05
-    5                    Malva moschata L. BF26
-    6                    Malva moschata L. CF11
-    7 Malva thuringiaca subsp. thuringiaca BE57
-    8                Malva verticillata L. AD67
+    1                    Malva moschata L. BE74
+    2                    Malva moschata L. BE97
+    3                    Malva moschata L. CE81
+    4 Malva thuringiaca subsp. thuringiaca BE57
+    5 Malva thuringiaca subsp. thuringiaca CF35
+    6        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE59
+    8                Malva verticillata L. AE58
 
 ### How to participate
 
@@ -210,7 +202,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3947 records (species - localization) including 3874 with
+total 3991 records (species - localization) including 3918 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

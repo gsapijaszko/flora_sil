@@ -3841,18 +3841,18 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Coriandmm sativum",
+  species = "Coriandrum sativum",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Coriandmm sativum Breslau: Schuttplatz vor Morgenau, sicherlich mit Leinsaat verschleppt!",
+  entry = "Coriandrum sativum Breslau: Schuttplatz vor Morgenau, sicherlich mit Leinsaat verschleppt!",
   lon = 17.06966, 
   lat = 51.09861,
   comments = "Wrocław, Rakowiec, wysypisko śmieci"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Caucalis aaucoides",
+  species = "Caucalis daucoides",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Caucalis aaucoides Breslau: Güterbahnhof West! (Dr. K. Meyer)!",
+  entry = "Caucalis daucoides Breslau: Güterbahnhof West! (Dr. K. Meyer)!",
   lon = 17.01173, 
   lat = 51.11007,
   comments = "Wrocław, między ul. Braniborska a Robotnicza"
@@ -3985,9 +3985,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Cuscuia epilinum",
+  species = "Cuscuta epilinum",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Cuscuia epilinum Silberberg: Flachsfeld bei Neudorf!",
+  entry = "Cuscuta epilinum Silberberg: Flachsfeld bei Neudorf!",
   lon = 16.61543, 
   lat = 50.56565, 
   comments = "Nowa Wieś Kłodzka, gm. Nowa Ruda, pow. kłodzki, pola lnu"

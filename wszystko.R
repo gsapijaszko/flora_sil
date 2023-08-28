@@ -17,7 +17,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Edgeron ramosus", entry))
+  subset(grepl("Altheide", entry))
 
 # subset(grepl("Cynodon", accepted_name))
 
@@ -171,17 +171,17 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # 
 # 
 
-# 
-# b <- sf::st_point(x=c(18.15210, 50.35531)) |>
+# # 
+# b <- sf::st_point(x=c(16.51201, 50.40737)) |>
 #   sf::st_sfc(crs = "EPSG:4326") |>
 #   sf::st_sf() |>
 #   sf::st_transform(crs = sf::st_crs(atpol)) |>
-#   sf::st_buffer(dist = 1000)
+#   sf::st_buffer(dist = 4000)
 # 
 # aPL |>
 #   sf::st_filter(b)
-# 
-# 
+
+
 # source("source/schube_fiek.R")
 # 
 # jahres <- schube |>

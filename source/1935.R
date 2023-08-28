@@ -1667,7 +1667,7 @@ jahres <- data.frame(
   entry = "Vaccaria parviflora [...] Strehlen: [...] Ruppersdorf!;[...]",
   lon = 17.16302, 
   lat = 50.77817,
-  comments = "Wyszonowice"
+  comments = "Wyszonowice, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1874,7 +1874,7 @@ jahres <- data.frame(
   entry = "Berberis vulgaris [...] Strehlen: Ruppersdorf!",
   lon = 17.16302, 
   lat = 50.77817,
-  comments = "Wyszonowice"
+  comments = "Wyszonowice, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3999,7 +3999,7 @@ jahres <- data.frame(
   entry = "G. spurium var. leiospermum Strehlen: Ruppersdorf (Kruber)",
   lon = 17.16302, 
   lat = 50.77817,
-  comments = "Wyszonowice"
+  comments = "Wyszonowice, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5089,7 +5089,7 @@ jahres <- data.frame(
   entry = "H. Prussicum N. P. ( = pratense > Pilosella) [...] Strehlen: Ruppersdorf, [...]",
   lon = 17.16302, 
   lat = 50.77817,
-  comments = "Wyszonowice"
+  comments = "Wyszonowice, gm. Wiązów, pow. strzeliński"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
