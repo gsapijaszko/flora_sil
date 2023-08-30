@@ -30,18 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                 species                                         citation
-    1 Botrychium lunaria  @schubeErgebnisseDurchforschungSchlesischen1907
-    2   Silene dichotoma @schalowErgebnisseDurchforschungSchlesischen1935
-    3    Atriplex nitens @schalowErgebnisseDurchforschungSchlesischen1935
-                                                     entry      lon      lat
-    1                   Botrychium lunaria. Muskau: Eiland 14.68497 51.54596
-    2   Silene dichotoma [...] Friedland: mehrfach!; [...] 16.19486 50.66958
-    3 Atriplex nitens [...] Jauer: gegen Lobris (Strauch)! 16.29748 51.05967
-                                 comments year               accepted_name
-    1                                     1907 Botrychium lunaria (L.) Sw.
-    2                           Mieroszów 1935      Silene dichotoma Ehrh.
-    3 Luboradz, gm. Mściwojów, pow. Jawor 1935   Atriplex sagittata Borkh.
+                    species                                         citation
+    1 Chrysanthemum segetum @schalowErgebnisseDurchforschungSchlesischen1934
+    2    Anacyclus clavatus @schalowErgebnisseDurchforschungSchlesischen1932
+    3  Equisetum variegatum     @fiekResultateDurchforschungSchlesischen1890
+                                                                                                  entry
+    1                                       Chrysanthemum segetum Habelschwerdt: Kaiserswalde (Rauhut)!
+    2                                      Anacyclus clavatus Breslau: Güterbahnhof Ost (Dr. K. Meyer)!
+    3 Equisetum variegatum Schleich. Teschen: Bystrzitz am Gluchowa-Bache oberhalb der Kirche (Kotula).
+           lon      lat                        comments year
+    1 16.44154 50.31944  Lasówka, gm. Bystrzyca Kłodzka 1934
+    2 17.04540 51.09688 Wrocław, dawny dworzec towarowy 1932
+    3 18.73301 49.63909                Bystrice, Czechy 1890
+                         accepted_name
+    1    Glebionis segetum (L.) Fourr.
+    2 Anacyclus clavatus (Desf.) Pers.
+    3   Equisetum variegatum Schleich.
 
 </div>
 
@@ -117,15 +121,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. BE74
-    2                    Malva moschata L. BE97
-    3                    Malva moschata L. CE81
-    4 Malva thuringiaca subsp. thuringiaca BE57
-    5 Malva thuringiaca subsp. thuringiaca CF35
-    6        Malva trimestris (L.) Salisb. AE58
-    7        Malva trimestris (L.) Salisb. AE59
-    8                Malva verticillata L. AE58
+                      accepted_name Name
+    1             Malva moschata L. AE67
+    2             Malva moschata L. BE53
+    3             Malva moschata L. BE71
+    4             Malva moschata L. BE72
+    5           Malva parviflora L. BE49
+    6 Malva trimestris (L.) Salisb. AE58
+    7         Malva verticillata L. AD67
+    8         Malva verticillata L. BF07
 
 ### How to participate
 
@@ -202,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 3991 records (species - localization) including 3918 with
+total 4032 records (species - localization) including 3959 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

@@ -245,9 +245,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Brunella laciniata X vulgaris",
+  species = "Prunella laciniata X vulgaris",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Brunella laciniata X vulgaris Neurode: Wegeböschung an der EisenbahnsFecke bei Kol. Lehden unweit Hausdorf (Kramarz)! An dem Bastardcharakter der Stücke dürfte bei ihrer ausgeprägten Mittelstellung nicht zu zweifeln sein.",
+  entry = "Prunella laciniata X vulgaris Neurode: Wegeböschung an der EisenbahnsFecke bei Kol. Lehden unweit Hausdorf (Kramarz)! An dem Bastardcharakter der Stücke dürfte bei ihrer ausgeprägten Mittelstellung nicht zu zweifeln sein.",
   lon = 16.52014, 
   lat = 50.60565,
   comments = "nasyp kolejowy, dawna kolonia Leeden, obecnie Nowa Ruda"
@@ -4066,9 +4066,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Brunella laciniata",
+  species = "Prunella laciniata",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Brunella laciniata Neurode: Eisenbahnstrecke bei Kol. Lehden (Kramarz)l",
+  entry = "Prunella laciniata Neurode: Eisenbahnstrecke bei Kol. Lehden (Kramarz)l",
   lon = 16.52014, 
   lat = 50.60565,
   comments = "nasyp kolejowy, dawna kolonia Leeden, obecnie Nowa Ruda"
