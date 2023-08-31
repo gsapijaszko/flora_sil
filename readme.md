@@ -30,22 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                    species                                         citation
-    1 Chrysanthemum segetum @schalowErgebnisseDurchforschungSchlesischen1934
-    2    Anacyclus clavatus @schalowErgebnisseDurchforschungSchlesischen1932
-    3  Equisetum variegatum     @fiekResultateDurchforschungSchlesischen1890
-                                                                                                  entry
-    1                                       Chrysanthemum segetum Habelschwerdt: Kaiserswalde (Rauhut)!
-    2                                      Anacyclus clavatus Breslau: Güterbahnhof Ost (Dr. K. Meyer)!
-    3 Equisetum variegatum Schleich. Teschen: Bystrzitz am Gluchowa-Bache oberhalb der Kirche (Kotula).
-           lon      lat                        comments year
-    1 16.44154 50.31944  Lasówka, gm. Bystrzyca Kłodzka 1934
-    2 17.04540 51.09688 Wrocław, dawny dworzec towarowy 1932
-    3 18.73301 49.63909                Bystrice, Czechy 1890
+                             species
+    1                Thesium alpinum
+    2           Lycopodium inundatum
+    3 Equisetum arvense f. campestre
+                                                  citation
+    1 @vonuechtritzResultateDurchforschungSchlesischen1886
+    2      @schubeErgebnisseDurchforschungSchlesischen1916
+    3      @schubeErgebnisseDurchforschungSchlesischen1903
+                                                                                                                                                                                                                                      entry
+    1 Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).
+    2                                                                                                                                                                                       Lycopodium inundatum. Rybnik: vor Boguschowitz;
+    3                                                                                                                                                                             Equisetum arvense f. campestre. Grünberg: Krampe (ders.)!
+           lon      lat                         comments year
+    1 16.73092 50.85032                                  1886
+    2 18.60987 50.06401                                  1916
+    3 15.53103 52.00299 Krępa, Nowe Miasto, Zielona Góra 1903
                          accepted_name
-    1    Glebionis segetum (L.) Fourr.
-    2 Anacyclus clavatus (Desf.) Pers.
-    3   Equisetum variegatum Schleich.
+    1               Thesium alpinum L.
+    2 Lycopodiella inundata (L.) Holub
+    3             Equisetum arvense L.
 
 </div>
 
@@ -121,15 +125,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE67
-    2             Malva moschata L. BE53
-    3             Malva moschata L. BE71
-    4             Malva moschata L. BE72
-    5           Malva parviflora L. BE49
-    6 Malva trimestris (L.) Salisb. AE58
-    7         Malva verticillata L. AD67
-    8         Malva verticillata L. BF07
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE58
+    3                    Malva moschata L. AE67
+    4                    Malva moschata L. BE74
+    5                  Malva parviflora L. BE49
+    6 Malva thuringiaca subsp. thuringiaca BE14
+    7 Malva thuringiaca subsp. thuringiaca CF35
+    8        Malva trimestris (L.) Salisb. AE58
 
 ### How to participate
 
@@ -206,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4032 records (species - localization) including 3959 with
+total 4065 records (species - localization) including 3992 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -220,9 +224,9 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
 
 #### Done
 
@@ -245,21 +249,25 @@ im Jahre 1849_ (1850), pp. 77-81.
 _Uebersicht der Arbeiten und Veränderungen der schlesischen
 Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+
+[6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
 Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
 vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
 140-156.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
 55-71.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
 66-81.

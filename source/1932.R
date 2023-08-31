@@ -6840,13 +6840,210 @@ jahres <- data.frame(
   comments = "Ligota Wielkia, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski; las na płn-wsch od miejscowości"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Calendula officinalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Calendula officinalis Frankenstein: auf Schutt in der Silberberger Vorstadt (Rauhut)!",
+  lon = 16.66320, 
+  lat = 50.57451,
+  comments = "wysypisko śmieci na przedmieściu Srebrna Góra, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Echinops sphaerocephalus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Echinops sphaerocephalus Frankenstein: Kleinbahnhof (Rauhut)!",
+  lon = 16.80978,
+  lat = 50.59855,
+  comments = "Ząbkowice Śląskie, dworzec kolejki wąskotorowej"
+) |> rbind(jahres)
 
-#' TODO: continue
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Ellguth", entry)) 
-# |>
-#   subset(grepl("ühle", entry))
+jahres <- data.frame(
+  species = "Arctium nemorosum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Arctium nemorosum Kanth: Kieferberg b. Krieblowitz (Schoepke)!",
+  lon = 16.79848,
+  lat = 51.01842,
+  comments = "[wzgórze] Wierzchowiska, Krobielowice, gm. Kąty Wrocławskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arctium majus X tomentosum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. majus X tomentosum Strehlen: Eisenberger Wald, [...]",
+  lon = 17.18363, 
+  lat = 50.73496,
+  comments = "Żeleźnik, gm. Strzelin, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arctium majus X tomentosum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "A. majus X tomentosum Strehlen: [...] beim Forsthaus Späne unweit Lorenzberg!",
+  lon = 17.21135, 
+  lat = 50.72234,
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzeliński, przy dawnej leśniczówce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carduus macrocephalus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Carduus macrocephalus Breslau: auf Schutt vor Friedewalde!, [...]",
+  lon = 17.09699, 
+  lat = 51.13491, 
+  comments = "Mirowiec, os. Kowale, Wrocław, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carduus macrocephalus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Carduus macrocephalus Breslau: [...] Schuttplatz in Karlowitz (Droth)!",
+  lon = 17.06829,
+  lat = 51.13033,
+  comments = "os. Karłowice, Wrocław; wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cirsium canum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Cirsium canum Steinau a. O.: Porschwitz (Pfeiffer)",
+  lon = 16.37757,
+  lat = 51.36443,
+  comments = "Parszowice, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silybum Marianum",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Silybum Marianum Greiffenberg: Neundorf-Gräflich (Buchs)!",
+  lon = 15.42217, 
+  lat = 51.00416,
+  comments = "Proszówka, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Centaurea phrygia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Centaurea phrygia Greiffenberg: südlich Greiffenstein (Buchs)!",
+  lon = 15.42283, 
+  lat = 50.98403,
+  comments = "na południe od Góra Zamkowa, Proszkówka, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Centaurea Scabiosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "C. Scabiosa Lüben: zwischen Polach u. Barschau (Pfeiffer)! [...]",
+  lon = 16.21179, 
+  lat = 51.51748,
+  comments = "pomiędzy nieistniejącymi miejscowościami, obecnie teren Obiekt Unieszkodliwiania Odpadów Wydobywczych 'Żelazny Most' k. Rudnej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Centaurea Scabiosa",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "C. Scabiosa [...] Kanth: Letteberg b. Schmellwitz (Schoepke)!",
+  lon = 16.75306, 
+  lat = 51.05814,
+  comments = "[wzgórze] Chmielnik, Chmielów, gm. Kostomłoty, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hypochoeris maculata",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Hypochoeris maculata Strehlen: Kraßwitz!",
+  lon = 17.09739, 
+  lat = 50.69293,
+  comments = "Pogroda, Romanóœ, gm. Przeworno, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tragopogon major",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Tragopogon major Breslau: Güterbahnhof Brockau [...]",
+  lon = 17.08531, 
+  lat = 51.06446,
+  comments = "Wrocław, dworzec towarowy Wrocław Brochów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tragopogon major",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Tragopogon major Breslau: [...] u. Odertor! (Dr. K. Meyer)!",
+  lon = 17.04243,
+  lat = 51.12595,
+  comments = "Wrocław, dworzec towarowy Wrocław Nadodrze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tragopogon orientalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "T. orientalis Grottkau: Neißeufer b. Winzenberg!; [...]",
+  lon = 17.46947, 
+  lat = 50.61915,
+  comments = "Więcmierzyce, gm. Grodków, pow. brzeski; brzek rzeki Nysa Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tragopogon orientalis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "T. orientalis [...] Oppeln: Kl.-Schimnitz (Schubert)!",
+  lon = 17.94290, 
+  lat = 50.57058,
+  comments = "Zimnice Małe, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scorzonera humilis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Scorzonera humilis Grünberg: Schloßberg bei Bobernig (H. Schmidt)!; [...]",
+  lon = 15.75169, 
+  lat = 51.88426,
+  comments = "wzgórze bez nazwy, Bobrowniki, gm. Otyń, pow. nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scorzonera humilis",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Scorzonera humilis [...] Maltsch: gegen Maserwitz (Kotschy)!",
+  lon = 16.46017, 
+  lat = 51.21101,
+  comments = "Mazurowice, gm. Malczyce, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chondrilla juncea f. latifolia",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Chondrilla juncea f. latifolia Grünberg: Drentkauer Weg (H. Schmidt)!",
+  lon = 15.57295, 
+  lat = 51.90142,
+  comments = "droga w kierunku Drzonków, Nowe Miasto, Zielona Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sonchus arvensis f. uliginosus",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Sonchus arvensis f. uliginosus Guhrau: Kraschener Bruch!",
+  lon = 16.56120, 
+  lat = 51.76377,
+  comments = "Chróścina, gm. Góra, las na płn-wsch od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lactuca saligna",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Lactuca saligna Hultschiner Ländchen: Petershofen in der Nähe der Kohlengrube (Kotschy)!",
+  lon = 18.25755, 
+  lat = 49.86909,
+  comments = "Petřkovice u Ostravy, Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravia-Silesia, 725 29, Czechia; przy kopalni węgla"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lactuca Scariola f. augustana",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "L. Scariola f. augustana Kätscher: Bieskau (Klimke)!",
+  lon = 17.93533, 
+  lat = 50.08927,
+  comments = "obecnie Nowa Cerekwia, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
 

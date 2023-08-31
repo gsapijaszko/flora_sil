@@ -30,6 +30,59 @@ if(exists("bibliography")) {
   bibliography <- c(bibliography, bib)
 }
 
+
+#'
+#' I. Neue Arten der schlesischen Flora:
+#' 
+
+jahres <- data.frame(
+  species = "Andropogon Halepensis (L.) Brot.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Andropogon Halepensis (L.) Brot. Breslau: Schuttplatz in Bischofswalde, wahrscheinlich mit Vogelfutter verschleppt!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Panicum dichotomiflorum Michx.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Panicum dichotomiflorum Michx. (wahrscheinlich) det. P. Jansen-Amsterdam. Breslau: Schuttplatz am Kinderzobten!",
+  lon = 16.99758,
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Setaria ambigua Guss.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Setaria ambigua Guss. Breslau: Schuttplatz an der Körnerwiese.",
+  lon = 17.02072,
+  lat = 51.06883,
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Phalaris minor Retz", "Phalaris coerulescens Desf.", "Phalaris paradoxa L.", "Phalaris truncata Guss.", "Gastridium ventricosum (Gouan) Schinz et Thellung.", "Avena sierilis L.", "Avena barbata Pott."),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Phalaris minor Retz Breslau: Güterbhf. West, Auslandsgleis! (Dr. K. Meyer). [...] P. coerulescens Desf. Wie vor. [...] P. paradoxa L. Wie vor. P. truncata Guss. Wie vor. Gastridium ventricosum (Gouan) Schinz et Thellung. Wie vor. Avena sierilis L. Wie vor. A. barbata Pott. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
+  subset(grepl("Körnerwiese", entry)) 
+# |>
+#   subset(grepl("ühle", entry))
+
+#' TODO - dokończyć
+
+
 #'
 #' III. Neue Standorte schlesischer Pflanzen.
 #' 
