@@ -31,6 +31,7 @@ jahres |>
 jahres <- jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
   dplyr::left_join(an, by = "species") |>
+  dplyr::mutate(accepted_name = ifelse(accepted_name == "", species, accepted_name)) |>
   dplyr::arrange(accepted_name, year)
 
 saveRDS(jahres, file = "data/flora_sil.Rds")

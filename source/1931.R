@@ -71,12 +71,228 @@ jahres <- data.frame(
   comments = "Wrocław, między ul. Braniborska a Robotnicza"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Eragrostis cilianensis (All.) Vignolo-Lutati",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Eragrostis cilianensis (All.) Vignolo-Lutati (= E. major Host) Breslau: Stadthafen! (Dr. K. Meyer)!",
+  lon = 17.01999,
+  lat = 51.12865,
+  comments = " Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Koeleria phleoides (Vili.) Pers.", "Scleropoa rigida Griseb."),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Koeleria phleoides (Vili.) Pers. Breslau: Güterbhf. West! (Dr. K. Meyer)! [...] Scleropoa rigida Griseb. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus Madritensis L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Bromus Madritensis L. Wie vor., auch Güterbhf. Ost! (Dr. K. Meyer).",
+  lon = c(17.01173, 17.04540), 
+  lat = c(51.11007, 51.09688), 
+  comments = "Wrocław, między ul. Braniborska a Robotnicza; również dawny dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus macrostachys Desf.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. macrostachys Desf. Breslau: Güterbhf. West! (Dr. K. Meyer) !",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus unioloides (Willd.) E. B. K.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. unioloides (Willd.) E. B. K. Breslau: Schuttplatz vor Woischwitz, [...]",
+  lon = 17.03917,
+  lat = 51.06676,
+  comments = "Wrocław, Wojszyce, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus unioloides (Willd.) E. B. K.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. unioloides (Willd.) E. B. K. Breslau: [...] in Gesellschaft von Südfruchtbegleitern!",
+  lon = 17.00775,
+  lat = 51.10392,
+  comments = "Wrocław, ul. Tęczowa; (Fruchteinfurh G.m.b.H., Filliale Breslau, Siebenhufener Str. 74, https://www.sbc.org.pl/dlibra/doccontent?id=86845); http://maps.mapywig.org/m/City_plans/Central_Europe/PLAN_DER_HAUPTSTADT_BRESLAU_Sonderplan_der_Innenstadt_5K_1934.jpg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus rubens L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. rubens L. Breslau: Schuttplatz in Bischofswalde (Dr. K. Meyer) !",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Brachypodium distachyon (L.) B. et Sch.", "Lepturus pannonicus Knuth.", "Haynaldia villosa (L.) Schur.", "Hordeum maritimum With."),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Brachypodium distachyon (L.) B. et Sch. Breslau: Güterbhf. West! (Dr. K. Meyer)! [...] Lepturus pannonicus Knuth. Wie vor. Haynaldia villosa (L.) Schur. Wie vor. Hordeum maritimum With. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asparagus tenuifolius Lam.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Asparagus tenuifolius Lam. Breslau: auf den Schuttplätzen in Bischofswalde und bei der Körnerwiese!",
+  lon = c(17.09846, 17.02072),
+  lat = c(51.09952, 51.06883),
+  comments = "Wrocław, na wysypiskach śmieci: Biskupin i przy polanie Kornera"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum patulum M. B.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Polygonum patulum M. B. Breslau: mehrfach auf den Müllabfuhrplätzen, z. B. vor Woischwitz, hinter Rosenthal, an der Körherwiese und beim Kinderzobten, wohl durch Vogelfutter verschleppt!",
+  lon = c(17.03917, 17.01960, 17.02072, 16.99758),
+  lat = c(51.06676, 51.14601, 51.06883, 51.08158),
+  comments = "Wrocław, częste na wysypiskach odpdaów, np. przed Wojszycami, Różanką, polaną Kornera i przy Małej Sobótce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum arenarium W. K.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. arenarium W. K. Breslau: Schuttplatz vor Friedewalde!",
+  lon = 17.09699,
+  lat = 51.13491,
+  comments = "Mirowiec, os. Kowale, Wrocław, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium hircinum Schräder",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Chenopodium hircinum Schräder Breslau: Schuttplatz in Bischofswalde!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium pseudopulifolium J. B. Scholz",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Ch. pseudopulifolium J. B. Scholz (= Ch. Suecicum Murr.) Breslau: Stadthafen! (Dr. K. Meyer), Schuttplätze in Bischofswalde und hinter Rosenthal!; [...]",
+  lon = c(17.01999, 17.09846, 17.01960),
+  lat = c(51.12865, 51.09952, 51.14601),
+  comments = " Wrocław, port rzeczny; wysypiska na Biskupinie i Różance;"
+) |> rbind(jahres)
+
+
+jahres <- data.frame(
+  species = "Chenopodium pseudopulifolium J. B. Scholz",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Ch. pseudopulifolium J. B. Scholz (= Ch. Suecicum Murr.) [...] Strehlen: auf Schutt im Prieborner Marmorbruch!",
+  lon = 17.17662,
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru; gruzowisko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus californicus (Moq.) Wats.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Amarantus californicus (Moq.) Wats. Breslau: Schutt platz vor Woischwitz! (Det. R. Scheuermann).",
+  lon = 17.03917,
+  lat = 51.06676,
+  comments = "Wrocław, Wojszyce, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus blitoides S. Wats.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "A. blitoides S. Wats. Breslau: Schuttplatz bei der Körnerwiese!",
+  lon = 17.02072,
+  lat = 51.06883,
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tetragonia expansa Murr.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Tetragonia expansa Murr. Breslau: Schuttplatz in Bischofswalde!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Glaucium corniculatum (L.) Cts.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Glaucium corniculatum (L.) Cts. Breslau: Umschlaghafen Pöpelwitz (Dr. K. Meyer)!",
+  lon = 16.99273,
+  lat = 51.1312,
+  comments = "Wrocław, dawny port przeładnunkowy Popowice"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cahile maritima Scop.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cahile maritima Scop. Breslau: Güterbhf. West und Ost! (Dr. K. Meyer) !",
+  lon = c(17.01173, 17.04540), 
+  lat = c(51.11007, 51.09688), 
+  comments = "Wrocław, dawny dworzec zachodni, obecnie teren między ul. Braniborska a Robotnicza; również dawny dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Erysimum odoratum Ehrh.", "Lupinus albus L."),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Erysimum odoratum Ehrh. Breslau: Güterbhf. Brockau! (Dr. K. Meyer)! [...] Lupinus albus L. Wie vor.",
+  lon = 17.09243,
+  lat = 51.05694,
+  comments = "Wrocław; dworzec towarowy Brochów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Medicago scutellata All.", "Medicago rigidula (L.) Desr.", "Melilotus sulcatus Desf."),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Medicago scutellata All. Breslau: Güterbhf. West! (Dr. K. Meyer)! [...] M. rigidula (L.) Desr. Wie vor. Melilotus sulcatus Desf. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathyrus odoratus L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lathyrus odoratus L. Breslau: Schuttplatz vor Morgenau!",
+  lon = 17.06966,
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Anoda triangularis D. C.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Anoda triangularis D. C. Breslau: Schuttplatz bei der Körnerwiese !",
+  lon = 17.02072,
+  lat = 51.06883,
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Clarkea elegans Dougl.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Clarkea elegans Dougl. Liebenthal: Schuttplatz bei der Waldkapelle (Buchs)!",
+  lon = 15.51853,
+  lat = 51.00961,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Körnerwiese", entry)) 
+  subset(grepl("Liebenthal", entry)) 
 # |>
 #   subset(grepl("ühle", entry))
 

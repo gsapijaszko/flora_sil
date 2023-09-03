@@ -30,26 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                             species
-    1                Thesium alpinum
-    2           Lycopodium inundatum
-    3 Equisetum arvense f. campestre
-                                                  citation
-    1 @vonuechtritzResultateDurchforschungSchlesischen1886
-    2      @schubeErgebnisseDurchforschungSchlesischen1916
-    3      @schubeErgebnisseDurchforschungSchlesischen1903
-                                                                                                                                                                                                                                      entry
-    1 Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).
-    2                                                                                                                                                                                       Lycopodium inundatum. Rybnik: vor Boguschowitz;
-    3                                                                                                                                                                             Equisetum arvense f. campestre. Grünberg: Krampe (ders.)!
-           lon      lat                         comments year
-    1 16.73092 50.85032                                  1886
-    2 18.60987 50.06401                                  1916
-    3 15.53103 52.00299 Krępa, Nowe Miasto, Zielona Góra 1903
-                         accepted_name
-    1               Thesium alpinum L.
-    2 Lycopodiella inundata (L.) Holub
-    3             Equisetum arvense L.
+                       species
+    1       Cyclamen europaeum
+    2        Lolium temulentum
+    3 Rosa gallica x dumetorum
+                                                     citation
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2        @schalowErgebnisseDurchforschungSchlesischen1934
+    3        @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                 entry
+    1                                                                                                                                                 Cyclamen europaeum [...] Trebnitz: Schimmelwitzer Wald bei Obernigk (Obst);[...]
+    2                                                                                                                                            Lolium temulentum Strehlen: Flachsfelder bei [...] Lorenzberg, auch mit var. arvense!
+    3 Am Kaffenberge bei Sakrau beobachtete ich selbst außer Aira caryophyllea und Hypochoeris maculata auch noch verschiedene Rosen, nämlich: Rosa agrestis, R. gallica und den Bastard R. gallica x dumetorum in schoner Ausprägung.
+           lon      lat                                               comments year
+    1 16.90312 51.31478 Siemianice, gm. Oborniki Śląskie, pow. trzebnicki; las 1933
+    2 17.23411 50.72908        Wawrzyszów, gm. Wiązów, pow. Strzelin, pole lnu 1934
+    3 16.88515 50.68428                                    Kawia Góra, Zakrzów 1936
+                    accepted_name
+    1 Cyclamen purpurascens Mill.
+    2        Lolium temulentum L.
+    3    Rosa gallica x dumetorum
 
 </div>
 
@@ -125,15 +125,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE58
-    3                    Malva moschata L. AE67
-    4                    Malva moschata L. BE74
-    5                  Malva parviflora L. BE49
-    6 Malva thuringiaca subsp. thuringiaca BE14
-    7 Malva thuringiaca subsp. thuringiaca CF35
-    8        Malva trimestris (L.) Salisb. AE58
+          accepted_name Name
+    1 Malva moschata L. AE67
+    2 Malva moschata L. BE53
+    3 Malva moschata L. BE71
+    4 Malva moschata L. BF24
+    5 Malva moschata L. CE81
+    6 Malva moschata L. CF11
+    7 Malva pusilla Sm. CE90
+    8 Malva pusilla Sm. CF65
 
 ### How to participate
 
@@ -210,7 +210,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4065 records (species - localization) including 3992 with
+total 4104 records (species - localization) including 4031 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
