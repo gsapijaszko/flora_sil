@@ -288,11 +288,128 @@ jahres <- data.frame(
   comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Bunium Bulbocastanum L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Bunium Bulbocastanum L. Habelschwerdt: auf Kalkäckern bei Neu-Waltersdorf völlig eingebürgert (Weis). Eine recht interessante Beobachtung!",
+  lon = 16.72801, 
+  lat = 50.31192,
+  comments = "Nowy Waliszów, gm. Bystrzyca Kłodzka; na wapiennych polach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bupleurum Odontites L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Bupleurum Odontites L. Breslau: Güterbhf. West (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gilia tricolor Benth.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Gilia tricolor Benth. Breslau: Schuttplatz in Bischofswalde.",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cuscuta vulgaris Beyrich",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cuscuta vulgaris Beyrich Strehlen: im Garten des Forsthauses Späne bei Lorenzberg, auf Satureja hortensis schmarotzend! Det. E. Pilger-Berlin.",
+  lon = 17.21135,
+  lat = 50.72234,
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzelińśki; ogród przy dawnej leśniczówce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Convolvulus tricolor L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Convolvulus tricolor L. Liebenthal: Schuttplatz bei der Waldkapelle (Buchs)!",
+  lon = 15.51853,
+  lat = 51.00961,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amsinchia Mensiesii (Lehm.) Nels. et Machr.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Amsinchia Mensiesii (Lehm.) Nels. et Machr. Breslau: Schuttplatz hinter Rosenthal!",
+  lon = 17.01960, 
+  lat = 51.14601,
+  comments = "wysypisko gruzu, Różanka, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbena Auhletia L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Verbena Auhletia L. Breslau: Schuttplatz hinter Rosenthal, in Bischofswalde!",
+  lon = c(17.01960, 17.09846),
+  lat = c(51.14601, 51.09952),
+  comments = " Wrocław, wysypiska na Różance i Biskupinie;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sideritis montana L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Sideritis montana L. Breslau: Güterbhf. Ost (Dr. K. Meyer)!",
+  lon = 17.04540, 
+  lat = 51.09688, 
+  comments = "Wrocław, dawny dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Galeopsis ochroleuca Lam.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Galeopsis ochroleuca Lam. Breslau: Güterbhf. West (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Salvia viridis L. var. horminum (L.) Batt. et Trab.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Salvia viridis L. var. horminum (L.) Batt. et Trab. Liebenthal: Schuttplatz nördlich der Waidkapelle (Buchs)!; Breslau: Wegrand bei Ransern (Krajewski)!",
+  lon = c(15.51853, 16.95404),
+  lat = c(51.00961, 51.16696),
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej; Wrocław, pobocze drogi przy Rędzinie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbascum sinuatum L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Verbascum sinuatum L. Breslau: Schuttplatz bei der Körnerwiese!",
+  lon = 17.02072,
+  lat = 51.06883,
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna-polana-kornera/)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Plantago psyllium L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Plantago psyllium L. Breslau: Güterbhf. West (Dr.K.Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lonicera Morrowii Gray",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lonicera Morrowii Gray Breslau: Güterbhf. Brockau! (Dr. K. Meyer) !",
+  lon = 17.09243,
+  lat = 51.05694,
+  comments = "Wrocław, dworzec towarowy Brochów"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Liebenthal", entry)) 
+  subset(grepl("Ransern", entry)) 
 # |>
 #   subset(grepl("ühle", entry))
 

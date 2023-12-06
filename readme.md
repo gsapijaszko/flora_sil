@@ -30,26 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                       species
-    1       Cyclamen europaeum
-    2        Lolium temulentum
-    3 Rosa gallica x dumetorum
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2        @schalowErgebnisseDurchforschungSchlesischen1934
-    3        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                                                                                                                                 entry
-    1                                                                                                                                                 Cyclamen europaeum [...] Trebnitz: Schimmelwitzer Wald bei Obernigk (Obst);[...]
-    2                                                                                                                                            Lolium temulentum Strehlen: Flachsfelder bei [...] Lorenzberg, auch mit var. arvense!
-    3 Am Kaffenberge bei Sakrau beobachtete ich selbst außer Aira caryophyllea und Hypochoeris maculata auch noch verschiedene Rosen, nämlich: Rosa agrestis, R. gallica und den Bastard R. gallica x dumetorum in schoner Ausprägung.
-           lon      lat                                               comments year
-    1 16.90312 51.31478 Siemianice, gm. Oborniki Śląskie, pow. trzebnicki; las 1933
-    2 17.23411 50.72908        Wawrzyszów, gm. Wiązów, pow. Strzelin, pole lnu 1934
-    3 16.88515 50.68428                                    Kawia Góra, Zakrzów 1936
-                    accepted_name
-    1 Cyclamen purpurascens Mill.
-    2        Lolium temulentum L.
-    3    Rosa gallica x dumetorum
+                 species                                         citation
+    1 Cucubalus baccifer @schalowErgebnisseDurchforschungSchlesischen1935
+    2 Allium Victorialis @schalowErgebnisseDurchforschungSchlesischen1932
+    3     Ledum palustre @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                              entry
+    1                                                           Cucubalus baccifer [...] Freiburg: Liebichau (Loge)
+    2 Allium Victorialis Riesengebirge: [...] Abfall der Schneekoppe oberhalb des Dix-Gedenksteines (Dr. Limpricht)
+    3                             Ledum palustre Liebenthal: im Stadtwalde ein einziger, sehr alter Strauch (Buchs)
+           lon      lat                                                   comments
+    1 16.33202 50.83187                                                  Lubiechów
+    2 15.74252 50.74141                                        zbocze góry Śnieżka
+    3 15.50980 51.00327 Lubomierz, Las Lubomierski, pojedynczy, bardzo stary krzak
+      year                             accepted_name
+    1 1935                Silene baccifera (L.) Roth
+    2 1932                     Allium victorialis L.
+    3 1935 Rhododendron tomentosum subsp. tomentosum
 
 </div>
 
@@ -125,15 +121,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-          accepted_name Name
-    1 Malva moschata L. AE67
-    2 Malva moschata L. BE53
-    3 Malva moschata L. BE71
-    4 Malva moschata L. BF24
-    5 Malva moschata L. CE81
-    6 Malva moschata L. CF11
-    7 Malva pusilla Sm. CE90
-    8 Malva pusilla Sm. CF65
+                      accepted_name Name
+    1             Malva moschata L. AE58
+    2             Malva moschata L. AE58
+    3             Malva moschata L. BF24
+    4             Malva moschata L. CF11
+    5           Malva parviflora L. BE49
+    6             Malva pusilla Sm. CE90
+    7 Malva trimestris (L.) Salisb. AE59
+    8         Malva verticillata L. AD59
 
 ### How to participate
 
@@ -210,7 +206,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4104 records (species - localization) including 4031 with
+total 4119 records (species - localization) including 4046 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
