@@ -30,22 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                  species
-    1                 Bidens melanocarpus
-    2 Juncus filiformis f. pusillus Fries
-    3                  Anthericum ramosum
-                                              citation
-    1 @schalowErgebnisseDurchforschungSchlesischen1935
-    2 @schalowErgebnisseDurchforschungSchlesischen1935
-    3 @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                                                                                                                                                                                                                                                                                                           entry
-    1                                                                                                                                                                                                                                                                                                                                        Bidens melanocarpus [...] Neiße: [...] Bielearm östlich der Stadt!;
-    2                                                                                                                                                                                                                                                                                                                                   Juncus filiformis f. pusillus Fries Heuscheuer: Friedrichsberg (Becker)!
-    3 Ganz überraschend aber kommt die Entdeckung recht pflanzenreicher sogenannter „pontischer“ Hügel unweit Dammer im südlichen Teile des Namslauer Kreises. Nach Wittigs Angaben finden sich hier: Anemone pratensis, Thesium intermedium, Sempervivum soboliferum, Scorzonera humilis, Anthericum ramosum, Polypodium vulgare, Scabiosa canescens, Allium senescens, Silene Otites und Astragalus arenarius.
-           lon      lat                         comments year         accepted_name
-    1 17.34707 50.47394 Białka, na wschód od miasta Nysa 1935    Bidens frondosa L.
-    2 15.52318 50.99350                       Popielówek 1935  Juncus filiformis L.
-    3 17.82027 50.98202  Dąbrowa, gm. Świerczów, wzgórza 1936 Anthericum ramosum L.
+                    species                                                citation
+    1    Equisetum pratense         @schubeErgebnisseDurchforschungSchlesischen1903
+    2      Aspidium lobatum @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3 Trifolium resupinatum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                  entry      lon
+    1 Equisetum pratense. Maltsch: Oderdamm gegen Regnitz (C. Scholz)!; 16.53635
+    2                    A. lobatum Bolkenhain: Einsiedelwald (Strauch) 16.06587
+    3                 T. resupinatum Breslau: Schuttplatz vor Morgenau! 17.06966
+           lat
+    1 51.24035
+    2 50.84644
+    3 51.09861
+                                                                        comments
+    1 Rzeczyca, gm. Środa Śląska, pow. średzki; wał przeciwpowodziowy rzeki Odra
+    2                         Pustelnik, gm. Marciszów, pow. kamiennogórski, las
+    3                                        Wrocław, Rakowiec, wysypisko śmieci
+      year            accepted_name
+    1 1903 Equisetum pratense Ehrh.
+    2 1931                     <NA>
+    3 1933 Trifolium resupinatum L.
 
 </div>
 
@@ -129,14 +133,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE62
-    3                    Malva moschata L. BE97
-    4                    Malva moschata L. BF05
-    5                  Malva parviflora L. BE49
-    6 Malva thuringiaca subsp. thuringiaca BE57
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BF07
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE58
+    3                    Malva moschata L. BE53
+    4                    Malva moschata L. BE74
+    5                    Malva moschata L. BF01
+    6                    Malva moschata L. BF24
+    7 Malva thuringiaca subsp. thuringiaca CF35
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -213,7 +217,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4149 records (species - localization) including 4076 with
+total 4165 records (species - localization) including 4091 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -227,50 +231,50 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+    [1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
-[6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

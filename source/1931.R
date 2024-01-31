@@ -316,6 +316,15 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
+  species = "Gilia tricolor Benth.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Gilia tricolor Benth. [...] 3) Übrigens schon im Jahre 1877 einmal auf dem Wolfsberg bei Goldberg eingeschleppt, und zwar durch einen früheren amerikanischen Farmer gelegentlich der Reinigung seiner Getreidesäcke (Alwin Schenk).",
+  lon = 15.91191,
+  lat = 51.10487,
+  comments = "Wilcza Góra, Wilków, pow. Złotoryja"
+) |> rbind(jahres)
+
+jahres <- data.frame(
   species = "Cuscuta vulgaris Beyrich",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
   entry = "Cuscuta vulgaris Beyrich Strehlen: im Garten des Forsthauses Späne bei Lorenzberg, auf Satureja hortensis schmarotzend! Det. E. Pilger-Berlin.",
@@ -405,11 +414,119 @@ jahres <- data.frame(
   comments = "Wrocław, dworzec towarowy Brochów"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Chrysanthemum Indicum L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Chrysanthemum Indicum L. Breslau: Schuttplatz vor Morgenau!",
+  lon = 17.06966,
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chrysanthemum Marshallii Aschers.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Chr. Marshallii Aschers. Breslau: Schuttplatz in Bischofswalde!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ammobium alatum R. Br.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Ammobium alatum R. Br. Breslau: Wegrand bei Ransern (Krajewski)!, Schuttplatz in Bischofswalde!",
+  lon = c(16.95404, 17.09846),
+  lat = c(51.16696, 51.09952),
+  comments = "Wrocław, pobocze drogi przy Rędzinie; Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Anthemis altissima L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Anthemis altissima L. Breslau: Güterbhf. West! (Dr. K. Meyer) !",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Anacyclus clavatus (Desf.) Pers.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Anacyclus clavatus (Desf.) Pers. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Calendula arvensis L.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Calendula arvensis L. Wie vor.",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Artemisia austriaca Jacq.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Artemisia austriaca Jacq. Oppeln: Ostbahnhof (Schubert)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rhagadiolus stellatus Gaevt.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Rhagadiolus stellatus Gaevt. Breslau: Schuttplatz vor Woischwitz!, Güterbhf. West! (Br. K. Meyer)!*",
+  lon = c(17.03917, 17.01173), 
+  lat = c(51.06676, 51.11007),
+  comments = "Wrocław, Wojszyce, wysypisko śmieci; Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hedypnois cretica (L.) Willd.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Hedypnois cretica (L.) Willd. Breslau: Güterbhf. West und Ost (Dr. K. Meyer)!",
+  lon = c(17.01173, 17.04540), 
+  lat = c(51.11007, 51.09688), 
+  comments = "Wrocław, między ul. Braniborska a Robotnicza; również dawny dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cichorium pumilum Jacq.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cichorium pumilum Jacq. Breslau: vor Woischwitz!",
+  lon = 17.03917,
+  lat = 51.06676,
+  comments = "Wrocław, przed Wojszycami"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carduus macrocephalus Desf.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Carduus macrocephalus Desf. Breslau: Schuttplatz in Bischofswalde (Dr. K. Meyer)!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Centaurea dubia Suter ssp. nigrescens (Willd.) Hayek",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Centaurea dubia Suter ssp. nigrescens (Willd.) Hayek Leobschütz: Wegränder bei Rosenthal (Klimke)! Ein neuer und interessanter Bürger der schlesischen Flora!",
+  lon = NA,
+  lat = NA,
+  comments = "nie znalazłem Rosenthal; istnieje Rosen (Rogożany, gm. Kietrz, pow. głubczycki; współrzędne: 17.90609, 50.09242)"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Ransern", entry)) 
+  subset(grepl("Katscher", entry)) 
 # |>
 #   subset(grepl("ühle", entry))
 
