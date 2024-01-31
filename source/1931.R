@@ -740,6 +740,20 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
+#'
+#' [....]
+#'
+
+jahres <- data.frame(
+  species = "Cynodon dactylon",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931", 
+  entry = "Chenopodium Botrys: Breslau: hinter Rosenthal;",
+  lon = 17.01960,
+  lat = 51.14601, 
+  comments = "Wrocław, Różanka"
+) |> rbind(jahres)
+
+
 # meyerPflanzenweltBreslauerGuterbahnhofe1931 -------------------------------------------------
 
 bib <- RefManageR::as.BibEntry(

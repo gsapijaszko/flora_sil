@@ -17,7 +17,8 @@ saveRDS(an, file = "data/accepted_names.Rds")
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Cynodon", entry))
+  # subset(grepl("Chenopodium Botrys", entry))
+  subset(grepl("Friedek", entry))
 
 # subset(grepl("Cynodon", accepted_name))
 
@@ -28,6 +29,7 @@ jahres |>
 #                                )
 #                              )
 
+
 jahres <- jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
   dplyr::left_join(an, by = "species") |>
@@ -36,6 +38,22 @@ jahres <- jahres |>
 
 saveRDS(jahres, file = "data/flora_sil.Rds")
 write.csv(jahres, file = "data/flora_sil.csv")
+
+# schube ------------------------------------------------------------------------------------------------
+
+source("source/schube_fiek.R")
+
+schube <- schube |>
+  dplyr::mutate(year = stringr::str_extract(schube[, "citation"], "[0-9]{4}"))|>
+  dplyr::left_join(an, by = "species") |>
+  dplyr::mutate(accepted_name = ifelse(accepted_name == "", species, accepted_name)) |>
+  dplyr::arrange(accepted_name, year)
+
+all_data <- schube |>
+  rbind(jahres)
+
+saveRDS(all_data, file = "data/all_data.Rds")
+
 
 # print & plot --------------------------------------------------------------------------------
 #' Tanacetum macrophyllum i Achillea macrophylla
@@ -98,15 +116,18 @@ a_outPL <- sf::st_filter(a, pla, .predicate = sf::st_disjoint) |>
 tmap::tmap_mode("plot")
   
 tm <- tmap::tm_shape(boundaries) +
-  tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
+  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(a_outPL) +
-  tmap::tm_symbols(size = 0.1, shape = 18, col = "red") +
+  tmap::tm_symbols(size = 0.4, shape = 18, fill = "red") +
   tmap::tm_shape(aPL) +
-  tmap::tm_polygons("n", palette = "Blues", 
-                    alpha = 0.8, 
-#                    style = "log10_pretty"
-                    ) +
-  tmap::tm_legend(legend.position = c(0.1,0.1), legend.bg.color = "white", legend.title.color = "white")
+  tmap::tm_polygons(fill = "n",
+                    fill.scale = tmap::tm_scale_intervals(values = "Blues"),
+                    fill_alpha = 0.9,
+                    col_alpha = 0.4,
+                    fill.legend = tmap::tm_legend(title = "",
+                                                  bg.color = "white",
+                                                  position = c(0.1, 0.45))
+                    )
 tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
 # gbif ----------------------------------------------------------------------------------------
@@ -183,11 +204,7 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   sf::st_filter(b)
 
 
-# source("source/schube_fiek.R")
-# 
-# jahres <- schube |>
-#   rbind(jahres)
-# 
+
 # aPL
 # 
 # jahres |>

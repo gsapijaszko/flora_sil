@@ -72,20 +72,28 @@ And plot it on simple map using `tmap` package:
 #| message: false
 #| error: false
 #| code-fold: true
-#| 
-boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
+
+boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level = 1, path = "data") |>
   sf::st_as_sf() |>
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tm <- tmap::tm_shape(boundaries) +
-  tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
+tm <- 
+  tmap::tm_shape(boundaries) +
+  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(malvas) +
-  tmap::tm_symbols(col = "accepted_name", title.col = "", palette = "Paired", size = 0.6, shape = 16) +
-  tmap::tm_legend(
-    legend.width = 1.1,
-    legend.text.size = 0.7,
-    legend.bg.color = "white")
+  tmap::tm_symbols(
+    size = 0.5,
+    fill = "accepted_name",
+    fill.scale = tmap::tm_scale_categorical(values = "Paired"),
+    fill.legend = tmap::tm_legend(
+      title = "",
+      text.size = 0.6,
+      bg.color = "white",
+      position = c("left", "bottom")
+    )
+  )
+
 ```
 
 ```{r}

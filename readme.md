@@ -30,22 +30,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                 species                                         citation
-    1 Cucubalus baccifer @schalowErgebnisseDurchforschungSchlesischen1935
-    2 Allium Victorialis @schalowErgebnisseDurchforschungSchlesischen1932
-    3     Ledum palustre @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                              entry
-    1                                                           Cucubalus baccifer [...] Freiburg: Liebichau (Loge)
-    2 Allium Victorialis Riesengebirge: [...] Abfall der Schneekoppe oberhalb des Dix-Gedenksteines (Dr. Limpricht)
-    3                             Ledum palustre Liebenthal: im Stadtwalde ein einziger, sehr alter Strauch (Buchs)
-           lon      lat                                                   comments
-    1 16.33202 50.83187                                                  Lubiechów
-    2 15.74252 50.74141                                        zbocze góry Śnieżka
-    3 15.50980 51.00327 Lubomierz, Las Lubomierski, pojedynczy, bardzo stary krzak
-      year                             accepted_name
-    1 1935                Silene baccifera (L.) Roth
-    2 1932                     Allium victorialis L.
-    3 1935 Rhododendron tomentosum subsp. tomentosum
+                                  species
+    1                 Bidens melanocarpus
+    2 Juncus filiformis f. pusillus Fries
+    3                  Anthericum ramosum
+                                              citation
+    1 @schalowErgebnisseDurchforschungSchlesischen1935
+    2 @schalowErgebnisseDurchforschungSchlesischen1935
+    3 @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                                                                                                                                                                                           entry
+    1                                                                                                                                                                                                                                                                                                                                        Bidens melanocarpus [...] Neiße: [...] Bielearm östlich der Stadt!;
+    2                                                                                                                                                                                                                                                                                                                                   Juncus filiformis f. pusillus Fries Heuscheuer: Friedrichsberg (Becker)!
+    3 Ganz überraschend aber kommt die Entdeckung recht pflanzenreicher sogenannter „pontischer“ Hügel unweit Dammer im südlichen Teile des Namslauer Kreises. Nach Wittigs Angaben finden sich hier: Anemone pratensis, Thesium intermedium, Sempervivum soboliferum, Scorzonera humilis, Anthericum ramosum, Polypodium vulgare, Scabiosa canescens, Allium senescens, Silene Otites und Astragalus arenarius.
+           lon      lat                         comments year         accepted_name
+    1 17.34707 50.47394 Białka, na wschód od miasta Nysa 1935    Bidens frondosa L.
+    2 15.52318 50.99350                       Popielówek 1935  Juncus filiformis L.
+    3 17.82027 50.98202  Dąbrowa, gm. Świerczów, wzgórza 1936 Anthericum ramosum L.
 
 </div>
 
@@ -74,19 +74,26 @@ And plot it on simple map using `tmap` package:
 <summary>Code</summary>
 
 ``` r
-boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, path = "data") |>
+boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level = 1, path = "data") |>
   sf::st_as_sf() |>
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tm <- tmap::tm_shape(boundaries) +
-  tmap::tm_polygons("COUNTRY", palette = c("white"), legend.show = FALSE) +
+tm <- 
+  tmap::tm_shape(boundaries) +
+  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(malvas) +
-  tmap::tm_symbols(col = "accepted_name", title.col = "", palette = "Paired", size = 0.6, shape = 16) +
-  tmap::tm_legend(
-    legend.width = 1.1,
-    legend.text.size = 0.7,
-    legend.bg.color = "white")
+  tmap::tm_symbols(
+    size = 0.5,
+    fill = "accepted_name",
+    fill.scale = tmap::tm_scale_categorical(values = "Paired"),
+    fill.legend = tmap::tm_legend(
+      title = "",
+      text.size = 0.6,
+      bg.color = "white",
+      position = c("left", "bottom")
+    )
+  )
 ```
 
 </details>
@@ -121,15 +128,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE58
-    2             Malva moschata L. AE58
-    3             Malva moschata L. BF24
-    4             Malva moschata L. CF11
-    5           Malva parviflora L. BE49
-    6             Malva pusilla Sm. CE90
-    7 Malva trimestris (L.) Salisb. AE59
-    8         Malva verticillata L. AD59
+                             accepted_name Name
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE62
+    3                    Malva moschata L. BE97
+    4                    Malva moschata L. BF05
+    5                  Malva parviflora L. BE49
+    6 Malva thuringiaca subsp. thuringiaca BE57
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -206,7 +213,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4119 records (species - localization) including 4046 with
+total 4149 records (species - localization) including 4076 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

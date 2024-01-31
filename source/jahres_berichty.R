@@ -566,7 +566,7 @@ jahres <- data.frame(
   entry = "Lycopodium selago. Carlsruhe: Zawisc (R.)!",
   lon = 17.95379, 
   lat = 50.97555, 
-  comments = ""
+  comments = "Zawiść, gm. Pokój, pow. namysłowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1274,6 +1274,19 @@ jahres <- data.frame(
 #' moved
 
 #' 1902
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1902", 
+  entry = "Chenopodium Botrys. Canth (Faltin t. Ziesche)!",
+  lon = 16.77783, 
+  lat = 51.02917, 
+  comments = "Kąty Wrocławskie"
+) |> rbind(jahres)
+
+
+
+
 jahres <- data.frame(
   species = "Botrychium matricarifolium",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1902", 
@@ -3054,6 +3067,19 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1889
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Chenopodium Botrys L. Proskau: im Seminargarten häufig verwildert (Richter)!",
+  lon = 17.88241, 
+  lat = 50.59278, 
+  comments = "obecnie park arboretum, Prószków, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+
+
+ 
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekResultateDurchforschungSchlesischen1889", 
@@ -4264,6 +4290,38 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1870
+#' 
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "munckeSeltenerePflanzenAns1870",
+    author = "Müncke",
+    title = "Seltenere Pflanzen ans Schlesien und Mähren.",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesellschaft im Jahre 1869",
+    date = "1870",
+    pages = "74")
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys",
+  citation = "@munckeSeltenerePflanzenAns1870", 
+  entry = "Chenopodium Botrys (Schön-Briese bei Oels).",
+  lon = 17.45739, 
+  lat = 51.29570, 
+  comments = "Brzezinka, gm. Oleśnica, pow. oleśnicki"
+) |> rbind(jahres)
+
+
+
+
+
+
+
 jahres <- data.frame(
   species = "Lycopodium complanatum",
   citation = "@mildeVerzeichnissNeueStandorte1870", 
@@ -4500,8 +4558,60 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@englerVerzeichnissImJahre1869", 
+  entry = "Chenopodium Botrys L. Zedlitz [...] bei Neisse (W.).",
+  lon = 17.20014, 
+  lat = 50.51759, 
+  comments = "Siedlec, gm. Otmuchów, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@englerVerzeichnissImJahre1869", 
+  entry = "Chenopodium Botrys L. [...] Giesmannsdorf bei Neisse (W.).",
+  lon = 17.25265,  
+  lat = 50.49106, 
+  comments = "Goświnowice, gm. Nysa, pow. nyski"
+) |> rbind(jahres)
+
+
+
+
 #' 1868 - brak artykułu
 #' 1867
+#' 
+
+bib <- RefManageR::as.BibEntry(
+  c(
+    bibtype = "article",
+    key  = "vonuechtritzUeberFolgendeNovitaeten1867",
+    author = "Rudolf von Uechtritz",
+    title = "Ueber folgende Novitäten aus dem Gebiete der schlesischen Flora",
+    journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1866",
+    date = "1867",
+    pages = "122--133")
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+
+jahres <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@vonuechtritzUeberFolgendeNovitaeten1867", 
+  entry = "42) Chenopodium Botrys L. Neisse: Dorfanger in Giessmannsdorf (M. Winkler).",
+  lon = 17.25265,  
+  lat = 50.49106, 
+  comments = "Goświnowice, gm. Nysa, pow. nyski"
+) |> rbind(jahres)
+
+
+
 jahres <- data.frame(
   species = "Equisetum telmateja Ehrh.",
   citation = "@vonuechtritzUeberNeueArten1867", 
@@ -4647,3 +4757,46 @@ jahres <- data.frame(
 #' 1861
 
 
+#' 1854
+#' 
+bib <- RefManageR::as.BibEntry(
+c(
+  bibtype = "article",
+  key  = "mildeUeberMeineExcursionen1854",
+  author = "Julius Milde",
+  title = "Ueber meine Excursionen im Sommer 1853",
+  journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Kultur. Enthält: Arbeiten und Veränderungen der Gesellschaft im Jahre 1853",
+  date = "1854",
+  pages = "171--175")
+)
+
+if(exists("bibliography")) {
+  bibliography <- c(bibliography, bib)
+}
+
+jahres <- data.frame(
+  species = c("Equisetum arvense", "Equisetum campestre"),
+  citation = "@mildeUeberMeineExcursionen1854", 
+  entry = "Eine meiner ersten Excursionen richtete sich nach Auras und zwar nach den ausgedehnten Sandflächen auf der linken Seite der Oder, welche durch das massenhafte Auftreten von Eqidselum urveme und seinen verschiedenen Formen ausgezeichnet sind. Ich fand auch dieses Jahr das E. arvense, campestre Schultz in allen Entwickelungszuständen, von der Form an, welche ganz astlos mit grün gefärbtem Schafte äusserlich sogar an E. limosum erinnert, bis zu der Form mit lang- und reich beästetem Stengel,",
+  lon = 16.84694, 
+  lat = 51.24124, 
+  comments = "na lewym brzegu Odry od Urazu, Prężyce, gm. Miękinia, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Pyrola umbellata", "Andromeda polifolia", "Ledum palustre", "Lathraea squamaria", "Potentilla nemoralis", "Utricularia minor", "Riccia natans", "Valeriana dioica", "Cineraria crispa", "Chenopodium Botrys", "Drosera rotundifolia", "Lycopodium inundatum"),
+  citation = "@mildeUeberMeineExcursionen1854", 
+  entry = "Ausserdem finden sich in den Wäldern um Carlsruhe sehr häufig Pyrola umbellata, Andromeda polifolia, weiss und roth blühend, Ledum palustre, Lathraea squamaria in unendlicher Menge, auf Aeckern Potentilla nemoralis, in den Teichen Utricularia minor und Riccia natans, auf sumpfigen Wiesen Valeriana dioica und Cineraria crispa, auf einer sandigen Stelle Chenopodium Botrys, ganz nahe bei der Stadt auf einer nassen, sandigen Fläche in Gesellschaft der Drosera rotundifolia ziemlich häufig Lycopodium inundatum, [...]",
+  lon = 17.82904,  
+  lat = 50.89962, 
+  comments = "lasy wokół miejscowości Pokój, gm. Pokój, pow. namysłowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Lycopodium inundatum", "Lycopodium complanatum", "Lycopodium chamaecyparissus", "Lycopodium clavatum", "Lycopodium annotinum", "Lycopodium Selago", "Polypodim vulgare", "Polypodium Pheyopteris", "Dryopteris"),
+  citation = "@mildeUeberMeineExcursionen1854", 
+  entry = "[...] auf den Antonsbergen wenige Schritte getrennt von einander L. complanatum und L. chamaecyparissus, deren Aehren sich vollständig den Winter über erhalten hatten; häufig ist L. clavatum und annotinum, selten L. Selago, an wenigen Orten findet sich Polypodim vulgare, häufiger dagegen P. Pheyopteris und Dryopteris.",
+  lon = 17.89447, 
+  lat = 50.88642, 
+  comments = "Antonsbergen - nie znalazłem, niedaleko miejscowości Pokój, gm. Pokój, pow. namysłowski; współrzędne na wydmy na wschód od miejscowości"
+) |> rbind(jahres)

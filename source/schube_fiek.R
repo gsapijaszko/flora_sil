@@ -1594,6 +1594,166 @@ schube <- data.frame(
 # ) |> rbind(schube)
 # 
 
+
+#' 8. Reihe. Centrospermae.
+#'  39. Familie. CHENOPODIACEAE. 
+#'  154. Chenopodium L.
+#'  
+#'  [...]
+#'  
+#'  
+#' Ch. Botrys L. An Wegen, auf Garten- und Ackerland zuweilen verw. IIIc Öls: Briese (F); IIId B: Sitten
+#' bei Obernigk (F)!, Skarsine (F)!, Canth (01)!, Acker am Koberwitzer Park (F); IIIe Stg: Lederose (F), 
+#' Kuhnern (F); IIIf Reichb: auf Gemuseland (F); Vb Karlsruhe: Sandfelder (F)!; Pro: Seminargarten (88)!;
+#' Vc Nei!: Zedlitz (F), Gießmannsdorf (F); Vd Obgl: Seminargarten (F)!; Rat: Neugarten (F); 
+#' Leo. (F)!; VIc Friedek (F).
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a, @munckeSeltenerePflanzenAns1870",
+  entry = "[...] IIIc Öls: Briese (F);[...]",
+  lon = 17.45739,
+  lat = 51.29570,
+  comments = "Brzezinka, gm. Oleśnica, pow. oleśnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: Sitten bei Obernigk (F)!,[...]",
+  lon = 16.91815, 
+  lat = 51.30854,
+  comments = "Oborniki Śląskie, pow. trzebnicki, obecnie okolice ul. Parkowej"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Skarsine (F)![...]",
+  lon = 17.16463,
+  lat = 51.25621,
+  comments = "Skarszyn, gm. Trzebnica, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1902",
+  entry = "[...] B: [...] Canth (01)! [...]",
+  lon = 16.77783,
+  lat = 51.02917,
+  comments = "Kąty Wrocławskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] B: [...] Acker am Koberwitzer Park (F);[...]",
+  lon = 16.93949, 
+  lat = 50.98005,
+  comments = "Kobierzyce, gm. Kobierzyce, pow. wrocławski; pole przy Parku Kobierzyckim"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIe Stg: Leder[h]ose (F), [...]",
+  lon = 16.42221, 
+  lat = 51.06603,
+  comments = "Różana, gm. Udanin, pow. średzki; u Fieka: Park in Lederhose (Z.);"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIe Stg: [...] Kuhnern (F)[...]",
+  lon = 17.15491, 
+  lat = 50.65520,
+  comments = "Konary, gm. Przeworno, pow. strzeliński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIf Reichb: auf Gemuseland (F);[...]",
+  lon = 16.66844, 
+  lat = 50.73249,
+  comments = "Dzierżoniów, w sadzie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a, @mildeUeberMeineExcursionen1854",
+  entry = "[...] IVb Karlsruhe: Sandfelder (F)!;[...]",
+  lon = 17.82904,
+  lat = 50.89962,
+  comments = "Pokój, gm. Pokój, pow. namysłowski; na piaszczyskach"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekResultateDurchforschungSchlesischen1889",
+  entry = "[...] Pro: Seminargarten (88)!;[...]",
+  lon = 17.88241,
+  lat = 50.59278,
+  comments = "obecnie park arboretum, Prószków, gm. Prószków, pow. opolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a, @englerVerzeichnissImJahre1869",
+  entry = "[...] Vc Nei!: Zedlitz (F)[...]",
+  lon = 17.20014,
+  lat = 50.51759,
+  comments = "Siedlec, gm. Otmuchów, pow. nyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a, @vonuechtritzUeberFolgendeNovitaeten1867, @englerVerzeichnissImJahre1869",
+  entry = "[...] Vc Nei!: [...] Gießmannsdorf (F);[...]",
+  lon = 17.25265,
+  lat = 50.49106,
+  comments = "Goświnowice, gm. Nysa, pow. nyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Obgl: Seminargarten (F)!;[...]",
+  lon = 17.85807, 
+  lat = 50.35621,
+  comments = "Głogówek, gm. Głogówek, pow. prudnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd [...] Rat: Neugarten (F); [...]",
+  lon = 18.21197, 
+  lat = 50.08788,
+  comments = "Racibórz, pow. raciborski, obecnie tereny ROD im. Jana Matejki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd [...] Leo. (F)!; [...]",
+  lon = 17.85779, 
+  lat = 50.35476,
+  comments = "Głogówek, gm. Głogówek, pow. prudnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Chenopodium Botrys L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIc Friedek (F)",
+  lon = 18.34886,
+  lat = 49.68709,
+  comments = "w Czechach"
+) |> rbind(schube)
+
+
+
 schube |>
   subset(grepl("@fiekFloraSchlesienPreussischen1881", citation)) |>
   subset(!grepl("(F)", entry))
