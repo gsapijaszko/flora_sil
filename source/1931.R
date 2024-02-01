@@ -1170,11 +1170,56 @@ jahres <- data.frame(
   comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Arrhenatherum elatius f. brachyclada Reinecke",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Arrhenatherum elatius f. brachyclada Reinecke Kätscher: Krug (Klimke)!",
+  lon = 17.85025, 
+  lat = 50.09037,
+  comments = "Dzbańce, gm. Branice, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phragmites communis f. pumila",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Phragmites communis f. pumila Oppeln: Ostbhf. (Schubert)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Eragrostis minor Frankenstein: Bhf. (Buchs)!; [...]",
+  lon = 16.81145,
+  lat = 50.60442,
+  comments = "Ząbkowice Śląskie; dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Eragrostis minor [...] Grottkau: Bhf.!",
+  lon = 17.37605, 
+  lat = 50.69751,
+  comments = "Grodków, gm. Grodków, pow. brzeski; dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dactylis glomerata v. lobata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Dactylis glomerata v. lobata Kätscher: Rösnitzer Busch (Klimke)!",
+  lon = 17.99433, 
+  lat = 50.01719,
+  comments = "Rozumice, gm. Kietrz, pow. głubczycki; las na płdn-wsch od miejscowości, obecnie teren Rezerwatu Rozumice"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Larischka", entry)) 
+  subset(grepl("Kätscher", entry)) 
 # |>
 #   subset(grepl("ühle", entry))
 
