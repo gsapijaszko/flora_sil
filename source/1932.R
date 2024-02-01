@@ -3863,9 +3863,9 @@ jahres <- data.frame(
   species = "Rosa hispidula (Ripart) E. Schal.",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1932", 
   entry = "Rosa hispidula (Ripart) E. Schal. (= R. canina — dumetorum) 19) Liebenthal: Fahrweg zur Glaubitzhöhe (Buchs)!",
-  lon = NA, 
-  lat = NA,
-  comments = ""
+  lon = 15.47941, 
+  lat = 51.00554,
+  comments = "droga na wzgórze Głębiec, Radoniów, gm. Lubomierz, pow. lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -182,7 +182,7 @@ jahres <- data.frame(
   entry = "Lycopodium chamaecyparissus. Brieg: Forst Rogelwitz (Prof. Schwarzbach t. Schröder)!",
   lon = 17.59419, 
   lat = 50.95628, 
-  comments = ""
+  comments = "Rogalice, gm. Lubsza, pow. brzeski;"
 ) |> rbind(jahres)
 
 #' 1916
@@ -602,7 +602,7 @@ jahres <- data.frame(
   entry = "Lycopodium annotinum. Karlsmarkt: Althammer vielfach! (R.).",
   lon = 17.74638, 
   lat = 50.88448, 
-  comments = ""
+  comments = "Kuźnica Kątowska, gm. Popielów, pow. opolski;"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -829,7 +829,7 @@ jahres <- data.frame(
   entry = "Lycopodium annotinum. Brieg: Rogelwitz gegen Minken (R.)!",
   lon = 17.59365, 
   lat = 50.97444, 
-  comments = ""
+  comments = "Rogalice, gm. Lubsza, pow. brzeski; w kierunku na Minkowice Oławskie"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

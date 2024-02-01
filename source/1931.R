@@ -523,15 +523,54 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Katscher", entry)) 
-# |>
-#   subset(grepl("ühle", entry))
+#'
+#' II. Neue Bastarde der schlesischen Flora:
+#' 
 
-#' TODO - dokończyć
+jahres <- data.frame(
+  species = "Potentilla opaca X verna",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Potentilla opaca X verna Winzig: auf Dünen südlich von Gr.-Pantken! Dieser Bastard soll nach Hegi, Illustr. Flora von Mitteleuropa nicht selten sein.",
+  lon = 16.54502, 
+  lat = 51.45192,
+  comments = "Boraszyce Wielkie, gm. Wińsko, pow. wołowski; na wydmach na południe od miejscowości"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Fragaria collina X moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Fragaria collina X moschata Winzig: Wegränaer bei Schlaupp! Blütenstiele abstehend, doch z. T. auch angedrückt behaart, Mittelblättchen gestielt, Kelch angedrückt, Blüten groß.",
+  lon = 16.57148,
+  lat = 51.44414,
+  comments = "Słup, gm. Wińsko, pow. wołowski; pobocze drogi"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Valeriana dioeca X polygama",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Valeriana dioeca X polygama Ohlau: Bischwitz ü.O.; [...]",
+  lon = 17.51513,
+  lat = 50.99224,
+  comments = "Biskupice Oławskie, gm. Jelcz-Laskowice, pow. oławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Valeriana dioeca X polygama",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Valeriana dioeca X polygama [...] Brieg: Rogelwitzer Wiesen; [...]",
+  lon = 17.61645, 
+  lat = 50.96114,
+  comments = "Rogalice, gm. Lubsza, pow. brzeski; łąki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Valeriana dioeca X polygama",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Valeriana dioeca X polygama [...] Karlsmarkt: Teichwiesen bei Althammer! Die zwischen den beiden Arten des öfteren beobachteten Übergangsformen dürften sicherlich hybrider Natur sein, da sie bisher nur in deren Gesellschaft gesammelt wurden. (Vgl. Jahresber. 1908.)",
+  lon = 17.76337, 
+  lat = 50.87921,
+  comments = "Kuźnica Kątowska, gm. Popielów, pow. opolski; łąki"
+) |> rbind(jahres)
 
 #'
 #' III. Neue Standorte schlesischer Pflanzen.
@@ -843,6 +882,117 @@ jahres <- data.frame(
   comments = "Dąbrowa, gm. Krośnice"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Pinus silvestris f. erythranthera",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pinus silvestris f. erythranthera Kraschnitz: Galgenberg, Liebenthaler Heide (Schoepke)!",
+  lon = 17.30114,
+  lat = 51.47511,
+  comments = "Galgenberg = [wzgórze] Golnik, Świebodów, gm. Krośnice, pow. milicki; Liebenthaler Heide nie znalazłem"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Typha latifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Typha latifolia Liebenthal: Glaubitzhöhe bei 400 m (Buchs)!; [...]",
+  lon = 15.47941, 
+  lat = 51.00554,
+  comments = "[wzgórze] Głębiec, Radoniów, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Typha latifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Typha latifolia [...] Neurode: Fasanerieteich in Hausdorf bei 510 m (Kramarz) !",
+  lon = 16.51563,
+  lat = 50.63552,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; staw przy bażantarni"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sparganium minimum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Sparganium minimum Cosel: Zabinietz und gegen Kandrzin (Schubert)!",
+  lon = 18.19446,
+  lat = 50.35142,
+  comments = "os. Żabieniec, Kędzierzyn-Koźle"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton alpinus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Potamogeton alpinus Liebenthal: Knoppichteich (Buchs)!",
+  lon = 15.50657,
+  lat = 51.01165,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki, staw [ale który? nie znalazłem Knoppichteich]"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton obtusifolius",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. obtusifolius Cosel: Slawentzitzer Waldteich, [...]",
+  lon = 18.30530,
+  lat = 50.35954,
+  comments = "Sławięcice, Kędzierzyn-Koźle, staw w lesie; "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton obtusifolius",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. obtusifolius Cosel: [...] Stubendorfer Teich (Schubert)!",
+  lon = 18.17354, 
+  lat = 50.58994,
+  comments = "Cosel to pomyłka, chodzi o staw(y) obok miejscowości Izbicko, gm. Izbicko, pow. strzeliński, patrz wpis dla P. pectinatus"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton mucronatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. mucronatus Liebenthal: Harteteich (Buchs)!",
+  lon = 15.5469,
+  lat = 51.12206,
+  comments = "współrzędne wskazują na Hartelangenvorverk, Radłówka, gm. Lwówek Śląski, ale nie mam pewności, że Harte == Hartelangenvorverk; stawy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton pectinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. pectinatus Gr.-Strehlitz: Stubendorfer Teiche (Schubert)!",
+  lon = 18.17354, 
+  lat = 50.58994,
+  comments = "stawy obok miejscowości Izbicko, gm. Izbicko, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Triglochin palustris Landeshut: oberh. Städtisch-Dittersbach (Strauch)",
+  lon = 15.87118,
+  lat = 50.76034,
+  comments = "powyżej miejscowości Ogorzelec, gm. Kamienna Góra, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Elodea canadense",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Elodea canadense Neurode: Fasanerieteich bei Hausdorf in 510 m Höhe (Kramarz).",
+  lon = 16.51563,
+  lat = 50.63552,
+  comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; staw przy bażantarni"
+) |> rbind(jahres)
+
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
+  subset(grepl("Dittersbach", entry)) 
+# |>
+#   subset(grepl("ühle", entry))
+
+#' TODO - dokończyć
+
+
+
 #'
 #' [....]
 #'
@@ -862,7 +1012,7 @@ jahres <- data.frame(
 #'
 
 jahres <- data.frame(
-  species = "Cynodon dactylon",
+  species = "Chenopodium Botrys",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931", 
   entry = "Chenopodium Botrys: Breslau: hinter Rosenthal;",
   lon = 17.01960,
