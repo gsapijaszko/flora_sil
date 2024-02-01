@@ -981,21 +981,41 @@ jahres <- data.frame(
   comments = "Jugów, gm. Nowa Ruda, pow. kłodzki; staw przy bażantarni"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Panicum crus galii f. longisetum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Panicum crus galii f. longisetum Liebenthal: Schuttplatz bei der Waldkapelle (Buchs)!",
+  lon = 15.51853,
+  lat = 51.00961,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej"
+) |> rbind(jahres)
 
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Dittersbach", entry)) 
-# |>
-#   subset(grepl("ühle", entry))
+jahres <- data.frame(
+  species = "Panicum miliaceum f. effusum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. miliaceum f. effusum Alef. Rispe locker ausgebreitet. Strehlen: auf Schutt im Prieborner Marmorbruch!",
+  lon = 17.17662,
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru; gruzowisko "
+) |> rbind(jahres)
 
-#' TODO - dokończyć
+jahres <- data.frame(
+  species = "Setaria Italica f. maritima (Lam) Aschers.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Setaria Italica f. maritima (Lam) Aschers. Borsten kürzer als die Ährchen. Breslau: Schuttplatz in Bischofswalde!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
 
-
-
-#'
-#' [....]
-#'
+jahres <- data.frame(
+  species = "Setaria verticillata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "S. verticillata Strehlen: Lorenzberg!",
+  lon = 17.22571,
+  lat = 50.72422,
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzeliński"
+) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Cynodon dactylon",
@@ -1005,6 +1025,160 @@ jahres <- data.frame(
   lat = 51.09861, 
   comments = "Wrocław, Rakowiec, wysypisko śmieci"
 ) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Leersia oryzoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Leersia oryzoides Gr.Strehlitz: Stubendorfer Teiche (Schubert)'",
+  lon = 18.17354, 
+  lat = 50.58994,
+  comments = "stawy obok miejscowości Izbicko, gm. Izbicko, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phalaris arundinacea f. picta",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Phalaris arundinacea f. picta Liebenthal: Bahndamm b. Krummöls (Buchs)!; [...]",
+  lon = 15.48637, 
+  lat = 51.03239,
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki; nasyp kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phalaris arundinacea f. picta",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Phalaris arundinacea f. picta [...] Isergebirge: Iserkammhäuser (Buchs)!; [...]",
+  lon = 15.34327,
+  lat = 50.8784,
+  comments = "Drwale, gm. Mirsk, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Phalaris arundinacea f. picta",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Phalaris arundinacea f. picta [...] Breslau: mehrf. auf Müllabfuhrplätzen, z. B. Bischofswalde, Körnerwiese!",
+  lon = c(17.09846, 17.02072),
+  lat = c(51.09952, 51.06883),
+  comments = "Wrocław, często na wysypiskach odpadów, np. Biskupin, polana Kornera"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Alopecurus agrestis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Alopecurus agrestis Breslau: Schuttplatz hinter Rosenthal!",
+  lon = 17.01960, 
+  lat = 51.14601,
+  comments = "wysypisko gruzu, Różanka, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypogon monspeliense",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Polypogon monspeliense Breslau: Güterbhf. West! (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Calamagrostis epigeios f. glauca",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Calamagrostis epigeios f. glauca Liebenthal: Stadtwald (Buchs)!",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aira praecox",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Aira praecox Kraschnitz: Tschotschwitz (Schoepke) !",
+  lon = 17.38349, 
+  lat = 51.51576,
+  comments = "Czatkowice, gm. Milicz, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Weingaertneria canescens",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Weingaertneria canescens Liebenthal: mehrf. (Buchs) !",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gaudinia fragilis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Gaudinia fragilis Breslau: Güterbhf. West! (Dr. K. Meyer)'",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Deschampsia flexuosa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Deschampsia flexuosa Liebenthal: mehrf. (Buchs)!",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trisetum flavescens",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Trisetum flavescens Koben: Oderlehnen!",
+  lon = 16.45643,
+  lat = 51.53713,
+  comments = "Chobienia, gm. Rudna, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena fatua f. glabrata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Avena fatua f. glabrata Ohlau: Hünern!",
+  lon = 17.35166, 
+  lat = 50.86834,
+  comments = "Psary, gm. Oława, pow. oławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena orientalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "A. orientalis Breslau: Schuttplatz hinter Rosenthal!; [...]",
+  lon = 17.01960,
+  lat = 51.14601, 
+  comments = "Wrocław, Różanka; wysypisko odpadów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena orientalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "A. orientalis [...] Strehlen: auf Schutt im Prieborner Marmorbruch!",
+  lon = 17.17662,
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru; gruzowisko "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena pratensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "A. pratensis Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+
+# search --------------------------------------------------------------------------------------
+jahres |>
+  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
+  subset(grepl("Larischka", entry)) 
+# |>
+#   subset(grepl("ühle", entry))
+
+#' TODO - dokończyć
 
 
 #'

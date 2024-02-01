@@ -30,26 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                    species                                                citation
-    1    Equisetum pratense         @schubeErgebnisseDurchforschungSchlesischen1903
-    2      Aspidium lobatum @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3 Trifolium resupinatum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                  entry      lon
-    1 Equisetum pratense. Maltsch: Oderdamm gegen Regnitz (C. Scholz)!; 16.53635
-    2                    A. lobatum Bolkenhain: Einsiedelwald (Strauch) 16.06587
-    3                 T. resupinatum Breslau: Schuttplatz vor Morgenau! 17.06966
-           lat
-    1 51.24035
-    2 50.84644
-    3 51.09861
-                                                                        comments
-    1 Rzeczyca, gm. Środa Śląska, pow. średzki; wał przeciwpowodziowy rzeki Odra
-    2                         Pustelnik, gm. Marciszów, pow. kamiennogórski, las
-    3                                        Wrocław, Rakowiec, wysypisko śmieci
-      year            accepted_name
-    1 1903 Equisetum pratense Ehrh.
-    2 1931                     <NA>
-    3 1933 Trifolium resupinatum L.
+                species                                                citation
+    1 Equisetum hiemale         @schubeErgebnisseDurchforschungSchlesischen1899
+    2  Nitella flexilis                     @wimmerBerichtUberVerhandlungen1850
+    3 Lathyrus paluster @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                                                                                                                                                                                         entry
+    1                                                                                                                                                                           Equisetum hiemale. Neusalz: Eisenbahndamm bei Alt-Tschau (F.).
+    2 Aus der Flora von Reinerz und dem Hummel, vom Stud. Milde. [...] Am Hummel: Botrychium Lunaria mit Abänderungen; Gentiana cruciata und ciliata, Nitella flexilis, Cirsium rivulare—palustre, Coeloglossum viride zu 60 Exemplaren. [...]
+    3                                                                                                                                                                                            L. paluster [...] Guhrau: Seiffersdorf, [...]
+           lon      lat
+    1 15.71980 51.77881
+    2 16.34513 50.40208
+    3 16.48157 51.76095
+                                                                 comments year
+    1 Nowa Sól, nasyp kolejowy obok Alt-Tschau (obecnie część Nowej Soli) 1899
+    2        zamek Homole, góra Gomola, Zielone Ludowe, gm. Lewin Kłodzki 1850
+    3                                   Radosław, gm. Góra, pow. górowski 1933
+                       accepted_name
+    1           Equisetum hyemale L.
+    2 Nitella flexilis (L.) C.Agardh
+    3          Lathyrus palustris L.
 
 </div>
 
@@ -134,13 +134,13 @@ malvas |>
 
                              accepted_name Name
     1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE58
-    3                    Malva moschata L. BE53
-    4                    Malva moschata L. BE74
-    5                    Malva moschata L. BF01
-    6                    Malva moschata L. BF24
-    7 Malva thuringiaca subsp. thuringiaca CF35
-    8                Malva verticillata L. BE59
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. CE81
+    5                    Malva pusilla Sm. CF65
+    6 Malva thuringiaca subsp. thuringiaca BE57
+    7        Malva trimestris (L.) Salisb. AE58
+    8        Malva trimestris (L.) Salisb. AE67
 
 ### How to participate
 
@@ -217,7 +217,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4165 records (species - localization) including 4091 with
+total 4202 records (species - localization) including 4129 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
