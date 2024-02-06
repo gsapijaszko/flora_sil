@@ -1,4 +1,5 @@
 
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -30,22 +31,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                species                                         citation
-    1    Geranium molle @schalowErgebnisseDurchforschungSchlesischen1932
-    2  Vicia tenuifolia @schalowErgebnisseDurchforschungSchlesischen1935
-    3 Utricularia minor @schalowErgebnisseDurchforschungSchlesischen1932
-                                                           entry      lon      lat
-    1 G. molle [...] Neurode: [...] Volpersdorf (Kramarz)!,[...] 16.56479 50.59006
-    2                         V. tenuifolia Trebnitz: Peterwitz! 17.02839 51.27081
-    3                          U. minor Cosel: Rogau (Schubert)! 18.12660 50.35632
-                                                  comments year
-    1                Wolibórz, gm. Nowa Ruda, pow. kłodzki 1932
-    2      Piotrowiczki, gm,. Wisznia Mała, pow. Trzebnica 1935
-    3 Rogi, Kędzierzyn-Koźle, pow. kędzierzyńsko-kozielski 1932
-              accepted_name
-    1     Geranium molle L.
-    2 Vicia tenuifolia Roth
-    3  Utricularia minor L.
+                     species
+    1 Glyceria plicata Fries
+    2    Bidens melanocarpus
+    3       Bromus racemosus
+                                                     citation
+    1                            @wimmerEinigeFormenSalix1851
+    2        @schalowErgebnisseDurchforschungSchlesischen1932
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                                                    entry
+    1 Glyceria plicata Fries. - [...] Dann bemerkten wir dieselbe bei Buschvorwerk bei Schmiedeberg [...]
+    2                                 Bidens melanocarpus Breslau: mehrfach auf den Schuttplätzen!; [...]
+    3                                   B. racemosus Glatz: Schuttplatz bei der Haltestelle Pfaffenmühle!
+           lon      lat
+    1 15.80013 50.78719
+    2 17.02072 51.06883
+    3 16.64071 50.41531
+                                                                               comments
+    1                                                                              <NA>
+    2 Wrocław; częsty na wysypiskach śmieci, wu współrzędne na polana Kornera, Wrocław;
+    3                              Kłodzko-Książek, wysypisko przy przystanku kolejowym
+      year            accepted_name
+    1 1851 Glyceria notata Chevall.
+    2 1932       Bidens frondosa L.
+    3 1933      Bromus racemosus L.
 
 </div>
 
@@ -70,7 +79,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -130,13 +139,13 @@ malvas |>
 
                       accepted_name Name
     1             Malva moschata L. AE58
-    2             Malva moschata L. BE72
-    3             Malva moschata L. BF24
-    4             Malva moschata L. BF26
-    5             Malva moschata L. CE81
-    6 Malva trimestris (L.) Salisb. AE58
-    7         Malva verticillata L. AD67
-    8         Malva verticillata L. AE58
+    2             Malva moschata L. AE67
+    3             Malva moschata L. BE71
+    4             Malva moschata L. BE74
+    5             Malva moschata L. BE97
+    6             Malva moschata L. BF05
+    7 Malva trimestris (L.) Salisb. AE58
+    8 Malva trimestris (L.) Salisb. AE67
 
 ### How to participate
 
@@ -213,7 +222,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4207 records (species - localization) including 4134 with
+total 4239 records (species - localization) including 4165 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

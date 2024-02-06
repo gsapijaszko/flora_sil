@@ -1215,13 +1215,255 @@ jahres <- data.frame(
   comments = "Rozumice, gm. Kietrz, pow. głubczycki; las na płdn-wsch od miejscowości, obecnie teren Rezerwatu Rozumice"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cynosurus echinatus Riesengebirge: Wegränder in Kiesewald (Till)!;[...]",
+  lon = 15.58639, 
+  lat = 50.83159,
+  comments = "Michałowice, Piechowice, pow. karkonoski; pobocza dróg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cynosurus echinatus [...] Liegnitz: mehrf. (Weimann); [...]",
+  lon = 16.17249,
+  lat = 51.21445,
+  comments = "Legnica, często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cynosurus echinatus [...] Breslau: Güterbhf. West! (Dr. Meyer)!, Schuttplatz hinter Rosenthal!, Kinderzobten!, Bischofswalde (Dr. K. Meyer)!;",
+  lon = c(17.01173, 17.01960, 16.99758, 17.09846),
+  lat = c(51.11007, 51.14601, 51.08158, 51.09952),
+  comments = "Wrocław: teren dawnego dworca kolejowego między ul. Braniborska a Robotnicza; wysypisko na Różance; Mała Sobótka, ul. Racławicka, wysypisko śmieci; Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cynosurus echinatus [...] Oppeln: Ostbhf., [...]",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cynosurus echinatus [...] Oppeln: [...] Przyschetz (Schubert)! Das häufige Auftreten dieses mediterranen Grases ist recht beachtenswert!",
+  lon = 17.85552, 
+  lat = 50.56349,
+  comments = "Przysiecz, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Poa Chaixi v. remota",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Poa Chaixi v. remota Liebenthal: Stadtwald (Buchs)!",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Glyceria plicata f. triticea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Glyceria plicata f. triticea Kätscher: Jakubowitz (Klimke)!",
+  lon = 17.84725, 
+  lat = 50.01896,
+  comments = "Jakubowice, gm. Branice, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca myurus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Festuca myurus Nimptsch: Höllengrund (Kotschy)!; [...]",
+  lon = 16.80008, 
+  lat = 50.71901,
+  comments = "wąwóz/uroczysko, Gilów, gm. Niemcza, pow. dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca myurus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Festuca myurus [...] Kandrzin: Güterbhf. (Schubert)!",
+  lon = 18.20504,
+  lat = 50.34540,
+  comments = "Kędzierzyn-Koźle; dworzec towarowy w Kędzierzynie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca vallesiaca v. sulcata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Festuca vallesiaca v. sulcata Gr. Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca heterophylla",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "F. heterophylla Neumarkt: Göbel (Kotschy)!",
+  lon = 16.70699,
+  lat = 51.18924,
+  comments = "w pobliżu nieistniejącej leśniczówki, obecnie teren miejscowości Kadłub, gm. Miękinia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca elatior f. pseudololiacea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "F. elatior f. pseudololiacea Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus ramosus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Bromus ramosus Löwenberg: Probsthainer Spitzberg (Buchs)!",
+  lon = 15.76367,
+  lat = 51.05611,
+  comments = "[wzgórze] Ostrzyca Proboszczowicka, Proboszczów, gm. Pielgrzymka, pow. złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus erectus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. erectus Leobschütz: Bhf. Bauerwitz (Schubert)!",
+  lon = 17.97927, 
+  lat = 50.15422,
+  comments = "Baborów, gm. Baborów, pow. głubczycki; dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus inermis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. inermis Koben: Oderlehnen!; [...]",
+  lon = 16.45643,
+  lat = 51.53713,
+  comments = "Chobienia, gm. Rudna, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus inermis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. inermis [...] Kraschnitz: Wirschkowitzer Park (Schoepke)!;[...]",
+  lon = 17.33925,
+  lat = 51.48223,
+  comments = "Wierzchowice, gm. Krośnice, pow. milicki; park"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus inermis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. inermis [...] Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus villosus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. villosus Breslau: Güterbhf. West! (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus squarrosus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. squarrosus Breslau: Güterbhf. West! (Dr. K. Meyer)!; [...]",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus squarrosus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. squarrosus [...] Hindenburg: Bhf. (Schubert)!",
+  lon = 18.78262, 
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lolium perenne f. cristatum Döll",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lolium perenne f. cristatum Döll Ährchen dicht gedrängt, weit von der Achse abstehend. Breslau: mehrf. auf den Müllabfuhrplätzen, z. B. vor Woischwitz, Kinderzobten!",
+  lon = c(17.03917, 16.99758),
+  lat = c(51.06676, 51.08158),
+  comments = "Wrocław, częsty na wysypiskach, np. przed Wojszycami oraz Mała Sobótka, ul. Racławicka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lolium temulentum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "L. temulentum Kraschnitz: Schickorteichäcker, unter Lein 4) (Schoepke)! [...]",
+  lon = NA,
+  lat = NA,
+  comments = "Krośnice, ale gdzie Schickorteich?"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lolium temulentum v. arvense (With.) Bab.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "L. temulentum [...] v. arvense (With.) Bab. Deckspelze grannenlos oder kurz begrannt. Breslau: Schuttplatz in Bischofswalde (Dr. K. Meyer)!",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin, wysypisko śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Agropyrum repens v. aristatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Agropyrum repens v. aristatum Liebenthal: Kl. Röhrsdorf (Buchs) !",
+  lon = 15.59410,
+  lat = 51.02322,
+  comments = "Golejów, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hordeum distichon",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Hordeum distichon Breslau: auf den Güter bahnhöfen und Müllabfuhrplätzen vielfach! (Dr. K. Meyer)!",
+  lon = c(17.01173, 17.09846),
+  lat = c(51.11007, 51.09952),
+  comments = "Wrocław, często na dworcach towarowych i wysypiskach śmieci"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eriophorum vaginatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Eriophorum vaginatum Wohlau: Niegsen (Juhnke)! [...]",
+  lon = 16.69066, 
+  lat = 51.37649,
+  comments = "Straszowice, Pełczyn, gm. Wołów, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eriophorum vaginatum var. serotinum Aschers. u. Graebn.",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Eriophorum vaginatum [...] var. serotinum Aschers. u. Graebn. Blütenstände sich erst im Juli oder noch später entwickelnd. Oppeln : Przyschetzgebiet (Schubert) !",
+  lon = 17.85552, 
+  lat = 50.56349,
+  comments = "Przysiecz, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Kätscher", entry)) 
-# |>
-#   subset(grepl("ühle", entry))
+  subset(grepl("Przyschetzgebiet", entry)) 
 
 #' TODO - dokończyć
 

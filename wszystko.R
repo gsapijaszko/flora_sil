@@ -18,7 +18,7 @@ saveRDS(an, file = "data/accepted_names.Rds")
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
   # subset(grepl("Chenopodium Botrys", entry))
-  subset(grepl("Wolfsberg", entry))
+  subset(grepl("terei", entry))
 
 # subset(grepl("Cynodon", accepted_name))
 
@@ -115,18 +115,20 @@ a_outPL <- sf::st_filter(a, pla, .predicate = sf::st_disjoint) |>
 
 tmap::tmap_mode("plot")
   
-tm <- tmap::tm_shape(boundaries) +
+tm <- 
+  tmap::tm_shape(boundaries) +
   tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(a_outPL) +
   tmap::tm_symbols(size = 0.4, shape = 18, fill = "red") +
   tmap::tm_shape(aPL) +
   tmap::tm_polygons(fill = "n",
-                    fill.scale = tmap::tm_scale_intervals(values = "Blues"),
+                    fill.scale = tmap::tm_scale_continuous_log(values = "Blues"),
                     fill_alpha = 0.9,
                     col_alpha = 0.4,
                     fill.legend = tmap::tm_legend(title = "",
+                                                  reverse = TRUE,
                                                   bg.color = "white",
-                                                  position = c(0.1, 0.45))
+                                                  position = c(0.05, 0.63))
                     )
 tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
