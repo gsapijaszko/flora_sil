@@ -31,30 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                     species
-    1 Glyceria plicata Fries
-    2    Bidens melanocarpus
-    3       Bromus racemosus
+                            species
+    1          Equisetum variegatum
+    2 Haynaldia villosa (L.) Schur.
+    3        Lycopodium complanatum
                                                      citation
-    1                            @wimmerEinigeFormenSalix1851
-    2        @schalowErgebnisseDurchforschungSchlesischen1932
-    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                                                    entry
-    1 Glyceria plicata Fries. - [...] Dann bemerkten wir dieselbe bei Buschvorwerk bei Schmiedeberg [...]
-    2                                 Bidens melanocarpus Breslau: mehrfach auf den Schuttplätzen!; [...]
-    3                                   B. racemosus Glatz: Schuttplatz bei der Haltestelle Pfaffenmühle!
-           lon      lat
-    1 15.80013 50.78719
-    2 17.02072 51.06883
-    3 16.64071 50.41531
-                                                                               comments
-    1                                                                              <NA>
-    2 Wrocław; częsty na wysypiskach śmieci, wu współrzędne na polana Kornera, Wrocław;
-    3                              Kłodzko-Książek, wysypisko przy przystanku kolejowym
-      year            accepted_name
-    1 1851 Glyceria notata Chevall.
-    2 1932       Bidens frondosa L.
-    3 1933      Bromus racemosus L.
+    1         @schubeErgebnisseDurchforschungSchlesischen1927
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3                    @mildeBotanischeMittheilungenAus1867
+                                                                                                                                                                                                   entry
+    1                                                                                                                                Equisetum variegatum B: Zobtener Bahn östlich öer Körnerwiese (S1)!
+    2 Brachypodium distachyon (L.) B. et Sch. Breslau: Güterbhf. West! (Dr. K. Meyer)! [...] Lepturus pannonicus Knuth. Wie vor. Haynaldia villosa (L.) Schur. Wie vor. Hordeum maritimum With. Wie vor.
+    3                                                                                                                                                        [...] auf Waldboden Lycopodium complanatum.
+           lon      lat                                     comments year
+    1 17.01951 51.06795                                              1927
+    2 17.01173 51.11007 Wrocław, między ul. Braniborska a Robotnicza 1931
+    3 16.81856 51.30491                                              1867
+                             accepted_name
+    1       Equisetum variegatum Schleich.
+    2       Dasypyrum villosum (L.) Borbás
+    3 Diphasiastrum complanatum (L.) Holub
 
 </div>
 
@@ -137,15 +133,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE58
-    2             Malva moschata L. AE67
-    3             Malva moschata L. BE71
-    4             Malva moschata L. BE74
-    5             Malva moschata L. BE97
-    6             Malva moschata L. BF05
-    7 Malva trimestris (L.) Salisb. AE58
-    8 Malva trimestris (L.) Salisb. AE67
+                             accepted_name Name
+    1                    Malva moschata L. BE62
+    2                    Malva moschata L. BE82
+    3                    Malva moschata L. BF05
+    4                    Malva moschata L. BF26
+    5                  Malva parviflora L. BE49
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -222,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4239 records (species - localization) including 4165 with
+total 4263 records (species - localization) including 4188 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
