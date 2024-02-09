@@ -31,26 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                            species
-    1          Equisetum variegatum
-    2 Haynaldia villosa (L.) Schur.
-    3        Lycopodium complanatum
-                                                     citation
-    1         @schubeErgebnisseDurchforschungSchlesischen1927
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3                    @mildeBotanischeMittheilungenAus1867
-                                                                                                                                                                                                   entry
-    1                                                                                                                                Equisetum variegatum B: Zobtener Bahn östlich öer Körnerwiese (S1)!
-    2 Brachypodium distachyon (L.) B. et Sch. Breslau: Güterbhf. West! (Dr. K. Meyer)! [...] Lepturus pannonicus Knuth. Wie vor. Haynaldia villosa (L.) Schur. Wie vor. Hordeum maritimum With. Wie vor.
-    3                                                                                                                                                        [...] auf Waldboden Lycopodium complanatum.
-           lon      lat                                     comments year
-    1 17.01951 51.06795                                              1927
-    2 17.01173 51.11007 Wrocław, między ul. Braniborska a Robotnicza 1931
-    3 16.81856 51.30491                                              1867
-                             accepted_name
-    1       Equisetum variegatum Schleich.
-    2       Dasypyrum villosum (L.) Borbás
-    3 Diphasiastrum complanatum (L.) Holub
+                                species
+    1 Malva verticillata var. crispa L.
+    2            Ceratophyllum demersum
+    3              Lycopodium inundatum
+                                                  citation
+    1     @schalowErgebnisseDurchforschungSchlesischen1934
+    2     @schalowErgebnisseDurchforschungSchlesischen1935
+    3 @vonuechtritzResultateDurchforschungSchlesischen1882
+                                                                                                             entry
+    1                                  M. verticillata [...] var. crispa L. [...] Liebenthal: Geppersdorf (Buchs)!
+    2                                                            Ceratophyllum demersum Freiburg: Kalkbruch (Loge)
+    3 Lycopodium inundatum L. Um Friedewalde bei Breslau neuerdings wieder zahlreich und zwar gegen die Eisenbahn.
+           lon      lat                      comments year
+    1 15.52870 51.01552       Milęcice, gm. Lubomierz 1934
+    2       NA       NA Świebodzice, wyrobisko wapnia 1935
+    3 17.09699 51.13491 Mirowiec, os. Kowale, Wrocław 1882
+                         accepted_name
+    1            Malva verticillata L.
+    2        Ceratophyllum demersum L.
+    3 Lycopodiella inundata (L.) Holub
 
 </div>
 
@@ -134,14 +134,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE62
+    1                    Malva moschata L. BE74
     2                    Malva moschata L. BE82
     3                    Malva moschata L. BF05
-    4                    Malva moschata L. BF26
-    5                  Malva parviflora L. BE49
-    6 Malva thuringiaca subsp. thuringiaca CF35
+    4                    Malva moschata L. CF11
+    5                    Malva pusilla Sm. CE90
+    6 Malva thuringiaca subsp. thuringiaca BE14
     7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BE59
+    8                Malva verticillata L. AE58
 
 ### How to participate
 
@@ -218,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4263 records (species - localization) including 4188 with
+total 4300 records (species - localization) including 4225 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

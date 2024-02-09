@@ -1846,9 +1846,9 @@ jahres <- data.frame(
   species = "Isopyrum thalictroides",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "Isopyrum thalictroides Eulengebirge: bei der Eibekoppe noch in 500 m Höhe (Dr. Limpricht)",
-  lon = 16.68764, 
-  lat = 50.52995,
-  comments = "Grosse Eeibenkuppe? (Wielka Cisowa Góra, Opolnica, gm. Bardo, pow. ząbkowicki)"
+  lon = 16.54289, 
+  lat = 50.71677,
+  comments = "[wzgórze] Cisówka, Rościszów, gm. Pieszyce, pow. dzierżoniowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
