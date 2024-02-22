@@ -212,3 +212,7 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # jahres |>
 #   subset(is.na(lat)) |>
 #   write.csv2(file = "NA.csv")
+
+
+jahres |>
+  subset(is.na(lon))

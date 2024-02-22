@@ -31,30 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                         species
-    1        Trifolium spadiceum
-    2 Datura Stramonium f.Tatula
-    3            Rosa rubiginosa
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2        @schalowErgebnisseDurchforschungSchlesischen1934
-    3        @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                  entry      lon
-    1 Trifolium spadiceum Neustadt: unweit der Schwedenschanze (Torka)! 17.55447
-    2          Datura Stramonium f.Tatula Lauban: Güterbahnhof (Buchs)! 15.29498
-    3        R. rubiginosa Strehlen: zwischen Großburg u. Jexau!; [...] 17.07016
-           lat
-    1 50.29671
-    2 51.10889
-    3 50.85761
-                                                                              comments
-    1               Okolice dawnego schroniska Schwedenschanze, Las Prudnicki, Prudnik
-    2                                                          Lubań, dworzec towarowy
-    3 pomiędzy miejscowościami Borek Strzeliński i Jaksin, gm. Borów, pow. strzeliński
-      year                            accepted_name
-    1 1933                   Trifolium spadiceum L.
-    2 1934 Datura stramonium var. tatula (L.) Torr.
-    3 1932                       Rosa rubiginosa L.
+                 species                                                citation
+    1 Anthericum ramosum        @schalowErgebnisseDurchforschungSchlesischen1936
+    2  Lathyrus paluster @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3    Bidens connatus        @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                                                                                                                                                                                                                                                                                                                           entry
+    1 Ganz überraschend aber kommt die Entdeckung recht pflanzenreicher sogenannter „pontischer“ Hügel unweit Dammer im südlichen Teile des Namslauer Kreises. Nach Wittigs Angaben finden sich hier: Anemone pratensis, Thesium intermedium, Sempervivum soboliferum, Scorzonera humilis, Anthericum ramosum, Polypodium vulgare, Scabiosa canescens, Allium senescens, Silene Otites und Astragalus arenarius.
+    2                                                                                                                                                                                                                                                                                                                                                   L. paluster [...] Kanth: am Koslauer Fußwege (Schoepke)!
+    3                                                                                                                                                                                                                                                                                                                                                                    B. connatus Brieg: Oderufer bei Koppen!
+           lon      lat
+    1 17.82027 50.98202
+    2 16.72838 51.03821
+    3 17.61726 50.82243
+                                                          comments year
+    1                              Dąbrowa, gm. Świerczów, wzgórza 1936
+    2                    Kozłów, gm. Kąty Wrocławskie; na chodniku 1933
+    3 Odra, brzeg rzeki przy miejscowości Kopanie, gm. Skarbimierz 1935
+                       accepted_name
+    1          Anthericum ramosum L.
+    2          Lathyrus palustris L.
+    3 Bidens connata Muhl. ex Willd.
 
 </div>
 
@@ -139,13 +135,13 @@ malvas |>
 
                              accepted_name Name
     1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE58
-    3                    Malva moschata L. BE82
-    4                    Malva moschata L. CE81
-    5                    Malva pusilla Sm. AD93
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BE62
+    4                    Malva pusilla Sm. CE90
+    5 Malva thuringiaca subsp. thuringiaca BE57
     6 Malva thuringiaca subsp. thuringiaca CF35
     7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BE59
+    8        Malva trimestris (L.) Salisb. AE58
 
 ### How to participate
 
@@ -222,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4424 records (species - localization) including 4345 with
+total 4424 records (species - localization) including 4346 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

@@ -3211,9 +3211,9 @@ jahres <- data.frame(
   species = "Botrychium matricariaefolium",
   citation = "@fiekResultateDurchforschungSchlesischen1888", 
   entry = "Botrychium matricariaefolium A. Br. Alte Schloiner Strasse seitwärts der Glashütte!,",
-  lon = NA, 
-  lat = NA, 
-  comments = ""
+  lon = 15.45968, 
+  lat = 51.92696, 
+  comments = "na poboczu starej drogi do Słonego, po stronie huty szkła; obecnie okolice Rybno, gm. Świdnica, pow. zielonogórski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
