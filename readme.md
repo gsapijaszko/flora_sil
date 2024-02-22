@@ -31,26 +31,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                species
-    1 Malva verticillata var. crispa L.
-    2            Ceratophyllum demersum
-    3              Lycopodium inundatum
-                                                  citation
-    1     @schalowErgebnisseDurchforschungSchlesischen1934
-    2     @schalowErgebnisseDurchforschungSchlesischen1935
-    3 @vonuechtritzResultateDurchforschungSchlesischen1882
-                                                                                                             entry
-    1                                  M. verticillata [...] var. crispa L. [...] Liebenthal: Geppersdorf (Buchs)!
-    2                                                            Ceratophyllum demersum Freiburg: Kalkbruch (Loge)
-    3 Lycopodium inundatum L. Um Friedewalde bei Breslau neuerdings wieder zahlreich und zwar gegen die Eisenbahn.
-           lon      lat                      comments year
-    1 15.52870 51.01552       Milęcice, gm. Lubomierz 1934
-    2       NA       NA Świebodzice, wyrobisko wapnia 1935
-    3 17.09699 51.13491 Mirowiec, os. Kowale, Wrocław 1882
-                         accepted_name
-    1            Malva verticillata L.
-    2        Ceratophyllum demersum L.
-    3 Lycopodiella inundata (L.) Holub
+                      species                                         citation
+    1     Trifolium spadiceum @schalowErgebnisseDurchforschungSchlesischen1932
+    2 Galinsoga quadriradiata @schalowErgebnisseDurchforschungSchlesischen1934
+    3   Cirsium heterophyllum @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                        entry
+    1                     Trifolium spadiceum Liegnitz: Bahngelände (Buchs)!;
+    2 Galinsoga quadriradiata [...] Leubus: unter dem Weinberg (Fri. Eodlée)!
+    3                C. heterophyllum Liebenthal: Hennersdorf (Buchs)!; [...]
+           lon      lat                                                comments
+    1 16.17249 51.21445                                Legnica, tereny kolejowe
+    2 16.45697 51.27487 obecnie okolice ulicy Nadodrzańskiej, Lubiąż, gm. Wołów
+    3 15.52318 50.99350                               Popielówek, gm. Lubomierz
+      year                       accepted_name
+    1 1932              Trifolium spadiceum L.
+    2 1934 Galinsoga quadriradiata Ruiz & Pav.
+    3 1934     Cirsium heterophyllum (L.) Hill
 
 </div>
 
@@ -134,14 +130,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE74
-    2                    Malva moschata L. BE82
-    3                    Malva moschata L. BF05
-    4                    Malva moschata L. CF11
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE72
+    3                    Malva moschata L. BE74
+    4                    Malva moschata L. BF05
     5                    Malva pusilla Sm. CE90
     6 Malva thuringiaca subsp. thuringiaca BE14
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. AE58
+    7                Malva verticillata L. BE49
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -218,7 +214,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4300 records (species - localization) including 4225 with
+total 4359 records (species - localization) including 4282 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
