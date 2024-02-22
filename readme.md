@@ -31,26 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                         species
-    1 Hieracium tauschii ssp. acrosciadium N. P.
-    2                           Erigeron ramosus
-    3                           Tropaeolum majus
-                                              citation
-    1 @schalowErgebnisseDurchforschungSchlesischen1935
-    2 @schalowErgebnisseDurchforschungSchlesischen1932
-    3 @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                             entry
-    1 Hieracium Tauschii [...] ssp. acrosciadium N. P. Kätscher: Rösnitz (Klimke)!
-    2                        Erigeron ramosus [...] Gleiwitz: Schlachthof (Czmok)!
-    3                    Tropaeolum majus Liebenthal: mehrfach auf Schutt (Buchs)!
-           lon      lat                              comments year
-    1 17.97362 50.02013 Rozumice, gm. Kietrz, pow. głubczycki 1935
-    2 18.67262 50.30223                      Gliwice; rzeźnia 1932
-    3 15.50094 51.01330      Lubomierz; często na wysypiskach 1932
-                            accepted_name
-    1 Pilosella densiflora (Tausch) Soják
-    2  Erigeron strigosus Muhl. ex Willd.
-    3                 Tropaeolum majus L.
+                   species                                         citation
+    1      Lactuca saligna @schalowErgebnisseDurchforschungSchlesischen1932
+    2    Hordeum europaeum @schalowErgebnisseDurchforschungSchlesischen1934
+    3 Lycopodium inundatum  @schubeErgebnisseDurchforschungSchlesischen1930
+                                                                                         entry
+    1 Lactuca saligna Hultschiner Ländchen: Petershofen in der Nähe der Kohlengrube (Kotschy)!
+    2                                 Hordeum europaeum Eulengebirge: mehrfach (Prof. Schube)!
+    3                                       Lycopodium inundatum C[osel]: Kol. Sabinietz (Sb).
+           lon      lat
+    1 18.25755 49.86909
+    2 16.55923 50.66868
+    3 18.19233 50.35412
+                                                                                                                            comments
+    1 Petřkovice u Ostravy, Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravia-Silesia, 725 29, Czechia; przy kopalni węgla
+    2                                                                                                  Góry Sowie, w wielu miejscach
+    3                                                                                                                               
+      year                           accepted_name
+    1 1932                      Lactuca saligna L.
+    2 1934 Hordelymus europaeus (L.) Jess. ex Harz
+    3 1930        Lycopodiella inundata (L.) Holub
 
 </div>
 
@@ -133,15 +133,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-          accepted_name Name
-    1 Malva moschata L. AE58
-    2 Malva moschata L. AE58
-    3 Malva moschata L. AE78
-    4 Malva moschata L. BE53
-    5 Malva moschata L. BE74
-    6 Malva moschata L. BF26
-    7 Malva pusilla Sm. CE90
-    8 Malva pusilla Sm. CF65
+                             accepted_name Name
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. AE78
+    3                    Malva moschata L. BF01
+    4                    Malva pusilla Sm. CF65
+    5 Malva thuringiaca subsp. thuringiaca CF35
+    6        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -218,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4366 records (species - localization) including 4289 with
+total 4424 records (species - localization) including 4345 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -232,50 +232,50 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+    [1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
-[6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.
