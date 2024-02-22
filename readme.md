@@ -31,26 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                         citation
-    1      Lactuca saligna @schalowErgebnisseDurchforschungSchlesischen1932
-    2    Hordeum europaeum @schalowErgebnisseDurchforschungSchlesischen1934
-    3 Lycopodium inundatum  @schubeErgebnisseDurchforschungSchlesischen1930
-                                                                                         entry
-    1 Lactuca saligna Hultschiner Ländchen: Petershofen in der Nähe der Kohlengrube (Kotschy)!
-    2                                 Hordeum europaeum Eulengebirge: mehrfach (Prof. Schube)!
-    3                                       Lycopodium inundatum C[osel]: Kol. Sabinietz (Sb).
+                  species                                                citation
+    1      Papaver dubium @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2  Cucubalus baccifer @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3 Ranunculus fluitans @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                                                  entry
+    1                                    Papaver dubium Bolkenhain: mehrfach (Strauch)!
+    2 Cucubalus baccifer [...] Neumarkt: zwischen Ellguth und Schönau (Kotschy)!; [...]
+    3                                          R. fluitans Löwenberg: Märzdorf (Buchs)!
            lon      lat
-    1 18.25755 49.86909
-    2 16.55923 50.66868
-    3 18.19233 50.35412
-                                                                                                                            comments
-    1 Petřkovice u Ostravy, Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravia-Silesia, 725 29, Czechia; przy kopalni węgla
-    2                                                                                                  Góry Sowie, w wielu miejscach
-    3                                                                                                                               
-      year                           accepted_name
-    1 1932                      Lactuca saligna L.
-    2 1934 Hordelymus europaeus (L.) Jess. ex Harz
-    3 1930        Lycopodiella inundata (L.) Holub
+    1 16.09789 50.92163
+    2 16.54117 51.14738
+    3 15.64687 51.04613
+                                                            comments year
+    1                                           Bolków, wielokrotnie 1933
+    2 pomiędzy miejscowościami Ligotka i Ogrodnica, gm. Środa Śląska 1933
+    3                               Marczów, gm. Wleń, pow. lwówecki 1931
+                   accepted_name
+    1          Papaver dubium L.
+    2 Silene baccifera (L.) Roth
+    3                       <NA>
 
 </div>
 
@@ -134,14 +134,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. AE78
-    3                    Malva moschata L. BF01
-    4                    Malva pusilla Sm. CF65
-    5 Malva thuringiaca subsp. thuringiaca CF35
-    6        Malva trimestris (L.) Salisb. AE58
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BF07
+    1                    Malva moschata L. BE72
+    2                    Malva moschata L. BE82
+    3                    Malva moschata L. CE81
+    4 Malva thuringiaca subsp. thuringiaca BE14
+    5        Malva trimestris (L.) Salisb. AE58
+    6        Malva trimestris (L.) Salisb. AE59
+    7                Malva verticillata L. AE58
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
