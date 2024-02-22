@@ -31,26 +31,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                  species                                                citation
-    1      Papaver dubium @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2  Cucubalus baccifer @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3 Ranunculus fluitans @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-                                                                                  entry
-    1                                    Papaver dubium Bolkenhain: mehrfach (Strauch)!
-    2 Cucubalus baccifer [...] Neumarkt: zwischen Ellguth und Schönau (Kotschy)!; [...]
-    3                                          R. fluitans Löwenberg: Märzdorf (Buchs)!
-           lon      lat
-    1 16.09789 50.92163
-    2 16.54117 51.14738
-    3 15.64687 51.04613
-                                                            comments year
-    1                                           Bolków, wielokrotnie 1933
-    2 pomiędzy miejscowościami Ligotka i Ogrodnica, gm. Środa Śląska 1933
-    3                               Marczów, gm. Wleń, pow. lwówecki 1931
-                   accepted_name
-    1          Papaver dubium L.
-    2 Silene baccifera (L.) Roth
-    3                       <NA>
+                         species
+    1        Trifolium spadiceum
+    2 Datura Stramonium f.Tatula
+    3            Rosa rubiginosa
+                                                     citation
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2        @schalowErgebnisseDurchforschungSchlesischen1934
+    3        @schalowErgebnisseDurchforschungSchlesischen1932
+                                                                  entry      lon
+    1 Trifolium spadiceum Neustadt: unweit der Schwedenschanze (Torka)! 17.55447
+    2          Datura Stramonium f.Tatula Lauban: Güterbahnhof (Buchs)! 15.29498
+    3        R. rubiginosa Strehlen: zwischen Großburg u. Jexau!; [...] 17.07016
+           lat
+    1 50.29671
+    2 51.10889
+    3 50.85761
+                                                                              comments
+    1               Okolice dawnego schroniska Schwedenschanze, Las Prudnicki, Prudnik
+    2                                                          Lubań, dworzec towarowy
+    3 pomiędzy miejscowościami Borek Strzeliński i Jaksin, gm. Borów, pow. strzeliński
+      year                            accepted_name
+    1 1933                   Trifolium spadiceum L.
+    2 1934 Datura stramonium var. tatula (L.) Torr.
+    3 1932                       Rosa rubiginosa L.
 
 </div>
 
@@ -134,13 +138,13 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE72
-    2                    Malva moschata L. BE82
-    3                    Malva moschata L. CE81
-    4 Malva thuringiaca subsp. thuringiaca BE14
-    5        Malva trimestris (L.) Salisb. AE58
-    6        Malva trimestris (L.) Salisb. AE59
-    7                Malva verticillata L. AE58
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE58
+    3                    Malva moschata L. BE82
+    4                    Malva moschata L. CE81
+    5                    Malva pusilla Sm. AD93
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7        Malva trimestris (L.) Salisb. AE58
     8                Malva verticillata L. BE59
 
 ### How to participate

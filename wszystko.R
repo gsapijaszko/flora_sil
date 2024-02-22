@@ -128,7 +128,7 @@ tm <-
                     fill.legend = tmap::tm_legend(title = "",
                                                   reverse = TRUE,
                                                   bg.color = "white",
-                                                  position = c(0.05, 0.43))
+                                                  position = c(0.05, 0.57))
                     )
 tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
