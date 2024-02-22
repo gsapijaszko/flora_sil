@@ -31,26 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                species
-    1 Malva verticillata var. crispa L.
-    2            Ceratophyllum demersum
-    3              Lycopodium inundatum
-                                                  citation
-    1     @schalowErgebnisseDurchforschungSchlesischen1934
-    2     @schalowErgebnisseDurchforschungSchlesischen1935
-    3 @vonuechtritzResultateDurchforschungSchlesischen1882
-                                                                                                             entry
-    1                                  M. verticillata [...] var. crispa L. [...] Liebenthal: Geppersdorf (Buchs)!
-    2                                                            Ceratophyllum demersum Freiburg: Kalkbruch (Loge)
-    3 Lycopodium inundatum L. Um Friedewalde bei Breslau neuerdings wieder zahlreich und zwar gegen die Eisenbahn.
-           lon      lat                      comments year
-    1 15.52870 51.01552       Milęcice, gm. Lubomierz 1934
-    2       NA       NA Świebodzice, wyrobisko wapnia 1935
-    3 17.09699 51.13491 Mirowiec, os. Kowale, Wrocław 1882
-                         accepted_name
-    1            Malva verticillata L.
-    2        Ceratophyllum demersum L.
-    3 Lycopodiella inundata (L.) Holub
+                                         species
+    1 Hieracium tauschii ssp. acrosciadium N. P.
+    2                           Erigeron ramosus
+    3                           Tropaeolum majus
+                                              citation
+    1 @schalowErgebnisseDurchforschungSchlesischen1935
+    2 @schalowErgebnisseDurchforschungSchlesischen1932
+    3 @schalowErgebnisseDurchforschungSchlesischen1932
+                                                                             entry
+    1 Hieracium Tauschii [...] ssp. acrosciadium N. P. Kätscher: Rösnitz (Klimke)!
+    2                        Erigeron ramosus [...] Gleiwitz: Schlachthof (Czmok)!
+    3                    Tropaeolum majus Liebenthal: mehrfach auf Schutt (Buchs)!
+           lon      lat                              comments year
+    1 17.97362 50.02013 Rozumice, gm. Kietrz, pow. głubczycki 1935
+    2 18.67262 50.30223                      Gliwice; rzeźnia 1932
+    3 15.50094 51.01330      Lubomierz; często na wysypiskach 1932
+                            accepted_name
+    1 Pilosella densiflora (Tausch) Soják
+    2  Erigeron strigosus Muhl. ex Willd.
+    3                 Tropaeolum majus L.
 
 </div>
 
@@ -133,15 +133,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. BE74
-    2                    Malva moschata L. BE82
-    3                    Malva moschata L. BF05
-    4                    Malva moschata L. CF11
-    5                    Malva pusilla Sm. CE90
-    6 Malva thuringiaca subsp. thuringiaca BE14
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. AE58
+          accepted_name Name
+    1 Malva moschata L. AE58
+    2 Malva moschata L. AE58
+    3 Malva moschata L. AE78
+    4 Malva moschata L. BE53
+    5 Malva moschata L. BE74
+    6 Malva moschata L. BF26
+    7 Malva pusilla Sm. CE90
+    8 Malva pusilla Sm. CF65
 
 ### How to participate
 
@@ -218,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4300 records (species - localization) including 4225 with
+total 4366 records (species - localization) including 4289 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
