@@ -44,12 +44,79 @@ if(exists("bibliography")) {
   bibliography <- c(bibliography, bib)
 }
 
+#' 1. Abteilung. Cryptogamae. 
+#' Unterabteilung. Pteridophyta. 
+#' 1. Klasse. Filicales. ----
+#' 1. Unterklasse. Filices. 
+#' 1. Familie. POLYPODIACEAE. 
+## 1. Athyrium Roth. ----
+#' 1. A. Filix femina (L.) Roth. Feuchte, schattige Waldstellen, auch zwischen Geröll; 
+#' in der Eb. und dem Vgb. 4—5, im tieferen Hgb. 2—3. Ic!; Id 6!; IIa!; IIc!; IId!; IIIa 2!; IIIb 2!; IIIc !; IIId 8!; IIIe!; IVa 3!; IVd 3!; IVe!; Va 2!; Vc 3!; Vd!; Ve; Vf 2!; VIa !
+#' 
+#' f. pruinosum Moore. Grü: Alte Schloiner Straße (02)!; Warmbrunu (02)!; Rsg: Eulegrund (88), Höllenkränze (88)!; Guh: Sandeborske (02)!; Frd: Freudengrund (02)!
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1903",
+  entry = "Athyrium filix femina f. pruinosum Moore. Grü: Alte Schloiner Straße (02)!;",
+  lon = 15.45968, 
+  lat = 51.92696, 
+  comments = "na poboczu starej drogi do Słonego, obecnie okolice Rybno, gm. Świdnica, pow. zielonogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1903",
+  entry = "[...] Warmbrunu (02)!;",
+  lon = 15.68935, 
+  lat = 50.87603, 
+  comments = "Cieplice Zdrój, Jelenia Góra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekResultateDurchforschungSchlesischen1889",
+  entry = "[...] Rsg: Eulegrund (88), [...]",
+  lon = 15.77654, 
+  lat = 50.75348, 
+  comments = "okolice Kaskady Joanna, na stoku przy Płomnica, na południe od Karpacza"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekResultateDurchforschungSchlesischen1889",
+  entry = "[...] Rsg: [...] Höllenkränze (88)!;[...]",
+  lon = 15.71150, 
+  lat = 50.72449, 
+  comments = "południowowschodnie stoki Studnicna Hora, Pec pod Snezkou, okres Trutnov, Czechy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1903",
+  entry = "[...] Guh: Sandeborske (02)!; [...]",
+  lon = 16.69876,  
+  lat = 51.61348, 
+  comments = "Czarnoborsko, gm. Wąsosz, pow. górowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium filix femina f. pruinosum Moore.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1903",
+  entry = "[...] Frd: Freudengrund (02)!",
+  lon = 16.26587,  
+  lat = 50.68506, 
+  comments = "okolice ruin wieży zamku Radosno (Freundenschloss); nad potokiem Sokołowiec (Freuden-Graben), Sokołowsko, gm. Mieroszów, pow. wałbrzyski"
+) |> rbind(schube)
+
+#' TODO - dokończyć
+
 #' 2. Klasse. Equisetales. ----
 #' 6. Familie. EQUISETACEAE. ----
 ## 18. Equisetnm L. ----
 ### 43. E. silvaticum L. ----
 
-#' W älder, Gebüsche, Raine, Lehnen, auch zuweilen auf Ackerland; in der Eb. und dem Vgb. 3 —4, 
+#' Wälder, Gebüsche, Raine, Lehnen, auch zuweilen auf Ackerland; in der Eb. und dem Vgb. 3 —4, 
 #' oft sehr gesellig, im Hgb. 2.
 #' Ib !; Ic 1; Id 3!; Ie!; IIb!; IIc!; IIIa!; IIIb 4!; IIIc 2!; IIId 7!; IIIg!; IVa 6!; IVd!; 
 #' 

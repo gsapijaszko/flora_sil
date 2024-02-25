@@ -31,22 +31,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                         species                                         citation
-    1        Vaccinium Oxycoccus @schalowErgebnisseDurchforschungSchlesischen1932
-    2        Vaccaria parviflora @schalowErgebnisseDurchforschungSchlesischen1935
-    3 Blechnum spicant (L.) Wth.  @schubeErgebnisseDurchforschungSchlesischen1897
-                                                                                            entry
-    1                                        Vaccinium Oxycoccus Liebenthal: Hennersdorf (Buchs)!
-    2                                Vaccaria parviflora [...] Strehlen: [...] Ruppersdorf!;[...]
-    3 Blechnum Spicant (L.) With. Breslau: zw. Auras und Jäkel (S.), neu für die Breslauer Flora.
-           lon      lat                                  comments year
-    1 15.52948 50.98752  Popielówek, gm. Lubomierz, pow. lwówecki 1932
-    2 17.16302 50.77817 Wyszonowice, gm. Wiązów, pow. strzeliński 1935
-    3 16.85901 51.27048                                           1897
-                          accepted_name
-    1            Vaccinium oxycoccos L.
-    2      Gypsophila vaccaria (L.) Sm.
-    3 Struthiopteris spicant (L.) Weiss
+                       species                                             citation
+    1      Lathyrus silvestris @vonuechtritzResultateDurchforschungSchlesischen1886
+    2 Chrysanthemum corymbosum     @schalowErgebnisseDurchforschungSchlesischen1932
+    3      Vaccaria parviflora     @schalowErgebnisseDurchforschungSchlesischen1932
+                                                                                                                                                                                                                                      entry
+    1 Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).
+    2                                                                                                                                                                            Chrysanthemum corymbosum Frankenstein: Grochberg (Rauhut)!
+    3                                                                                               Vaccaria parviflora [...] Salzbrunn: Äcker b. Adelsbach (Titz)! Das häufige Auftreten der Pflanze in diesem Jahre ist recht beachtlich!
+           lon      lat
+    1 16.73092 50.85032
+    2 16.76104 50.56467
+    3 16.21863 50.82142
+                                                                   comments year
+    1                                                                       1886
+    2                    Grochowska Góra, Braszowice, gm. Ząbkowice Śląskie 1932
+    3 pola przy miejscowości Struga, gm. Stare Bogaczowice, pow. wałbrzyski 1932
+                               accepted_name
+    1                 Lathyrus sylvestris L.
+    2 Tanacetum corymbosum subsp. corymbosum
+    3           Gypsophila vaccaria (L.) Sm.
 
 </div>
 
@@ -129,15 +133,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE62
-    3                    Malva moschata L. CE81
-    4                  Malva parviflora L. BE49
-    5 Malva thuringiaca subsp. thuringiaca BE57
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE59
-    8                Malva verticillata L. CF65
+              accepted_name Name
+    1     Malva moschata L. AE58
+    2     Malva moschata L. AE67
+    3     Malva moschata L. BE53
+    4     Malva moschata L. BF01
+    5     Malva moschata L. BF05
+    6     Malva moschata L. BF26
+    7     Malva moschata L. CF11
+    8 Malva verticillata L. BE49
 
 ### How to participate
 
@@ -214,7 +218,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4428 records (species - localization) including 4350 with
+total 4481 records (species - localization) including 4403 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

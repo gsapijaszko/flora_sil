@@ -1972,9 +1972,9 @@ jahres <- data.frame(
   species = "Phegopteris robertiana (Hoffm.) A. Br.",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
   entry = "Phegopteris Robertiana (Hoffm.) A. Br. Falkenberg: in Schedlau (S.).",
-  lon = 17.62249, 
-  lat = 50.68434, 
-  comments = ""
+  lon = 17.61412,  
+  lat = 50.67668, 
+  comments = "Szydłowiec Śląski, gm. Niemodlin, pow. opolski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3067,6 +3067,27 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1889
+#' 
+
+jahres <- data.frame(
+  species = "Athyrium filix femina Rth. var. pruinosa Moore",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Athyrium filix femina Rth. var. pruinosa Moore. Milde erwähnt in seinem Aufsatze „A. filix femina var. pruinosa Moore in der Mark Brandenburg“ (Verhandlungen des Botanischen Vereins VIII, 1866, S. 178), dass er einen Stock dieser merkwürdigen Form im Eulengrunde des Riesengebirges gefunden habe [...]",
+  lon = 15.77654, 
+  lat = 50.75348, 
+  comments = "okolice Kaskady Joanna, na stoku przy Płomnica, na południe od Karpacza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Athyrium filix femina Rth. var. pruinosa Moore",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Athyrium filix femina Rth. var. pruinosa Moore. [...] Jm Juli 1888 fielen mir in den an den oberen südöstlichen Abhängen des Brunnberges gelegenen, die „Höllenkränze“ genannten Felsenkesseln [...]",
+  lon = 15.71150, 
+  lat = 50.72449, 
+  comments = "południowowschodnie stoki Studnicna Hora, Pec pod Snezkou, okres Trutnov, Czechy"
+) |> rbind(jahres)
+
+
 
 jahres <- data.frame(
   species = "Chenopodium Botrys L.",
@@ -4043,7 +4064,7 @@ jahres <- data.frame(
   entry = "Botrychium ternatum Sw. Am Fusse der Sonnenkoppe in einem Hohlwege (Roth).",
   lon = 16.41001, 
   lat = 50.62578, 
-  comments = ""
+  comments = "u stóp góry Słoneczna Kopa, Świerki, gm. Nowa Ruda, pow. kłodzki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -32,6 +32,456 @@ if(exists("bibliography")) {
 }
 
 jahres <- data.frame(
+  species = "Athyrium Filix femina f. pruinosum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Athyrium Filix femina f. pruinosum. Grünberg: Alte Schloiner Strasse (Hellwig)!; [...]",
+  lon = 15.45968, 
+  lat = 51.92696, 
+  comments = "na poboczu starej drogi do Słonego, obecnie okolice Rybno, gm. Świdnica, pow. zielonogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Athyrium Filix femina f. pruinosum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Athyrium Filix femina f. pruinosum. [...] Warmbrunn (Schumann, h. s.)!; [...]",
+  lon = 15.68935, 
+  lat = 50.87603, 
+  comments = "Cieplice Zdrój, Jelenia Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Athyrium Filix femina f. pruinosum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Athyrium Filix femina f. pruinosum. [...] Guhrau: Sandeborske (Nitschke)!; [...]",
+  lon = 16.69876,  
+  lat = 51.61348, 
+  comments = "Czarnoborsko, gm. Wąsosz, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Athyrium Filix femina f. pruinosum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Athyrium Filix femina f. pruinosum. [...] Friedland: Freudengrund (Strähler, h. s.)!",
+  lon = 16.26587,  
+  lat = 50.68506, 
+  comments = "okolice ruin wieży zamku Radosno (Freundenschloss); nad potokiem Sokołowiec (Freuden-Graben), Sokołowsko, gm. Mieroszów, pow. wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cystopteris fragilis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cystopteris fragilis. Niesky: Creba (Thielscher)!; [...]",
+  lon = 14.68300, 
+  lat = 51.34834,
+  comments = "Kreba-Neudorf, Saxony, Germany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cystopteris fragilis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cystopteris fragilis. [...] Kreuzburg; Bankau (Zuschke)!",
+  lon = 18.31325, 
+  lat = 50.96128,
+  comments = "Bąków, gm. Kluczbork, pow. kluczborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Dryopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Aspidium Dryopteris. Namslau: Niefer Wald!",
+  lon = 17.57784, 
+  lat = 51.05325, 
+  comments = "Smarchowice Śląskie, gm. Namysłów, pow. namysłowski; las na zachód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Robertianum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Robertianum. Ob.-Lindewiese (Zimmermann, h. s.)!",
+  lon = 17.09856,  
+  lat = 50.22536, 
+  comments = "Horni Lipova, Czech Republic"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Phegopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Phegopteris. Namslau: Niefe!; [...]",
+  lon = 17.57141,  
+  lat = 51.05481, 
+  comments = "Niwki, gm. Namysłów, pow. namysłowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Phegopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Phegopteris. [...] Münsterberg: Bischofswald (Kruber)!; [...]",
+  lon = 17.11207,  
+  lat = 50.60355, 
+  comments = "Biskupi Las, Dębowiec, gm. Ziębice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Phegopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Phegopteris. [...] Rybnik: Belk (Kaintzik, h. s.)!",
+  lon = 18.71389,  
+  lat = 50.13277, 
+  comments = "Bełk, gm. Czerwionka-Leszczyny, pow. rybnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Thelypteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Thelypteris. Striegau: Zedlitz (Schwarzer, h. s.)!; [...]",
+  lon = 16.39586,  
+  lat = 50.91973, 
+  comments = "Pasieczna, gm. Jaworzyna Śląska, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Thelypteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Thelypteris. [...] Frankenstein: Briesnitz (Uechtritz, h. s.)!",
+  lon = 16.73025, 
+  lat = 50.53978, 
+  comments = "Brzeźnica, gm. Bardo, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium montanum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. montanum. Brünneiheide (Plosel, h. s.)!",
+  lon = 17.13467,  
+  lat = 50.14550, 
+  comments = "Cervena hora, Czech Republic"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Filix mas v. affine Fisch. Mey.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Filix mas v. affine Fisch. Mey. (= incisum Moore). Görlitz: Hennersdorf (Peck, h. s.)!; [...]",
+  lon = 15.02726, 
+  lat = 51.18310, 
+  comments = "Jędrzychowice, gm. Zgorzelec, pow. zgorzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Filix mas v. affine Fisch. Mey.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Filix mas v. affine Fisch. Mey. (= incisum Moore). [...] Görbersdorf: Buchberg (Strähler, h. s.)!",
+  lon = 16.25877,  
+  lat = 50.69400, 
+  comments = "[wzgórze] Bukowiec, Rybnica Leśna, gm. Mieroszów, pow. wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium cristatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. cristatum. Grünberg: D.-Kessel (Kleiber, h. s.)!",
+  lon = 15.61352,  
+  lat = 51.93377, 
+  comments = "Zielona Góra, Nowy Kisielin-Odrzańska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium lobatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. lobatum. Probsthainer Spitzberg (Limpricht, h. s.)!",
+  lon = 15.76367,
+  lat = 51.05611,
+  comments = "[wzgórze] Ostrzyca Proboszczowicka, Proboszczów, gm. Pielgrzymka, pow. złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Brauni",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Brauni. Görlitz: Biesnitzer Thal früher (Peck t. Barber).",
+  lon = 14.95658,  
+  lat = 51.13222, 
+  comments = "Biesnitz, Goerlitz, Germany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Brauni X lobatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Brauni X lobatum. „Hoher Fall“ (Milde, h. s.)! Die Oertlichkeit ist leider unsicher, da mit diesem Namen von den älteren Floristen mehrere Stellen bezeichnet werden; gemeint ist wohl der Standort des Aster alpinus u. s. w. im Gr. Kessel.",
+  lon = 17.23064,
+  lat = 50.08040, 
+  comments = "Wielki Kocioł, Morawy;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium viride",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Asplenium viride. Gräfenberg: Hirschbadkamm (Engler, h. s.)!",
+  lon = 17.17260,  
+  lat = 50.25785, 
+  comments = "okolice Studnicni vrch, Chech Republic"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Trichomanes. Niesky: Kunnersdorf (Heuser, h. s.)!; [...] ",
+  lon = 14.81124,  
+  lat = 51.04531, 
+  comments = "Kunnersdorf, Germany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Trichomanes. [...] Bunzlau: Klitschdorf (Limpricht, h. s.)!;[...]",
+  lon = 15.43963,  
+  lat = 51.33761, 
+  comments = "Kliczków, gm. Osiecznica, pow. bolesławiecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Trichomanes. [...] Grünberg: Dammerauer Berge (Hellwig)!,[...]",
+  lon = 15.72954,  
+  lat = 51.90731, 
+  comments = "na wzgórzach koło miejscowości Dąbrowa gm. Zabór, pow. zielonogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Trichomanes. [...] Grünberg: [...]  Forsthaus Cukawe (M. Fiek, h. s.)!;[...]",
+  lon = 15.76466, 
+  lat = 51.90120, 
+  comments = "nieistniejący przysiółek, gm. Otyń, pow. nowosolski; leśniczówka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Trichomanes",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Trichomanes. [...] Liegnitz: zw. Kunitz u. Gr.-Beckern (Gerhardt). [...]",
+  lon = 16.22862,  
+  lat = 51.21724, 
+  comments = "pomiędzy miejscowością Kunice, gm. Kunice i osiedlem Piekary, Legnica, pow. legnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. Bunzlau: Stadtmauern (Limpricht, h. s.)!; [...]",
+  lon = 15.56728,  
+  lat = 51.26330, 
+  comments = "Bolesławiec, gm. Bolesławiec; mury miejskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Freystadt desgl. (Hellwig)!;[...]",
+  lon = 15.59636,  
+  lat = 51.74762, 
+  comments = "Kożuchów, gm. Kożuchów, pow. nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Carolath (ders.)!; [...]",
+  lon = 15.80810, 
+  lat = 51.76824, 
+  comments = "Siedlisko, gm. Siedlisko, pow. nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] D.-Wartenberg: Schlosskirche (ders.)!; [...]",
+  lon = 15.71130,  
+  lat = 51.84777, 
+  comments = "Otyń, gm. Otyń, pow. nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Sagan: Schönbrunn (Matzker)!; [...]",
+  lon = 15.41136,  
+  lat = 51.68057, 
+  comments = "Jabłonów, gm. Brzeźnica, pow. żagański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Breslau: Thauer!; [...]",
+  lon = 17.06801,  
+  lat = 50.99467, 
+  comments = "Turów, gm. Żórawina, pow. wrocławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Rosenberg: Skronskau (Zusehke)![...]",
+  lon = 18.46402, 
+  lat = 50.97297, 
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. Rosenberg: [...] Bischdorf (ders.)!;[...]",
+  lon = 18.49545, 
+  lat = 50.94212, 
+  comments = "Biskupice, gm. Radłów, pow. oleski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Ruta muraria. [...] Falkenberg: Schedlau! [...]",
+  lon = 17.61412,  
+  lat = 50.67668, 
+  comments = "Szydłowiec Śląski, gm. Niemodlin, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Adiantum nigrum v. obtusum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Adiantum nigrum v. obtusum. Eulengebirge: Steinkunzendorf (Schumann, h. s.)!; [...]",
+  lon = 16.53198, 
+  lat = 50.68257, 
+  comments = "Kamionki, gm. Pieszyce, pow. dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Adiantum nigrum v. obtusum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. Adiantum nigrum v. obtusum. Eulengebirge: [...] am Fusse der Sonnenkoppe (Hilse, h. s.)!",
+  lon = 16.41001, 
+  lat = 50.62578, 
+  comments = "u stóp góry Słoneczna Kopa, Świerki, gm. Nowa Ruda, pow. kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium onopteris Heufier",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. onopteris Heufier (f. silesiacum Milde). Költschenberg (Peck, h. s.)!; [...]",
+  lon = 16.62439,  
+  lat = 50.81758, 
+  comments = "Kiełczyńskie Wzgórza, Kiełczyn, gm. Dzierżoniów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium onopteris Heufier",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "A. onopteris Heufier (f. silesiacum Milde). [...] Steinkunzendorf (Schumann, h. s.)!",
+  lon = 16.53198, 
+  lat = 50.68257, 
+  comments = "Kamionki, gm. Pieszyce, pow. dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. Saabor: Gruft (Hellwig)!; [...]",
+  lon = 15.70919, 
+  lat = 51.94984, 
+  comments = "Zabór, gm. Zabór, pow. zielonogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Schlawa: Rev. Tiergarten am Seeufer (ders.)!;[...]",
+  lon = 15.99441,  
+  lat = 51.88423, 
+  comments = "Zwierzyniec, Kuźnica Głogowska, gm. Sława, pow. wschowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Freystadt : Hirseberg b. Carolath (ders.)![...]",
+  lon = 15.78269,  
+  lat = 51.77432, 
+  comments = "wzgórze na płn-zach od miejsowości Siedlisko, gm. Siedlisko, pow. nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Polypodium vulgare", "Polypodium vulgare f. auritum"),
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Freystadt : [...] Pürben, mit f. auritum (Schröder)!;[...]",
+  lon = 15.44592, 
+  lat = 51.82135, 
+  comments = "Pierzwin, gm. Nowogród Bobrzański, pow. zielonogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Guhrau: Hermdorf (Nitschke)!;[...]",
+  lon = 16.81220,  
+  lat = 51.56193, 
+  comments = "Kąkolno, gm. Wąsosz, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Neumarkt: zw. Bruch u. Kobelnick (v. Uechtritz, h. s.)!;[...]",
+  lon = 16.68989,  
+  lat = 51.21703, 
+  comments = "pomiędzy miejscowością Kobylniki a obecnym rezerwatem Zabór, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Polypodium vulgare. [...] Carlsruhe (Bartsch h. s.)!",
+  lon = 17.82904, 
+  lat = 50.89962, 
+  comments = "Pokój, gm. Pokój, pow. namysłowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Ophioglossum vulgatum. Rotwasser O.-L. (Rakete)!; [...]",
+  lon = 15.20363, 
+  lat = 51.25845, 
+  comments = "Czerwona Woda, gm. Węgliniec, pow. zgorzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Ophioglossum vulgatum. [...] Glogau: Herrndorf (Mielke, h. s.)!;[...]",
+  lon = 15.98595, 
+  lat = 51.67271, 
+  comments = "Żukowice, gm. Żukowice, pow. głogowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Ophioglossum vulgatum. [...] Grünberg: D.-Kessel (Kleiber); [...]",
+  lon = 15.61352,  
+  lat = 51.93377, 
+  comments = "Zielona Góra, Nowy Kisielin-Odrzańska"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Ophioglossum vulgatum. [...] Zobten: Tampadeler Wiesen (Seidel, h. s.)!",
+  lon = 16.68943, 
+  lat = 50.83796, 
+  comments = "Tąpadła, gm. Marcinowice, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
   entry = "Botrychium Lunaria. Hoyerswerda: Seidewinkler Amtsteich (E. Fiek, h. s.)!;",
@@ -487,7 +937,7 @@ jahres <- data.frame(
   entry = "Lycopodium complanatum. Namslau: Niefer Wald (Brösicke)!;",
   lon = 17.57784, 
   lat = 51.05325, 
-  comments = ""
+  comments = "Smarchowice Śląskie, gm. Namysłów, pow. namysłowski; las na zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -579,3 +1029,4 @@ jahres <- data.frame(
   lat = 50.73453, 
   comments = ""
 ) |> rbind(jahres)
+
