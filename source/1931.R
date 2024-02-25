@@ -3069,10 +3069,47 @@ jahres <- data.frame(
   comments = "Lubomierz, na północ od wzgórza Sępik"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Corydalis intermedia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Corydalis intermedia Kraschmtz: am Windmotor (Schoepke)!; [...]",
+  lon = 17.36495, 
+  lat = 51.47164,
+  comments = "Krośnice, gm. Krośnice, pow. milicki; przy silniku wiatrowym (zapewne zelektryfikowany młyn)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corydalis intermedia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Corydalis intermedia [...] Neiße: Langendorf (Franke)!",
+  lon = 17.3811,
+  lat = 50.33828,
+  comments = "Bodzanów, gm. Głuchołazy, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cardamine impatiens",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cardamine impatiens Gr.-Strehlitz : Larischka (Schuberti!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Nasturtium austriacum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Nasturtium austriacum Cosel: Winker-Mühle (Schubert)!",
+  lon = 18.13724, 
+  lat = 50.33262,
+  comments = "Koźle, Kędzierzyn-Koźle, "
+) |> rbind(jahres)
+
+
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Geyersberg", entry)) 
+  subset(grepl("Cosel", entry)) 
 
 #' TODO - dokończyć
 

@@ -8,3 +8,4 @@ turboveg.R
 *.html
 flora_silesiae_files/
 .~lock.NA.csv#
+.quarto/

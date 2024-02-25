@@ -31,26 +31,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                 species                                                citation
-    1 Anthericum ramosum        @schalowErgebnisseDurchforschungSchlesischen1936
-    2  Lathyrus paluster @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3    Bidens connatus        @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                                                                                                                                                                                                                                                                                                                           entry
-    1 Ganz überraschend aber kommt die Entdeckung recht pflanzenreicher sogenannter „pontischer“ Hügel unweit Dammer im südlichen Teile des Namslauer Kreises. Nach Wittigs Angaben finden sich hier: Anemone pratensis, Thesium intermedium, Sempervivum soboliferum, Scorzonera humilis, Anthericum ramosum, Polypodium vulgare, Scabiosa canescens, Allium senescens, Silene Otites und Astragalus arenarius.
-    2                                                                                                                                                                                                                                                                                                                                                   L. paluster [...] Kanth: am Koslauer Fußwege (Schoepke)!
-    3                                                                                                                                                                                                                                                                                                                                                                    B. connatus Brieg: Oderufer bei Koppen!
-           lon      lat
-    1 17.82027 50.98202
-    2 16.72838 51.03821
-    3 17.61726 50.82243
-                                                          comments year
-    1                              Dąbrowa, gm. Świerczów, wzgórza 1936
-    2                    Kozłów, gm. Kąty Wrocławskie; na chodniku 1933
-    3 Odra, brzeg rzeki przy miejscowości Kopanie, gm. Skarbimierz 1935
-                       accepted_name
-    1          Anthericum ramosum L.
-    2          Lathyrus palustris L.
-    3 Bidens connata Muhl. ex Willd.
+                         species                                         citation
+    1        Vaccinium Oxycoccus @schalowErgebnisseDurchforschungSchlesischen1932
+    2        Vaccaria parviflora @schalowErgebnisseDurchforschungSchlesischen1935
+    3 Blechnum spicant (L.) Wth.  @schubeErgebnisseDurchforschungSchlesischen1897
+                                                                                            entry
+    1                                        Vaccinium Oxycoccus Liebenthal: Hennersdorf (Buchs)!
+    2                                Vaccaria parviflora [...] Strehlen: [...] Ruppersdorf!;[...]
+    3 Blechnum Spicant (L.) With. Breslau: zw. Auras und Jäkel (S.), neu für die Breslauer Flora.
+           lon      lat                                  comments year
+    1 15.52948 50.98752  Popielówek, gm. Lubomierz, pow. lwówecki 1932
+    2 17.16302 50.77817 Wyszonowice, gm. Wiązów, pow. strzeliński 1935
+    3 16.85901 51.27048                                           1897
+                          accepted_name
+    1            Vaccinium oxycoccos L.
+    2      Gypsophila vaccaria (L.) Sm.
+    3 Struthiopteris spicant (L.) Weiss
 
 </div>
 
@@ -134,14 +130,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BE62
-    4                    Malva pusilla Sm. CE90
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE62
+    3                    Malva moschata L. CE81
+    4                  Malva parviflora L. BE49
     5 Malva thuringiaca subsp. thuringiaca BE57
     6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE58
-    8        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE59
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -218,7 +214,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4424 records (species - localization) including 4346 with
+total 4428 records (species - localization) including 4350 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
