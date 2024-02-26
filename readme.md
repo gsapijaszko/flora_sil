@@ -1,5 +1,4 @@
 
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -31,26 +30,18 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                       species                                             citation
-    1      Lathyrus silvestris @vonuechtritzResultateDurchforschungSchlesischen1886
-    2 Chrysanthemum corymbosum     @schalowErgebnisseDurchforschungSchlesischen1932
-    3      Vaccaria parviflora     @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                                                                                                                                                                                      entry
-    1 Lycopodium complanatum L. var. aanceps Wallr. Zobten: Klein-Silsterwitz, an einer sonnigen trockenen Stelle in der Nähe des Dorfes über dem Bache zwischen Calluna mit Thesium alpinum und Lathyrus silvestris steril!! (Dr. SchncK).
-    2                                                                                                                                                                            Chrysanthemum corymbosum Frankenstein: Grochberg (Rauhut)!
-    3                                                                                               Vaccaria parviflora [...] Salzbrunn: Äcker b. Adelsbach (Titz)! Das häufige Auftreten der Pflanze in diesem Jahre ist recht beachtlich!
-           lon      lat
-    1 16.73092 50.85032
-    2 16.76104 50.56467
-    3 16.21863 50.82142
-                                                                   comments year
-    1                                                                       1886
-    2                    Grochowska Góra, Braszowice, gm. Ząbkowice Śląskie 1932
-    3 pola przy miejscowości Struga, gm. Stare Bogaczowice, pow. wałbrzyski 1932
-                               accepted_name
-    1                 Lathyrus sylvestris L.
-    2 Tanacetum corymbosum subsp. corymbosum
-    3           Gypsophila vaccaria (L.) Sm.
+                species                                                citation
+    1     Juncus tenuis @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2 Cichorium intybus        @schalowErgebnisseDurchforschungSchlesischen1935
+    3 Cytisus nigricans        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                          entry      lon      lat
+    1            J. tenuis Liebenthal: mehrfach (Buchs)!; [...] 15.50094 51.01330
+    2  Cichorium Intybus Hirschberg: [...] Krummhübel (Nerlich) 15.75211 50.77539
+    3 Cytisus nigricans Ruhland: Lauta (Dr. Berger t. Militzer) 14.09309 51.45465
+       comments year        accepted_name
+    1 Lubomierz 1933 Juncus tenuis Willd.
+    2   Karpacz 1935 Cichorium intybus L.
+    3           1934 Cytisus nigricans L.
 
 </div>
 
@@ -75,7 +66,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -133,15 +124,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. AE58
-    2     Malva moschata L. AE67
-    3     Malva moschata L. BE53
-    4     Malva moschata L. BF01
-    5     Malva moschata L. BF05
-    6     Malva moschata L. BF26
-    7     Malva moschata L. CF11
-    8 Malva verticillata L. BE49
+                      accepted_name Name
+    1             Malva moschata L. BE62
+    2             Malva moschata L. BE82
+    3             Malva moschata L. BE97
+    4           Malva parviflora L. BE49
+    5             Malva pusilla Sm. AD93
+    6             Malva pusilla Sm. CE90
+    7 Malva trimestris (L.) Salisb. AE59
+    8         Malva verticillata L. AD59
 
 ### How to participate
 
@@ -218,7 +209,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4481 records (species - localization) including 4403 with
+total 4547 records (species - localization) including 4469 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
