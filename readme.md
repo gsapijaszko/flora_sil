@@ -30,18 +30,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                species                                                citation
-    1     Juncus tenuis @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2 Cichorium intybus        @schalowErgebnisseDurchforschungSchlesischen1935
-    3 Cytisus nigricans        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                          entry      lon      lat
-    1            J. tenuis Liebenthal: mehrfach (Buchs)!; [...] 15.50094 51.01330
-    2  Cichorium Intybus Hirschberg: [...] Krummhübel (Nerlich) 15.75211 50.77539
-    3 Cytisus nigricans Ruhland: Lauta (Dr. Berger t. Militzer) 14.09309 51.45465
-       comments year        accepted_name
-    1 Lubomierz 1933 Juncus tenuis Willd.
-    2   Karpacz 1935 Cichorium intybus L.
-    3           1934 Cytisus nigricans L.
+                        species
+    1 Geaster fornicatus Fries.
+    2    Sisymbrium Sinapistrum
+    3          Potentilla recta
+                                                     citation
+    1                        @wimmerNeueArtenSchiesischen1851
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                                                                                      entry
+    1 Geaster fornicatus Fries. — Aus der Gegend von Tarnowitz, von Hrn. Kandidat Jungnickel, durch Hrn. Professor Schilling mitgetheilt.\n
+    2                                                                                 S. Sinapistrum [...] Greiffenberg: Bhf. (Buchs);[...]
+    3                                                          P. recta [...] Hoyerswerda: zwischen Neudorf und Spreewitz (Militzer); [...]
+           lon      lat               comments year
+    1 18.85175 50.47072                   <NA> 1851
+    2 15.42991 51.03359 Gryfów Śląski, dworzec 1931
+    3 14.38873 51.50188                        1934
+                          accepted_name
+    1 Geastrum fornicatum (Huds.) Hook.
+    2          Sisymbrium altissimum L.
+    3               Potentilla recta L.
 
 </div>
 
@@ -124,15 +132,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. BE62
-    2             Malva moschata L. BE82
-    3             Malva moschata L. BE97
-    4           Malva parviflora L. BE49
-    5             Malva pusilla Sm. AD93
-    6             Malva pusilla Sm. CE90
-    7 Malva trimestris (L.) Salisb. AE59
-    8         Malva verticillata L. AD59
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BF01
+    4                    Malva moschata L. CF11
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6        Malva trimestris (L.) Salisb. AE58
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. AD67
 
 ### How to participate
 
@@ -209,7 +217,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4547 records (species - localization) including 4469 with
+total 4555 records (species - localization) including 4477 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -223,50 +231,50 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+    [1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
-[6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

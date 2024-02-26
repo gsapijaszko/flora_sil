@@ -50,7 +50,8 @@ if(exists("bibliography")) {
 #' 1. Unterklasse. Filices. 
 #' 1. Familie. POLYPODIACEAE. 
 ## 1. Athyrium Roth. ----
-#' 1. A. Filix femina (L.) Roth. Feuchte, schattige Waldstellen, auch zwischen Geröll; 
+### 1. Athyrium filix femina (L.) Roth. ---- 
+#' Feuchte, schattige Waldstellen, auch zwischen Geröll; 
 #' in der Eb. und dem Vgb. 4—5, im tieferen Hgb. 2—3. Ic!; Id 6!; IIa!; IIc!; IId!; IIIa 2!; IIIb 2!; IIIc !; IIId 8!; IIIe!; IVa 3!; IVd 3!; IVe!; Va 2!; Vc 3!; Vd!; Ve; Vf 2!; VIa !
 #' 
 #' f. pruinosum Moore. Grü: Alte Schloiner Straße (02)!; Warmbrunu (02)!; Rsg: Eulegrund (88), Höllenkränze (88)!; Guh: Sandeborske (02)!; Frd: Freudengrund (02)!
@@ -108,6 +109,140 @@ schube <- data.frame(
   lat = 50.68506, 
   comments = "okolice ruin wieży zamku Radosno (Freundenschloss); nad potokiem Sokołowiec (Freuden-Graben), Sokołowsko, gm. Mieroszów, pow. wałbrzyski"
 ) |> rbind(schube)
+
+### 2. Athyrium alpestre (Hoppe) Rylands. ----
+#' Feuchte, schattige Schluchten und Waldstellen der höheren Gebirge, daselbst 3— 4. 
+#' IId Isg: Tafelfichte (F), Kammhäuser (F )!, Hochstein!; Rsg. 7!; IVa Frd: Heidelberg (F)!, Dürres Gebirge!; IVb Hohe Eule (F)!; IVd Hohe Mense (F)!; Heusch. (F); IVe GlSch. (F), Saalwiesen (F), Formberg (F); VIa Ges. 3!; VId Barania (F)! 
+#' Hierzu f. multidentatum Bänitz (93)!
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IId Isg: Tafelfichte (F), [...]",
+  lon = 15.28051,  
+  lat = 50.89019,
+  comments = "Smrek, gm. Mirsk, pow. lwówecki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IId Isg: [...] Kammhäuser (F )!, [...]",
+  lon = 15.34311,  
+  lat = 50.87790,
+  comments = "Polana Izerska, gm. Mirsk, pow. lwówecki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IId Isg: [...] Hochstein!; [...]",
+  lon = 15.49121,  
+  lat = 50.84593,
+  comments = "Wysoki Kamień, Kopaniec, gm. Stara Kamienica, pow. karkonoski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IId Isg: [...] Rsg. 7!",
+  lon = 15.74943, 
+  lat = 50.75257,
+  comments = "Karkonosze, często"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVa Frd: Heidelberg (F)! [...]",
+  lon = 16.46471,  
+  lat = 50.72575,
+  comments = "Boreczna, Michałkowa, gm. Walim, pow. wałbrzyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVa Frd: [...] Dürres Gebirge!;",
+  lon = 16.26725,  
+  lat = 50.67964,
+  comments = "wzgórze Suchawa, Sokołowisko, gm. Mieroszów, pow. wałbrzyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVb Hohe Eule (F)!;",
+  lon = 16.47965, 
+  lat = 50.68107,
+  comments = "Wielka Sowa, Rościszów, gm. Pieszyce"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVd Hohe Mense (F)!; [...] ",
+  lon = 16.36467, 
+  lat = 50.35322,
+  comments = "[góra] Orlica, Zieleniec, Duszniki-Zdrój, pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVd [...] Heusch. (F);",
+  lon = 16.33844,  
+  lat = 50.48383,
+  comments = "Szczeliniec, Radków, Karłów, gm. Radków, pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVe GlSch. (F), [...] ",
+  lon = 16.84847, 
+  lat = 50.20811,
+  comments = "Śnieżnik Kłodzki, Międzygórze, gm. Bystrzyca Kłodzka pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVe [...] Saalwiesen (F), [...]",
+  lon = 16.98585, 
+  lat = 50.23876,
+  comments = "obecnie teren rezerwatu Puszcza Śnieżnej Białki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVe [...] Formberg (F);",
+  lon = 17.01061, 
+  lat = 50.22349,
+  comments = "[góra] Postawna, gm. Stronie Śląskie, pow. kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VIa Ges. 3!;",
+  lon = 17.23064, 
+  lat = 50.08040,
+  comments = "Gesenke, Wielki Kocioł, Morawy;"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VId Barania (F)!",
+  lon = 19.00644,  
+  lat = 49.61262,
+  comments = "Barania Góra, Wisła, pow. cieszyński"
+) |> rbind(schube)
+
+
+
 
 #' TODO - dokończyć
 

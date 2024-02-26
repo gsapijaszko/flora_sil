@@ -2,11 +2,11 @@
 # title: "Flora Silesiae"
 # author: "Grzegorz Sapijaszko"
 format: 
-  html:
-    toc: true
   gfm: 
     toc: false
     output-file: readme.md
+  html:
+    toc: true
 ---
 
 ```{r}
