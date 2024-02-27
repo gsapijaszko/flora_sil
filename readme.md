@@ -39,22 +39,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                  species                                                citation
-    1 Thlaspi perfoliatum @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2   Fragaria moschata @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3    Impatiens Roylei        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                         entry      lon      lat
-    1 Thlaspi perfoliatum Gr.-Strehlitz: Larischka (Schubert)! 18.17923 50.54258
-    2   Fragaria moschata Gr.-Strehlitz: Larischka (Schubert)! 18.17923 50.54258
-    3                I. Roylei [...] Glatz: Neißeufer (Pander) 16.65937 50.44292
-                                                                                 comments
-    1 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
-    2 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
-    3                                                  Kłodzko, Nysa Kłodzka, brzeg rzeki
-      year                accepted_name
-    1 1931                         <NA>
-    2 1931   Fragaria moschata Duchesne
-    3 1934 Impatiens glandulifera Royle
+                  species                                         citation
+    1 Hieracium prussicum @schalowErgebnisseDurchforschungSchlesischen1936
+    2         Vinca minor @schalowErgebnisseDurchforschungSchlesischen1935
+    3     Calla palustris @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           entry
+    1                                                                                                                                                                                                                                                                                                                                                                                                                  H. prussicum =pratense > Pilosella [...] Haynau: Neidhartteich (Weimann)!
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                                Vinca minor Isergebirge: Rabishau (Buchs)!;
+    3 Abwechslungsreicher ist die Umgebung des Bruttketeiches nördlich von Briese. Unterhalb des Teiches findet sich zunächst ein typisches Erlenbruch, dem vor allem Senecio crispatus ein besonderes Gepräge gibt. Dagegen scheint Valeriana polygama noch recht selten zu sein. Außerdem notierte ich noch: Calla palustris, Cardamine amara und Aspidium Thelypteris. Die große Häufigkeit von Senecio crispatus überraschte mich hier in der Nähe seiner Verbreitungsgrenze ganz besonders.
+           lon      lat
+    1 16.00254 51.26793
+    2 15.45133 50.95112
+    3 17.45869 51.29764
+                                                                                   comments
+    1                                                [staw] Zarośnik, Goliszów, gm. Chojnów
+    2                                                                   Rębiszów, gm. Mirsk
+    3 Brzezinka, gm. Oleśnica, pow. oleśnicki, poniżej stawu na północ od wsi, olsowe bagno
+      year                             accepted_name
+    1 1936 Pilosella prussica (Nägeli & Peter) Soják
+    2 1935                            Vinca minor L.
+    3 1936                        Calla palustris L.
 
 </div>
 
@@ -137,15 +141,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE67
-    2             Malva moschata L. BE53
-    3             Malva moschata L. BE82
-    4             Malva moschata L. BF01
-    5             Malva moschata L. BF05
-    6             Malva moschata L. CE81
-    7 Malva trimestris (L.) Salisb. AE58
-    8 Malva trimestris (L.) Salisb. AE67
+              accepted_name Name
+    1     Malva moschata L. BE53
+    2     Malva moschata L. BE97
+    3     Malva moschata L. BF26
+    4 Malva verticillata L. AD59
+    5 Malva verticillata L. AD67
+    6 Malva verticillata L. AE58
+    7 Malva verticillata L. BE59
+    8 Malva verticillata L. BF07
 
 ### How to participate
 
@@ -222,7 +226,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4615 records (species - localization) including 4537 with
+total 4632 records (species - localization) including 4555 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

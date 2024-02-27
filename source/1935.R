@@ -4862,9 +4862,9 @@ jahres <- data.frame(
   species = "Picris echioides",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "Picris echioides Wohlau: „Würbse“ bei Petranowitz (Juhnke)!",
-  lon = NA,
-  lat = NA,
-  comments = "'Würbse' k. Piotroniowice, gm. Wołów"
+  lon = 16.63365, 
+  lat = 51.31597,
+  comments = "'Würbse' k. Piotroniowice, gm. Wołów; prawdopodobnie chodzi o 'Wirbitz-Teich' (Würbs-Teich w @schubeVerbreitungGefaesspflanzenSchlesien1903a)"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

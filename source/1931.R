@@ -4148,11 +4148,165 @@ jahres <- data.frame(
   comments = "Rozumice, gm. Kietrz, pow. głubczycki; las na płdn-wsch od miejscowości, obecnie teren Rezerwatu Rozumice"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Geranium phaeum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Geranium phaeum Liebenthal: mehrf. (Buchs)!; [...]",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium phaeum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Geranium phaeum [...] Bolkenhain: Neu-Würgsdorf (Strauch); [...]",
+  lon = 16.06689, 
+  lat = 50.91024,
+  comments = "Wierzchosławiczki, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium phaeum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Geranium phaeum [...] Wohlau: Würbsedamm (Juhnke)!; [...]",
+  lon = 16.63365, 
+  lat = 51.31597,
+  comments = "'Würbse' k. Piotroniowice, gm. Wołów; prawdopodobnie chodzi o 'Wirbitz-Teich' (Würbs-Teich w @schubeVerbreitungGefaesspflanzenSchlesien1903a), nasyp kolejowy albo grobla"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium phaeum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Geranium phaeum [...] Kätscher: Piltsch (Klimke)!",
+  lon = 17.91206, 
+  lat = 49.99749,
+  comments = "Pilszcz, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium sanguineum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. sanguineum Winzig: Gimmel!; [...]",
+  lon = 16.53865,
+  lat = 51.52427,
+  comments = "Jemielno, gm. Jemielno, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium sanguineum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. sanguineum [...] Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium pyrenaicum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. pyrenaicum Jauer: Tschirnitz (Strauch)",
+  lon = 16.21356, 
+  lat = 51.01503,
+  comments = "Czernica, gm. Dobromierz, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium molle",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. molle Strehlen: Altstadt (Utta)!",
+  lon = 17.07348, 
+  lat = 50.77287,
+  comments = "Strzelin, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium dissectum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. dissectum Gr.-Strehlitz: Larischka (Schubert)!; [...]",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium dissectum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. dissectum [...] Kätscher: nördlich der Stadt (Klimke)!",
+  lon = 18.00409, 
+  lat = 50.08907,
+  comments = "Kietrz, gm. Kietrz, pow. głubczycki; na północ od miasta"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Geranium columbinum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "G. columbinum Brieg: Bhf. Mollwitz!",
+  lon = 17.38632,
+  lat = 50.84499,
+  comments = "Małujowice, gm. Skarbimierz, pow. brzeski, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Erodium malacoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Erodium malacoides Breslau: Güterbhf. West! (Dr.K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygala amara",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Polygala amara Winzig: Gr.-Pantken, [...]",
+  lon = 16.54462, 
+  lat = 51.45861,
+  comments = "Boraszyce Wielkie, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygala amara",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Polygala amara Winzig: [...] Ndr.-Krehlau!; [...]",
+  lon = 16.50789, 
+  lat = 51.44137,
+  comments = "Krzelów, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygala amara",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Polygala amara [...] Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Mercurialis perennis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Mercurialis perennis Kraschnitz: Zwornogoschützer Grund (Schoepke)!; [...]",
+  lon = 17.30580, 
+  lat = 51.49056,
+  comments = "Czarnogoździce, gm. Krośnice, pow. milicki;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Mercurialis perennis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Mercurialis perennis [...] Winzig: Schlaupp!",
+  lon = 16.57148,
+  lat = 51.44414,
+  comments = "Słup, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+
 
 # search --------------------------------------------------------------------------------------
 jahres |>
   dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Rösnitzer", entry)) 
+  subset(grepl("Ndr.-Krehlau", entry)) 
 
 #' TODO - dokończyć
 
@@ -4265,4 +4419,3 @@ jahres <- data.frame(
   lat = 51.11007, 
   comments = ""
 ) |> rbind(jahres)
-
