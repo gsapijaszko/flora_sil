@@ -39,26 +39,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                  species                                         citation
-    1 Hieracium prussicum @schalowErgebnisseDurchforschungSchlesischen1936
-    2         Vinca minor @schalowErgebnisseDurchforschungSchlesischen1935
-    3     Calla palustris @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           entry
-    1                                                                                                                                                                                                                                                                                                                                                                                                                  H. prussicum =pratense > Pilosella [...] Haynau: Neidhartteich (Weimann)!
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                Vinca minor Isergebirge: Rabishau (Buchs)!;
-    3 Abwechslungsreicher ist die Umgebung des Bruttketeiches nördlich von Briese. Unterhalb des Teiches findet sich zunächst ein typisches Erlenbruch, dem vor allem Senecio crispatus ein besonderes Gepräge gibt. Dagegen scheint Valeriana polygama noch recht selten zu sein. Außerdem notierte ich noch: Calla palustris, Cardamine amara und Aspidium Thelypteris. Die große Häufigkeit von Senecio crispatus überraschte mich hier in der Nähe seiner Verbreitungsgrenze ganz besonders.
+                                  species
+    1 Nepeta Mussini Henckel v. Donnersm.
+    2              Scutellaria hastifolia
+    3                   Xanthium spinosum
+                                                     citation
+    1        @schalowErgebnisseDurchforschungSchlesischen1934
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3                     @wimmerBerichtUberVerhandlungen1850
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
+    1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Nepeta Mussini Henckel v. Donnersm. (— N. longiflora O. A. Meyer) Gleiwitz: am Imkergarten in Richtersdorf verwildert (Czmok)!
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Scutellaria hastifolia [...] Wohlau: Seifwiesen bei Kl.Kreidel (Juhnke)
+    3 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
            lon      lat
-    1 16.00254 51.26793
-    2 15.45133 50.95112
-    3 17.45869 51.29764
-                                                                                   comments
-    1                                                [staw] Zarośnik, Goliszów, gm. Chojnów
-    2                                                                   Rębiszów, gm. Mirsk
-    3 Brzezinka, gm. Oleśnica, pow. oleśnicki, poniżej stawu na północ od wsi, olsowe bagno
-      year                             accepted_name
-    1 1936 Pilosella prussica (Nägeli & Peter) Soják
-    2 1935                            Vinca minor L.
-    3 1936                        Calla palustris L.
+    1 18.62887 50.28637
+    2 16.52907 51.30866
+    3 14.97900 51.78799
+                                                           comments year
+    1                                         Wójtowa Wieś, Gliwice 1934
+    2 Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości 1933
+    3                               Lubsko, gm. Lubsko, pow. żarski 1850
+                        accepted_name
+    1 Nepeta racemosa subsp. racemosa
+    2       Scutellaria hastifolia L.
+    3            Xanthium spinosum L.
 
 </div>
 
@@ -141,15 +145,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. BE53
-    2     Malva moschata L. BE97
-    3     Malva moschata L. BF26
-    4 Malva verticillata L. AD59
-    5 Malva verticillata L. AD67
-    6 Malva verticillata L. AE58
-    7 Malva verticillata L. BE59
-    8 Malva verticillata L. BF07
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BF01
+    5                    Malva moschata L. BF05
+    6                    Malva moschata L. CF11
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -226,7 +230,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4632 records (species - localization) including 4555 with
+total 4646 records (species - localization) including 4569 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

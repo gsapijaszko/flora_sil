@@ -241,10 +241,17 @@ schube <- data.frame(
   comments = "Barania Góra, Wisła, pow. cieszyński"
 ) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Athyrium alpestre (Hoppe) Rylands. f. multidentatum Bänitz",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekErgebnisseDurchforschungSchlesischen1894",
+  entry = "Hierzu f. multidentatum Bänitz (93)!",
+  lon = c(15.69643, 15.49593),
+  lat = c(50.75828, 50.81401), 
+  comments = "Karkonosze: odpływ z Wielkiego Stawu, Karpacz i Wodospad Kamieńczyka, Szklarska Poręba"
+) |> rbind(schube)
 
 
 
-#' TODO - dokończyć
 
 #' 2. Klasse. Equisetales. ----
 #' 6. Familie. EQUISETACEAE. ----
