@@ -5,8 +5,6 @@ format:
   gfm: 
     toc: false
     output-file: readme.md
-  html:
-    toc: true
 ---
 
 ```{r}
@@ -18,7 +16,7 @@ source("wszystko.R")
 
 ## Flora Silesiae
 
-Historical data of the flora of Silesia based on articles published by 'Botanische Sektion' in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+Historical data of the flora of Silesia based on articles published by 'Botanische Sektion' in *Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur*. Electronic versions of the reports can be found at [Opole Digital Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and [Silesia Digital Library](https://www.sbc.org.pl/dlibra/publication/11059#structure). The aim of this project is to locate the places and assign coordinates to it. Please note the accuracy of assigned coordinates varies between entries. Sometimes it is given with an accuracy of a few meters, sometimes with an accuracy of a village or town. Original entries containing the statement 'mehrfach' (like *Winzig: mehrf.!*) should be understood as 'frequent', occurring commonly in the commune, county or village itself. In such cases, the coordinates point to a given town (or village).
 
 
 ### How to use

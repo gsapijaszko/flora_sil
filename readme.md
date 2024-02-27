@@ -1,4 +1,5 @@
 
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -7,7 +8,15 @@ für vaterländische Cultur*. Electronic versions of the reports can be
 found at [Opole Digital
 Library](https://www.obc.opole.pl/dlibra/publication/8613#structure) and
 [Silesia Digital
-Library](https://www.sbc.org.pl/dlibra/publication/11059#structure)
+Library](https://www.sbc.org.pl/dlibra/publication/11059#structure). The
+aim of this project is to locate the places and assign coordinates to
+it. Please note the accuracy of assigned coordinates varies between
+entries. Sometimes it is given with an accuracy of a few meters,
+sometimes with an accuracy of a village or town. Original entries
+containing the statement ‘mehrfach’ (like *Winzig: mehrf.!*) should be
+understood as ‘frequent’, occurring commonly in the commune, county or
+village itself. In such cases, the coordinates point to a given town (or
+village).
 
 ### How to use
 
@@ -30,26 +39,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                        species
-    1 Geaster fornicatus Fries.
-    2    Sisymbrium Sinapistrum
-    3          Potentilla recta
-                                                     citation
-    1                        @wimmerNeueArtenSchiesischen1851
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                                                                                                      entry
-    1 Geaster fornicatus Fries. — Aus der Gegend von Tarnowitz, von Hrn. Kandidat Jungnickel, durch Hrn. Professor Schilling mitgetheilt.\n
-    2                                                                                 S. Sinapistrum [...] Greiffenberg: Bhf. (Buchs);[...]
-    3                                                          P. recta [...] Hoyerswerda: zwischen Neudorf und Spreewitz (Militzer); [...]
-           lon      lat               comments year
-    1 18.85175 50.47072                   <NA> 1851
-    2 15.42991 51.03359 Gryfów Śląski, dworzec 1931
-    3 14.38873 51.50188                        1934
-                          accepted_name
-    1 Geastrum fornicatum (Huds.) Hook.
-    2          Sisymbrium altissimum L.
-    3               Potentilla recta L.
+                  species                                                citation
+    1 Thlaspi perfoliatum @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    2   Fragaria moschata @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3    Impatiens Roylei        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                         entry      lon      lat
+    1 Thlaspi perfoliatum Gr.-Strehlitz: Larischka (Schubert)! 18.17923 50.54258
+    2   Fragaria moschata Gr.-Strehlitz: Larischka (Schubert)! 18.17923 50.54258
+    3                I. Roylei [...] Glatz: Neißeufer (Pander) 16.65937 50.44292
+                                                                                 comments
+    1 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
+    2 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
+    3                                                  Kłodzko, Nysa Kłodzka, brzeg rzeki
+      year                accepted_name
+    1 1931                         <NA>
+    2 1931   Fragaria moschata Duchesne
+    3 1934 Impatiens glandulifera Royle
 
 </div>
 
@@ -74,7 +79,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -132,15 +137,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BF01
-    4                    Malva moschata L. CF11
-    5 Malva thuringiaca subsp. thuringiaca BE57
-    6        Malva trimestris (L.) Salisb. AE58
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. AD67
+                      accepted_name Name
+    1             Malva moschata L. AE67
+    2             Malva moschata L. BE53
+    3             Malva moschata L. BE82
+    4             Malva moschata L. BF01
+    5             Malva moschata L. BF05
+    6             Malva moschata L. CE81
+    7 Malva trimestris (L.) Salisb. AE58
+    8 Malva trimestris (L.) Salisb. AE67
 
 ### How to participate
 
@@ -217,7 +222,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4555 records (species - localization) including 4477 with
+total 4615 records (species - localization) including 4537 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
