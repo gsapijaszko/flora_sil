@@ -14,15 +14,6 @@ source("source/accepted_names.R")
 
 saveRDS(an, file = "data/accepted_names.Rds")
 
-# search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Waldenburg: Butterberg", entry)
-         # & grepl("Teich", entry)
-         )
-
-# subset(grepl("Cynodon", accepted_name))
-
 # lcvplants::lcvp_fuzzy_search(c("Saponaria ocymoides L.",
 #                                "Saxifraga tridactylites",
 #                                "Scandix pecten Veneris",
@@ -54,6 +45,14 @@ all_data <- schube |>
   rbind(jahres)
 
 saveRDS(all_data, file = "data/all_data.Rds")
+
+# search --------------------------------------------------------------------------------------
+all_data |>
+  subset(grepl("Schellenberge", entry)
+         # & grepl("Teich", entry)
+  )
+
+# subset(grepl("Cynodon", accepted_name))
 
 
 # print & plot --------------------------------------------------------------------------------
@@ -216,4 +215,4 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
 
 jahres |>
-  subset(is.na(lon))
+  subset(grepl("Cystopteris", species))
