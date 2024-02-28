@@ -4301,12 +4301,190 @@ jahres <- data.frame(
   comments = "Słup, gm. Wińsko, pow. wołowski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Euphorbia Lathyris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Euphorbia Lathyris Löwenberg: Görrisseifen (Buchs)'",
+  lon = 15.53956,  
+  lat = 51.09005,
+  comments = "Płóczki [Dolne/Górne], gm. Lwówek Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia platyphylla",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "E. platyphylla Oppeln: Ostbhf. (Schubert)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia lucida",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "E.lucida Charlottenbrunn: Talsperre b. Breitenhain (Tannhäuser)!",
+  lon = 16.43482,  
+  lat = 50.75710,
+  comments = "Jezioro Bystrzyckie, Zagórze Śląskie, gm. Walim, pow. wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia virgata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "E. virgata Oppeln: Hauptbhf. (Schubert)!",
+  lon = 17.92838,
+  lat = 50.66137,
+  comments = "Opole, dworzec Opole Główne"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia falcata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "E. falcata Brieg: Bhf. Mollwitz!",
+  lon = 17.38632,
+  lat = 50.84499,
+  comments = "Małujowice, gm. Skarbimierz, pow. brzeski, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Euphorbia cyparissias X lucida",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "E. cyparissias X lucida Koben: Oderufer!",
+  lon = 16.45643,
+  lat = 51.53713,
+  comments = "Chobienia, gm. Rudna, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Impatiens parviflora Liebenthal: in Gärten (Buchs)!; [...]",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens parviflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Impatiens parviflora [...] Greiffenberg: bei den Talsperren (Buchs)!",
+  lon = 15.33705, 
+  lat = 51.02238,
+  comments = "Zapora Złotnicka, Stankowice, gm. Leśna, pow. lubański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Impatiens Roylei",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "I. Roylei Zobten: Rogau (Schölzel)!",
+  lon = 16.75225,  
+  lat = 50.92039,
+  comments = "Rogów Sobócki, gm. Sobótka, pow. wrocławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva moschata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Malva moschata Landeshut: Kreppelwald (Strauch)",
+  lon = 16.00862,  
+  lat = 50.79834,
+  comments = "Grodztwo, Kamienna Góra, pow. kamiennogórski; las na płn-zachód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Malva rotundifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "M. rotundifolia Oppeln: Ostbhf. (Schubert)",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Althaea officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Althaea officinalis Liebenthal: Waldkapelle (Buchs)!",
+  lon = 15.51853,
+  lat = 51.00961,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; przy kaplicy leśnej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Abutilon Avicennae",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Abutilon Avicennae Strehlen: Prieborner Marmorbruch!",
+  lon = 17.17662,
+  lat = 50.69313,
+  comments = "Przeworno, pow. strzeliński, kamieniołom marmuru"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hypericum hirsutum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Hypericum hirsutum Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola montana",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Viola montana L. Winzig: Krehlau!; [...]",
+  lon = 16.52572, 
+  lat = 51.44379,
+  comments = "Krzelów, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola montana",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Viola montana [...] Kamenz: Schloßpark (Rauhut)!",
+  lon = 16.88165,  
+  lat = 50.52199,
+  comments = "Kamieniec Ząbkowicki, pow. ząbkowicki; park zamkowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola arenaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. arenaria Gr.-Strehlitz: Larischka (Powollik t. Schubert)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Viola mirabilis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. mirabilis Gr.-Strehlitz: Larischka (Powollik)!",
+  lon = 18.17923,
+  lat = 50.54258,
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Viola canina X Riviniana", "Viola arenaria X Riviniana"),
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. canina X Riviniana Karlsruhe: Poppelauer Forst mit V. arenaria X Riviniana!",
+  lon = 17.78438,  
+  lat = 50.86374,
+  comments = "Popielów, gm. Popielów, pow. opolski; las na płn-wschód od miejscosości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Daphne Mezereum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Daphne Mezereum Winzig: „Barde“ !",
+  lon = 16.54843, 
+  lat = 51.44784,
+  comments = "podmokłe łąki na płn-wsch. od miejscowości Krzelów, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
 
 
 # search --------------------------------------------------------------------------------------
-jahres |>
-  dplyr::mutate(year = stringr::str_extract(jahres[, "citation"], "[0-9]{4}"))|>
-  subset(grepl("Ndr.-Krehlau", entry)) 
+# all_data |>
+#   subset(grepl("Karlsruhe", entry)) 
 
 #' TODO - dokończyć
 

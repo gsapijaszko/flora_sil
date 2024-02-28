@@ -1,5 +1,4 @@
 
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,30 +38,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                  species
-    1 Nepeta Mussini Henckel v. Donnersm.
-    2              Scutellaria hastifolia
-    3                   Xanthium spinosum
-                                                     citation
-    1        @schalowErgebnisseDurchforschungSchlesischen1934
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3                     @wimmerBerichtUberVerhandlungen1850
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
-    1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Nepeta Mussini Henckel v. Donnersm. (— N. longiflora O. A. Meyer) Gleiwitz: am Imkergarten in Richtersdorf verwildert (Czmok)!
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Scutellaria hastifolia [...] Wohlau: Seifwiesen bei Kl.Kreidel (Juhnke)
-    3 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
-           lon      lat
-    1 18.62887 50.28637
-    2 16.52907 51.30866
-    3 14.97900 51.78799
-                                                           comments year
-    1                                         Wójtowa Wieś, Gliwice 1934
-    2 Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości 1933
-    3                               Lubsko, gm. Lubsko, pow. żarski 1850
-                        accepted_name
-    1 Nepeta racemosa subsp. racemosa
-    2       Scutellaria hastifolia L.
-    3            Xanthium spinosum L.
+                           species
+    1 Botrychium matricariaefolium
+    2    Equisetum telmateja Ehrh.
+    3          Cynodon Dactylon L.
+                                               citation
+    1     @fiekErgebnisseDurchforschungSchlesischen1895
+    2 @vonuechtritzWichtigerenErgebnisseErforschung1876
+    3             @meyerNeueFremdpflanzenSchlesiens1935
+                                                                              entry
+    1 Botrychium matricariaefolium A. Br. Breslau: Riemberger Forst (Schröder, S.).
+    2      Equisetum Telmateja Ehrh. Im Biskupitzer Forst bei Zabrze O.-S. (Nagel).
+    3                         Cynodon Dactylon L. nach Scheuermann Einwanderer BH 1
+           lon      lat               comments year
+    1 16.82030 51.28560                        1895
+    2 18.81310 50.31376 Biskupice, Zabrze; las 1876
+    3 17.01999 51.12865  Wrocław, port rzeczny 1935
+                                           accepted_name
+    1 Botrychium matricariifolium (Döll) A.Braun ex Koch
+    2                          Equisetum telmateia Ehrh.
+    3                        Cynodon dactylon (L.) Pers.
 
 </div>
 
@@ -87,7 +82,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -145,15 +140,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE67
-    3                    Malva moschata L. BE71
-    4                    Malva moschata L. BF01
-    5                    Malva moschata L. BF05
-    6                    Malva moschata L. CF11
-    7 Malva thuringiaca subsp. thuringiaca BE57
-    8                Malva verticillata L. BF07
+              accepted_name Name
+    1     Malva moschata L. AE58
+    2     Malva moschata L. AE67
+    3     Malva moschata L. AE67
+    4     Malva moschata L. AE78
+    5     Malva moschata L. BE71
+    6     Malva moschata L. BE72
+    7     Malva moschata L. CF11
+    8 Malva verticillata L. BE59
 
 ### How to participate
 
@@ -230,7 +225,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4646 records (species - localization) including 4569 with
+total 4667 records (species - localization) including 4590 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
