@@ -4481,10 +4481,110 @@ jahres <- data.frame(
   comments = "podmokłe łąki na płn-wsch. od miejscowości Krzelów, gm. Wińsko, pow. wołowski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Epilobium palustre f. lineare",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Epilobium palustre f. lineare Greiffenberg: Schafbrückenteich b. Ndr.Rabishau (Buchs)!",
+  lon = 15.42640, 
+  lat = 50.97217,
+  comments = "Stawy Młyńsko, Młyńsko, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Circaea intermedia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Circaea intermedia Gr.-Strehlitz: Park (Schubert)!",
+  lon = 18.30419, 
+  lat = 50.50603,
+  comments = "Strzelce Opolskie, pow. strzelecki; park"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Myriophyllum verticillalum f. pinnatifidum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Myriophyllum verticillalum f. pinnatifidum Kraschnitz: Politzteich (Schoepke) !",
+  lon = 17.38923, 
+  lat = 51.46028,
+  comments = "Staw Policki, Krośnice, pow. milicki;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Astrantia major",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Astrantia major Winzig: Gr.-Pantken!; [...]",
+  lon = 16.54462, 
+  lat = 51.45861,
+  comments = "Boraszyce Wielkie, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Astrantia major",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Astrantia major [...] Wohlau: Schlangendamm (Juhnke)!",
+  lon = NA,
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Falcaria vulgaris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Falcaria vulgaris Bolkenhain: Richardhöhe (Strauch); [...]",
+  lon = 16.11272, 
+  lat = 50.92669,
+  comments = "Góra ryszarda, Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Falcaria vulgaris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Falcaria vulgaris [...] Koben: Oderlehnen!; [...]",
+  lon = 16.45643,
+  lat = 51.53713,
+  comments = "Chobienia, gm. Rudna, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Falcaria vulgaris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Falcaria vulgaris [...] Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pimpinella saxifraga f. dissecta",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pimpinella saxifraga f. dissecta Liebenthal: mehrf. (Buchs) !",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pimpinella magna",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. magna Kraschnitz: Wirschkowitz (Schoepke)!; [...]",
+  lon = 17.33925,
+  lat = 51.48223,
+  comments = "Wierzchowice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pimpinella magna",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. magna Kraschnitz: [...] Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
+
 # all_data |>
-#   subset(grepl("Karlsruhe", entry)) 
+#   subset(grepl("Schlangen", entry))
 
 #' TODO - dokończyć
 

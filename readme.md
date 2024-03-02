@@ -1,4 +1,5 @@
 
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -38,26 +39,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                           species
-    1 Botrychium matricariaefolium
-    2    Equisetum telmateja Ehrh.
-    3          Cynodon Dactylon L.
-                                               citation
-    1     @fiekErgebnisseDurchforschungSchlesischen1895
-    2 @vonuechtritzWichtigerenErgebnisseErforschung1876
-    3             @meyerNeueFremdpflanzenSchlesiens1935
-                                                                              entry
-    1 Botrychium matricariaefolium A. Br. Breslau: Riemberger Forst (Schröder, S.).
-    2      Equisetum Telmateja Ehrh. Im Biskupitzer Forst bei Zabrze O.-S. (Nagel).
-    3                         Cynodon Dactylon L. nach Scheuermann Einwanderer BH 1
-           lon      lat               comments year
-    1 16.82030 51.28560                        1895
-    2 18.81310 50.31376 Biskupice, Zabrze; las 1876
-    3 17.01999 51.12865  Wrocław, port rzeczny 1935
-                                           accepted_name
-    1 Botrychium matricariifolium (Döll) A.Braun ex Koch
-    2                          Equisetum telmateia Ehrh.
-    3                        Cynodon dactylon (L.) Pers.
+                   species                                             citation
+    1   Lathyrus silvester     @schalowErgebnisseDurchforschungSchlesischen1932
+    2   Equisetum pratense @vonuechtritzResultateDurchforschungSchlesischen1884
+    3 Cardamine parviflora     @schalowErgebnisseDurchforschungSchlesischen1932
+                                                                                                          entry
+    1                                                 L. silvester [...] Ohlau: Schmiedeberg b. Sackerau! [...]
+    2 Equisetum pratense Ehrh. Gleiwitz: an zwei Stellen im Labander Walde in Menge, doch nur steril! (Jungck);
+    3                                                       Cardamine parviflora Neumarkt: Breitenau (Kotschy)!
+           lon      lat                                                comments
+    1 17.25867 50.99492     wzgórze bez nazwy, Zakrzów, gm. Oława, pow. oławski
+    2 18.63655 50.34904 Łabędy, Gliwice; las na północny-wschód od miejscowości
+    3 16.58551 51.22729                                Brodno, gm. Środa Śląska
+      year            accepted_name
+    1 1932   Lathyrus sylvestris L.
+    2 1884 Equisetum pratense Ehrh.
+    3 1932                     <NA>
 
 </div>
 
@@ -82,7 +79,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -140,15 +137,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. AE58
-    2     Malva moschata L. AE67
-    3     Malva moschata L. AE67
-    4     Malva moschata L. AE78
-    5     Malva moschata L. BE71
-    6     Malva moschata L. BE72
-    7     Malva moschata L. CF11
-    8 Malva verticillata L. BE59
+                             accepted_name Name
+    1                    Malva moschata L. BE62
+    2                    Malva moschata L. BE71
+    3                    Malva moschata L. BE72
+    4                    Malva moschata L. BF01
+    5                    Malva moschata L. CF11
+    6                    Malva pusilla Sm. CF65
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -225,7 +222,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4667 records (species - localization) including 4590 with
+total 4678 records (species - localization) including 4600 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
