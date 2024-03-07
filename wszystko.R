@@ -48,8 +48,8 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 all_data |>
-  subset(grepl("Schellenberge", entry)
-         # & grepl("Teich", entry)
+  subset(grepl("Dianthus", entry)
+        #  & grepl("Teich", entry)
   )
 
 # subset(grepl("Cynodon", accepted_name))
