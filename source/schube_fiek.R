@@ -250,6 +250,303 @@ schube <- data.frame(
   comments = "Karkonosze: odpływ z Wielkiego Stawu, Karpacz i Wodospad Kamieńczyka, Szklarska Poręba"
 ) |> rbind(schube)
 
+## 2. Cystopteris Bh. ----
+### 3. Cystopteris fragilis (L.) Bh. ----
+#' Schluchten, Hohlwege, Felsen, Mauern, Baumwurzeln; im Vgb. 4, in der Eb. und im Hgb. 2— 3.
+#' 
+#' Ib Nie: Creba (02)!, Radischer Berge (B); Ic Bu: Judenkirchhof!; Wehrau: Teufelswehr (B) u. a.; Id Grü: Droschkauer Bach!; Neus: Boberniger Schloßberg!, Carolather Park!; Ie Lie: zw. Kunitz u. Gr.-Beckern (G), Jauerstraße (G), Kaltwasser (G); IIa 5!; I Ib!; IId 2!; Hgb: Altes Bergwerk im Riesengrund!, Kl. Schneegrube!; IIIb 0!; IIIc Br: zw. Baruthe u. Smortawe!; IIId B: Lohebrücke hint. Gräbschen (F, fr)!; Canth: über d. Schosnitzer Brauerei (F)!; Tre: Zedlitz!, zw. Zedlitz und Güntherwitz (F)!, Skarsine (F)!, Gr.-Glauche (F), Kawallen (F)!, Machnitz (F)!, Hochkirch (96)!, Sapratschine (96)!, vor Kl.-Totschen!, Pollentschine!; IIIe Stg: Stadtmauern (Z), Breiter Berg!, Damsberg!, Pitschenberg (F); Zgb. (F); IIIf Reichb: Girlachsdorf!; IIIg 3!; IVa 2!; IVb 2!; IVc!; Va Kreuz: Bankau (02)!; Vb 3!; Vc!; Vd 0!; Ve 3!; Vf 0!; VIa 3!; VIb!; VId 2!
+#' f. angustata Milde. Rein: Grunwalder Tal (F)!; GlSch: Quarglöcher (F)!
+#' v. deltoidea Shuttleworth. Rsg: an einer Mauer in Krummhübel (F).
+#' Außerdem f. dentata (Dickson) und f. cynapifolia (Hfm.)!
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1903",
+  entry = "Ib Nie: Creba (02)!, [...] ",
+  lon = 14.68300, 
+  lat = 51.34834,
+  comments = "Kreba-Neudorf, Saxony, Germany"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ib Nie: Creba (02)!, [...] Radischer Berge (B);",
+  lon = 14.69262, 
+  lat = 51.26456, 
+  comments = "Gross Radisch, Hohendubrau/Wysoka Dubrava, Saxony, Germany; wzgórza na płn. od miejscowości, "
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ic Bu: Judenkirchhof!; [...]",
+  lon = 15.56690, 
+  lat = 51.25558, 
+  comments = "Bolesławiec, pow. bolesławiecki; cmentarz żydowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ic [...] Wehrau: Teufelswehr (B) u. a.",
+  lon = 15.42371, 
+  lat = 51.32488, 
+  comments = "Osiecznica, gm. Osiecznica, pow. bolesławiecki; nad rzeką Kwisa, dawny wodospad"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id Grü: Droschkauer Bach!; [...]",
+  lon = 15.66195, 
+  lat = 51.92437, 
+  comments = "Droszków, gm. Zabór, pow. zielonogórski; nad potokiem"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id [...] Neus: Boberniger Schloßberg!, [...]",
+  lon = 15.75192,
+  lat = 51.88393, 
+  comments = "Bobrowniki, gm. Otyń, pow. nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id [...] Neus: [...] Carolather Park!;",
+  lon = 15.80587, 
+  lat = 51.76809, 
+  comments = "Siedlisko, gm. Siedlisko, pow. nowosolski; park"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: zw. Kunitz u. Gr.-Beckern (G), [...]",
+  lon = 16.22862,
+  lat = 51.21724, 
+  comments = "pomiędzy miejscowością Kunice, gm. Kunice i osiedlem Piekary, Legnica, pow. legnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: [...] Jauerstraße (G), [...]",
+  lon = 16.15837, 
+  lat = 51.19427, 
+  comments = "Legnica, obecnie ul. Jaworzyńska"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: [...] Kaltwasser (G);",
+  lon = 16.07776,
+  lat = 51.32159, 
+  comments = "Zimna Woda, gm. Lubin, pow. lubiński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Hgb: Altes Bergwerk im Riesengrund!, [...]",
+  lon = 15.72742,
+  lat = 50.72287, 
+  comments = "Kovárna, Czech Republic"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Hgb: [...] Kl. Schneegrube!;",
+  lon = 15.55645,
+  lat = 50.78167, 
+  comments = "Mały Śnieżny Kocioł, Piechowice, pow. karkonoski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIc Br: zw. Baruthe u. Smortawe!;",
+  lon = 17.50769, 
+  lat = 50.96563, 
+  comments = "pomiędzy miejscowościami Borucice a Leśna Woda, Błota, gm. Lubsza, pow. brzeski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: Lohebrücke hint. Gräbschen (F, fr)!;[...]",
+  lon = 16.97095, 
+  lat = 51.08381, 
+  comments = "Wrocław, Most Oporowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: [...] Canth: über d. Schosnitzer Brauerei (F)!;[...]",
+  lon = 16.78266,
+  lat = 51.03255, 
+  comments = "Sośnica, gm. Kąty Wrocławskie; przy browarze"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: Zedlitz! [...]",
+  lon = 17.10827, 
+  lat = 51.23407, 
+  comments = "Siedlec, gm. Długołęka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] zw. Zedlitz und Güntherwitz (F)! [...]",
+  lon = 17.12310, 
+  lat = 51.23617, 
+  comments = "pomiędzy miejscowościami SIedlec i Godzieszowa, gm. Długołęka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Skarsine (F)!,[...]",
+  lon = 17.16463,
+  lat = 51.25621, 
+  comments = "Skarszyn, gm. Trzebnica, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Gr.-Glauche (F) [...]",
+  lon = 17.11950,
+  lat = 51.27039, 
+  comments = "Głuchów Górny, gm. Trzebnica, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Kawallen (F)! [...]",
+  lon = 16.97150, 
+  lat = 51.29756, 
+  comments = "Kowale, gm. Oborniki Śl., pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Machnitz (F)! [...]",
+  lon = 17.05648, 
+  lat = 51.27092, 
+  comments = "Machnice, gm. Wisznia Mała, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Hochkirch (96)! [...]",
+  lon = 17.05316, 
+  lat = 51.26727, 
+  comments = "Wysoki Kościół, gm. Wisznia Mała, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Sapratschine (96)! [...]",
+  lon = 17.19358, 
+  lat = 51.25479, 
+  comments = "Zaprężyn, gm. Długołęka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] vor Kl.-Totschen! [...]",
+  lon = 17.10238, 
+  lat = 51.27301, 
+  comments = "Taczów Mały, gm. Trzebnica, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Tre: [...] Pollentschine!;",
+  lon = 17.16473, 
+  lat = 51.26841, 
+  comments = "Boleścin, gm. Trzebnica, pow. trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIe Stg: [...] Stadtmauern (Z) [...]",
+  lon = 16.34350, 
+  lat = 50.96011, 
+  comments = "Strzegom, gm. Strzegom, pow. świdnicki; mury miejskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIe Stg: [...] Breiter Berg!, [...]",
+  lon = 16.33283, 
+  lat = 50.97081, 
+  comments = "Góra Szeroka, Strzegom, gm. Strzegom, pow. świdnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIe Stg: [...] Damsberg! [...]",
+  lon = 16.34331, 
+  lat = 51.04436, 
+  comments = "[wzgórze] Damianek, Damianowo, gm. Udanin, pow. średzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIe Stg: [...] Pitschenberg (F); [...]",
+  lon = 16.54462, 
+  lat = 50.98126, 
+  comments = "Pyszczyńska Góra, Pyszczyn, gm. Żarów, pow. świdnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIe Stg: [...] Zgb. (F); [...]",
+  lon = 16.71088, 
+  lat = 50.86796, 
+  comments = "Ślęża, Sobótka, gm. Sobótka, pow. wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIf Reichb: Girlachsdorf!;",
+  lon = 16.74679, 
+  lat = 50.71928, 
+  comments = "Gilów, gm. Niemcza, pow. dzierżoniowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis (L.) Bh.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Va Kreuz: Bankau (02)!;",
+  lon = 18.31325, 
+  lat = 50.96128,
+  comments = "Bąków, gm. Kluczbork, pow. kluczborski"
+) |> rbind(schube)
+
 
 
 

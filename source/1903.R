@@ -69,7 +69,7 @@ jahres <- data.frame(
 
 jahres <- data.frame(
   species = "Cystopteris fragilis",
-  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903",
   entry = "Cystopteris fragilis. Niesky: Creba (Thielscher)!; [...]",
   lon = 14.68300, 
   lat = 51.34834,
@@ -78,7 +78,7 @@ jahres <- data.frame(
 
 jahres <- data.frame(
   species = "Cystopteris fragilis",
-  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903",
   entry = "Cystopteris fragilis. [...] Kreuzburg; Bankau (Zuschke)!",
   lon = 18.31325, 
   lat = 50.96128,

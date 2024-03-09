@@ -1,3 +1,5 @@
+
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -37,22 +39,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                 species                                         citation
-    1    Salvinia natans  @schubeErgebnisseDurchforschungSchlesischen1906
-    2 Abutilon avicennae @schalowErgebnisseDurchforschungSchlesischen1935
-    3    Cnidium venosum @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                 entry
-    1                                          Salvinia natans. Saabor: im See (ders.)
-    2 Abutilon Avicennae [...] Wohlau: Rübenfeld bei Beschine (Landwirtschaftskammer)!
-    3                                                  Cnidium venosum Brieg: Pramsen!
-           lon      lat                         comments year
-    1 15.72415 51.94614                                  1906
-    2 16.62255 51.43579 Baszyn, gm. Wińsko, pole buraków 1935
-    3 17.57202 50.85240                         Prędocin 1935
-                                      accepted_name
-    1                     Salvinia natans (L.) All.
-    2                   Abutilon theophrasti Medik.
-    3 Kadenia dubia (Schkuhr) Lavrova & V.N.Tikhom.
+                      species
+    1           Rosa pomifera
+    2   Levisticum officinale
+    3 Cichorium pumilum Jacq.
+                                                     citation
+    1        @schalowErgebnisseDurchforschungSchlesischen1932
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                                  entry      lon
+    1 R. pomifera Hirschberg: Vorwerksgrund b. Boberröhrsdorf (Kruber)! 15.70360
+    2       Levisticum officinale [...] Liebenthal: Geppersdorf (Buchs) 15.52870
+    3                  Cichorium pumilum Jacq. Breslau: vor Woischwitz! 17.03917
+           lat                                      comments year
+    1 50.94857 Siedlęcin, gm. Jeżów Sudecki, pow. karkonoski 1932
+    2 51.01552                       Milęcice, gm. Lubomierz 1933
+    3 51.06676                     Wrocław, przed Wojszycami 1931
+                         accepted_name
+    1                  Rosa villosa L.
+    2 Levisticum officinale W.D.J.Koch
+    3                             <NA>
 
 </div>
 
@@ -136,14 +142,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BF01
-    3                    Malva moschata L. BF26
-    4 Malva thuringiaca subsp. thuringiaca BE14
-    5 Malva thuringiaca subsp. thuringiaca BE57
-    6                Malva verticillata L. AD67
-    7                Malva verticillata L. AE58
-    8                Malva verticillata L. BE59
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE71
+    3                    Malva moschata L. BE82
+    4                    Malva moschata L. BE97
+    5                    Malva moschata L. BF01
+    6 Malva thuringiaca subsp. thuringiaca BE57
+    7                Malva verticillata L. BE49
+    8                Malva verticillata L. CF65
 
 ### How to participate
 

@@ -1906,16 +1906,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Asplenium trichomanes L.",
-  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
-  entry = "Aspidium cristatum (L.) Sw. Oppeln: Thiergarten bei Turawa viel mit Viola epipsila (Schmidt).",
-  lon = 18.08391, 
-  lat = 50.73769, 
-  comments = ""
-) |> rbind(jahres)
-
-jahres <- data.frame(
-  species = "Viola epipsila",
+  species = c("Asplenium trichomanes L.", "Viola epipsila"),
   citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
   entry = "Aspidium cristatum (L.) Sw. Oppeln: Thiergarten bei Turawa viel mit Viola epipsila (Schmidt).",
   lon = 18.08391, 
@@ -1945,9 +1936,9 @@ jahres <- data.frame(
   species = "Cystopteris fragilis (L.) Beruh.",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
   entry = "Cystopteris fragilis (L.) Beruh. Breslau: Hochkirch,",
-  lon = 17.08383, 
-  lat = 51.26495, 
-  comments = ""
+  lon = 17.05316, 
+  lat = 51.26727, 
+  comments = "Wysoki Kościół, gm. Wisznia Mała, pow. trzebnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1956,7 +1947,7 @@ jahres <- data.frame(
   entry = "Cystopteris fragilis (L.) Beruh. Breslau: Sapratschine (S.).",
   lon = 17.19358, 
   lat = 51.25479, 
-  comments = ""
+  comments = "Zaprężyn, gm. Długołęka, pow. wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
