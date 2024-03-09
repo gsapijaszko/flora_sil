@@ -4580,11 +4580,101 @@ jahres <- data.frame(
   comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Bupleurum falcatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Bupleurum falcatum Leobschütz: Komeise (Schubert)!",
+  lon = 17.67114, 
+  lat = 50.10924,
+  comments = "Chomiąża, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bupleurum rotundifolium",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "B. rotundifolium Oppeln: Ostbhf. (Schubert) !",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Conium maculatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Conium maculatum Liebenthal: auf Schutt (Buchs)!; [...]",
+  lon = 15.50094,
+  lat = 51.0133,
+  comments = "Lubomierz, na wysypisku 1935"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Conium maculatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Conium maculatum [...] Strehlen: Güterbhf. (Utta)!, [...]",
+  lon = 17.06060, 
+  lat = 50.78927,
+  comments = "Strzelin, pow. strzeliński; dworzec towarowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Conium maculatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Conium maculatum [...] Strehlen: [...] Eisenberg!",
+  lon = 17.17838,
+  lat = 50.74160,
+  comments = "Żeleźnik, gm. Strzelin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scandix Pecten",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Scandix Pecten Breslau: Güterbhf. West! (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Oenanthe fistulosa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Oenanthe fistulosa, Wohlau: Philosophenweg (Juhnke); [...]",
+  lon = 16.63940, 
+  lat = 51.33782,
+  comments = "Wołów, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Oenanthe fistulosa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Oenanthe fistulosa, [...] Kraschnitz: Bahngräben (Schoepke) !",
+  lon = 17.37381, 
+  lat = 51.47060,
+  comments = "Krośnice, gm. Krośnice, pow. milicki; tereny kolejowe"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Seseli coloratum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Seseli coloratum Kraschnitz: Wirschkowitz;",
+  lon = 17.33925,
+  lat = 51.48223,
+  comments = "Wierzchowice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cnidium venosum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Cnidium venosum Zobten: Koselweg!",
+  lon = 16.70696, 
+  lat = 50.88663,
+  comments = "Ślęża, gm. Sobótka, pow. wrocławski; chyba płn. stok; patrz str. 77 https://sbc.org.pl/Content/681051/i211201-0000-00-0001.pdf: Strobel - Koselweg - ... - Sabinenweg"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Schlangen", entry))
+#   subset(grepl("Zobten", entry))
 
 #' TODO - dokończyć
 

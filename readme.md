@@ -1,5 +1,3 @@
-
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,22 +37,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                             citation
-    1   Lathyrus silvester     @schalowErgebnisseDurchforschungSchlesischen1932
-    2   Equisetum pratense @vonuechtritzResultateDurchforschungSchlesischen1884
-    3 Cardamine parviflora     @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                                                          entry
-    1                                                 L. silvester [...] Ohlau: Schmiedeberg b. Sackerau! [...]
-    2 Equisetum pratense Ehrh. Gleiwitz: an zwei Stellen im Labander Walde in Menge, doch nur steril! (Jungck);
-    3                                                       Cardamine parviflora Neumarkt: Breitenau (Kotschy)!
-           lon      lat                                                comments
-    1 17.25867 50.99492     wzgórze bez nazwy, Zakrzów, gm. Oława, pow. oławski
-    2 18.63655 50.34904 Łabędy, Gliwice; las na północny-wschód od miejscowości
-    3 16.58551 51.22729                                Brodno, gm. Środa Śląska
-      year            accepted_name
-    1 1932   Lathyrus sylvestris L.
-    2 1884 Equisetum pratense Ehrh.
-    3 1932                     <NA>
+                 species                                         citation
+    1    Salvinia natans  @schubeErgebnisseDurchforschungSchlesischen1906
+    2 Abutilon avicennae @schalowErgebnisseDurchforschungSchlesischen1935
+    3    Cnidium venosum @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                 entry
+    1                                          Salvinia natans. Saabor: im See (ders.)
+    2 Abutilon Avicennae [...] Wohlau: Rübenfeld bei Beschine (Landwirtschaftskammer)!
+    3                                                  Cnidium venosum Brieg: Pramsen!
+           lon      lat                         comments year
+    1 15.72415 51.94614                                  1906
+    2 16.62255 51.43579 Baszyn, gm. Wińsko, pole buraków 1935
+    3 17.57202 50.85240                         Prędocin 1935
+                                      accepted_name
+    1                     Salvinia natans (L.) All.
+    2                   Abutilon theophrasti Medik.
+    3 Kadenia dubia (Schkuhr) Lavrova & V.N.Tikhom.
 
 </div>
 
@@ -138,14 +136,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE62
-    2                    Malva moschata L. BE71
-    3                    Malva moschata L. BE72
-    4                    Malva moschata L. BF01
-    5                    Malva moschata L. CF11
-    6                    Malva pusilla Sm. CF65
-    7 Malva thuringiaca subsp. thuringiaca BE57
-    8                Malva verticillata L. BF07
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BF01
+    3                    Malva moschata L. BF26
+    4 Malva thuringiaca subsp. thuringiaca BE14
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6                Malva verticillata L. AD67
+    7                Malva verticillata L. AE58
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -222,7 +220,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4678 records (species - localization) including 4600 with
+total 4688 records (species - localization) including 4610 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

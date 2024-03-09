@@ -48,9 +48,13 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 all_data |>
-  subset(grepl("Dianthus", entry)
+  subset(grepl("Helianthu", entry)
         #  & grepl("Teich", entry)
-  )
+  ) |>
+  sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
+  sf::st_transform(crs = sf::st_crs(atpolR::atpol10k())) |>
+  sf::st_join(atpolR::atpol10k())
+
 
 # subset(grepl("Cynodon", accepted_name))
 
