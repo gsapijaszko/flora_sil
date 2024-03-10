@@ -547,7 +547,41 @@ schube <- data.frame(
   comments = "Bąków, gm. Kluczbork, pow. kluczborski"
 ) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Cystopteris fragilis f. angustata Milde.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. angustata Milde. Rein: Grunwalder Tal (F)!; [...]",
+  lon = 16.40343, 
+  lat = 50.34309, 
+  comments = "dolina rzeki Bystrzyca Dusznicka między Zieleńcem a Szczytna"
+) |> rbind(schube)
 
+schube <- data.frame(
+  species = "Cystopteris fragilis f. angustata Milde.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. angustata Milde. [...] GlSch: Quarglöcher (F)!",
+  lon = 16.83889,  
+  lat = 50.18430, 
+  comments = "Tvarozne diry, Czechy, http://maps.mapywig.org/m/K.u.K._maps/series/075K/200dpi_NYPL/5_XVI_Freiwaldau_1894_200dpi_NYPL1226317.jpg"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis v. deltoidea Shuttleworth.",
+  citation = "@mildeBotanischeMittheilungenAus1867, @fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "v. deltoidea Shuttleworth. Rsg: an einer Mauer in Krummhübel (F).",
+  lon = 15.72938, 
+  lat = 50.73967, 
+  comments = "Karpacz, pow. karkonoski; na murze poniżej restauracji/zajazdu"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Cystopteris fragilis f. dentata (Dickson)",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Außerdem f. dentata (Dickson). W @fiekFloraSchlesienPreussischen1881: [...] An offneren Stellen, besonders an Mauern u. Felsen. — Um Br. b. Grabschen (Stnz.).",
+  lon = 16.98365,  
+  lat = 51.09598, 
+  comments = "Wrocław, Grabiszyn"
+) |> rbind(schube)
 
 
 #' 2. Klasse. Equisetales. ----
@@ -1203,9 +1237,9 @@ schube <- data.frame(
   species = "Equisetum maximum Lam.",
   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IVd Rein: Grunwalder Tal (F)!; [...]",
-  lon = 16.41531,  
-  lat = 50.34307, 
-  comments = "Szczytna, gm. Szczytna, pow. kłodzki; dolina, obecnie Rezerwat Torfowisko pod Zieleńcem"
+  lon = 16.40343,   
+  lat = 50.34309, 
+  comments = "Szczytna, gm. Szczytna, pow. kłodzki; dolina Bystrzycy Dusznickiej"
 ) |> rbind(schube)
 
 schube <- data.frame(
@@ -1600,9 +1634,9 @@ schube <- data.frame(
   species = "Equisetum maximum v. gracile Milde.",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1896, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...]  v. gracile Milde. [...] Rein: Grunwalder Tal (95). Außerdem f. breve Milde!",
-  lon = 16.38800, 
-  lat = 50.39828, 
-  comments = "Duszniki Zdrój, dolina rzeki Bystrzyca Dusznicka; uwaga: w Jahres 1896 jest: 'Equisetum maximum v. breve Milde. Reinerz: Weistritzthal (Bänitz, S).' zaś u Schubego 'Rein: Grunwalder Tal (95).'"
+  lon = 16.40343, 
+  lat = 50.34309, 
+  comments = "dolina rzeki Bystrzyca Dusznicka między Zieleńcem a Szczytna; uwaga: w Jahres 1896 jest: 'Equisetum maximum v. breve Milde. Reinerz: Weistritzthal (Bänitz, S).' zaś u Schubego 'Rein: Grunwalder Tal (95).'"
 ) |> rbind(schube)
 
 

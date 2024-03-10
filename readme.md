@@ -39,26 +39,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                      species
-    1           Rosa pomifera
-    2   Levisticum officinale
-    3 Cichorium pumilum Jacq.
-                                                     citation
-    1        @schalowErgebnisseDurchforschungSchlesischen1932
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-                                                                  entry      lon
-    1 R. pomifera Hirschberg: Vorwerksgrund b. Boberröhrsdorf (Kruber)! 15.70360
-    2       Levisticum officinale [...] Liebenthal: Geppersdorf (Buchs) 15.52870
-    3                  Cichorium pumilum Jacq. Breslau: vor Woischwitz! 17.03917
-           lat                                      comments year
-    1 50.94857 Siedlęcin, gm. Jeżów Sudecki, pow. karkonoski 1932
-    2 51.01552                       Milęcice, gm. Lubomierz 1933
-    3 51.06676                     Wrocław, przed Wojszycami 1931
-                         accepted_name
-    1                  Rosa villosa L.
-    2 Levisticum officinale W.D.J.Koch
-    3                             <NA>
+                   species                                                citation
+    1 Epipactis rubiginosa        @schalowErgebnisseDurchforschungSchlesischen1932
+    2         Rosa gallica @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3 Lycopodium inundatum         @schubeErgebnisseDurchforschungSchlesischen1898
+                                                                   entry      lon
+    1 Epipactis rubiginosa Neustadt: oberhalb Wildgrund (Hans Schubert)! 17.45171
+    2                           R. gallica [...] Zülz: Eloisenhof, [...] 17.64182
+    3                   Lycopodium inundatum. Rosenberg: Jastrzigowitz,  18.44552
+           lat                                                         comments
+    1 50.28347 obecnie część miejscowości Pokrzywna, gm. Głuchołazy, pow. nyski
+    2 50.35973                         Dobroszewice, gm. Lubrza, pow. prudnicki
+    3 50.99493                                                                 
+      year                        accepted_name
+    1 1932 Epipactis atrorubens (Hoffm.) Besser
+    2 1933                      Rosa gallica L.
+    3 1898     Lycopodiella inundata (L.) Holub
 
 </div>
 
@@ -142,14 +138,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE71
-    3                    Malva moschata L. BE82
-    4                    Malva moschata L. BE97
-    5                    Malva moschata L. BF01
-    6 Malva thuringiaca subsp. thuringiaca BE57
-    7                Malva verticillata L. BE49
-    8                Malva verticillata L. CF65
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BE72
+    5                    Malva moschata L. BE82
+    6                    Malva moschata L. CE81
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8        Malva trimestris (L.) Salisb. AE58
 
 ### How to participate
 
@@ -226,7 +222,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4688 records (species - localization) including 4610 with
+total 4715 records (species - localization) including 4637 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

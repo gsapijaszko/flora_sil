@@ -1497,7 +1497,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Carex Pseudocyperus",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
-  entry = "C. Pseudocyperus Oppeln: zw. Przyschetz u. Ellguth-Proskau (Schu­ bert)'",
+  entry = "C. Pseudocyperus Oppeln: zw. Przyschetz u. Ellguth-Proskau (Schubert)'",
   lon = 17.84916, 
   lat = 50.55530,
   comments = "pomiędzy miejscowościami Przysiecz i Ligota Prószkowska, gm. Prószków, pow. opolski"
@@ -3129,7 +3129,7 @@ jahres <- data.frame(
   entry = "Arabis Gerardi Köben: Oderwald!",
   lon = 16.46661,  
   lat = 51.54312,
-  comments = "Chobienia, pas po prawej stronie Odry, obecenie teren miejscowości Bieliszów, gm. Jemielno, pow górowski"
+  comments = "Chobienia, las po prawej stronie Odry, obecenie teren miejscowości Bieliszów, gm. Jemielno, pow górowski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4670,11 +4670,245 @@ jahres <- data.frame(
   comments = "Ślęża, gm. Sobótka, pow. wrocławski; chyba płn. stok; patrz str. 77 https://sbc.org.pl/Content/681051/i211201-0000-00-0001.pdf: Strobel - Koselweg - ... - Sabinenweg"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Meum athamanticum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Meum athamanticum Isergebirge: noch bei Blumendorf (Kruber)",
+  lon = 15.49497,
+  lat = 50.91896,
+  comments = "Kwieciszowice, gm. Mirsk, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Peucedanum Cervaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Peucedanum Cervaria Steinau: Oderlehnen b. Preichau!; [...]",
+  lon = 16.44748, 
+  lat = 51.45841,
+  comments = "Przychowa, gm. Ścinawa, pow. lubiński; nabrzeże Odry"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Peucedanum Cervaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Peucedanum Cervaria [...] Gr.-Strehlitz: Schimischow!, [...]",
+  lon = 18.24480,
+  lat = 50.51796,
+  comments = "Szymiszów, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Peucedanum Cervaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Peucedanum [...] Gr.-Strehlitz: [...] Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Caucalis daucoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Caucalis daucoides Gr.-Strehlitz : Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Laserpicium prutenicum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Laserpicium prutenicum Gr.-Strehlitz: Larischka (Powollik)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pirola uniflora",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pirola uniflora Wohlau: Tiergarten (Juhnke);",
+  lon = 16.77285, 
+  lat = 51.32558,
+  comments = "Godzięcin (Thiergarten), gm. Brzeg Dolny, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pirola media Landeshut: Haselbach (Kruber);",
+  lon = 15.89921,
+  lat = 50.78167,
+  comments = "Leszczyniec, gm. Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Andromeda polifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Andromeda polifolia Oppeln: zw. Przyschetz u. Ellguth-Proskau (Schubert)!; [...]",
+  lon = 17.84916, 
+  lat = 50.55530,
+  comments = "pomiędzy miejscowościami Przysiecz i Ligota Prószkowska, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Andromeda polifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Andromeda polifolia [...] Friedland O./S.: Psychod (Kaul)!",
+  lon = 17.67254,
+  lat = 50.5391,
+  comments = "Przechód, gm. Korfantów, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vaccinium Oxycoccus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Vaccinium Oxycoccus Cosel: zw. Klodnitz u. Kandrzin (Schubert)!",
+  lon = 18.18898, 
+  lat = 50.34557,
+  comments = "pomiędzy miejscowościami Kłodnica, Lenartowice, a Kędzierzyn, Kędzierzyn-Koźle, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vaccinium uliginosum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. uliginosum Liebenthal: Gr.-Stöckigt (Buchs)!",
+  lon = 15.44734,
+  lat = 51.01776,
+  comments = "Krzewie Wielkie, gm. Gryfów Śląski, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Erica Tetralix",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Erica Tetralix Haynau: Stadtforst (Jopke)",
+  lon = 15.85285,
+  lat = 51.34411,
+  comments = "Chojnów, pow. legnicki, las na północ od miasta"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Primula officinalis Kraschnitz: Gr.-Perschnitzer Chaussee (Schoepke)!; [...]",
+  lon = 17.36866, 
+  lat = 51.46231,
+  comments = "Krośnice, gm. Krośnice, pow. milicki; droga w kierunku miejscowości Pierstnica"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Primula officinalis [...] Winzig: Schlaupp!; [...] ",
+  lon = 16.57148,
+  lat = 51.44414,
+  comments = "Słup, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Primula officinalis [...] Köben: Oderwald!; [...] ",
+  lon = 16.46661,  
+  lat = 51.54312,
+  comments = "Chobienia, las po prawej stronie Odry, obecenie teren miejscowości Bieliszów, gm. Jemielno, pow górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Primula officinalis [...] Wohlau: Reudchener Wald (Juhnke)!",
+  lon = 16.55244, 
+  lat = 51.33335,
+  comments = "Rudno, gm. Wołów, pow. wołowski; las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula elatior",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. elatior Wohlau: Reudchener Wald unweit der Walkemühle (Juhnke)! Erstes Vorkommen auf der rechten Oderseite!",
+  lon = 16.55244, 
+  lat = 51.33335,
+  comments = "Rudno, gm. Wołów, pow. wołowski; las, w pobliżu Walkemühle (nie znalazłem tak opisanego młyna)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lysimachia punctata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lysimachia punctata Landeshut: Kreppelwald (Strauch); [...]",
+  lon = 16.00862,  
+  lat = 50.79834,
+  comments = "Grodztwo, Kamienna Góra, pow. kamiennogórski; las na płn-zachód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lysimachia punctata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lysimachia punctata [...] Greiffenberg: Neuwarnsdorf (Buchs)!; [...]",
+  lon = 15.38234, 
+  lat = 51.02634,
+  comments = "Karłowice, gm. Olszyna, pow. lubański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lysimachia punctata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lysimachia punctata [...] Liebenthal: Oberschmottseifen (Buchs)!",
+  lon =  15.56715,
+  lat = 51.03917,
+  comments = "Pławna Górna, gm. Lubomierz, pow. lwówecki;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trientalis europaea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Trientalis europaea Liebenthal: Krummöls, [...]",
+  lon = 15.46440,  
+  lat = 51.04188, 
+  comments = "Oleszna Podgórska, gm. Lubomierz, pow. lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trientalis europaea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Trientalis europaea Liebenthal: [...] „Harte“ (Buchs)!; [...]",
+  lon = 15.55030,
+  lat = 51.12147,
+  comments = "współrzędne wskazują na Hartelangenvorverk, Radłówka, gm. Lwówek Śląski, ale nie mam pewności, że Harte == Hartelangenvorverk"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trientalis europaea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Trientalis europaea [...] Waldenburg: Schillerhöhe (Dr. Tiegel)!",
+  lon = 16.28499, 
+  lat = 50.77171,
+  comments = "Góra Powstańców, Wałbrzych, pow. wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Centunculus minimus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Centunculus minimus Oppeln: zw. Przyschetz u. Ellguth-Proskau (Schubert) !",
+  lon = 17.84916, 
+  lat = 50.55530,
+  comments = "pomiędzy miejscowościami Przysiecz i Ligota Prószkowska, gm. Prószków, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Armeria vulgaris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Armeria vulgaris Oppeln: Dombrowka (Schubert)!",
+  lon = 17.93140, 
+  lat = 50.53814,
+  comments = "Dąbrówka Górna, gm. Krapkowice, pow. krapkowicki (ale być może chodzi o Dombrowka Königlich, obecnie część Opola?"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Zobten", entry))
+#   subset(grepl("Dombrowka", entry))
 
 #' TODO - dokończyć
 

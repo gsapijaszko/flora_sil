@@ -47,8 +47,9 @@ all_data <- schube |>
 saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
+
 all_data |>
-  subset(grepl("Strie", entry)
+  subset(grepl("Grabschen", entry)
         #  & grepl("Teich", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>

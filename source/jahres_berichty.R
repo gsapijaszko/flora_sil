@@ -4354,6 +4354,16 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
+  species = "Cystopteris fragilis v. deltoidea Shuttleworth.",
+  citation = "@mildeBotanischeMittheilungenAus1867", 
+  entry = "10. Krummhübel. [...] von Cystopteris fragilis var. deltoidea fand sich ein einziger Stock auf einer Mauer unterhalb des Gasthauses zur Schneekoppe.",
+  lon = 15.72938, 
+  lat = 50.73967, 
+  comments = "Karpacz, pow. karkonoski; na murze poniżej restauracji/zajazdu "
+) |> rbind(jahres)
+
+
+jahres <- data.frame(
   species = "Lycopodium inundatum",
   citation = "@mildeBotanischeMittheilungenAus1867", 
   entry = "[...] und Lycopodium inundatum.",
