@@ -3304,6 +3304,170 @@ jahres <- data.frame(
   comments = "dolina rzeki Biała Głuchołaska, Głuchołazy, w kierunku na Mikułowice"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Ophioglossum vulgatum L. Gleiwitz: Labander Wald, nur zwei Exemplare (Jungck).",
+  lon = 18.63655, 
+  lat = 50.34904, 
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Osmunda regulis L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Osmunda regulis L. Gleiwitz: sehr spärlich im Labander Walde! (Jungck); [...]",
+  lon = 18.63655, 
+  lat = 50.34904, 
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Osmunda regulis var. interrupta Milde",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Osmunda regulis [...] die var. interrupta Milde bei Nappatsch in der Muskauer Haide (Cantor Kahle nach Fiek).",
+  lon = 14.71428,  
+  lat = 51.37681, 
+  comments = "Altliebel, Rietschen, Goerlitz, Saxony, Germany"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Polypodium vulgare L. Gleiwitz: Labander Wald (Jungck). [...]",
+  lon = 18.63655, 
+  lat = 50.34904, 
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Polypodium vulgare L. [...] Gogolin: am „Kanape“ in der Nähe der Wolfsschlucht im Gr.-Steiner Forste am Fusse alter Buchen.",
+  lon = 18.03902,  
+  lat = 50.54155, 
+  comments = "Kamień Śląski, gm. Gogolin, pow. krapkowicki; w pobliżu dawnego kanionu"
+) |> rbind(jahres)
+
+## aaaaa -----
+
+jahres <- data.frame(
+  species = c("Phegopteris polypodioides Fée.", "Phegopteris Dryopteris"),
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Phegopteris polypodioides Fée. Gleiwitz: mit Ph. Dryopteris im Labander Walde und im Stadtwald (Jungck).",
+  lon = c(18.63655, 18.70511), 
+  lat = c(50.34904, 50.30449),
+  comments = "Gliwice: Łabędy - las na północny-wschód od miejscowości oraz Park Kultury i Wypoczynku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum spinulosum DC. var. dilatatum (Hoffm.) f. erosa",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "Polystichum spinulosum DC. var. dilatatum (Hoffm.) f. erosa. Gesenke: Nesselkoppe bei Gräfenberg mehrfach! (Bubela).",
+  lon = 17.16656, 
+  lat = 50.26868, 
+  comments = "Sokoli vrch, Stará Červená Voda, okres Jeseník, Olomoucký kraj, Střední Morava, 790 54, Česko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum Filix mas. Roth var. deorsolobatum Moore.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "P. Filix mas. Roth var. deorsolobatum Moore. Jauer: Hessberge, [...]",
+  lon = 16.07501,  
+  lat = 51.05683, 
+  comments = "[wzgórze] Górzec, Męcinka, gmina Męcinka, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum Filix mas. Roth var. deorsolobatum Moore.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
+  entry = "P. Filix mas. Roth var. deorsolobatum Moore. Jauer: [...] Bremberger Höhen sehr selten (Gerhardt). [...]",
+  lon = 16.12356, 
+  lat = 51.08783, 
+  comments = "wysoczyzna (obok obecnej kopalni bazaltu Męcinka), Słup, gmina Męcinka, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum Filix mas. Roth var. deorsolobatum Moore.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "P. Filix mas. Roth var. deorsolobatum Moore. [...] Gesenke: Nesselkoppe bei Gräfenberg (Bubela) [...]",
+  lon = 17.16656, 
+  lat = 50.26868, 
+  comments = "Sokoli vrch, Stará Červená Voda, okres Jeseník, Olomoucký kraj, Střední Morava, 790 54, Česko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum Filix mas. Roth var. Helopteris (Borkh.)",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "P. Filix mas. Roth [...] Var. Helopteris (Borkh.). Hirschberg: Sattler (Fiele); [...]",
+  lon = 15.70617,
+  lat = 50.91485,
+  comments = "Jelenia Góra, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polystichum Filix mas. Roth var. Helopteris (Borkh.)",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "P. Filix mas. Roth [...] Var. Helopteris (Borkh.). Hirschberg: [...] zwischen Arnsdorf und der Annakapelle (Gerhardt).",
+  lon = 15.74289, 
+  lat = 50.80415,
+  comments = "pomiedzy miejscowością Miłków, gmina Podgórzyn, powiat karkonoski a kaplicą św. Anny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "P. Oreopteris DC.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "Polystichum Oreopteris DC. Riesengebirge: in dem kleinen Kessel der Kesselkoppe an steinigen Stellen! (G. Schneider).",
+  lon = 15.52983, 
+  lat = 50.75231,
+  comments = "Kotel, Špindlerův Mlýn, okres Trutnov, Královéhradecký kraj, Severovýchod, Česko; w Małym Kotle"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Asplenium Trichomanes L.", "Asplenium Ruta muraria L.", "Cystopteris fragilis Beruh. 1882"),
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "Asplenium Trichomanes L. Häufig an Muschelkalkfelsen der Wolfsschlucht im Gross-Steiner Forste bei Gogolin mit A. Ruta muraria L. und Cystopteris fragilis Beruh. 1882; [...]",
+  lon = 18.03902,  
+  lat = 50.54155, 
+  comments = "Kamień Śląski, gm. Gogolin, pow. krapkowicki; w pobliżu dawnego kanionu; na skałach wapiennych, często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Asplenium Trichomanes L.", "Asplenium Ruta muraria L."),
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "Asplenium Trichomanes L. [...] Gleiwitz: Labander Wald nicht selten an den Mauern der Strassendurchlässe mit A. Ruta muraria (Jungck).",
+  lon = 18.63655, 
+  lat = 50.34904, 
+  comments = "Łabędy, Gliwice; las na północny-wschód od miejscowości; nierzadko przy przepustach drogowych"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium viride Huds.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "A. viride Huds. Reichenstein: sehr häufig im Schlackenthale (Schöpke); [...]",
+  lon = 16.87020,
+  lat = 50.43189,
+  comments = "dolina potoku Trująca, Złoty Stok, gm. Złoty Stok, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium viride Huds.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "A. viride Huds. [...] Gesenke: spärlich in Felsspalten des Köperniksteins (Bubela).",
+  lon = 17.11718, 
+  lat = 50.17365,
+  comments = "Šerák-Keprník, Horní Lipová, Lipová-lázně, okres Jeseník, Olomoucký kraj, Střední Morava, Česko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cystopteris sudetica A. Br. et Milde",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1884",
+  entry = "Cystopteris sudetica A. Br. et Milde. Gesenke: im Hochwalde am Wege von Fitzenhau nach dem Mnosebruche (Bubela).",
+  lon = 17.27742, 
+  lat = 50.23795,
+  comments = "Ondřejovice v Jeseníkách, Zlaté Hory, okres Jeseník, Olomoucký kraj, Střední Morava, Česko"
+) |> rbind(jahres)
+
 #' 1883
 jahres <- data.frame(
   species = "Lycopodium selago",

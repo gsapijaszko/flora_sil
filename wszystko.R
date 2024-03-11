@@ -48,9 +48,11 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
+# tmaptools::rev_geocode_OSM(17.27742, 50.23795)
+
 all_data |>
-  subset(grepl("Grabschen", entry)
-        #  & grepl("Teich", entry)
+  subset(grepl("Fitzenhau", entry)
+  #      & grepl("Gleiwitz", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
   # sf::st_transform(crs = sf::st_crs(atpolR::atpol10k())) |>

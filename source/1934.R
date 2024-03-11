@@ -4363,9 +4363,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "Asperula cynandiica",
+  species = "Asperula cynanchica",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Asperula cynandiica Nimptsch: Kaltenhaus!",
+  entry = "Asperula cynanchica Nimptsch: Kaltenhaus!",
   lon = 16.92049, 
   lat = 50.84875,
   comments = "Jeziorno, Siemianów, gm. Borów, pow. strzeliński"

@@ -1,5 +1,4 @@
 
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,22 +38,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                                citation
-    1 Epipactis rubiginosa        @schalowErgebnisseDurchforschungSchlesischen1932
-    2         Rosa gallica @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3 Lycopodium inundatum         @schubeErgebnisseDurchforschungSchlesischen1898
-                                                                   entry      lon
-    1 Epipactis rubiginosa Neustadt: oberhalb Wildgrund (Hans Schubert)! 17.45171
-    2                           R. gallica [...] Zülz: Eloisenhof, [...] 17.64182
-    3                   Lycopodium inundatum. Rosenberg: Jastrzigowitz,  18.44552
-           lat                                                         comments
-    1 50.28347 obecnie część miejscowości Pokrzywna, gm. Głuchołazy, pow. nyski
-    2 50.35973                         Dobroszewice, gm. Lubrza, pow. prudnicki
-    3 50.99493                                                                 
-      year                        accepted_name
-    1 1932 Epipactis atrorubens (Hoffm.) Besser
-    2 1933                      Rosa gallica L.
-    3 1898     Lycopodiella inundata (L.) Holub
+                               species
+    1 Hieracium stoloniflorum-collinum
+    2             Hyssopus officinalis
+    3          Ornithogalum umbellatum
+                                                     citation
+    1                     @wimmerBerichtUberVerhandlungen1850
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                                                                            entry
+    1 Standörter seltnerer Pflanzen Schlesiens vom Musik-Direktor Siegert: [...] H. stoloniflorum-collinum bei [...] Seifersdorf;
+    2                                                               Hyssopus officinalis Jauer: Kirchhofsmauer in Leipe (Strauch)
+    3                                                              Ornithogalum umbellatum [...] Neustadt: Alt-Kuttendorf (Torka)
+           lon      lat
+    1       NA       NA
+    2 16.01735 50.97164
+    3 17.90710 50.34401
+                                                                                              comments
+    1 which Seifersdorf? There were 7 in Schlesien (https://s.meyersgaz.org/search?search=Seifersdorf)
+    2                                         Lipa, gm. Bolków, pow. jaworski; na murze przykościelnym
+    3                                                    Stare Kotkowice, gm. Głogówek, pow. prudnicki
+      year                    accepted_name
+    1 1850 Hieracium stoloniflorum-collinum
+    2 1933          Hyssopus officinalis L.
+    3 1933       Ornithogalum umbellatum L.
 
 </div>
 
@@ -79,7 +86,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -137,15 +144,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. AE67
-    3                    Malva moschata L. BE71
-    4                    Malva moschata L. BE72
-    5                    Malva moschata L. BE82
-    6                    Malva moschata L. CE81
-    7 Malva thuringiaca subsp. thuringiaca BE57
-    8        Malva trimestris (L.) Salisb. AE58
+              accepted_name Name
+    1     Malva moschata L. AE58
+    2     Malva moschata L. BE62
+    3     Malva moschata L. BF24
+    4     Malva moschata L. CF11
+    5   Malva parviflora L. BE49
+    6     Malva pusilla Sm. CE90
+    7     Malva pusilla Sm. CF65
+    8 Malva verticillata L. AD67
 
 ### How to participate
 
@@ -222,7 +229,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4715 records (species - localization) including 4637 with
+total 4802 records (species - localization) including 4724 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

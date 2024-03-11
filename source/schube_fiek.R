@@ -583,6 +583,11 @@ schube <- data.frame(
   comments = "Wrocław, Grabiszyn"
 ) |> rbind(schube)
 
+### 4. Cystopteris sudetica A. Br. u. Milde. ----
+#' Humoser Fichtenwaldboden, schattige Felsen; nur im Vgb. des Ges., 2.
+#' VIa Reiwiesen (F)!, zw. Reiwiesen u. Fitzenhau (83), Koberstein (99)!, am Hockschar über Nd.-Lindewiese (F em)!, oberh. Waldenburg am Leiterberge (F)!, am Wege von den Hirschwiesen nach Thomasdorf (F)!, Felsen am Weißen Seifen (F), Oberes Teßtal (F), an der Oppa unterh. der Schäferei (85).
+
+
 
 #' 2. Klasse. Equisetales. ----
 #' 6. Familie. EQUISETACEAE. ----
