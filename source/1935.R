@@ -2415,7 +2415,7 @@ jahres <- data.frame(
   entry = "P. opaca Bolkenhain: Lauterbach (Kruber);",
   lon = 16.04507, 
   lat = 50.96569,
-  comments = "Świekotka, strumień, gm. Bolków;"
+  comments = "Jastrowiec, gmina Bolków, powiat jaworski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

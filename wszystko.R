@@ -95,10 +95,26 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level=1, pa
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(a)), dist = 10000)) 
 # |> subset(select = "geometry")
 
-pla <- geodata::gadm(country = c("POL"), level=1, path = "data") |>
-  sf::st_as_sf() |>
-  sf::st_union() |>
-  sf::st_transform(crs = sf::st_crs(a))
+# pla <- geodata::gadm(country = c("POL"), level=1, path = "data") |>
+#   sf::st_as_sf() |>
+#   sf::st_union() |>
+#   sf::st_transform(crs = sf::st_crs(a))
+
+# b <- osmdata::getbb("Poland")
+# 
+# pla <- osmdata::opq(b, timeout = 10*60) |>
+#   osmdata::add_osm_feature(key = "boundary", value = "administrative") |>
+#   osmdata::add_osm_feature(key = "admin_level", value = "2") |>
+#   osmdata::add_osm_feature(key = "name", value = "Polska") |>
+#   osmdata::osmdata_sf() |>
+#   osmdata::unname_osmdata_sf()
+# 
+# pla$osm_multipolygons |>
+#   subset(select = c("name", "geometry")) |>
+#   sf::st_transform(crs = sf::st_crs(a)) |>
+#   sf::write_sf(dsn = "data/pl_boundary.gpkg")
+
+pla <- sf::read_sf(dsn = "data/pl_boundary.gpkg")
 
 aPL <- sf::st_filter(a, pla)
 

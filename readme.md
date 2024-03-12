@@ -1,5 +1,3 @@
-
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,26 +37,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                          species                                         citation
-    1     Pulmonaria angustifolia              @wimmerBerichtUberVerhandlungen1850
-    2         Solidago canadensis @schalowErgebnisseDurchforschungSchlesischen1932
-    3 Viola Riviniana X rupestris @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                entry
-    1 Aus der Flora der Lausitz und dem nächstangrenzenden Theile der Mark vom Apotheker Knorr in\nSommerfeld. (Als neu für Schlesien: [...] aus den Umgebungen von Sommerfeldt: Reseda luteola, Nasturtium officinale, Drosera longifolia und intermedia häufig, Illecebrum, Sedum villosum, Myriophyllum verticillatum, [...] Astragalus arenarius, Valeriana exaltata und sambucifolia, Arnica montana, Xanthium spinosum, durch die Karden eingeführt; Andromeda polifolia, Pulmonaria angustifolia, Omphalodes scorpioides, Utricularia minor und intermedia, Thesium ebracteatum, Potamogeton rufescens, Scheuchzeria, Sturmia Loeselii, Cephalanthera rubra, Leucoium vernum, Juncus Tanageia, Holoschoenus, Rhynchospora fusca, Cladium Mariscus, Carex limosa, Calamagostris stricta, Lycopodium inundatum, Chara syncarpa.)
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   S. canadensis Liebenthal: Geppersdorf, [...] 
-    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        V. Riviniana X rupestris Gr.-Strehlitz: Larischka, [...]
+                    species                                                citation
+    1     Datura Stramonium @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    2        Carex paradoxa @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3 Ranunculus sceleratus        @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                  entry
+    1                                                                                                                                    Datura Stramonium [...] Oppeln: [...] Sakrau-Hafen (Schubert)!
+    2                                                                                                                                                     C. paradoxa Winzig: „Barde“ bei Ndr.-Krehlau!
+    3 Von der regen Einwanderung ausgesprochener Ebenenpflanzen in das Innere der Grafschaft zeugen folgende neue Beobachtungen von Kramarz: [...] Ranunculus sceleratus (Komturwiese bei Glatz),[...] 
            lon      lat
-    1 14.97900 51.78799
-    2 15.53118 51.01397
-    3 18.17923 50.54258
-                                                                                 comments
-    1                                                     Lubsko, gm. Lubsko, pow. żarski
-    2                                              Milęcice, gm. Lubomierz, pow. lwówecki
-    3 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
-      year               accepted_name
-    1 1850  Pulmonaria angustifolia L.
-    2 1932      Solidago canadensis L.
-    3 1932 Viola riviniana x rupestris
+    1 17.90970 50.68598
+    2 16.54843 51.44784
+    3 16.65002 50.41939
+                                                                           comments
+    1                                                          Opole, Zakrzów, port
+    2 podmokłe łąki na płn-wsch. od miejscowości Krzelów, gm. Wińsko, pow. wołowski
+    3                             łąki nad rz. Nysa Kłodzka, na południe od Kłodzka
+      year                 accepted_name
+    1 1931          Datura stramonium L.
+    2 1931 Carex appropinquata Schumach.
+    3 1936      Ranunculus sceleratus L.
 
 </div>
 
@@ -142,14 +140,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. AE78
-    3                    Malva moschata L. CF11
-    4                    Malva pusilla Sm. CF65
-    5 Malva thuringiaca subsp. thuringiaca BE14
-    6 Malva thuringiaca subsp. thuringiaca BE57
-    7        Malva trimestris (L.) Salisb. AE59
-    8                Malva verticillata L. AD59
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE72
+    3                    Malva moschata L. CE81
+    4 Malva thuringiaca subsp. thuringiaca BE14
+    5        Malva trimestris (L.) Salisb. AE58
+    6        Malva trimestris (L.) Salisb. AE59
+    7                Malva verticillata L. BE49
+    8                Malva verticillata L. BF07
 
 ### How to participate
 
@@ -226,7 +224,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4834 records (species - localization) including 4756 with
+total 4843 records (species - localization) including 4765 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

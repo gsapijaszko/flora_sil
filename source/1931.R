@@ -5750,13 +5750,94 @@ jahres <- data.frame(
   comments = "Kretowice, Wrzosy, gmina Wołów, powiat wołowski"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Plantago major f.ramosa",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Plantago major f.ramosa Cosel: Lohnau (Schubert)!",
+  lon = 18.19222, 
+  lat = 50.21243,
+  comments = "Łany, gmina Cisek, powiat kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Plantago arenaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. arenaria Kraschnitz: Bahndamm b. Politz, [...]",
+  lon = 17.37547, 
+  lat = 51.45777,
+  comments = "Police, gmina Krośnice, powiat milicki; przy nasypie kolejowym"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Plantago arenaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. arenaria Kraschnitz: [...] Hammerberge (Schoepke)!",
+  lon = 17.26421, 
+  lat = 51.42575,
+  comments = "Łazy Wielkie, gmina Krośnice, powiat milicki; wzgórza między Skoroszów, Lasowice, a Łazy Wielkie "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asperula arvensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Asperula arvensis Breslau: vor Woischwitz!, [...]",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asperula arvensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Asperula arvensis Breslau: [...] Bischofswalde! [...]",
+  lon = 17.09846,
+  lat = 51.09952,
+  comments = "Wrocław, Biskupin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asperula arvensis",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Asperula arvensis Breslau: [...] Schmiedefeld (Br. K. Meyer)!",
+  lon = 16.94488, 
+  lat = 51.12960,
+  comments = "Wrocław, Kuźniki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Galium Cruciata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Galium Cruciata Bolkenhain: Lauterbach (Kruber); [...]",
+  lon = 16.04507, 
+  lat = 50.96569,
+  comments = "Jastrowiec, gmina Bolków, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Galium Cruciata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Galium Cruciata [...] Breslau: Güterbhf. Brockau (Fri. Bodlée)!; [...]",
+  lon = 17.09243,
+  lat = 51.05694,
+  comments = "Wrocław; dworzec towarowy Brochów"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Galium Cruciata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Galium Cruciata [...] Neiße: Bhf. (Schubert)!",
+  lon = 17.34364, 
+  lat = 50.47548,
+  comments = "Nysa, gm. Nysa, dworzec kolejowy"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Mönchfurth", entry))
+#   subset(grepl("Bolkenhain: Lauterbach", entry))
 # 
-# tmaptools::rev_geocode_OSM(16.59792, 51.37837)
+# tmaptools::rev_geocode_OSM(16.04507, 50.96569)
 
 #' TODO - dokończyć
 
