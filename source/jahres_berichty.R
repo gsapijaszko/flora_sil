@@ -3093,7 +3093,7 @@ jahres <- data.frame(
   entry = "Lycopodíum complanatum L. a anceps (Wallr.). Schweidnitz: Ober-Weistritz (Schöpke).",
   lon = 16.46017, 
   lat = 50.77634, 
-  comments = ""
+  comments = "Bystrzyca Górna, gmina Świdnica, powiat świdnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

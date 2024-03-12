@@ -5462,11 +5462,301 @@ jahres <- data.frame(
   comments = "Opole, Zakrzów, port"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Verbascum Thapsus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Verbascum Thapsus Liebenthal: mehrf. (Buchs)!",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbascum phlomoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. phlomoides Greiffenberg: Talsperre Goldentraum (Buchs)!; [...]",
+  lon = 15.33705, 
+  lat = 51.02238,
+  comments = "Zapora Złotnicka, Stankowice, gm. Leśna, pow. lubański"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbascum phlomoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. phlomoides [...] Jauer: Girlachsdorf, [...]",
+  lon = 16.21576, 
+  lat = 50.99830,
+  comments = "Gniewków, gm. Dobromierz, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbascum phlomoides",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. phlomoides [...] Jauer: [...] Tschirnitz (Strauch)",
+  lon = 16.21356, 
+  lat = 51.01503,
+  comments = "Czernica, gm. Dobromierz, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Verbascum Blattaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. Blattaria Oppeln: Ostbhf. (Schubert)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria Liebenthal: mehrf. (Buchs)!;[...]",
+  lon = 15.50094,
+  lat = 51.01330,
+  comments = "Lubomierz, gm. Lubomierz, pow. lwówecki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria [...] Löwenberg: Laubaner Torturm (Buchs)!;[...]",
+  lon = 15.58156, 
+  lat = 51.10991,
+  comments = "Baszta Bramy Lubańskiej, Lwówek Śląski, gmina Lwówek Śląski, powiat lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria [...] Landeshut: Kreppelhof (Strauch);[...]",
+  lon = 16.03681,
+  lat = 50.79105,
+  comments = "zamek Grodztwo [ruiny], Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria [...] Schweidnitz: Ob.-Weistritz (Strauch);[...]",
+  lon = 16.46017,
+  lat = 50.77634,
+  comments = "Bystrzyca Górna, gmina Świdnica, powiat świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria [...] Patschkau: Zollstraße (Buchs)!; [...]",
+  lon = 17.00656, 
+  lat = 50.46169,
+  comments = "obecnie ul. Henryka Sienkiewicza, Paczków, gmina Paczków, powiat nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria Cymbalaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Linaria Cymbalaria [...] Neiße: Gr.-Kunzendorf (Pranke)!",
+  lon = 17.26742, 
+  lat = 50.34035,
+  comments = "Sławniowice, gm. Głuchołazy, pow. nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria minor",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "L. minor Greiffenberg: Bhf. (Buchs)!:",
+  lon = 15.42991, 
+  lat = 51.03359,
+  comments = "Gryfów Śląski, dworzec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria genistifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "L. genistifolia Bolkenhain: Wolmsdorf (Strauch); [...]",
+  lon = 16.14033,
+  lat = 50.93075,
+  comments = "Wolbromek, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Linaria genistifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "L. genistifolia [...] Jauer: Kalthaus (Strauch)",
+  lon = 16.25672, 
+  lat = 51.01007,
+  comments = "Zimnik, gmina Mściwojów, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Antirrhinum majus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Antirrhinum majus Breslau: Kinderzobten!, [...]",
+  lon = 16.99758,
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Antirrhinum majus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Antirrhinum majus Breslau: [...] Körnerwiese!, [...]",
+  lon = 17.02072,
+  lat = 51.06883,
+  comments = "polana Kornera, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Antirrhinum majus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Antirrhinum majus Breslau: [...] Güterbhf. West, weißblühend (Dr. K. Meyer)!",
+  lon = 17.01173, 
+  lat = 51.11007,
+  comments = "Wrocław, między ul. Braniborska a Robotnicza; białokwitnąca"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scrofularia alata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Scrofularia alata Kraschnitz: mehrf. (Schoepke)! [...]",
+  lon = 17.36246, 
+  lat = 51.47484,
+  comments = "Krośnice, gm. Krośnice, pow. milicki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scrofularia alata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Scrofularia alata [...] Gr.-Strehlitz: Kaltwasser (Schubert)!;[...]",
+  lon = 18.31777, 
+  lat = 50.41891, 
+  comments = "Zimna Wódka, gm. Ujazd, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scrofularia alata",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Scrofularia alata [...] Ratibor: Borutin (Schubert)!",
+  lon = 18.15548, 
+  lat = 50.01169,
+  comments = "Borucin, gmina Krzanowice, powiat raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Mimulus luteus",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Mimulus luteus Liebenthal: Matzdorf (Buchs)!",
+  lon = 15.61442,
+  lat = 50.97398,
+  comments = "Maciejowiec, gmina Lubomierz, powiat lwówecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica aquatica",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Veronica aquatica Strehlen: Ruppersdorf!",
+  lon = 17.16302,
+  lat = 50.77817,
+  comments = "Wyszonowice, gm. Wiązów, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica montana",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. montana Bolkenhain: Merzdorf (Strauch)",
+  lon = 16.03239, 
+  lat = 50.84384,
+  comments = "Marciszów, pow. kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica Teucriwm",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. Teucriwm Steinau: Oderlehnen zw. Hochbauschwitz u. Preichau!",
+  lon = 16.44860, 
+  lat = 51.46250,
+  comments = "nabrzeże Odry pomiędzy miejsowościami Buszkowice i Przychowa, gmina Ścinawa, powiat lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica longifolia",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. longifolia Isergebirge: Grasgärten bei den Iserkammhäusern (Buchs)!",
+  lon = 15.34327,
+  lat = 50.8784,
+  comments = "Drwale, gm. Mirsk, pow. lwówecki; na trawnikach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Veronica spicata f. orchidea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "V. spicata f. orchidea Gr.-Strehlitz: Larischka (Schubert)!",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Melampyrum cristatum",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Melampyrum cristatum Winzig: Gimmel!",
+  lon = 16.53865,
+  lat = 51.52427,
+  comments = "Jemielno, gm. Jemielno, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pedicularis silvatica",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pedicularis silvatica Wohlau: mehrf. (Juhnke)!; [...]",
+  lon = 16.62969, 
+  lat = 51.32528,
+  comments = "Wołów, często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pedicularis silvatica",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Pedicularis silvatica [...] Neurode: Tränkeberg (Kramarz)!",
+  lon = 16.54497,  
+  lat = 50.62784, 
+  comments = "bezimienne wzgórze na wschód od Jugów, gm. Nowa Ruda"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Pedicularis  palustris",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "P. palustris Liebenthal: Harteteich (Buchs)!",
+  lon = 15.5469,
+  lat = 51.12206,
+  comments = "współrzędne wskazują na Hartelangenvorverk, Radłówka, gm. Lwówek Śląski, ale nie mam pewności, że Harte == Hartelangenvorverk; stawy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orobanche purpurea",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Orobanche purpurea Gr.-Strehlitz: Larischka (Schubert)",
+  lon = 18.17923, 
+  lat = 50.54258, 
+  comments = "nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lathraea Squamaria",
+  citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
+  entry = "Lathraea Squamaria Wohlau: Mönchfurth (Juhnke)!",
+  lon = 16.59792, 
+  lat = 51.37837,
+  comments = "Kretowice, Wrzosy, gmina Wołów, powiat wołowski"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Sakrau-Hafen", entry))
+#   subset(grepl("Mönchfurth", entry))
+# 
+# tmaptools::rev_geocode_OSM(16.59792, 51.37837)
 
 #' TODO - dokończyć
 

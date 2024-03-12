@@ -1881,7 +1881,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Ranunculus sceleratus",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
-  entry = "Ranunculus sceleratus [...] Landeshut: Schloß Kreppeihof (Strauch)!",
+  entry = "Ranunculus sceleratus [...] Landeshut: Schloß Kreppelhof (Strauch)!",
   lon = 16.03681, 
   lat = 50.79105,
   comments = "zamek Grodztwo [ruiny], Kamienna Góra"

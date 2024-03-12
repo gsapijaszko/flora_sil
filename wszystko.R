@@ -48,7 +48,7 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-# tmaptools::rev_geocode_OSM(17.27742, 50.23795)
+# tmaptools::rev_geocode_OSM(16.25672, 51.01007)
 
 all_data |>
   subset(grepl("Fitzenhau", entry)
@@ -221,5 +221,9 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   write.csv2(file = "NA.csv")
 
 
-jahres |>
-  subset(grepl("Cystopteris", species))
+# jahres |>
+#   subset(grepl("Cystopteris", species))
+# 
+# a |>
+#   sf::st_join(atpolR::atpol10k()) |>
+#   subset(Name == "BE38")
