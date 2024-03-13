@@ -1,3 +1,4 @@
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -37,26 +38,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                    species                                                citation
-    1     Datura Stramonium @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2        Carex paradoxa @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3 Ranunculus sceleratus        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                                                                                                  entry
-    1                                                                                                                                    Datura Stramonium [...] Oppeln: [...] Sakrau-Hafen (Schubert)!
-    2                                                                                                                                                     C. paradoxa Winzig: „Barde“ bei Ndr.-Krehlau!
-    3 Von der regen Einwanderung ausgesprochener Ebenenpflanzen in das Innere der Grafschaft zeugen folgende neue Beobachtungen von Kramarz: [...] Ranunculus sceleratus (Komturwiese bei Glatz),[...] 
-           lon      lat
-    1 17.90970 50.68598
-    2 16.54843 51.44784
-    3 16.65002 50.41939
-                                                                           comments
-    1                                                          Opole, Zakrzów, port
-    2 podmokłe łąki na płn-wsch. od miejscowości Krzelów, gm. Wińsko, pow. wołowski
-    3                             łąki nad rz. Nysa Kłodzka, na południe od Kłodzka
-      year                 accepted_name
-    1 1931          Datura stramonium L.
-    2 1931 Carex appropinquata Schumach.
-    3 1936      Ranunculus sceleratus L.
+                   species                                         citation
+    1 Ranunculus flaccidus @schalowErgebnisseDurchforschungSchlesischen1936
+    2 Carex turfosa Fries.             @wimmerSchlesischenCarexArtenAus1850
+    3       Lepidium Draba @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                                   entry
+    1                 [...] und Ranunculus flaccidus (Mönauer Teiche bei Hoyers­ werda).
+    2 Carex turfosa Fries. [...] und in einem Wassergraben im Nonnenbusche bei Freiburg.
+    3                                   Lepidium Draba [...] Brieg: Güterbahnhof!; [...]
+           lon      lat                             comments year
+    1 14.50085 51.33262                                      1936
+    2 16.37844 50.90135 Grochotów, gm. Strzegom; rów w lesie 1850
+    3 17.46590 50.85398   Brzeg, gm. Brzeg, dworzec towarowy 1934
+                                                       accepted_name
+    1 Ranunculus trichophyllus subsp. trichophyllus Chaix ex Villars
+    2                                             Carex ×turfosa Fr.
+    3                                              Lepidium draba L.
 
 </div>
 
@@ -81,7 +78,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -140,14 +137,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE72
-    3                    Malva moschata L. CE81
-    4 Malva thuringiaca subsp. thuringiaca BE14
+    1                    Malva moschata L. AE67
+    2                    Malva moschata L. BE74
+    3                    Malva moschata L. BF01
+    4 Malva thuringiaca subsp. thuringiaca CF35
     5        Malva trimestris (L.) Salisb. AE58
-    6        Malva trimestris (L.) Salisb. AE59
-    7                Malva verticillata L. BE49
-    8                Malva verticillata L. BF07
+    6                Malva verticillata L. BE59
+    7                Malva verticillata L. BF07
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -224,7 +221,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4843 records (species - localization) including 4765 with
+total 4955 records (species - localization) including 4877 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
@@ -238,9 +235,9 @@ And the number of records per year:
 
 #### WIP
 
-[1] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+[1] T. Schube. "Die Ergebnisse der Durchforschung der schlesischen
+Gefässpflanzenwelt im Jahre 1929". In: _Jahres-Bericht der Schlesischen
+Gesellschaft für vaterländische Cultur_ 102 (1930), pp. 72-81.
 
 #### Done
 
@@ -263,25 +260,29 @@ im Jahre 1849_ (1850), pp. 77-81.
 _Uebersicht der Arbeiten und Veränderungen der schlesischen
 Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+
+[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
-[6] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+[7] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
 Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
 vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[7] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
 140-156.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
 55-71.
 
-[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+[10] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
 Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
 Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
 66-81.

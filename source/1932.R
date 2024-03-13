@@ -2450,9 +2450,9 @@ jahres <- data.frame(
   species = "Montia rivularis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1932", 
   entry = "Montia rivularis [...] Liebenthal: unweit des Harteteiches (Buchs)!",
-  lon = 15.54690, 
-  lat = 51.12206,
-  comments = "współrzędne wskazują na Hartelangenvorverk, Radłówka, gm. Lwówek Śląski, ale nie mam pewności, że Harte == Hartelangenvorverk; stawy"
+  lon = 15.48674, 
+  lat = 51.14504,
+  comments = "podmokłe tereny wzdłuż potoku Jagódka, Niwnice, gmina Lwówek Śląski, powiat lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4027,7 +4027,7 @@ jahres <- data.frame(
   entry = "R. pendulina L. (= R. alpina) [...] var. setosa (Gremii) R. Keil. Bolkenhain: Wegrand bei Gießmannsdorf, hier mit var. levis (Ser.) R. Keil. (Kruber)!",
   lon = 16.10213, 
   lat = 50.84151,
-  comments = "Giesmannsdorf, Gostków, gm. Stare Bogaczowice, pow. wałbrzyski"
+  comments = "Giessmannsdorf, Gostków, gm. Stare Bogaczowice, pow. wałbrzyski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

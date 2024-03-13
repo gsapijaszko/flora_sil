@@ -4879,9 +4879,9 @@ jahres <- data.frame(
   species = "Arnica montana",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934", 
   entry = "Arnica montana Liebenthal: „Harte“ [...]",
-  lon = 15.55030,  
-  lat = 51.12147,
-  comments = "współrzędne wskazują na Hartelangenvorverk, Radłówka, gm. Lwówek Śląski, ale nie mam pewności, że Harte == Hartelangenvorverk"
+  lon = 15.52019, 
+  lat = 51.13285,
+  comments = "pasmo wzgórz, Płóczki Dolne, gmina Lwówek Śląski, powiat lwówecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

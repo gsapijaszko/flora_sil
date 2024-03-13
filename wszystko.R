@@ -48,10 +48,11 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-# tmaptools::rev_geocode_OSM(16.25672, 51.01007)
+# tmaptools::rev_geocode_OSM(17.50782, 51.43976)
 
 all_data |>
-  subset(grepl("Fitzenhau", entry)
+  subset(grepl("Harte", entry)
+
   #      & grepl("Gleiwitz", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
@@ -151,7 +152,7 @@ tm <-
                     fill.legend = tmap::tm_legend(title = "",
                                                   reverse = TRUE,
                                                   bg.color = "white",
-                                                  position = c(0.05, 0.57))
+                                                  position = c(0.03, 0.61))
                     )
 tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 
