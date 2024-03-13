@@ -32,6 +32,124 @@ if(exists("bibliography")) {
 
 #'
 #'
+
+jahres <- data.frame(
+  species = "Cystopteris fragilis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cystopteris fragilis Nm: Schöneiche!; [...]",
+  lon = 16.53697, 
+  lat = 51.16415,
+  comments = "Proszków, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cystopteris fragilis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cystopteris fragilis [...] B: Mauerwerk bei Bahnhof Schottwitz (Sl)!",
+  lon = 17.08361,  
+  lat = 51.14276,
+  comments = "Wrocław, Sołtysowice; mur w pobliżu dworca"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Dryopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aspidium Dryopteris GrW : Charlottenfeld (Sl)!; [...]",
+  lon = 17.61678,  
+  lat = 51.37177,
+  comments = "Oska Piła, gmina Międzybórz, powiat oleśnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Dryopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aspidium Dryopteris [...] Opp: Silberquelle (Sb)!",
+  lon = 18.14040, 
+  lat = 50.65499,
+  comments = "Rezerwat Srebrne Źródła, Daniec, gmina Chrząstowice, powiat opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Robertianum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. Robertianum GrSt: in Klein-Stein (Sb)!",
+  lon = 18.03902, 
+  lat = 50.54155,
+  comments = "Kamień Śląski, gm. Gogolin, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Phegopteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. Phegopteris Mi: Wirschkowitz (Sp).",
+  lon = 17.33925, 
+  lat = 51.48223,
+  comments = "Wierzchowice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium Thelypteris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. Thelypteris Rat: Babitz (Sb)!",
+  lon = 18.29739, 
+  lat = 50.13741,
+  comments = "Babice, gmina Nędza, powiat raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium dilatatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. dilatatum GrW: Groß-Gahle, [...]",
+  lon = 17.54271, 
+  lat = 51.35833,
+  comments = "Gola Wielka, gmina Twardogóra, powiat oleśnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium dilatatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. dilatatum GrW: [...] Charlottenfeld; [...]",
+  lon = 17.61678,  
+  lat = 51.37177,
+  comments = "Oska Piła, gmina Międzybórz, powiat oleśnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium dilatatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. dilatatum [...] Str: Rummelsberg (Sl)!",
+  lon = 17.11001,  
+  lat = 50.70141,
+  comments = "[góra] Gromnik, Sambrowiczki, gm. Przeworno, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium lobatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. lobatum Nst: Silberkoppe (T)!",
+  lon = 17.45282, 
+  lat = 50.25754,
+  comments = "[wzgórze] Srebrna Góra, Jarnołtówek, gmina Głuchołazy, powiat nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aspidium cristatum X spinulosum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. cristatum X spinulosum Kr: Grundteich (Sp)!",
+  lon = 17.40478,  
+  lat = 51.46229,
+  comments = "Żeleźniki, gmina Krośnice, powiat milicki; okolice Stawu Grunda"
+) |> rbind(jahres)
+
+
+# search --------------------------------------------------------------------------------------
+
+# all_data |>
+#   subset(grepl("Grundteich", entry))
+# 
+# tmaptools::rev_geocode_OSM(17.40478, 51.46229)
+
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1930", 

@@ -6767,14 +6767,6 @@ jahres <- data.frame(
   comments = "Staw Zaroślak, Brzostówko, Brzostowo, gm. Krośnice, pow. milicki"
 ) |> rbind(jahres)
 
-
-# search --------------------------------------------------------------------------------------
-
-# all_data |>
-#   subset(grepl("Ernst", entry))
-# 
-# tmaptools::rev_geocode_OSM(17.39529, 51.44779)
-
 # meyerPflanzenweltBreslauerGuterbahnhofe1931 -------------------------------------------------
 
 #' TODO - dokończyć
