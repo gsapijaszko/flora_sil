@@ -1,5 +1,4 @@
 
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,26 +38,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                   species                                         citation
-    1       Rosa pendulina @schalowErgebnisseDurchforschungSchlesischen1932
-    2  Ornithogalum nutans @schalowErgebnisseDurchforschungSchlesischen1935
-    3 Aspidium Robertianum @schalowErgebnisseDurchforschungSchlesischen1932
-                                                                                  entry
-    1                  R. pendulina L. (= R. alpina) Neurode: Hausdorf (Kramarz)! [...]
-    2                                           O. nutans Hirschberg: Eichberg (Kruber)
-    3 Aspidium Robertianum Strehlen: [...] Groß-Strehlitz: Larischka (Schubert)!; [...]
-           lon      lat
-    1 16.50938 50.63251
-    2 15.80947 50.89164
-    3 18.17923 50.54258
-                                                                                 comments
-    1                                                  Jugów, gm. Nowa Ruda, pow. kłodzki
-    2                                                             Dąbrowica, Jelenia Góra
-    3 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
-      year                            accepted_name
-    1 1932                        Rosa pendulina L.
-    2 1935                   Ornithogalum nutans L.
-    3 1932 Gymnocarpium robertianum (Hoffm.) Newman
+                       species
+    1    Pilularia globulifera
+    2        Genista germanica
+    3 Illecebrum verticillatum
+                                                     citation
+    1           @fiekErgebnisseDurchforschungSchlesischen1892
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3        @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                                                            entry
+    1 Pilularia globulifera L. Hoyerswerda: Abfluss des Diskalteiches (B.)!! und des Seidewinkler Amtsteiches bei Colonie Seidewinkel (Barber)!!;
+    2                                                                                  Genista germanica Naumburg a. B.: Briesnitztal (Tscheppe)!
+    3                                                                         Illecebrum verticillatum Hoyerswerda: Grube Werminghoff (Militzer);
+           lon      lat                                    comments year
+    1 14.24027 51.49025                                             1892
+    2 15.25202 51.79057 Nowogród Bobrzański, dolina rzeki Brzeźnica 1933
+    3 14.32796 51.39629                                             1935
+                    accepted_name
+    1    Pilularia globulifera L.
+    2        Genista germanica L.
+    3 Illecebrum verticillatum L.
 
 </div>
 
@@ -83,7 +82,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -142,14 +141,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. AE67
+    1                    Malva moschata L. BE71
     2                    Malva moschata L. BE72
-    3                    Malva moschata L. BE74
-    4                  Malva parviflora L. BE49
+    3                    Malva moschata L. CF11
+    4                    Malva pusilla Sm. CE90
     5 Malva thuringiaca subsp. thuringiaca BE14
-    6        Malva trimestris (L.) Salisb. AE58
-    7        Malva trimestris (L.) Salisb. AE67
-    8                Malva verticillata L. BF07
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. BE49
 
 ### How to participate
 
@@ -226,7 +225,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4909 records (species - localization) including 4833 with
+total 4919 records (species - localization) including 4843 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

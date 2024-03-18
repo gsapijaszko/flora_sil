@@ -141,14 +141,95 @@ jahres <- data.frame(
   comments = "Żeleźniki, gmina Krośnice, powiat milicki; okolice Stawu Grunda"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Blechnum Spicant",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Blechnum Spicant Liebenthal: Stadtwald (B)!;[...]",
+  lon = 15.50980, 
+  lat = 51.00327,
+  comments = "Lubomierz, Las Lubomierski"
+) |> rbind(jahres)
 
-# search --------------------------------------------------------------------------------------
+jahres <- data.frame(
+  species = "Blechnum Spicant",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Blechnum Spicant [...] Pro: Psychod![...]",
+  lon = 17.67254,
+  lat = 50.53910,
+  comments = "Przechód, gm. Korfantów, pow. nyski"
+) |> rbind(jahres)
 
-# all_data |>
-#   subset(grepl("Grundteich", entry))
-# 
-# tmaptools::rev_geocode_OSM(17.40478, 51.46229)
+jahres <- data.frame(
+  species = "Blechnum Spicant",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Blechnum Spicant [...] Opp: Poppelau; [...]",
+  lon = 17.78438, 
+  lat = 50.86374,
+  comments = "Popielów, gm. Popielów, pow. opolski"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Blechnum Spicant",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Blechnum Spicant [...] Nst: Bischofskoppe (Br).",
+  lon = 17.43045,  
+  lat = 50.25732,
+  comments = "Biskupia Kopa, Jarnołtówek, gmina Głuchołazy, powiat nyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Asplenium Ruta muraria Nm: an Gartenmauern mehrfach (Ho)!; [...]",
+  lon = 16.60034, 
+  lat = 51.15835,
+  comments = " Środa Śląska, pow. śrdzki; często na murach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Asplenium Ruta muraria v. multicaule",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Asplenium Ruta muraria [...] v. multicaule GrSt: Centawa (Sb).",
+  lon = 18.40702,  
+  lat = 50.50952,
+  comments = "Centawa, gmina Jemielnica, powiat strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Polypodium vulgare Nm: zw. Stephansdorf u. Breitenau (Ko)!; [...]",
+  lon = 16.59777, 
+  lat = 51.21338,
+  comments = "pomiędzy miejscowościami Szczepanów i Brodno, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polypodium vulgare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Polypodium vulgare [...] C: Uferwand im Stadthafen!",
+  lon = 18.15245, 
+  lat = 50.35486,
+  comments = "Koźle, port; nabrzerze"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Osmunda vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Osmunda vulgaris Ns: Spitzberg bei Nittritz (Ts)!",
+  lon = 15.64027, 
+  lat = 51.85417,
+  comments = "[wzgórze] Górka, Ługi, gmina Otyń, powiat nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ophioglossum vulgatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ophioglossum vulgatum Obgl: Broschütz (T)!",
+  lon = 17.99629, 
+  lat = 50.40766,
+  comments = "Brożec, gm. Walce, pow. krapkowicki"
+) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Botrychium lunaria",
@@ -230,6 +311,16 @@ jahres <- data.frame(
   lat = 50.51102, 
   comments = ""
 ) |> rbind(jahres)
+
+# search --------------------------------------------------------------------------------------
+
+# all_data |>
+#   # subset(grepl("hafen", entry)) |>
+#   subset(grepl("Broschütz", entry))
+# 
+# tmaptools::rev_geocode_OSM(17.99629, 50.40766)
+
+
 
 #'
 #'[...]
