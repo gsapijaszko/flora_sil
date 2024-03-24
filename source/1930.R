@@ -312,13 +312,22 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Taxus baccata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Taxus baccata Silb: sübwestl. ber Hängebrücke ein Bäumchen (B) !",
+  lon = 16.63613, 
+  lat = 50.57037,
+  comments = "Wiszący wiadukt, Żdanów, gmina Stoszowice, powiat ząbkowicki"
+) |> rbind(jahres)
+
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
 #   # subset(grepl("hafen", entry)) |>
 #   subset(grepl("Broschütz", entry))
 # 
-# tmaptools::rev_geocode_OSM(17.99629, 50.40766)
+# tmaptools::rev_geocode_OSM(16.63613, 50.57037)
 
 
 

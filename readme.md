@@ -1,4 +1,5 @@
 
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -38,26 +39,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                       species
-    1    Pilularia globulifera
-    2        Genista germanica
-    3 Illecebrum verticillatum
+                     species
+    1 Lycopodium complanatum
+    2   Lycopodium annotinum
+    3       Potentilla verna
                                                      citation
-    1           @fiekErgebnisseDurchforschungSchlesischen1892
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3        @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                                                            entry
-    1 Pilularia globulifera L. Hoyerswerda: Abfluss des Diskalteiches (B.)!! und des Seidewinkler Amtsteiches bei Colonie Seidewinkel (Barber)!!;
-    2                                                                                  Genista germanica Naumburg a. B.: Briesnitztal (Tscheppe)!
-    3                                                                         Illecebrum verticillatum Hoyerswerda: Grube Werminghoff (Militzer);
-           lon      lat                                    comments year
-    1 14.24027 51.49025                                             1892
-    2 15.25202 51.79057 Nowogród Bobrzański, dolina rzeki Brzeźnica 1933
-    3 14.32796 51.39629                                             1935
-                    accepted_name
-    1    Pilularia globulifera L.
-    2        Genista germanica L.
-    3 Illecebrum verticillatum L.
+    1         @schubeErgebnisseDurchforschungSchlesischen1919
+    2         @schubeErgebnisseDurchforschungSchlesischen1928
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                              entry      lon
+    1 Lycopodium complanatum. Eulengebirge: bei Köpprich mehrfach;  16.56841
+    2         Lycopodium annotinum Kraschnitz: Försterteich! (Sp ), 17.38986
+    3            P. verna [...] Gr.Strehlitz: Larischka (Schubert)! 18.17923
+           lat
+    1 50.60797
+    2 51.47185
+    3 50.54258
+                                                                                 comments
+    1                                              Przygórze, gm. Nowa Ruda, pow. kłodzki
+    2                                                             okolice stawu, Krośnice
+    3 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
+      year                        accepted_name
+    1 1919 Diphasiastrum complanatum (L.) Holub
+    2 1928              Lycopodium annotinum L.
+    3 1931                  Potentilla verna L.
 
 </div>
 
@@ -82,7 +87,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -141,14 +146,14 @@ malvas |>
 ```
 
                              accepted_name Name
-    1                    Malva moschata L. BE71
-    2                    Malva moschata L. BE72
-    3                    Malva moschata L. CF11
-    4                    Malva pusilla Sm. CE90
+    1                    Malva moschata L. AE78
+    2                    Malva moschata L. BF05
+    3                    Malva moschata L. CE81
+    4                    Malva pusilla Sm. AD93
     5 Malva thuringiaca subsp. thuringiaca BE14
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. BE49
+    6                Malva verticillata L. AD59
+    7                Malva verticillata L. AD67
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -225,7 +230,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4919 records (species - localization) including 4843 with
+total 4920 records (species - localization) including 4844 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
