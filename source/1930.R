@@ -321,13 +321,105 @@ jahres <- data.frame(
   comments = "Wiszący wiadukt, Żdanów, gmina Stoszowice, powiat ząbkowicki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Sparganium minimum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Sparganium minimum Kr: Kählteich (Sp)!",
+  lon = NA,
+  lat = NA,
+  comments = "Krośnice, gm. Krośnice; nie znalazłem Kählteich"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton gramineus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Potamogeton gramineus Woh: „Großer Teich“ bei Heinzendorf (Sl)!; [...]",
+  lon = 16.81127, 
+  lat = 51.34896,
+  comments = "Bagno, gmina Oborniki Śląskie, powiat trzebnicki; staw"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton gramineus v. graminifolius",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Potamogeton gramineus [...] v. graminifolius Cosel: Slawentzitzer Fischteich (Sb)!",
+  lon = 18.30530,
+  lat = 50.35954,
+  comments = "Sławięcice, Kędzierzyn-Koźle, staw rybny; "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton pusillus f. Berditoldi",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. pusillus f. Berditoldi Obgl: Hinterdorf (T)!",
+  lon = 17.86375, 
+  lat = 50.34633,
+  comments = "Oracze, Wielkie Oracze, Głogówek, gmina Głogówek, powiat prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Potamogeton pectinatus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. pectinatus Leo: Krastillau (K)!",
+  lon = 17.90452,
+  lat = 50.06774,
+  comments = "Chróścielów, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Alisma arcuatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Alisma arcuatum Str: Großteich bei Eisenberg (Sl)!",
+  lon = 17.18423,
+  lat = 50.72678,
+  comments = "staw obok Żeleźnik, gm. Strzelin"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Triglochin palustris Land: Kreppelhof (St); [...]",
+  lon = 16.03681,
+  lat = 50.79105,
+  comments = "zamek Grodztwo [ruiny], Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Triglochin palustris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Triglochin palustris [...] Obgl: Zabierzau (Sb)!",
+  lon = 17.97525, 
+  lat = 50.38585,
+  comments = "Zabierzów, gmina Walce, powiat krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Elodea canadensis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Elodea canadensis Obgl: wie vor.; [...]",
+  lon = 17.97525, 
+  lat = 50.38585,
+  comments = "Zabierzów, gmina Walce, powiat krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Elodea canadensis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Elodea canadensis [...] Hab: Ober-Lomnitz (Pf)!",
+  lon = 16.57532, 
+  lat = 50.35306,
+  comments = "Stara Łomnica, gmina Bystrzyca Kłodzka, powiat kłodzki"
+) |> rbind(jahres)
+
+
+
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
 #   # subset(grepl("hafen", entry)) |>
-#   subset(grepl("Broschütz", entry))
+#   subset(grepl("Lomnitz", entry))
 # 
-# tmaptools::rev_geocode_OSM(16.63613, 50.57037)
+# tmaptools::rev_geocode_OSM(16.57532, 50.35306)
 
 
 
