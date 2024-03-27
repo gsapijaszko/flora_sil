@@ -1354,7 +1354,7 @@ jahres <- data.frame(
   entry = "C. tomentosa [...] Wohlau: Seifwiesen bei Kl.-Kreidel!",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1813,7 +1813,7 @@ jahres <- data.frame(
   entry = "Iris sibirica Wohlau: Seifwiesen bei Kl.-Kreidel (Juhnke)!",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -2029,7 +2029,7 @@ jahres <- data.frame(
   entry = "S. repens var. rosmarinifolia Wohlau: Seifwiesen bei Kl.-Kreidel!",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4135,7 +4135,7 @@ jahres <- data.frame(
   entry = "Polygala amara Wohlau: Seifwiesen bei Kl.Kreidel!",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -4747,7 +4747,7 @@ jahres <- data.frame(
   entry = "Peucedanum Cervaria Wohlau: Seifwiesen bei Kl.-Kreidel! [...] Die Seifwiesen bei Kl.-Kreidel gehören mit zu den interessantesten Gebieten unserer rechten Oderseite. [...] Die wenigen Sträucher: Rosa gallica , R. scabriuscula, Salix repens und Ju niperus communis werden zu meist durch die Sense niedergehalten. Als Hauptcharakterpflanze der Wiesen ist die Hirschwurz, Peucedanum Cervaria zu betrachten. Von Begleitpflanzen sind zu nennen: Primula officinalis, Campanula glomerata , Laserpicium prutenicum, Scorzonera humilis, Carex tomentosa, Viola hirta, Helianthemum chamaecistus, Potentilla alba, Iris sibirica, Crepis praemorsa, Orchis morio, Inula salicina u. a. Hin und wieder kommt es auch durch das Vorherrschen von Calluna vulgaris zur Ausbildung von echten Heidewiesen. An tieferen Stellen schließen sich allerhand Riedgräser zu dichten Beständen zusammen, die von Carex acutiformis, C. Goodenoughi, C. disticha , C. flava und C. Buxbaumi gebildet werden. Ihnen sind bei­gemischt: Eriophorum latifolium und E. angustifolium, Crepis paludosus, Orchis latifolia, Pedicularis silvatica u. a. Ganz ähnlich wie auf den Silsterwitzer Wiesen finden sich auch hier größere reine Schilfbestände. Auch Calamagrostis lanceolata ist mit unter tonangebend. Soviel zur Kennzeichnung der Kreideier Seifwiesen. Wo finden sich in Schlesien noch ähnliche Wiesenbestände? [...]",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -5287,7 +5287,7 @@ jahres <- data.frame(
   entry = "Scutellaria hastifolia [...] Wohlau: Seifwiesen bei Kl.Kreidel (Juhnke)",
   lon = 16.52907,  
   lat = 51.30866,
-  comments = "Krzydlina Mała, gm. Wołów, łąki na płń-zachód od miejscowości"
+  comments = "Krzydlina Mała, gm. Wołów, łąki na płn-zachód od miejscowości"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
