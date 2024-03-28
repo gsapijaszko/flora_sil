@@ -57,7 +57,7 @@ jahres <- data.frame(
   entry = "Aspidium Dryopteris GrW : Charlottenfeld (Sl)!; [...]",
   lon = 17.61678,  
   lat = 51.37177,
-  comments = "Oska Piła, gmina Międzybórz, powiat oleśnicki"
+  comments = "Oska Piła, gm. Międzybórz, pow. oleśnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -66,7 +66,7 @@ jahres <- data.frame(
   entry = "Aspidium Dryopteris [...] Opp: Silberquelle (Sb)!",
   lon = 18.14040, 
   lat = 50.65499,
-  comments = "Rezerwat Srebrne Źródła, Daniec, gmina Chrząstowice, powiat opolski"
+  comments = "Rezerwat Srebrne Źródła, Daniec, gm. Chrząstowice, pow. opolski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -93,7 +93,7 @@ jahres <- data.frame(
   entry = "A. Thelypteris Rat: Babitz (Sb)!",
   lon = 18.29739, 
   lat = 50.13741,
-  comments = "Babice, gmina Nędza, powiat raciborski"
+  comments = "Babice, gm. Nędza, pow. raciborski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -102,7 +102,7 @@ jahres <- data.frame(
   entry = "A. dilatatum GrW: Groß-Gahle, [...]",
   lon = 17.54271, 
   lat = 51.35833,
-  comments = "Gola Wielka, gmina Twardogóra, powiat oleśnicki"
+  comments = "Gola Wielka, gm. Twardogóra, pow. oleśnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -111,7 +111,7 @@ jahres <- data.frame(
   entry = "A. dilatatum GrW: [...] Charlottenfeld; [...]",
   lon = 17.61678,  
   lat = 51.37177,
-  comments = "Oska Piła, gmina Międzybórz, powiat oleśnicki"
+  comments = "Oska Piła, gm. Międzybórz, pow. oleśnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -129,7 +129,7 @@ jahres <- data.frame(
   entry = "A. lobatum Nst: Silberkoppe (T)!",
   lon = 17.45282, 
   lat = 50.25754,
-  comments = "[wzgórze] Srebrna Góra, Jarnołtówek, gmina Głuchołazy, powiat nyski"
+  comments = "[wzgórze] Srebrna Góra, Jarnołtówek, gm. Głuchołazy, pow. nyski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -138,7 +138,7 @@ jahres <- data.frame(
   entry = "A. cristatum X spinulosum Kr: Grundteich (Sp)!",
   lon = 17.40478,  
   lat = 51.46229,
-  comments = "Żeleźniki, gmina Krośnice, powiat milicki; okolice Stawu Grunda"
+  comments = "Żeleźniki, gm. Krośnice, pow. milicki; okolice Stawu Grunda"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -174,7 +174,7 @@ jahres <- data.frame(
   entry = "Blechnum Spicant [...] Nst: Bischofskoppe (Br).",
   lon = 17.43045,  
   lat = 50.25732,
-  comments = "Biskupia Kopa, Jarnołtówek, gmina Głuchołazy, powiat nyski"
+  comments = "Biskupia Kopa, Jarnołtówek, gm. Głuchołazy, pow. nyski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -192,7 +192,7 @@ jahres <- data.frame(
   entry = "Asplenium Ruta muraria [...] v. multicaule GrSt: Centawa (Sb).",
   lon = 18.40702,  
   lat = 50.50952,
-  comments = "Centawa, gmina Jemielnica, powiat strzelecki"
+  comments = "Centawa, gm. Jemielnica, pow. strzelecki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -219,7 +219,7 @@ jahres <- data.frame(
   entry = "Osmunda vulgaris Ns: Spitzberg bei Nittritz (Ts)!",
   lon = 15.64027, 
   lat = 51.85417,
-  comments = "[wzgórze] Górka, Ługi, gmina Otyń, powiat nowosolski"
+  comments = "[wzgórze] Górka, Ługi, gm. Otyń, pow. nowosolski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -318,7 +318,7 @@ jahres <- data.frame(
   entry = "Taxus baccata Silb: sübwestl. ber Hängebrücke ein Bäumchen (B) !",
   lon = 16.63613, 
   lat = 50.57037,
-  comments = "Wiszący wiadukt, Żdanów, gmina Stoszowice, powiat ząbkowicki"
+  comments = "Wiszący wiadukt, Żdanów, gm. Stoszowice, pow. ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -336,7 +336,7 @@ jahres <- data.frame(
   entry = "Potamogeton gramineus Woh: „Großer Teich“ bei Heinzendorf (Sl)!; [...]",
   lon = 16.81127, 
   lat = 51.34896,
-  comments = "Bagno, gmina Oborniki Śląskie, powiat trzebnicki; staw"
+  comments = "Bagno, gm. Oborniki Śląskie, pow. trzebnicki; staw"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -354,7 +354,7 @@ jahres <- data.frame(
   entry = "P. pusillus f. Berditoldi Obgl: Hinterdorf (T)!",
   lon = 17.86375, 
   lat = 50.34633,
-  comments = "Oracze, Wielkie Oracze, Głogówek, gmina Głogówek, powiat prudnicki"
+  comments = "Oracze, Wielkie Oracze, Głogówek, gm. Głogówek, pow. prudnicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -390,7 +390,7 @@ jahres <- data.frame(
   entry = "Triglochin palustris [...] Obgl: Zabierzau (Sb)!",
   lon = 17.97525, 
   lat = 50.38585,
-  comments = "Zabierzów, gmina Walce, powiat krapkowicki"
+  comments = "Zabierzów, gm. Walce, pow. krapkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -399,7 +399,7 @@ jahres <- data.frame(
   entry = "Elodea canadensis Obgl: wie vor.; [...]",
   lon = 17.97525, 
   lat = 50.38585,
-  comments = "Zabierzów, gmina Walce, powiat krapkowicki"
+  comments = "Zabierzów, gm. Walce, pow. krapkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -408,24 +408,188 @@ jahres <- data.frame(
   entry = "Elodea canadensis [...] Hab: Ober-Lomnitz (Pf)!",
   lon = 16.57532, 
   lat = 50.35306,
-  comments = "Stara Łomnica, gmina Bystrzyca Kłodzka, powiat kłodzki"
+  comments = "Stara Łomnica, gm. Bystrzyca Kłodzka, pow. kłodzki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Panicum colonum L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Panicum colonum L. B: beim Kinderzobten (Sl)!",
+  lon = 16.99758,
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Panicum capillare",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. capillare B: Stadthafen (M)!",
+  lon = 17.01999,
+  lat = 51.12865,
+  comments = " Wrocław, port rzeczny"
+) |> rbind(jahres)
 
-# search --------------------------------------------------------------------------------------
+jahres <- data.frame(
+  species = "Anthoxanthum aristatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Anthoxanthum aristatum B: beim Hardenberghügel (SI)!",
+  lon = 16.99651, 
+  lat = 51.09347,
+  comments = "Wrocław, Wzgórze Gajowickie"
+) |> rbind(jahres)
 
-# all_data |>
-#   # subset(grepl("hafen", entry)) |>
-#   subset(grepl("Lomnitz", entry))
-# 
-# tmaptools::rev_geocode_OSM(16.57532, 50.35306)
+jahres <- data.frame(
+  species = "Phleum pratense f. bracteatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Phleum pratense f. bracteatum Z: Hindenburgweg!",
+  lon = 16.71322, 
+  lat = 50.86021,
+  comments = "Ślęża, Ścieżka pod skałami, Sobótka, gm. Sobótka, pow. wrocławski"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Calamagrostis arundinacea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Calamagrostis arundinacea Frey: Windischborau!; [...]",
+  lon = 15.66907, 
+  lat = 51.69874,
+  comments = "Borów Polski, gm. Nowe Miasteczko, pow. nowosolski"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Calamagrostis arundinacea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Calamagrostis arundinacea [...] Kr: mehrfach (Sp)!; [...]",
+  lon = 17.36246, 
+  lat = 51.47484,
+  comments = "Krośnice, gm. Krośnice, pow. milicki; często"
+) |> rbind(jahres)
 
-#'
-#'[...]
-#'
+jahres <- data.frame(
+  species = "Calamagrostis arundinacea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Calamagrostis arundinacea [...] Leo: Stadtwald; [...] ",
+  lon = 17.78894, 
+  lat = 50.25534,
+  comments = "Kietlice, gm. Głubczyce, pow. głubczycki; las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Calamagrostis arundinacea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Calamagrostis arundinacea [...] GrSt: Zawadzki (Sb)!",
+  lon = 18.47508, 
+  lat = 50.61651,
+  comments = "Zawadzkie, gm. Zawadzkie, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Calamagrostis arundinacea X epigeios",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "C. arund. X epigeios Ni: Mückenberg bei Rothneudorf (Sl)!",
+  lon = 16.95870, 
+  lat = 50.71331,
+  comments = "Zarzycka Góra, Czerwieniec, gm. Kondratowice, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trisetum flavescens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trisetum flavescens Stei: Jürtsch (Sl)!; [...]",
+  lon = 16.41097, 
+  lat = 51.31454,
+  comments = "Jurcz, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trisetum flavescens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trisetum flavescens [...] C: Groß-Ellguth!, [...]",
+  lon = 18.02899,
+  lat = 50.27617,
+  comments = "Ligota Wielka, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trisetum flavescens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trisetum flavescens [...] C: [...] Karchwitz (Sb)!; [...]",
+  lon = 18.00900,
+  lat = 50.27602,
+  comments = "Karchów, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Trisetum flavescens", "Trisetum flavescens f. villosum Cel."),
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trisetum flavescens [...] Leo: Bratsch (Sb)! Hierzu f. villosum Cel.[...]",
+  lon = 17.72187, 
+  lat = 50.13523,
+  comments = "Braciszów, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trisetum flavescens f. villosum Cel.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trisetum flavescens [...] f. villosum Cel. z. B. Leo: Krug (K)! [...]",
+  lon = 17.85025,
+  lat = 50.09037,
+  comments = "Dzbańce, gm. Branice, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena fatua f. glabrata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Avena fatua f.glabrata Beu: Bhf; [...]",
+  lon = 18.90974, 
+  lat = 50.34410,
+  comments = "Bytom, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Avena fatua f. glabrata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Avena fatua f.glabrata [...] Hdb: desgl. (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arrhenatherum elatius f. biaristatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Arrhenatherum elatius f. biaristatum C: Groß-Ellguth!",
+  lon = 18.02899,
+  lat = 50.27617,
+  comments = "Ligota Wielka, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Eragrostis minor Str: Bahnhof Mückendorf (Sl)!; [...]",
+  lon = 17.15681, 
+  lat = 50.76069,
+  comments = "Muchowiec, gm. Strzelin, pow. strzeliński; dawny dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Eragrostis minor [...] C: beim Landratsamt; [...]",
+  lon = 18.14332, 
+  lat = 50.33708,
+  comments = "ul. Grzegorza Piramowicza, Koźle, Kędzierzyn-Koźle, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eragrostis minor",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Eragrostis minor [...] Beu: Bobrek (Sb)!",
+  lon = 18.85827, 
+  lat = 50.33590,
+  comments = "Bobrek, Bytom"
+) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Cynodon Dactylon",
@@ -453,4 +617,122 @@ jahres <- data.frame(
   lat = 51.10362, 
   comments = "Wrocław, Biskupin, obecnie okolice ul. Karola Olszewskiego"
 ) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Koeleria cristata v. pyramidata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Koeleria cristata v. pyramidata Frk: Baumgartener Berg(B).",
+  lon = 16.78853, 
+  lat = 50.54329,
+  comments = "wzgórze Pstre(?), Braszowice, gm. Ząbkowice Śląskie, pow. ząbkowicki; nie znalazłem Baumgartener Berg, ale Baumgarten == Braszowice, a Pstre to jedyne znaczące wzgórze obok miejscowości, choć na mapach oznaczone jako Buch Berg. "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Melica uniflora",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Melica uniflora Mi: Frankenberg (Sp)!",
+  lon = 17.29797, 
+  lat = 51.46951,
+  comments = "Świebodów, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cynosurus echinatus L. C: Groß-Ellguth, [...]",
+  lon = 18.02899,
+  lat = 50.27617,
+  comments = "Ligota Wielka, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cynosurus echinatus L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cynosurus echinatus L. C: [...] Karchwitz (Sb)!",
+  lon = 18.00900,
+  lat = 50.27602,
+  comments = "Karchów, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Poa compressa v. Langiana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Poa compressa v. Langiana Ka: Kösling (K)!",
+  lon = 17.97223, 
+  lat = 50.09033,
+  comments = "Kozłówki, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Glyceria plicata f. minor",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Glyceria plicata f. minor Leo: Peterwitz (Sb)!",
+  lon = 17.68937, 
+  lat = 50.12710,
+  comments = "Pietrowice, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Glyceria nemoralis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "G. nemoralis Str: Rummelsberg (Sl)!; [...]",
+  lon = 17.11001,  
+  lat = 50.70141,
+  comments = "[góra] Gromnik, Sambrowiczki, gm. Przeworno, pow. strzeliński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Glyceria nemoralis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "G. nemoralis [...] Leo: Stadtwald (Sb)!",
+  lon = 17.78894, 
+  lat = 50.25534,
+  comments = "Kietlice, gm. Głubczyce, pow. głubczycki; las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca ovina f. capillata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Festuca ovina f. capillata Leo: Krug (K)!",
+  lon = 17.85025,
+  lat = 50.09037,
+  comments = "Dzbańce, gm. Branice, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca vallesiaca",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. vallesiaca Opp: zw. Chronstau u. Malapane; [...]",
+  lon = 18.14271, 
+  lat = 50.67295,
+  comments = "między miejscowościami Chrząstowice, gm. Chrząstowice, a Ozimek, gm. Ozimek, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca vallesiaca",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. vallesiaca [...] GrSt: Nieder-Ellguth, [...]",
+  lon = 18.11745,
+  lat = 50.49169,
+  comments = "Ligota Dolna, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca vallesiaca",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. vallesiaca [...] GrSt: [...] Stephanshain u. a. (Sb).",
+  lon = 18.34462, 
+  lat = 50.53369,
+  comments = "Szczepanek, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+
+
+# search --------------------------------------------------------------------------------------
+
+# all_data |>
+#   subset(grepl("Stephanshain", entry)) |>
+#   subset(grepl("Gr", entry))
+# 
+# tmaptools::rev_geocode_OSM(18.34462, 50.53369)
 

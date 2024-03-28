@@ -81,9 +81,9 @@ jahres <- data.frame(
   species = "Equisetum hiemale",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
   entry = "Equisetum hiemale Mi: Frankenberg (Sp)!",
-  lon = 17.28460, 
-  lat = 51.46856, 
-  comments = ""
+  lon = 17.29797, 
+  lat = 51.46951,
+  comments = "Świebodów, gmina Krośnice, powiat milicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

@@ -51,7 +51,7 @@ saveRDS(all_data, file = "data/all_data.Rds")
 # tmaptools::rev_geocode_OSM(17.50782, 51.43976)
 
 all_data |>
-  subset(grepl("Kreidel", entry)
+  subset(grepl("Thomaswaldau", entry)
 
   #      & grepl("Gleiwitz", entry)
   ) # |>

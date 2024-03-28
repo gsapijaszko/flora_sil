@@ -2127,8 +2127,6 @@ schube <- data.frame(
 #' powyżej z @fiekFloraSchlesienPreussischen1881
 #' 
 
-#### end ----
-
 # schube <- data.frame(
 #   species = "Equisetum XXX",
 #   citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
@@ -2142,12 +2140,13 @@ schube <- data.frame(
 
 #' 8. Reihe. Centrospermae.
 #'  39. Familie. CHENOPODIACEAE. 
-#'  154. Chenopodium L.
+##  154. Chenopodium L. ----
 #'  
 #'  [...]
 #'  
 #'  
-#' Ch. Botrys L. An Wegen, auf Garten- und Ackerland zuweilen verw. IIIc Öls: Briese (F); IIId B: Sitten
+### + Ch. Botrys L. ----
+#' An Wegen, auf Garten- und Ackerland zuweilen verw. IIIc Öls: Briese (F); IIId B: Sitten
 #' bei Obernigk (F)!, Skarsine (F)!, Canth (01)!, Acker am Koberwitzer Park (F); IIIe Stg: Lederose (F), 
 #' Kuhnern (F); IIIf Reichb: auf Gemuseland (F); Vb Karlsruhe: Sandfelder (F)!; Pro: Seminargarten (88)!;
 #' Vc Nei!: Zedlitz (F), Gießmannsdorf (F); Vd Obgl: Seminargarten (F)!; Rat: Neugarten (F); 
@@ -2297,9 +2296,133 @@ schube <- data.frame(
   comments = "w Czechach"
 ) |> rbind(schube)
 
+#' 2. Reihe. Primulales. 
+#' 85. Familie. PRIMULACEAE. 
+## 360. Primula L. ----
+###  1138. P. officinalis (L.) Jcq. ----
+#' Wiesen, grasige Lehnen, lichte Waldstellen; von der Eb. bis ins niedere Vgb. 3, im mittleren Vgb. 2—3.
+#' 
+#' Ic Bu: Nd.-Thomaswaldau, auch vereinzelt auf den Boberwiesen (A); Id Frey: Zolling!, Höllberge (H); Neus: Alt-Tschau!, Hohenborau (H); Grü: Oderwald!, Prautzke (H), Krampe (H), Rohrbusch (H); BaO: Nattermühle (H); Glo: Milkau (H); Ie Lie: Katzbachwiesen!, Kuchelberg!, Gr.-Wandris (G), Mertschütz (G); Par: Leschwitz (G); IIa 2!; IIb 3!; Schö: Kitzelberg!, Mühlberg!; IIc Liebau: Rabengrund!; IIIa Herrn: 3!; Stei: Dieban, Przybór (P. Scholz); III b Tra: Lauskowe (85); GrW: Baldowitz! u. a .; IIIc Br: Schönau! u. a .; IIId 21!; IIIe 2!; IIIf 0!; IIIg 21; IVa 7!; auch Frd: Langer Berg (F), Hornschloß (F )!; IVc!; IVd Rein: Hartau! u. a.; Va Ros (Gr): nur Skronskau (Zu)!; Vb 2!; Falk. häufig (M); Vc!; Vd Leo. unsicher (M); Ka: Dirschel!; Kosel: Poborschau!; Krappitz (Gr) u. a.; Ve 3!; Vf Berun: Imielin!; VIb Troppau!; Jäg. (O); VIc Te: selten (O), Dzingelau (0); Friedek 0 (We); VId Ustron: Tul (O).
+#' 
+#' f. inflata (Lehmann). Gö: Landskrone (88); Lähn: Lehnhausberg (88); Frd: Langer Berg (88); GrSt: Schimischow (03)! 
+#' 
+#' Außerdem f. calycida!
 
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ic Bu: Nd.-Thomaswaldau, auch vereinzelt auf den Boberwiesen (A); [...]",
+  lon = c(15.67778, 15.56928),
+  lat = c(51.27394, 51.31325),
+  comments = "Tomaszów Bolesławiecki, gmina Warta Bolesławiecka, powiat bolesławiecki, także okazjonalnie na łąkach nad Bobrem"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id Frey: Zölling!, [...]",
+  lon = 15.64759, 
+  lat = 51.72063,
+  comments = "Solniki, gmina Kożuchów, powiat nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id Frey: [...] Höllberge (H); [...]",
+  lon = NA,
+  lat = NA,
+  comments = "gm. Kożuchów, nie znalazłem Höllberge"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Neus: Alt-Tschau!, [...]",
+  lon = 15.72573,
+  lat = 51.77679,
+  comments = "Stare Żabno, Nowa Sól, powiat nowosolski; obecnie część Nowej Soli"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Neus: [...] Hohenborau (H);[...]",
+  lon = 15.86717, 
+  lat = 51.79982,
+  comments = "Borowiec, gmina Siedlisko, powiat nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Grü: Oderwald!, [...] ",
+  lon = 15.51133, 
+  lat = 52.03194,
+  comments = "las przy Odrze, gm. Czerwieńsk, pow. zielonogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Grü: [...] Prautzke (H), [...]",
+  lon = 15.76778, 
+  lat = 51.91368,
+  comments = "Dąbrowa, gmina Zabór, powiat zielonogórski; nieistniejący przysiółek; patrz http://maps.mapywig.org/m/German_maps/series/100K_KDR_Generalstabskarte/DRMC/KDR100_346_Gruenberg_i._Schles._ca1893_DRMC5820346.jpg i https://www.zobodat.at/pdf/Allg-bot-Zeitschrift_1_1895_0176-0179.pdf"
+) |> rbind(schube)
+
+#' TODO: https://www.zobodat.at/pdf/Allg-bot-Zeitschrift_1_1895_0176-0179.pdf
+#' 
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Grü: [...] Krampe (H), [...]",
+  lon = 15.53103,
+  lat = 52.00299,
+  comments = "Krępa, Nowe Miasto, Zielona Góra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Id [...] Grü: [...] Rohrbusch (H); [...]",
+  lon = 15.53272,
+  lat = 51.94459,
+  comments = "Park Poetów, Wazów, Osiedle Wazów, Zielona Góra; http://maps.mapywig.org/m/City_plans/Central_Europe/zbc07553_Pharus_Plan_Grunberg_in_Schlesien_(K-948)-map.jpg; http://maps.mapywig.org/m/m_documents/DE/Fuhrer_durch_Grunberg_und_Umgebung_mit_Stadtplan_1901_zbc_Reg._II_51038.pdf"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] BaO: Nattermühle (H); [...]",
+  lon = 15.76643, 
+  lat = 51.74927,
+  comments = "Kiełcz, gmina Nowa Sól, powiat nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Glo: Milkau (H);",
+  lon = 15.78820, 
+  lat = 51.68023,
+  comments = "Miłaków, gmina Nowe Miasteczko, powiat nowosolski"
+) |> rbind(schube)
+
+
+# search --------------------------------------------------------------------------------------
+
+# all_data |>
+#   subset(grepl("Milkau", entry)) |>
+#   subset(grepl("", entry))
+# 
+# tmaptools::rev_geocode_OSM(15.78820, 51.68023)
+# 
 
 schube |>
   subset(grepl("@fiekFloraSchlesienPreussischen1881", citation)) |>
   subset(!grepl("(F)", entry))
+
+# end ----
 

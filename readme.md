@@ -1,5 +1,3 @@
-
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -39,26 +37,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                      species
-    1  Galeopsis angustifolia
-    2         Pirola uniflora
-    3 Carex tricostata Fries.
+                                                           species
+    1                                            Mulgedium alpinum
+    2 Ambrosia trifida var. integrifolia (Mühlenb.) Torrey et Gray
+    3                                       Ceratophyllum demersum
                                                      citation
-    1        @schalowErgebnisseDurchforschungSchlesischen1932
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3                    @wimmerSchlesischenCarexArtenAus1850
-                                                                 entry      lon
-    1 Galeopsis angustifolia [...] Wansen: Bahndamm b. Spurwitz!;[...] 17.17863
-    2                     Pirola uniflora Wohlau: Tiergarten (Juhnke); 16.77285
-    3                            C. tricostata Fries. [...] um Neisse. 17.31405
-           lat                                                      comments year
-    1 50.80193 Zborowice, gm. Wiązów, pow. strzeliński; dawny nasyp kolejowy 1932
-    2 51.32558       Godzięcin (Thiergarten), gm. Brzeg Dolny, pow. wołowski 1931
-    3 50.47100                                                          Nysa 1850
-                               accepted_name
-    1 Galeopsis angustifolia Ehrh. ex Hoffm.
-    2           Moneses uniflora (L.) A.Gray
-    3                         Carex acuta L.
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3        @schalowErgebnisseDurchforschungSchlesischen1935
+                                                                                                                             entry
+    1                              Mulgedium alpinum Wilhelmstal: bei der oberen Schleuse im rechten Zwieselgraben (Prof. Schube)!
+    2 Ambrosia trifida L. Guhrau: Verschiebegleis der Mühlenwerke, auch in var. integrifolia (Mühlenb.) Torrey et Gray (Weidlich)!
+    3                                                                            Ceratophyllum demersum Freiburg: Kalkbruch (Loge)
+           lon      lat                              comments year
+    1 18.29893 50.09714 Kobyla, gm. Kornowac, pow. raciborski 1933
+    2 16.54435 51.67060            Góra, gm. Góra, dawny młyn 1933
+    3       NA       NA         Świebodzice, wyrobisko wapnia 1935
+                     accepted_name
+    1 Cicerbita alpina (L.) Wallr.
+    2          Ambrosia trifida L.
+    3    Ceratophyllum demersum L.
 
 </div>
 
@@ -141,15 +139,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE58
-    2             Malva moschata L. BE53
-    3             Malva moschata L. BE72
-    4             Malva moschata L. BE82
-    5             Malva moschata L. BF05
-    6             Malva pusilla Sm. AD93
-    7             Malva pusilla Sm. CE90
-    8 Malva trimestris (L.) Salisb. AE67
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE72
+    3                    Malva moschata L. BF26
+    4                    Malva moschata L. CF11
+    5 Malva thuringiaca subsp. thuringiaca BE57
+    6 Malva thuringiaca subsp. thuringiaca CF35
+    7        Malva trimestris (L.) Salisb. AE58
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -226,7 +224,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4930 records (species - localization) including 4853 with
+total 4963 records (species - localization) including 4886 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
