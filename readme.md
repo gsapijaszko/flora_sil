@@ -39,30 +39,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                        species
-    1 Chenopodium pseudopulifolium J. B. Scholz
-    2                           Artemisia annua
-    3                       Leontodon taraxacum
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2        @schalowErgebnisseDurchforschungSchlesischen1932
-    3                            @wimmerEinigeFormenSalix1851
-                                                                                                               entry
-    1 Ch. pseudopulifolium J. B. Scholz (= Ch. Suecicum Murr.) [...] Strehlen: auf Schutt im Prieborner Marmorbruch!
-    2                                                                    A. annua Breslau: Schuttplatz vor Morgenau!
-    3               Leontodon Taraxacum, caule trifloro. - Von Herrn Lehrer Bartsch bei Garsuche bei Ohlau gefunden.
+                                     species
+    1 Asplenium septentrionale X Trichomanes
+    2                  Hieracium aurantiacum
+    3                      Anemone pratensis
+                                              citation
+    1  @schubeErgebnisseDurchforschungSchlesischen1919
+    2 @schalowErgebnisseDurchforschungSchlesischen1935
+    3 @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                                                                                                                                                                                           entry
+    1                                                                                                                                                                                                                                                                                                                                       Asplenium septentrionale X Trichomanes. Schönau: Hogolie (K.); [...]
+    2                                                                                                                                                                                                                                                                                                                                               Hieracium aurantiacum Breslau: Ödland auf der Neudorfstraße!
+    3 Ganz überraschend aber kommt die Entdeckung recht pflanzenreicher sogenannter „pontischer“ Hügel unweit Dammer im südlichen Teile des Namslauer Kreises. Nach Wittigs Angaben finden sich hier: Anemone pratensis, Thesium intermedium, Sempervivum soboliferum, Scorzonera humilis, Anthericum ramosum, Polypodium vulgare, Scabiosa canescens, Allium senescens, Silene Otites und Astragalus arenarius.
            lon      lat
-    1 17.17662 50.69313
-    2 17.06966 51.09861
-    3 17.38467 51.00506
+    1 15.81763 50.98023
+    2 17.02170 51.08810
+    3 17.82027 50.98202
                                                           comments year
-    1 Przeworno, pow. strzeliński, kamieniołom marmuru; gruzowisko 1931
-    2                          Wrocław, Rakowiec, wysypisko śmieci 1932
-    3       Gorzucha, Nowy Dwór, gm. Jelcz-Laskowice, pow. oławski 1851
-                              accepted_name
-    1             Chenopodium suecicum Murr
-    2                    Artemisia annua L.
-    3 Taraxacum officinale Weber ex Wiggins
+    1 wzgórze Okole, Chrośnica, gm. Jeżów Sudecki, pow. karkonoski 1919
+    2                                     Wrocław, ul. Komandorska 1935
+    3                              Dąbrowa, gm. Świerczów, wzgórza 1936
+                               accepted_name
+    1                                   <NA>
+    2 Pilosella aurantiaca subsp. aurantiaca
+    3 Pulsatilla pratensis subsp. pratensis 
 
 </div>
 
@@ -145,15 +145,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. AE67
-    2     Malva moschata L. AE67
-    3     Malva moschata L. BE62
-    4     Malva moschata L. BE71
-    5     Malva moschata L. BE74
-    6     Malva moschata L. CE81
-    7     Malva pusilla Sm. CE90
-    8 Malva verticillata L. BF07
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE71
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BE97
+    5                    Malva moschata L. BF26
+    6 Malva thuringiaca subsp. thuringiaca BE14
+    7                Malva verticillata L. AD67
+    8                Malva verticillata L. BE49
 
 ### How to participate
 

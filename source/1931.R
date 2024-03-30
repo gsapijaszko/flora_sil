@@ -4239,7 +4239,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Pirola media",
   citation = "@schalowErgebnisseSchlesischenPhanerogamenforschung1931",
   entry = "Pirola media Landeshut: Haselbach (Kruber);",
   lon = 15.89921,

@@ -56,7 +56,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Resteda lutea",
   citation = "@wimmerBerichtUberVerhandlungen1850",
   entry = "Resteda lutea, vorn Lehrer Hoch bei Fauljoppe, bei Lüben gefunden durch Kantor Postel.",
   lon = 16.19493, 
@@ -228,7 +228,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Scheuchzeria",
   citation = "@wimmerBerichtUberVerhandlungen1850",
   entry = "Standörter seltnerer Pflanzen Schlesiens vom Musik-Direktor Siegert: [...] Scheuchzeria auf den Seefeldern; [...]",
   lon = 16.41226, 

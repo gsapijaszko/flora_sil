@@ -2237,7 +2237,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Lysimachia vulgaris",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1936",
   entry = "Lysimachia vulgaris mit meist abwechselnden Blättern Strehlen: Lorenzberg!",
   lon = 17.22571, 

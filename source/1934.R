@@ -609,7 +609,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Glyceria nemoralis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "Glyceria nemoralis Silberberg: zwischen Neudorf und Ebersdorf!",
   lon = 16.59349, 
