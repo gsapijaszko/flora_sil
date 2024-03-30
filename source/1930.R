@@ -726,13 +726,308 @@ jahres <- data.frame(
   comments = "Szczepanek, gm. Strzelce Opolskie, pow. strzelecki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Festuca heterophylla",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. heterophylla Str: obh. Tschammendorf, [...]",
+  lon = 17.12092, 
+  lat = 50.70537,
+  comments = "Samborowiczki, gm. Przeworno, pow. strzeliński; powyżej miejscowości"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Festuca heterophylla",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. heterophylla Str: [...] Lorenzberger Wald (Sl)!; [...]",
+  lon = 17.22571,
+  lat = 50.72422,
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzeliński, las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca heterophylla",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. heterophylla [...] Leo: Rosen (K)!",
+  lon = 17.90455, 
+  lat = 50.09257,
+  comments = "ogożany, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca gigantea v. triflora",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. gigantea v. triflora Leo: Stadtwald (Sb)!",
+  lon = 17.78894,
+  lat = 50.25534,
+  comments = "Kietlice, gm. Głubczyce, pow. głubczycki; las"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca arundinacea v. Uechtritziana (Wiesb.)",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. arundinacea v. Uechtritziana (Wiesb.) B: vor Woischwitz (Sl)!",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Festuca arundinacea X elatior",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "F. arund. X elatior Leo: Königsdorf (Sb)!",
+  lon = 17.84383, 
+  lat = 50.25816,
+  comments = "Królowe, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus ramosus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Bromus ramosus Bolk: Prädelwald!, [...]",
+  lon = 16.02722,
+  lat = 50.94009,
+  comments = "Grudno, gm. Bolków, pow. jaworski; las na południe od miejscowości"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus ramosus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Bromus ramosus Bolk: [...] Töppich (Kr).",
+  lon = 16.03764, 
+  lat = 50.94065,
+  comments = "Nowe Rochowice, gm. Bolków, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus erectus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. erectus Mi: Nesselwitz (Sp)!; [...]",
+  lon = 17.33912, 
+  lat = 51.51488,
+  comments = "Niesułowice, gm. Milicz, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus erectus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. erectus [...] Leo: Bieskau (K)!",
+  lon = 17.93533,
+  lat = 50.08927,
+  comments = "Kolonia Nowa Cerkwia, Nowa Cerekwia, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus inermis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. inermis GrSt: Chorulla (Sb)!; [...]",
+  lon = 17.97266,
+  lat = 50.53284,
+  comments = "Chorula, gm. Gogolin, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus inermis f. pellitus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. inermis [...] f. pellitus Camenz (B)!",
+  lon = 16.87158, 
+  lat = 50.52237,
+  comments = "Kamieniec Ząbkowicki, gm. Kamieniec Ząbkowicki, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus patulus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. patulus B: vor Woischwitz (Sl)!;",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Bromus patulus", "Bromus racemosus", "Bromus commutatus"),
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. patulus [...] Hdb: Bhf, hier mit B. racemosus und B. commutatus (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus mollis f. hordeaceus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. mollis f. hordeaceus Hdb: Bhf (Sb)!; [...] f.nanus Nst: Piętna (T)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Bromus mollis f. nanus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "B. mollis [...] f. nanus Nst: Pietna (T)!",
+  lon = 17.96232,
+  lat = 50.44865,
+  comments = "Pietna, gm. Krapkowice, pow. krapkowicki "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Brachypodium pinnatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Brachypodium pinnatum Opp: zw. Chronstau und Malapane (Sb)!",
+  lon = 18.14271, 
+  lat = 50.67295,
+  comments = "między miejscowościami Chrząstowice, gm. Chrząstowice, a Ozimek, gm. Ozimek, pow. opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lolium perenne f. longiglume Grantzow",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Lolium perenne f. longiglume Grantzow B: vor Woischwitz (Sl)!",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hordeum jubatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Hordeum jubatum B: bei der Hundsfelder Heerstraße (SI)!",
+  lon = 17.10138, 
+  lat = 51.14333,
+  comments = "Wrocław, Psie Pole"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hordeum europaeum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "H. europaeum Silb: obh. Nicklasdorf, [...]",
+  lon = 16.68378, 
+  lat = 50.54980,
+  comments = "powyżej miejscowości Mikołajów, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Hordeum europaeum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "H. europaeum Silb: [...] Lampersdorfer Ritsche (B)!",
+  lon = 16.61626, 
+  lat = 50.61440,
+  comments = "Grodziszcze, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cyperus fuscus f. virescens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cyperus fuscus f. virescens Kraschnitz (Sp)!",
+  lon = 17.36246,
+  lat = 51.47484,
+  comments = "Krośnice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scirpus ovatus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Scirpus ovatus Mi: Wirschkowitz (Sp)!",
+  lon = 17.33925, 
+  lat = 51.48223,
+  comments = "Wierzchowice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scirpus mucronatus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. mucronatus Str: Großteich bei Eisenberg (SI)!",
+  lon = 17.18423,
+  lat = 50.72678,
+  comments = "Żeleźnik, gm. Strzelin, pow. strzeliński; staw"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scirpus compressus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. compressus Mi: Zwornogoschütz (Sp)!; [...]",
+  lon = 17.3058,
+  lat = 51.49056,
+  comments = "Czarnogoździce, gm. Krośnice, pow. milicki;"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Scirpus compressus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. compressus [...] Silb: gegen Herzogswalde (B)!",
+  lon = 16.65574,
+  lat = 50.56046,
+  comments = "Żdanów, gm. Stoszowice, pow. ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rhynchospora alba",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Rhynchospora alba Rat: Kol. Babitz (Sb)!",
+  lon = 18.29739, 
+  lat = 50.13741,
+  comments = "Babice, gm. Nędza, pow. raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex Davalliana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Carex Davalliana Nm: Goebel (Ko)!; [...]",
+  lon = 16.70699,
+  lat = 51.18924,
+  comments = "obecnie teren miejscowości Kadłub, gm. Miękinia, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex Davalliana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Carex Davalliana [...] Obgl: Zabierzau (Sb).",
+  lon = 17.97525, 
+  lat = 50.38585,
+  comments = "Zabierzów, gm. Walce, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Caex disticha",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "C. disticha Frk: ehern. Gondelteich (B)!",
+  lon = 16.81615, 
+  lat = 50.58960,
+  comments = "ąbkowice Śląskie, gm. Ząbkowice Śląskie, pow. ząbkowicki; staw z gondolami"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex virens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "C. virens C: Groß-Ellguth (Sb)!",
+  lon = 18.02899,
+  lat = 50.27617,
+  comments = "Ligota Wielka, gm. Pawłowiczki, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex Bueki Stei",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "C. Bueki Stei: Jürtscher See (Weimann t. Sl)!",
+  lon = 16.40997, 
+  lat = 51.32156,
+  comments = "Jurcz, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Carex pilosa",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "C. pilosa Gnad: Czienskowitz (Sb).",
+  lon = 18.12944, 
+  lat = 50.21729,
+  comments = "Ciężkowice, gm. Polska Cerekiew, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Stephanshain", entry)) |>
-#   subset(grepl("Gr", entry))
+#   subset(grepl("Czienskowitz", entry)) |>
+#   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(18.34462, 50.53369)
+# tmaptools::rev_geocode_OSM(18.12944, 50.21729)
 

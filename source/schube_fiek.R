@@ -2314,20 +2314,20 @@ schube <- data.frame(
   entry = "Ic Bu: Nd.-Thomaswaldau, auch vereinzelt auf den Boberwiesen (A); [...]",
   lon = c(15.67778, 15.56928),
   lat = c(51.27394, 51.31325),
-  comments = "Tomaszów Bolesławiecki, gmina Warta Bolesławiecka, powiat bolesławiecki, także okazjonalnie na łąkach nad Bobrem"
+  comments = "Tomaszów Bolesławiecki, gm. Warta Bolesławiecka, pow. bolesławiecki, także okazjonalnie na łąkach nad Bobrem"
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id Frey: Zölling!, [...]",
   lon = 15.64759, 
   lat = 51.72063,
-  comments = "Solniki, gmina Kożuchów, powiat nowosolski"
+  comments = "Solniki, gm. Kożuchów, pow. nowosolski"
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id Frey: [...] Höllberge (H); [...]",
   lon = NA,
@@ -2336,25 +2336,25 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Neus: Alt-Tschau!, [...]",
   lon = 15.72573,
   lat = 51.77679,
-  comments = "Stare Żabno, Nowa Sól, powiat nowosolski; obecnie część Nowej Soli"
+  comments = "Stare Żabno, Nowa Sól, pow. nowosolski; obecnie część Nowej Soli"
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Neus: [...] Hohenborau (H);[...]",
   lon = 15.86717, 
   lat = 51.79982,
-  comments = "Borowiec, gmina Siedlisko, powiat nowosolski"
+  comments = "Borowiec, gm. Siedlisko, pow. nowosolski"
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Grü: Oderwald!, [...] ",
   lon = 15.51133, 
@@ -2363,19 +2363,19 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Grü: [...] Prautzke (H), [...]",
   lon = 15.76778, 
   lat = 51.91368,
-  comments = "Dąbrowa, gmina Zabór, powiat zielonogórski; nieistniejący przysiółek; patrz http://maps.mapywig.org/m/German_maps/series/100K_KDR_Generalstabskarte/DRMC/KDR100_346_Gruenberg_i._Schles._ca1893_DRMC5820346.jpg i https://www.zobodat.at/pdf/Allg-bot-Zeitschrift_1_1895_0176-0179.pdf"
+  comments = "Dąbrowa, gm. Zabór, pow. zielonogórski; nieistniejący przysiółek; patrz http://maps.mapywig.org/m/German_maps/series/100K_KDR_Generalstabskarte/DRMC/KDR100_346_Gruenberg_i._Schles._ca1893_DRMC5820346.jpg i https://www.zobodat.at/pdf/Allg-bot-Zeitschrift_1_1895_0176-0179.pdf"
 ) |> rbind(schube)
 
 #' TODO: https://www.zobodat.at/pdf/Allg-bot-Zeitschrift_1_1895_0176-0179.pdf
 #' 
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Grü: [...] Krampe (H), [...]",
   lon = 15.53103,
@@ -2384,7 +2384,7 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Id [...] Grü: [...] Rohrbusch (H); [...]",
   lon = 15.53272,
@@ -2393,32 +2393,150 @@ schube <- data.frame(
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] BaO: Nattermühle (H); [...]",
   lon = 15.76643, 
   lat = 51.74927,
-  comments = "Kiełcz, gmina Nowa Sól, powiat nowosolski"
+  comments = "Kiełcz, gm. Nowa Sól, pow. nowosolski"
 ) |> rbind(schube)
 
 schube <- data.frame(
-  species = "",
+  species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Glo: Milkau (H);",
   lon = 15.78820, 
   lat = 51.68023,
-  comments = "Miłaków, gmina Nowe Miasteczko, powiat nowosolski"
+  comments = "Miłaków, gm. Nowe Miasteczko, pow. nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: Katzbachwiesen![...]",
+  lon = 16.16374, 
+  lat = 51.19164,
+  comments = "Legnica; łąki nad Kaczawą"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: [...] Kuchelberg!, [...]",
+  lon = 16.16002, 
+  lat = 51.28134,
+  comments = "Kochlice, gm. Miłkowice, pow. legnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: [...] Gr.-Wandris (G), [...]",
+  lon = 16.32782, 
+  lat = 51.10366,
+  comments = "Wądroże Wielkie, gm. Wądroże Wielkie, pow. jaworski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie Lie: [...] Mertschütz (G); [...]",
+  lon = 16.32204, 
+  lat = 51.09817,
+  comments = "Mierczyce, gm. Wądroże Wielkie, pow. jaworski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Par: Leschwitz (G); [...]",
+  lon = 16.36596,
+  lat = 51.29028,
+  comments = "Lisowice, gm. Prochowice, pow. legnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Schö: Kitzelberg!, [...]",
+  lon = 15.91109, 
+  lat = 50.93955,
+  comments = "góra Połom, Wojcieszów, pow. złotoryjski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Schö: [...] Mühlberg!;",
+  lon = 15.90510, 
+  lat = 50.96235,
+  comments = "[góra] Młynica, Wojcieszów, pow. złotoryjski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIc Liebau: Rabengrund!;",
+  lon = 16.00879, 
+  lat = 50.68682,
+  comments = "dolina Raby, Ulanowice, Lubawka, gm. Lubawka, pow. kamiennogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa Herrn: 3!; [...]",
+  lon = 16.69390,
+  lat = 51.56336,
+  comments = " Wąsosz, gm. Wąsosz, pow. górowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa [...] Stei: Dieban, [...]",
+  lon = 16.46442,
+  lat = 51.36790,
+  comments = "Dziewin, gm. Ścinawa, pow. lubiński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa [...] Stei: [...] Przybor (P. Scholz);",
+  lon = 16.45347, 
+  lat = 51.43659,
+  comments = "Przyborów, gm. Wińsko, pow. wołowski"
+) |> rbind(schube)
+
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @vonuechtritzResultateDurchforschungSchlesischen1885",
+  entry = "III b Tra: Lauskowe (85);",
+  lon = 16.81814,  
+  lat = 51.55859, 
+  comments = "Laskowa, gm. Żmigród, pow. trzebnicki; las sosnowy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "III b [...] GrW: Baldowitz! u. a .;",
+  lon = 17.79024,
+  lat = 51.31615,
+  comments = "Bałdowice, gm. Kobyla Góra, pow. ostrzeszowski, województwo wielkopolskie"
 ) |> rbind(schube)
 
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Milkau", entry)) |>
+#   subset(grepl("Baldowitz", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(15.78820, 51.68023)
-# 
+# tmaptools::rev_geocode_OSM(17.79024, 51.31615)
+
 
 schube |>
   subset(grepl("@fiekFloraSchlesienPreussischen1881", citation)) |>

@@ -1,3 +1,5 @@
+
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -37,26 +39,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                                           species
-    1                                            Mulgedium alpinum
-    2 Ambrosia trifida var. integrifolia (Mühlenb.) Torrey et Gray
-    3                                       Ceratophyllum demersum
+                                        species
+    1 Chenopodium pseudopulifolium J. B. Scholz
+    2                           Artemisia annua
+    3                       Leontodon taraxacum
                                                      citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    3        @schalowErgebnisseDurchforschungSchlesischen1935
-                                                                                                                             entry
-    1                              Mulgedium alpinum Wilhelmstal: bei der oberen Schleuse im rechten Zwieselgraben (Prof. Schube)!
-    2 Ambrosia trifida L. Guhrau: Verschiebegleis der Mühlenwerke, auch in var. integrifolia (Mühlenb.) Torrey et Gray (Weidlich)!
-    3                                                                            Ceratophyllum demersum Freiburg: Kalkbruch (Loge)
-           lon      lat                              comments year
-    1 18.29893 50.09714 Kobyla, gm. Kornowac, pow. raciborski 1933
-    2 16.54435 51.67060            Góra, gm. Góra, dawny młyn 1933
-    3       NA       NA         Świebodzice, wyrobisko wapnia 1935
-                     accepted_name
-    1 Cicerbita alpina (L.) Wallr.
-    2          Ambrosia trifida L.
-    3    Ceratophyllum demersum L.
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    2        @schalowErgebnisseDurchforschungSchlesischen1932
+    3                            @wimmerEinigeFormenSalix1851
+                                                                                                               entry
+    1 Ch. pseudopulifolium J. B. Scholz (= Ch. Suecicum Murr.) [...] Strehlen: auf Schutt im Prieborner Marmorbruch!
+    2                                                                    A. annua Breslau: Schuttplatz vor Morgenau!
+    3               Leontodon Taraxacum, caule trifloro. - Von Herrn Lehrer Bartsch bei Garsuche bei Ohlau gefunden.
+           lon      lat
+    1 17.17662 50.69313
+    2 17.06966 51.09861
+    3 17.38467 51.00506
+                                                          comments year
+    1 Przeworno, pow. strzeliński, kamieniołom marmuru; gruzowisko 1931
+    2                          Wrocław, Rakowiec, wysypisko śmieci 1932
+    3       Gorzucha, Nowy Dwór, gm. Jelcz-Laskowice, pow. oławski 1851
+                              accepted_name
+    1             Chenopodium suecicum Murr
+    2                    Artemisia annua L.
+    3 Taraxacum officinale Weber ex Wiggins
 
 </div>
 
@@ -139,15 +145,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE72
-    3                    Malva moschata L. BF26
-    4                    Malva moschata L. CF11
-    5 Malva thuringiaca subsp. thuringiaca BE57
-    6 Malva thuringiaca subsp. thuringiaca CF35
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. CF65
+              accepted_name Name
+    1     Malva moschata L. AE67
+    2     Malva moschata L. AE67
+    3     Malva moschata L. BE62
+    4     Malva moschata L. BE71
+    5     Malva moschata L. BE74
+    6     Malva moschata L. CE81
+    7     Malva pusilla Sm. CE90
+    8 Malva verticillata L. BF07
 
 ### How to participate
 
@@ -224,7 +230,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 4963 records (species - localization) including 4886 with
+total 5000 records (species - localization) including 4923 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

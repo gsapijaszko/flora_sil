@@ -571,10 +571,19 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Stenactis annua Nees",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
-  entry = "Stenactis annua Nees Breslau: Schuttplatz bei der Körnerwiese, teste L. Bonte, Essen!, Lehmgruben (herb. Kruber, leg. Ziesche 1891); Camenz (herb. Kruber, leg. Drescher 1925). Vgl. hierzu die Bemerkung im vorjährigen Bericht!",
+  entry = "Stenactis annua Nees Breslau: Schuttplatz bei der Körnerwiese, teste L. Bonte, Essen!, Lehmgruben (herb. Kruber, leg. Ziesche 1891); [...]",
   lon = 17.02072,
   lat = 51.06883,
-  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna)"
+  comments = "wysypisko śmieci, polana Kornera, Wrocław; (https://www.dworniczak.com/zieleniec-ze-wzgorzem-skornik-historyczna); glinianki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Stenactis annua Nees",
+  citation = "@schalowErgebnisseDurchforschungSchlesischen1932",
+  entry = "Stenactis annua Nees [...] Camenz (herb. Kruber, leg. Drescher 1925). Vgl. hierzu die Bemerkung im vorjährigen Bericht!",
+  lon = 16.87158, 
+  lat = 50.52237,
+  comments = "Kamieniec Ząbkowicki, gmina Kamieniec Ząbkowicki, powiat ząbkowicki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

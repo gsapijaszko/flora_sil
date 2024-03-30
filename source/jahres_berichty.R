@@ -3043,6 +3043,19 @@ jahres <- data.frame(
 
 #' 1885
 jahres <- data.frame(
+  species = "Primula officinalis Jacq.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1885", 
+  entry = "Primula officinalis Jacq. Trachenberg: Lauskower Kieferwald (Schwarz).",
+  lon = 16.81814,  
+  lat = 51.55859, 
+  comments = "Laskowa, gmina Żmigród, powiat trzebnicki; las sosnowy"
+) |> rbind(jahres)
+
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1885", 
   entry = "Salvinia natans All. Pless: Paproczanteich (Dr. Gürich).",
