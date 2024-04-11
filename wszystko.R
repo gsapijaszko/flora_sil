@@ -48,12 +48,12 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-# tmaptools::rev_geocode_OSM(17.50782, 51.43976)
+tmaptools::rev_geocode_OSM(15.02554, 51.13103
+                           )
 
 all_data |>
-  subset(grepl("Thomaswaldau", entry)
-
-  #      & grepl("Gleiwitz", entry)
+  subset(grepl("Biesnitz", entry)
+       & grepl("", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
   # sf::st_transform(crs = sf::st_crs(atpolR::atpol10k())) |>

@@ -49,6 +49,18 @@ jahres <- data.frame(
   comments = "Grabina, pow. Cieszyn, łąki, kwitnący na biało, zdziczały"
 ) |> rbind(jahres)
 
+#' [...]
+
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1887", 
+  entry = "Tulipa silvestris L. Görlitz : am Kaisertrutz auch blühend (B.)!!, am alten Schiesshause (Sperling).",
+  lon = c(14.98454, 14.98035),
+  lat = c(51.15443, 51.13689),
+  comments = "Kaisertrutz, 1, Platz des 17. Juni, Historische Altstadt, Görlitz, Sachsen; oraz Am Schützenhaus, Südstadt, Görlitz, Sachsen"
+) |> rbind(jahres)
+
+
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekResultateDurchforschungSchlesischen1887", 

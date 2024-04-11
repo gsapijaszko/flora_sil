@@ -2845,9 +2845,9 @@ jahres <- data.frame(
   species = "Euphorbia platyphylla",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1935",
   entry = "Eu. platyphylla Liegnitz: Mertschütz (Strauch)!",
-  lon = 16.31117, 
-  lat = 51.09363,
-  comments = "Mierczyce, gm. Wądroże Wielkie"
+  lon = 16.32204, 
+  lat = 51.09817,
+  comments = "Mierczyce, gmina Wądroże Wielkie, powiat jaworski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

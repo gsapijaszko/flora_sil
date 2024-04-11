@@ -323,6 +323,17 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1914", 
+  entry = "Tulipa silvestris. Leobschütz: Wiesendamm bei Brechwitz (M.)!",
+  lon = 17.84981,  
+  lat = 50.19564, 
+  comments = "obecnie Głubczyce, gmina Głubczyce, powiat głubczycki"
+) |> rbind(jahres)
+
+
+
 #' 1913
 jahres <- data.frame(
   species = "Equisetum hiemale",
@@ -859,6 +870,17 @@ jahres <- data.frame(
   lat = 49.98107, 
   comments = "S. apoda, see [unpublished]"
 ) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1908", 
+  entry = "Tulipa silvestris. Brieg: Grasgärten in Rathau (Rothe).",
+  lon = 17.45589, 
+  lat = 50.87042, 
+  comments = "Rataje, Brzeg, powiat brzeski"
+) |> rbind(jahres)
+
+
 
 #' 1907
 jahres <- data.frame(
@@ -1724,6 +1746,19 @@ jahres <- data.frame(
   comments = "Barkowo, gm. Żmigród, pow. trzebnicki"
 ) |> rbind(jahres)
 
+"[...]"
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1898", 
+  entry = "Tulipa silvestris. Freystadt: Sprottauer Vorstadt (Sp.).",
+  lon = 15.55072, 
+  lat = 51.55860, 
+  comments = "Szprotawa, gmina Szprotawa, powiat żagański"
+) |> rbind(jahres)
+
+
+
 #' 1897
 jahres <- data.frame(
   species = "Salvinia natans",
@@ -2051,6 +2086,17 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1895
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1895", 
+  entry = "Tulipa silvestris L. Liegnitz: Justmühle bei Pfaffendorf (Schröder, S.).",
+  lon = 16.16795, 
+  lat = 51.21970,
+  comments = "Piątnica, Przedmieście Głogowskie, Legnica; http://maps.mapywig.org/m/German_maps/series/025K_TK25/4763_(2762)_Kunitz_geol_1924_UPozn.jpg"
+) |> rbind(jahres)
+
+# '[...]
+
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1895", 
@@ -2597,6 +2643,18 @@ jahres <- data.frame(
 
 #' 1890
 jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1890", 
+  entry = "Tulipa silvestris L. Görlitz: Wiese beim Dominium Ober-Moys, auch blühend (Barber).",
+  lon = 15.02554,  
+  lat = 51.13103, 
+  comments = "Ujazd, Zgorzelec, powiat zgorzelecki"
+) |> rbind(jahres)
+
+#' 
+#' 
+#' 
+jahres <- data.frame(
   species = "Pilularia globulifera",
   citation = "@fiekResultateDurchforschungSchlesischen1890", 
   entry = "Pilularia globulifera L. Muskau: Gräben des Zdutschony-Teiches bei Schleife (Callier)!",
@@ -2942,6 +3000,31 @@ jahres <- data.frame(
 #' 1887
 #' moved to 1887.R
 #' 1886
+
+jahres <- data.frame(
+  species = "Primula officinalis Jacq.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
+  entry = "Primula officinalis Jacq. Trachenberg: Lauskower Kieferwald (Schwarz).",
+  lon = 16.81814,  
+  lat = 51.55859, 
+  comments = "Laskowa, gmina Żmigród, powiat trzebnicki; las sosnowy"
+) |> rbind(jahres)
+
+#' 
+#' [...]
+#' 
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
+  entry = "Tulipa silvestris L. Görlitz: Haferfelder bei Biesnitz (Dr. von Rabenau); seit 1870 auch auf Rasenplätzen am Kaisertrutz (B.).",
+  lon = c(14.95658, 14.98454),
+  lat = c(51.13222, 51.15443),
+  comments = "Biesnitz, Görlitz, Sachsen; oraz Kaisertrutz, 1, Platz des 17. Juni, Historische Altstadt, Görlitz, Sachsen"
+) |> rbind(jahres)
+
+#' 
+#' 
+#' 
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1886", 
@@ -3041,16 +3124,9 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1885
-jahres <- data.frame(
-  species = "Primula officinalis Jacq.",
-  citation = "@vonuechtritzResultateDurchforschungSchlesischen1885", 
-  entry = "Primula officinalis Jacq. Trachenberg: Lauskower Kieferwald (Schwarz).",
-  lon = 16.81814,  
-  lat = 51.55859, 
-  comments = "Laskowa, gmina Żmigród, powiat trzebnicki; las sosnowy"
-) |> rbind(jahres)
 
+
+#' 1885
 #' 
 #' [...]
 #' 
@@ -3616,6 +3692,16 @@ jahres <- data.frame(
   lat = 51.94155, 
   comments = ""
 ) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1883", 
+  entry = "Tulipa silvestris L. Grünberg: Hetschers Grasgarten an der Lansitzer Strasse, auch blühend! (Hellwig.)",
+  lon = 15.50271, 
+  lat = 51.95273, 
+  comments = "okolice ul. Stefana Batorego, Zielona Góra"
+) |> rbind(jahres)
+
 
 #' 1882
 jahres <- data.frame(

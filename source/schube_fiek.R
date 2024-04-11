@@ -2137,6 +2137,184 @@ schube <- data.frame(
 # ) |> rbind(schube)
 # 
 
+## 102. Tulipa L. ----
+### 363. T. silvestris L. ----
+#'  Buschige Dämme, Wiesen, Grasplätze, bes. in Obstgärten, Laubwälder; in der Eb. und dem niedersten Vgb., 2—3, vielfach nur verwildert.
+#'  Id Grü: Nippes (F)! und Ketschers Grasgarten (82)!; Frey: Sprottauer Vorstadt (97); Ie Hay!: Schloßteich a. d. Promenade (F )!; Lie: Katzbachwiesen (F), hint. d. Haag (F), Justmühle bei Pfaffendorf (94)!, Weißenrode (G), Bienowitz (G), Gr.-Beckern (G), Mertschütz (F); Par: Winkelmühle (F); IIa Gö (F): Biesnitz (85), Rasenplätze am Kaisertrutz (85) u. a. (B), am alten Schießhaus (86), Ob.-Movs (89), Kath. Kirche (90), Ständehaus (90); IIb Gold: nahe d. Lindenplatz (02)!; IIb Jauer: a. d. Neiße (F), Profener Park (F)!; Bolk!: Grasgärten a. der Heerstraße nach Jauer (F); IIIa Guh. (F); IIIc Br: Promenade (F), hint. dem Schießhaus (91)!; IIId B: Pilsnitzer W ald (F): und Lohedämme (F), Haseldamm bei Kl.-Masselwitz (F)!, vor Oltaschin (02)!, Brockauer Park (F)!, Grunau (F), Höfchen (F), Wildschütz (F), Volksgarten!, Wäldchen bei Liliental (F)!, Oderdamm bei Rosental (F), Pirscham (F), Zedlitz (F)!, Alte Oder bei Scheitnig (90) ; Neum: Waldwiesen bei Frankental (F); IIIe Schw: Burkersdorf (F), Fuchs Winkel (F); IIIf Reichb: Peterswaldau (02)!; IIIg Ni: Prauß (F), Gr.-Kniegnitz (F); IVe Gl: Rengersdorf (88); Vc Nei: Glutnpenau (F); Vd Leo: Grasgärten (F); Obgl: Wasservorstadt (93); Ve Kieferstädtel (F); VIb Jäg: Langer Berg bei Geppersdorf (F); Troppau: Stremplowitzer Park (F)!
+#'  
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "T. silvestris L. Id Grü: [...] Nippes (F)!",
+  lon = NA,
+  lat = NA,
+  comments = "u Fieka: Grnb: Nippe’s Grasgarten (Hw.)!; nie znalazłem Nippe"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @vonuechtritzResultateDurchforschungSchlesischen1883",
+  entry = "T. silvestris L. Id Grü: [...] Hetschers Grasgarten (82)!; [...]",
+  lon = 15.50271, 
+  lat = 51.95273, 
+  comments = "okolice ul. Stefana Batorego, Zielona Góra"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1898",
+  entry = "T. silvestris L. Id [...] Frey: Sprottauer Vorstadt (97);",
+  lon = 15.55072, 
+  lat = 51.55860, 
+  comments = "Szprotawa, gmina Szprotawa, powiat żagański"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Hay!: Schloßteich a. d. Promenade (F)!;",
+  lon = 15.93088, 
+  lat = 51.26947,
+  comments = "Chojnów, powiat legnicki; staw zamkowy przy promenadzie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: Katzbachwiesen (F), [...]",
+  lon = 16.16374,
+  lat = 51.19164,
+  comments = "Legnica; łąki nad Kaczawą"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] hint. d. Haag (F), [...]",
+  lon = 16.16825, 
+  lat = 51.19847,
+  comments = "Zakaczawie, Osiedle Mikołaja Kopernika, Legnica; Der Hag - dawniej łąka, obecnie tereny stadionu miejskiego"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1895, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] Justmühle bei Pfaffendorf (94)!,",
+  lon = 16.16795, 
+  lat = 51.21970,
+  comments = "Piątnica, Przedmieście Głogowskie, Legnica; http://maps.mapywig.org/m/German_maps/series/025K_TK25/4763_(2762)_Kunitz_geol_1924_UPozn.jpg"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] Weißenrode (G), [...]",
+  lon = 16.18351,
+  lat = 51.19185,
+  comments = "obecnie teren miasta Legnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] Bienowitz (G), [...]",
+  lon = 16.26054,
+  lat = 51.25585,
+  comments = "Bieniowice, gmina Kunice, powiat legnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] Gr.-Beckern (G), [...]",
+  lon = 16.20800, 
+  lat = 51.21085,
+  comments = "Piekary Wielkie, Piekary-Osiedle, Legnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1895, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Lie: [...] Mertschütz (F); [...]",
+  lon = 16.32204, 
+  lat = 51.09817,
+  comments = "Mierczyce, gmina Wądroże Wielkie, powiat jaworski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1895, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ie [...] Par: Winkelmühle (F);",
+  lon = 16.37225, 
+  lat = 51.27735,
+  comments = "Prochowice, gmina Prochowice, powiat legnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö (F): [...]",
+  lon = 15.00127, 
+  lat = 51.14665,
+  comments = "Zgorzelec, powiat zgorzelecki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] Biesnitz (85), [...]",
+  lon = 14.95658,
+  lat = 51.13222, 
+  comments = "Biesnitz, Görlitz, Sachsen; "
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1886, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] Rasenplätze am Kaisertrutz (85) u. a. (B), [...]",
+  lon = 14.98454,
+  lat = 51.15443,
+  comments = "Kaisertrutz, 1, Platz des 17. Juni, Historische Altstadt, Görlitz, Sachsen"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] am alten Schießhaus (86), [...]",
+  lon = 14.98035,
+  lat = 51.13689,
+  comments = "Am Schützenhaus, Südstadt, Görlitz, Sachsen"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1890, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] Ob.-Moys (89), [...]",
+  lon = 15.02554,  
+  lat = 51.13103, 
+  comments = "Ujazd, Zgorzelec, powiat zgorzelecki"
+) |> rbind(schube)
+
+# schube <- data.frame(
+#   species = "Tulipa silvestris",
+#   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+#   entry = "IIa Gö [...] Kath. Kirche (90), [...]",
+#   lon = ,
+#   lat = ,
+#   comments = ""
+# ) |> rbind(schube)
+# 
+# schube <- data.frame(
+#   species = "Tulipa silvestris",
+#   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+#   entry = "IIa Gö [...] Ständehaus (90);",
+#   lon = ,
+#   lat = ,
+#   comments = ""
+# ) |> rbind(schube)
+# 
+
 
 #' 8. Reihe. Centrospermae.
 #'  39. Familie. CHENOPODIACEAE. 

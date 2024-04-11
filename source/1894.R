@@ -346,3 +346,16 @@ jahres <- data.frame(
   lat = 50.76177, 
   comments = "góra Boguszówka, Boguszów-Gorce, pow. wałbrzyski"
 ) |> rbind(jahres)
+
+#' 
+#'  [...]
+#' 
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
+  entry = "Tulipa silvestris L. Ober-Glogau: Wasservorstadt (Richter, S.).",
+  lon = 17.86750,   
+  lat = 50.36743, 
+  comments = "Olszynka, Głogówek, gmina Głogówek, powiat prudnicki"
+) |> rbind(jahres)

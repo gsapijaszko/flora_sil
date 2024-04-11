@@ -126,3 +126,24 @@ jahres <- data.frame(
   comments = "Wrocław, Mała Sobótka, ul. Racławicka"
 ) |> rbind(jahres)
 
+#'
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
+  entry = "Tulipa silvestris Bo: Ober-Lauterbach (St); [...]",
+  lon = 16.05187, 
+  lat = 50.96682, 
+  comments = "Jastrowiec, gmina Bolków, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1929", 
+  entry = "Tulipa silvestris [...] Gold: vor dem Obertor (Ku).",
+  lon = 15.91067,  
+  lat = 51.12009, 
+  comments = "Złotoryja, powiat złotoryjski; okolice ul. Hoża, dawniej Obertor Vw."
+) |> rbind(jahres)
