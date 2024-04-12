@@ -48,11 +48,10 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-tmaptools::rev_geocode_OSM(15.02554, 51.13103
-                           )
+tmaptools::rev_geocode_OSM(17.57646, 50.31901)
 
 all_data |>
-  subset(grepl("Biesnitz", entry)
+  subset(grepl("Zwornogoschütz", entry)
        & grepl("", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>

@@ -1030,3 +1030,30 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Tulipa silvestris. Goldberg: nahe d. Lindenplatze (Pinkwart)!; [...]",
+  lon = 15.91464, 
+  lat = 51.12287, 
+  comments = "Stare Miasto, Złotoryja, powiat złotoryjski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Tulipa silvestris. [...] Breslau: beim jüdischen Friedhofe vor Oltaschin (v. Uechtritz, h. s.)!; [...]",
+  lon = 17.02980, 
+  lat = 51.05591, 
+  comments = "Ołtaszyn, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Tulipa silvestris. [...] Reichenbach: Peterswaldauer Schlosspark (Schumann, h. s.)!",
+  lon = 16.58166,  
+  lat = 50.71650, 
+  comments = "Pieszyce, gmina Pieszyce, powiat dzierżoniowski; park przypałacowy"
+) |> rbind(jahres)
+

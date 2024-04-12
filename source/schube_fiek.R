@@ -2296,24 +2296,332 @@ schube <- data.frame(
   comments = "Ujazd, Zgorzelec, powiat zgorzelecki"
 ) |> rbind(schube)
 
-# schube <- data.frame(
-#   species = "Tulipa silvestris",
-#   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
-#   entry = "IIa Gö [...] Kath. Kirche (90), [...]",
-#   lon = ,
-#   lat = ,
-#   comments = ""
-# ) |> rbind(schube)
-# 
-# schube <- data.frame(
-#   species = "Tulipa silvestris",
-#   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
-#   entry = "IIa Gö [...] Ständehaus (90);",
-#   lon = ,
-#   lat = ,
-#   comments = ""
-# ) |> rbind(schube)
-# 
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] Kath. Kirche (90), [...]",
+  lon = 14.98832, 
+  lat = 51.15986,
+  comments = "Nikolaivorstadt, Görlitz, Sachsen"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIa Gö [...] Ständehaus (90);",
+  lon = 14.99343, 
+  lat = 51.15046,
+  comments = "Innenstadt, Görlitz, Sachsen"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIb Gold: nahe d. Lindenplatz (02)!; [...]",
+  lon = 15.91464, 
+  lat = 51.12287, 
+  comments = "Stare Miasto, Złotoryja, powiat złotoryjski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIb Jauer: a. d. Neiße (F), [...]",
+  lon = 16.19425, 
+  lat = 51.04501,
+  comments = "Jawor, powiat jaworski; nad Nysą"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIb Jauer: [...] Profener Park (F)!;[...]",
+  lon = 16.27196, 
+  lat = 51.04003,
+  comments = "Luboradz, gmina Mściwojów, powiat jaworski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIb [...] Bolk!: Grasgärten a. der Heerstraße nach Jauer (F);[...]",
+  lon = 16.11061, 
+  lat = 50.93041,
+  comments = "Bolków, gmina Bolków, powiat jaworski; ogrody przy drodze na Jawor"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIa Guh. (F);[...]",
+  lon = 16.54435,
+  lat = 51.67060,
+  comments = "Góra, gmina Góra, powiat górowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIc Br: Promenade (F), [...]",
+  lon = 17.46772, 
+  lat = 50.86466,
+  comments = "Brzeg, powiat brzeski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1892, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIc Br: [...] hint. dem Schießhaus (91)!; [...]",
+  lon = 17.48484, 
+  lat = 50.86992,
+  comments = "Brzeg, powiat brzeski; za dawną strzelnicą"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: Pilsnitzer Wald (F): [...]",
+  lon = 16.95937,
+  lat = 51.15328,
+  comments = "Wrocław, las Pilczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] und Lohedämme (F), [...]",
+  lon = 16.95365,
+  lat = 51.15066,
+  comments = "Pilczyce, Pilczyce-Kozanów-Popowice Północne, Wrocław; wał przeciwpowodziowy przy Ślęzy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Haseldamm bei Kl.-Masselwitz (F)!, [...]",
+  lon = 16.94214, 
+  lat = 51.15758,
+  comments = "Wrocław, Maślice, wał/grobla"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] vor Oltaschin (02)!, [...]",
+  lon = 17.02980, 
+  lat = 51.05591, 
+  comments = "Ołtaszyn, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Brockauer Park (F)!, [...]",
+  lon = 17.07179, 
+  lat = 51.06192,
+  comments = "Wrocław, Brochów, park"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Grunau (F), [...]",
+  lon = 17.08866, 
+  lat = 51.01549,
+  comments = "Łukaszowice, gmina Siechnice, powiat wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Höfchen (F), [...]",
+  lon = 17.01034, 
+  lat = 51.09387,
+  comments = "Wrocław; https://pl.wikipedia.org/wiki/Dworek_(Wroc%C5%82aw)"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Wildschütz (F), [...]",
+  lon = 17.14737, 
+  lat = 51.12389,
+  comments = "Wilczyce, gmina Długołęka, powiat wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Volksgarten!, Wäldchen bei Liliental (F)!, [...]",
+  lon = 17.03242, 
+  lat = 51.15799,
+  comments = "Poświętne, Polanowice-Poświętne-Ligota, Wrocław; ogródki działkowe, zarośla"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Oderdamm bei Rosental (F), [...]",
+  lon = 17.01429, 
+  lat = 51.13367,
+  comments = "Różanka, Karłowice-Różanka, Wrocław; zarośla przy wale"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Pirscham (F), [...]",
+  lon = 17.09257,
+  lat = 51.0947,
+  comments = "Wrocław, os. Przedmieście Oławskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Zedlitz (F)!, [...]",
+  lon = 17.07980, 
+  lat = 51.09342,
+  comments = "Bierdziany, Przedmieście Oławskie, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId B: [...] Alte Oder bei Scheitnig (90); [...]",
+  lon = 17.07087, 
+  lat = 51.11134,
+  comments = "Wrocław, Stara Odra, brzeg, przed Parkiem Szczytnickim"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIId [...] Neum: Waldwiesen bei Frankental (F); [...]",
+  lon = 16.60063, 
+  lat = 51.13641,
+  comments = "Chwalimierz, gmina Środa Śląska, powiat średzki; łąki śródleśne"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIe Schw: Burkersdorf (F), [...]",
+  lon = 16.46661, 
+  lat = 50.79678,
+  comments = "Burkatów, gmina Świdnica, powiat świdnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIe Schw: [...] Fuchswinkel (F); [...]",
+  lon = NA,
+  lat = NA,
+  comments = "Lisi Kąt (Świdnica); http://www.mojemiasto.swidnica.pl/?p=1482; nie znalazłem"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIf Reichb: Peterswaldau (02)!; [...]",
+  lon = 16.58166,  
+  lat = 50.71650, 
+  comments = "Pieszyce, gmina Pieszyce, powiat dzierżoniowski; park przypałacowy"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIg Ni: Prauß (F), [...]",
+  lon = 16.93299, 
+  lat = 50.75917,
+  comments = "Rakowice, Prusy, gmina Kondratowice, powiat strzeliński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IIIg Ni: [...] Gr.-Kniegnitz (F); [...]",
+  lon = 16.88788, 
+  lat = 50.75603,
+  comments = "Księginice Wielkie, gmina Kondratowice, powiat strzeliński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1889, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] IVe Gl: Rengersdorf (88); [...]",
+  lon = 16.62180, 
+  lat = 50.39040, 
+  comments = "Krosnowice, gmina Kłodzko, powiat kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vc Nei: Glumpenau (F); [...]",
+  lon = 17.26321,
+  lat = 50.46447,
+  comments = "Głębinów, gmina Nysa, powiat nyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Leo: Grasgärten (F); [...]",
+  lon = 17.82223, 
+  lat = 50.19834,
+  comments = "Głubczyce, gmina Głubczyce, powiat głubczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Vd Leo: [...] Obgl: Wasservorstadt (93);[...]",
+  lon = 17.86750, 
+  lat = 50.36743, 
+  comments = "Olszynka, Głogówek, gmina Głogówek, powiat prudnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] Ve Kieferstädtel (F); [...]",
+  lon = 18.53909, 
+  lat = 50.27322,
+  comments = "Sośnicowice, gmina Sośnicowice, powiat gliwicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIb Jäg: Langer Berg bei Geppersdorf (F); [...]",
+  lon = NA,
+  lat = NA,
+  comments = "nie znalazłem Langer Berg bei Geppersdorf (w @fiekResultateDurchforschungSchlesischen1887: Jägernd: langer Berg b. Geppersdorf); Linhartovy, Město Albrechtice, okres Bruntál, Moravskoslezský kraj, Moravskoslezsko, Česko"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "[...] VIb [...] Troppau: Stremplowitzer Park (F)!",
+  lon = 17.78911, 
+  lat = 49.98160,
+  comments = "Štemplovec, Holasovice, okres Opava, Moravskoslezský kraj, Moravskoslezsko, Česko"
+) |> rbind(schube)
+
+#'
+#' w @fiekResultateDurchforschungSchlesischen1887 dodatkowo:
+#'
+schube <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@fiekResultateDurchforschungSchlesischen1887",
+  entry = "[...] Glg. (Mielke); [...]",
+  lon = 16.10780, 
+  lat = 51.66866,
+  comments = "Głogów, powiat głogowski"
+) |> rbind(schube)
 
 
 #' 8. Reihe. Centrospermae.

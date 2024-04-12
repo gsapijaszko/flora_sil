@@ -2370,6 +2370,53 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1892
+#' 
+#' wpisy za 1890:
+#' Schube T., Fiek E. 1892. Die Ergebnisse der Durchforschung der schlesischen Phanerogamenflora im Jahre 1890. — Jahres-Bericht Der Schlesischen Gesellschaft Für Vaterländische Cultur. Enthält Den Generalbericht Über Die Arbeiten Und Veränderungen Der Gesselschaft Im Jahre 1891 69: 87--129.
+#' @schubeErgebnisseDurchforschungSchlesischen1892
+#' 
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Tulipa silvestris L. Görlitz: Rasenplätze an der kath. Kirche [...]",
+  lon = 14.98832, 
+  lat = 51.15986,
+  comments = "Nikolaivorstadt, Görlitz, Sachsen"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Tulipa silvestris L. Görlitz: [...] am Ständehause verw. (Barber); [...]",
+  lon = 14.99343, 
+  lat = 51.15046,
+  comments = "Innenstadt, Görlitz, Sachsen"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Tulipa silvestris L. [...] Breslau: Damm der alten Oder bei Scheitnig (Kionka).",
+  lon = 17.07087, 
+  lat = 51.11134,
+  comments = "Wrocław, Stara Odra, brzeg, przed Parkiem Szczytnickim"
+) |> rbind(jahres)
+
+#' 
+#' 
+#' wpisy za 1891:
+#' 
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Tulipa silvestris L. Brieg: beim Schiesshaus (Nitschke, S.).",
+  lon = 17.48484, 
+  lat = 50.86992,
+  comments = "Brzeg, powiat brzeski; za dawną strzelnicą"
+) |> rbind(jahres)
+#' 
+#' [...]
+#' 
 jahres <- data.frame(
   species = "Pilularia globulifera",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1892", 
@@ -2838,8 +2885,6 @@ jahres <- data.frame(
   comments = "południowowschodnie stoki Studnicna Hora, Pec pod Snezkou, okres Trutnov, Czechy"
 ) |> rbind(jahres)
 
-
-
 jahres <- data.frame(
   species = "Chenopodium Botrys L.",
   citation = "@fiekResultateDurchforschungSchlesischen1889", 
@@ -2849,9 +2894,6 @@ jahres <- data.frame(
   comments = "obecnie park arboretum, Prószków, gm. Prószków, pow. opolski"
 ) |> rbind(jahres)
 
-
-
- 
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@fiekResultateDurchforschungSchlesischen1889", 
@@ -2967,6 +3009,19 @@ jahres <- data.frame(
   lon = 18.02351, 
   lat = 50.64372, 
   comments = "Grudzice, Opole, las na wschód od miejscowości"
+) |> rbind(jahres)
+
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Tulipa silvestris L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Tulipa silvestris L. Glatz: Grasplätze beim Dominium Rengersdorf (Weberbauer).",
+  lon = 16.62180, 
+  lat = 50.39040, 
+  comments = "Krosnowice, gmina Kłodzko, powiat kłodzki"
 ) |> rbind(jahres)
 
 #' 1888

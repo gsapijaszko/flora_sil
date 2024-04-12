@@ -1474,7 +1474,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = "",
+  species = "Orchis pallens",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
   entry = "Orchis pallens Woh: Schöneicher überschwemmungsgelände, zweifellos infolge von Herabschwemmung aus dem Olsagebiete (Mi)!",
   lon = 16.48334, 
@@ -1482,6 +1482,86 @@ jahres <- data.frame(
   comments = "Dębno, gmina Wołów, powiat wołowski; tereny zalewowe; niewątpliwie w wyniku powodzi z okolic Olzy"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Orchis incarnata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "O. incarnata Woh: Schöneiche (Mi)!; [...]",
+  lon = 16.52501,  
+  lat = 51.33662,
+  comments = "Dębno, gmina Wołów, powiat wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis incarnata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "O. incarnata [...] Kr: mehrfach, auch Wembowitz (Sp)!",
+  lon = c(17.36246, 17.34499),
+  lat = c(51.47484, 51.50008),
+  comments = "Krośnice, gm. Krośnice, pow. milicki; także Wąbnice, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Orchis maculata f. candidissima",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "O. maculata f. candidissima Heusch: Asmusstraße!",
+  lon = 16.32239,  
+  lat = 50.47790,
+  comments = "Machowska Droga, Jeżowice, Pasterka, gmina Radków, powiat kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Coeloglossum viride",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Coeloglossum viride Rst: obh. Rosenkranz (B)!",
+  lon = 16.87399, 
+  lat = 50.39904,
+  comments = "Orłowiec, gmina Lądek-Zdrój, powiat kłodzki; powyżej przełęczy Różaniec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Gymnadenia conopea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Gymnadenia conopea Woh: Schöneiche (Mi)!",
+  lon = 16.52501,  
+  lat = 51.33662,
+  comments = "Dębno, gmina Wołów, powiat wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Platanthera dilorantha",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Platanthera dilorantha Gnad: Tscheidt (Sb).",
+  lon = 18.05134,  
+  lat = 50.16850,
+  comments = "Szczyty, gmina Baborów, powiat głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cephalanthera xiphophyllum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cephalanthera xiphophyllum Ni: Kunsdorf (B)!",
+  lon = 16.85031,  
+  lat = 50.69498,
+  comments = "Podlesie, gmina Niemcza, powiat dzierżoniowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Epipactis latifolia v. varians",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Epipactis latifolia v. varians Nst: Promenade (Sb)!",
+  lon = 17.57646,  
+  lat = 50.31901,
+  comments = "Nowe Przedmieście, Prudnik, gmina Prudnik, powiat prudnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Neottia Nidus avis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Neottia Nidus avis Mi: Zwornogoschütz (Sp).",
+  lon = 17.3058,
+  lat = 51.49056,
+  comments = "Czarnogoździce, gm. Krośnice, pow. milicki;"
+) |> rbind(jahres)
 
 # search --------------------------------------------------------------------------------------
 
