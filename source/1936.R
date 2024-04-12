@@ -34,7 +34,7 @@ jahres <- data.frame(
   entry = "Bei meinen diesjährigen Streifzügen durch das Schwarzerdgebiet konnte ich auch wieder mehrere neue Vorkommen von Ligustrum vulgare feststellen und zwar an alten verwachsenen Feldgräben bei Haltauf [...] im Süden von Breslau [...]",
   lon = 17.07574, 
   lat = 50.91211,
-  comments = "Haltauf -> Nowojowice"
+  comments = "Nowojowice, gmina Żórawina, powiat wrocławski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -43,7 +43,7 @@ jahres <- data.frame(
   entry = "Bei meinen diesjährigen Streifzügen durch das Schwarzerdgebiet konnte ich auch wieder mehrere neue Vorkommen von Ligustrum vulgare feststellen und zwar an alten verwachsenen Feldgräben bei [...] und Kreika im Süden von Breslau [...]",
   lon = 17.05291,  
   lat = 50.96624,
-  comments = "Kreika -> Krajków; http://maps.mapywig.org/m/German_maps/series/025K_TK25/5068_(2955)_Rothsuerben_1919_UW.jpg"
+  comments = "Krajków, gmina Żórawina, powiat wrocławski; http://maps.mapywig.org/m/German_maps/series/025K_TK25/5068_(2955)_Rothsuerben_1919_UW.jpg"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -61,7 +61,7 @@ jahres <- data.frame(
   entry = "Zu den schon bekannte gesellt sich nun noch Silene Otites, die ich in den Nephritbruchen bei Jordansmühl antraf. Sie wuchs hier in Gesellschaft von Potentilla arenaria, Scabiosa canescens, Artemisia campestris, Seseli coloratum und Verbascum Blattaria.",
   lon = 16.83823, 
   lat = 50.87105,
-  comments = "w kamieniołomach nefrytu, Jordanów Śląski"
+  comments = "Glinica, gmina Jordanów Śląski, powiat wrocławski; w kamieniołomach nefrytu"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -70,7 +70,7 @@ jahres <- data.frame(
   entry = "In den zum Strehlener Bergland gehörenden Prieborner Marmorbrüchen konnte Studienrat Kruber, Hirschberg, eine auffällig schmalblättrige Form (f. stenophyllus Beck) von Stachys rectus nachweisen, die aus Schlesien noch nicht beteannt war.",
   lon = 17.17662, 
   lat = 50.69313,
-  comments = "w kamieniołomach marmuru, Przeworno"
+  comments = "Przeworno, gmina Przeworno, powiat strzeliński; w kamieniołomach marmuru"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -79,7 +79,7 @@ jahres <- data.frame(
   entry = "Neu für dieses Gebiet ist auch Epilobium Lamyi, das ich bei den Krummdorfer Quarzitbrüchen auffand.",
   lon = 17.15199, 
   lat = 50.71782,
-  comments = "w kamieniołomach kwarcu, Krzywina"
+  comments = "Krzywina, gmina Przeworno, powiat strzeliński; w kamieniołomach kwarcu"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
