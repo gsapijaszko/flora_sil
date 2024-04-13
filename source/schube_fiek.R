@@ -2235,7 +2235,7 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Tulipa silvestris",
-  citation = "@fiekErgebnisseDurchforschungSchlesischen1895, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@englerVerzeichnisImJahre1871, @fiekErgebnisseDurchforschungSchlesischen1895, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "Ie [...] Lie: [...] Mertschütz (F); [...]",
   lon = 16.32204, 
   lat = 51.09817,
@@ -2505,7 +2505,7 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Tulipa silvestris",
-  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@englerVerzeichnissImJahre1870, @fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IIIe Schw: Burkersdorf (F), [...]",
   lon = 16.46661, 
   lat = 50.79678,
@@ -2514,11 +2514,11 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Tulipa silvestris",
-  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@englerVerzeichnissImJahre1870, @fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] IIIe Schw: [...] Fuchswinkel (F); [...]",
-  lon = NA,
-  lat = NA,
-  comments = "Lisi Kąt (Świdnica); http://www.mojemiasto.swidnica.pl/?p=1482; nie znalazłem"
+  lon = 16.50047, 
+  lat = 50.86577,
+  comments = "Świdnica, gmina Świdnica, powiat świdnicki; Fuchswinkel = Texas = Lisi Kąt (https://www.prawo.pl/akty/m-p-1949-a-29-445,16800128.html), Texas = zegielnia (https://www.meyersgaz.org/place/20940009)"
 ) |> rbind(schube)
 
 schube <- data.frame(
@@ -2559,7 +2559,7 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Tulipa silvestris",
-  citation = "@fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@englerVerzeichnissImJahre1869, @fiekResultateDurchforschungSchlesischen1887, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
   entry = "[...] Vc Nei: Glumpenau (F); [...]",
   lon = 17.26321,
   lat = 50.46447,

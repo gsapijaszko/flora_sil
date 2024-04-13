@@ -1434,6 +1434,7 @@ an <- c(
   "Trollius europaeus", "Trollius europaeus L.",
   "Tropaeolum majus", "Tropaeolum majus L.",
   "Tulipa silvestris", "Tulipa sylvestris L.",
+  "Tulipa silvestris L.", "Tulipa sylvestris L.",
   "Turritis glabra", "Turritis glabra L.",
   "Typha angustifolia", "Typha angustifolia L.",
   "Typha latifolia", "Typha latifolia L.",

@@ -1563,11 +1563,138 @@ jahres <- data.frame(
   comments = "Czarnogoździce, gm. Krośnice, pow. milicki;"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Juglans regia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Juglans regia Str: Alte Sandgrube bei Crummendorf (Sl)!",
+  lon = 17.14995, 
+  lat = 50.72294,
+  comments = "Krzywina, gmina Przeworno, powiat strzeliński; dawna piaskownia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Quercus Robur X sessiliflora",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Quercus Robur X sessiliflora B: Kunzendorf (Sl)!",
+  lon = 17.50848, 
+  lat = 51.11365,
+  comments = "Kruszowice, gmina Bierutów, powiat oleśnicki; choć nie ma pewności, że to na pewno o ten Kunzendorf chodziło, dość pospolita nazwa miejscowości w wielu powiatach, ale: wpis mówi, że to w obrębie Breslau, Oleśnica (Ols) nie była wymieniona w Abkürzungen der Ortsnamen (str. 72). Ale być może chodzi o Kunzendorf, Neurode (Drogosław)?"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ulmus montana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ulmus montana Frey: Kesselbusch bei Windischborau!; [...]",
+  lon = 15.66907,
+  lat = 51.69874,
+  comments = "Borów Polski, gmina Nowe Miasteczko, powiat nowosolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ulmus montana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ulmus montana [...] Frk: obh. des städt. Friedhofs (B)!; [...]",
+  lon = 16.81482, 
+  lat = 50.59343,
+  comments = "Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki; powyżej cmentarza miejskiego"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ulmus montana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ulmus montana [...] Rst: mehrfach (B)!",
+  lon = 16.87166, 
+  lat = 50.44454,
+  comments = "Złoty Stok, gmina Złoty Stok, powiat ząbkowicki; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thesium intermedium",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Thesium intermedium Woh: Gimmel (Tscheppe).",
+  lon = 16.53865,
+  lat = 51.52427,
+  comments = "Jemielno, gm. Jemielno, pow. górowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thesium alpinum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Th. alpinum Hirsch: Schwarzbach (Kr).",
+  lon = 15.75119,
+  lat = 50.87586,
+  comments = "Czarne, Jelenia Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Rumex arifolius",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Rumex arifolius Charl: Breitenhainer Talsperre (Sl)!",
+  lon = 16.43299, 
+  lat = 50.75709,
+  comments = "Zapora na Jeziorze Bystrzyckim, Zagórze Śląskie, gmina Walim, powiat wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum polystachyum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Polygonum polystachyum Charl: unth. Wüstewaltersdorf (Sl)!; [...]",
+  lon = 16.43261,
+  lat = 50.70505,
+  comments = "Walim, gmina Walim, powiat wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum polystachyum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Polygonum polystachyum [...] Rst: Maifritzdorf (B)!",
+  lon = 16.84817, 
+  lat = 50.46507,
+  comments = "Mąkolno, gmina Złoty Stok, powiat ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. cuspidatum Ns: Hafen (Ts)!; [...]",
+  lon = 15.72052, 
+  lat = 51.80149,
+  comments = "Nowa Sól, powiat nowosolski; port"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. cuspidatum [...] Schlawa: Parkrand (Kintzel)!; [...]",
+  lon = 16.06987, 
+  lat = 51.87720,
+  comments = "Sława, gmina Sława, powiat wschowski; obrzeża parku"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. cuspidatum [...] Charl: unth. Wüstewaltersöorf (Sl)!; [...]",
+  lon = 16.43261,
+  lat = 50.70505,
+  comments = "Walim, gmina Walim, powiat wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Polygonum cuspidatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "P. cuspidatum [...] Hdb: Bahnhof (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Nicklasdorf", entry)) |>
+#   subset(grepl("Hindenburg", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(16.48334, 51.34126)
+# tmaptools::rev_geocode_OSM(16.06987, 51.87720)
 

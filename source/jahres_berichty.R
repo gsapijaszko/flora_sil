@@ -1063,6 +1063,17 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Tulipa silvestris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1907", 
+  entry = "Tulipa silvestris. Breslau: zwischen Krietern und dem Kinderzobten (Rothe)!",
+  lon = 16.99713,   
+  lat = 51.07951, 
+  comments = "Wrocław, między Krzykami a wzgózem Mała Sobótka"
+) |> rbind(jahres)
+
+
+
 #' 1906
 jahres <- data.frame(
   species = "Botrychium lunaria",
@@ -4060,6 +4071,22 @@ jahres <- data.frame(
 #' 1872 - Asplenium adulterinum
 
 #' 1871
+#' 
+#' Engler, A., 1871. Verzeichnis der im Jahre 1870 bekannt gewordenen Fundorte neuer und weniger häufiger Phanerogamen Schlesiens. Jahres-Bericht der Schlesischen Gesellschaft für vaterlandische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1870 48, 131--141.
+#' 
+jahres <- data.frame(
+  species = "Tulipa sylvestris L.",
+  citation = "@englerVerzeichnisImJahre1871", 
+  entry = "Tulipa sylvestris L. Jauer: Mertschütz (Wundaizt Hiller !).",
+  lon = 16.32204, 
+  lat = 51.09817,
+  comments = "Mierczyce, gmina Wądroże Wielkie, powiat jaworski"
+) |> rbind(jahres)
+
+
+#' 
+#' 
+#' 
 jahres <- data.frame(
   species = "Botrychium ternatum Sw.",
   citation = "@mildeNeueStandorteSchlesischer1871", 
@@ -4390,6 +4417,10 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#'
+#'
+#'
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@englerVerzeichnissImJahre1870", 
@@ -4469,6 +4500,28 @@ jahres <- data.frame(
   lon = 15.29271, 
   lat = 50.89327, 
   comments = ""
+) |> rbind(jahres)
+
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Tulipa sylvestris L.",
+  citation = "@englerVerzeichnissImJahre1870", 
+  entry = "Tulipa sylvestris L. Schweidnitz: Burkersdorf (F.). [...]",
+  lon = 16.46661, 
+  lat = 50.79678,
+  comments = "Burkatów, gmina Świdnica, powiat świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Tulipa sylvestris L.",
+  citation = "@englerVerzeichnissImJahre1870", 
+  entry = "Tulipa sylvestris L. Schweidnitz: [...] Fuchswinkel (Peck).",
+  lon = 16.50047, 
+  lat = 50.86577,
+  comments = "Świdnica, gmina Świdnica, powiat świdnicki; Fuchswinkel = Texas = Lisi Kąt (https://www.prawo.pl/akty/m-p-1949-a-29-445,16800128.html), Texas = zegielnia (https://www.meyersgaz.org/place/20940009)"
 ) |> rbind(jahres)
 
 
@@ -4590,7 +4643,30 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#'
+#'
+#'
+jahres <- data.frame(
+  species = "Tulipa sylvestris L.",
+  citation = "@englerVerzeichnissImJahre1869", 
+  entry = "Tulipa sylvestris L. Glumpenau bei Neisse (W.), [...]",
+  lon = 17.26321,
+  lat = 50.46447,
+  comments = "Głębinów, gmina Nysa, powiat nyski"
+) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Tulipa sylvestris L.",
+  citation = "@englerVerzeichnissImJahre1869", 
+  entry = "Tulipa sylvestris L. [...] Bolkenhain: im Burggraben (Fick).",
+  lon = 16.09338,  
+  lat = 50.92029, 
+  comments = "Bolków, gmina Bolków, powiat jaworski; w dolinach potoków"
+) |> rbind(jahres)
+
+#'
+#'
+#'
 
 jahres <- data.frame(
   species = "Chenopodium Botrys L.",

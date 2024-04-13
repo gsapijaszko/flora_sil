@@ -1,4 +1,3 @@
-
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -38,22 +37,22 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                    species                                                citation
-    1 Pilularia globulifera            @fiekResultateDurchforschungSchlesischen1887
-    2        Crepis biennis        @schalowErgebnisseDurchforschungSchlesischen1935
-    3  Aspidium Robertianum @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                                  entry
-    1         Pilularia globulifera L. Niesky: Röhlteich bei Cosel massenhaft (Kahle)!,
-    2 Crepis biennis mit vergrünten und durchwachsenen Köpfen [...] Neiße: Konradsdorf!
-    3                               A. Robertianum Falkenberg: Mullwitzer Basaltbrüche!
-           lon      lat                                     comments year
-    1 14.75973 51.35455                                              1887
-    2 17.36949 50.48626                              Konradowa, Nysa 1935
-    3 17.55808 50.68309 Molestowice, gm. Niemodlin, kopalnia bazaltu 1933
-                                 accepted_name
-    1                 Pilularia globulifera L.
-    2                        Crepis biennis L.
-    3 Gymnocarpium robertianum (Hoffm.) Newman
+                  species                                                citation
+    1 Andromeda polifolia                         @mildeUeberMeineExcursionen1854
+    2       Ulmus montana        @schalowErgebnisseDurchforschungSchlesischen1935
+    3       Silene Otites @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     entry
+    1 Ausserdem finden sich in den Wäldern um Carlsruhe sehr häufig Pyrola umbellata, Andromeda polifolia, weiss und roth blühend, Ledum palustre, Lathraea squamaria in unendlicher Menge, auf Aeckern Potentilla nemoralis, in den Teichen Utricularia minor und Riccia natans, auf sumpfigen Wiesen Valeriana dioica und Cineraria crispa, auf einer sandigen Stelle Chenopodium Botrys, ganz nahe bei der Stadt auf einer nassen, sandigen Fläche in Gesellschaft der Drosera rotundifolia ziemlich häufig Lycopodium inundatum, [...]
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Ulmus montana Liebenthal: Matzdorfer Grund (Buchs)!
+    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      S. Otites Wohlau: Amtsziegelei (Juhnke)!; [...]
+           lon      lat                                                   comments
+    1 17.82904 50.89962 lasy wokół miejscowości Pokój, gm. Pokój, pow. namysłowski
+    2 15.61442 50.97398                                 Maciejowiec, gm. Lubomierz
+    3 16.67206 51.34341                  Wołów, gm. Wołów; dawna cegielnia miejska
+      year            accepted_name
+    1 1854   Andromeda polifolia L.
+    2 1935       Ulmus glabra Huds.
+    3 1931 Silene otites (L.) Wibel
 
 </div>
 
@@ -78,7 +77,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -137,14 +136,14 @@ malvas |>
 ```
 
                       accepted_name Name
-    1             Malva moschata L. AE58
-    2             Malva moschata L. AE67
-    3             Malva moschata L. BE71
-    4             Malva moschata L. BE72
-    5             Malva moschata L. BF01
-    6           Malva parviflora L. BE49
-    7 Malva trimestris (L.) Salisb. AE67
-    8         Malva verticillata L. BE59
+    1             Malva moschata L. AE67
+    2             Malva moschata L. BE71
+    3             Malva moschata L. BE97
+    4             Malva moschata L. BF24
+    5 Malva trimestris (L.) Salisb. AE58
+    6         Malva verticillata L. AE58
+    7         Malva verticillata L. BF07
+    8         Malva verticillata L. CF65
 
 ### How to participate
 
@@ -221,7 +220,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5084 records (species - localization) including 5007 with
+total 5104 records (species - localization) including 5027 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
