@@ -94,6 +94,22 @@ jahres <- data.frame(
   comments = "Śnieżnik Kłodzki, na podejściu pod [górę] Goworek"
 ) |> rbind(jahres)
 
+#'
+#'
+#'
+
+jahres <- data.frame(
+  species = "Primula officinalis f. inflata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1904", 
+  entry = "Primula officinalis f. inflata. Groß- Strehlitz: Schimischow (E. Fiek, h. s.)!",
+  lon = 18.24480, 
+  lat = 50.51796, 
+  comments = "Szymiszów, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+#'
+#'
+#'
 
 jahres <- data.frame(
   species = "Convolvulus dahuricus",

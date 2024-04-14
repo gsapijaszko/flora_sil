@@ -2879,6 +2879,41 @@ jahres <- data.frame(
 #' 
 
 jahres <- data.frame(
+  species = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax (= P. pannonica Kerner) von der Pflanze des österreichisch-ungarischen Donauthaies nicht verschieden, von Pax im Mai 1885 am Langen Berge bei Donnerau gesammelt, [...].
+",
+  lon = 16.31082,  
+  lat = 50.69101, 
+  comments = "[góra] Jeleniec, Grzmiąca, gmina Głuszyca, powiat wałbrzyski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax (= P. pannonica Kerner) von der Pflanze des österreichisch-ungarischen Donauthaies nicht verschieden, [...] von Fiek 1887 an der Landeskrone bei Görlitz beobachtet [...].
+",
+  lon = 14.93265, 
+  lat = 51.12933, 
+  comments = "Landeskrone, Biesnitz, Görlitz, Sachsen, Deutschland"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax",
+  citation = "@fiekResultateDurchforschungSchlesischen1889", 
+  entry = "Primula officinalis (L.) Jacq. var. inflata (Rchb.) Pax (= P. pannonica Kerner) von der Pflanze des österreichisch-ungarischen Donauthaies nicht verschieden, von Pax im Mai 1885 am Langen Berge bei Donnerau gesammelt, [...] und schon früher bei Lähn in der Umgebung von Lehnhaus gefunden.
+",
+  lon = 15.66318, 
+  lat = 51.01652, 
+  comments = "Pałac Lenno, Wleń, gmina Wleń, powiat lwówecki"
+) |> rbind(jahres)
+
+
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
   species = "Athyrium filix femina Rth. var. pruinosa Moore",
   citation = "@fiekResultateDurchforschungSchlesischen1889", 
   entry = "Athyrium filix femina Rth. var. pruinosa Moore. Milde erwähnt in seinem Aufsatze „A. filix femina var. pruinosa Moore in der Mark Brandenburg“ (Verhandlungen des Botanischen Vereins VIII, 1866, S. 178), dass er einen Stock dieser merkwürdigen Form im Eulengrunde des Riesengebirges gefunden habe [...]",

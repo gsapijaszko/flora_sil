@@ -37,22 +37,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                  species                                                citation
-    1 Andromeda polifolia                         @mildeUeberMeineExcursionen1854
-    2       Ulmus montana        @schalowErgebnisseDurchforschungSchlesischen1935
-    3       Silene Otites @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     entry
-    1 Ausserdem finden sich in den Wäldern um Carlsruhe sehr häufig Pyrola umbellata, Andromeda polifolia, weiss und roth blühend, Ledum palustre, Lathraea squamaria in unendlicher Menge, auf Aeckern Potentilla nemoralis, in den Teichen Utricularia minor und Riccia natans, auf sumpfigen Wiesen Valeriana dioica und Cineraria crispa, auf einer sandigen Stelle Chenopodium Botrys, ganz nahe bei der Stadt auf einer nassen, sandigen Fläche in Gesellschaft der Drosera rotundifolia ziemlich häufig Lycopodium inundatum, [...]
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Ulmus montana Liebenthal: Matzdorfer Grund (Buchs)!
-    3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      S. Otites Wohlau: Amtsziegelei (Juhnke)!; [...]
-           lon      lat                                                   comments
-    1 17.82904 50.89962 lasy wokół miejscowości Pokój, gm. Pokój, pow. namysłowski
-    2 15.61442 50.97398                                 Maciejowiec, gm. Lubomierz
-    3 16.67206 51.34341                  Wołów, gm. Wołów; dawna cegielnia miejska
-      year            accepted_name
-    1 1854   Andromeda polifolia L.
-    2 1935       Ulmus glabra Huds.
-    3 1931 Silene otites (L.) Wibel
+                         species
+    1           Tragopogon major
+    2         Cucubalus baccifer
+    3 Myriophyllum verticillatum
+                                                     citation
+    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    2        @schalowErgebnisseDurchforschungSchlesischen1935
+    3        @schalowErgebnisseDurchforschungSchlesischen1934
+                                                                              entry
+    1 Tragopogon major Breslau: Umschlaghafen Pöpelwitz, Stadthafen (Dr. K. Meyer)!
+    2                   Cucubalus baccifer [...] Kanth: Sadewitz (Schoepke)!; [...]
+    3             Myriophyllum verticillatum [...] Landeshut: Kreppelhof (Strauch).
+           lon      lat                                                  comments
+    1 17.01999 51.12865 Wrocław: dawny port przeładnunkowy Popowice; port rzeczny
+    2 16.79707 51.05878                            Sadowice, gm. Kąty Wrocławskie
+    3 16.03651 50.79153                okolice ruin zamku Grodztwo, Kamienna Góra
+      year                   accepted_name
+    1 1931 Tragopogon dubius subsp. dubius
+    2 1935      Silene baccifera (L.) Roth
+    3 1934   Myriophyllum verticillatum L.
 
 </div>
 
@@ -135,15 +139,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. AE67
-    2             Malva moschata L. BE71
-    3             Malva moschata L. BE97
-    4             Malva moschata L. BF24
-    5 Malva trimestris (L.) Salisb. AE58
-    6         Malva verticillata L. AE58
-    7         Malva verticillata L. BF07
-    8         Malva verticillata L. CF65
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE74
+    3                    Malva moschata L. BE82
+    4                    Malva moschata L. BF01
+    5                    Malva moschata L. BF24
+    6                    Malva pusilla Sm. CE90
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -220,7 +224,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5104 records (species - localization) including 5027 with
+total 5108 records (species - localization) including 5031 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

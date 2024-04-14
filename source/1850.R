@@ -421,16 +421,16 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Carex gracilis",
   citation = "@wimmerSchlesischenCarexArtenAus1850",
-  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen vor Althof bei Breslau, [...] bei Schmolz und am Fusse des Geiersbergers bei Klein-Silsterwitz beobachtet.",
-  lon = 16.83264,  
-  lat = 51.00941,
-  comments = "Stary Dwór, Gniechowice, gm. Kąty Wrocławskie [a może chodzi o Stary Dwór w gm. Wołów?]"
+  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen vor Althof bei Breslau, [...]",
+  lon = 17.12165, 
+  lat = 51.07042, 
+  comments = "Mokry Dwór, gmina Siechnice, powiat wrocławski; co prawda na mapach Mokry Dwór == Althofnass, ale sądząc po innych wpisach w Fieku (@fiekFloraSchlesienPreussischen1881) chodzi właśnie o Mokry Dwór a nie innych Althof"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
   species = "Carex gracilis",
   citation = "@wimmerSchlesischenCarexArtenAus1850",
-  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen [...] bei Schmolz [...]",
+  entry = "Carex gracilis. [...] bei Schmolz [...]",
   lon = 16.88251,  
   lat = 51.08058,
   comments = "Smolec, gm. Kąty Wrocławskie"
@@ -439,7 +439,7 @@ jahres <- data.frame(
 jahres <- data.frame(
   species = "Carex gracilis",
   citation = "@wimmerSchlesischenCarexArtenAus1850",
-  entry = "Carex gracilis. [...] Bisher auf sumpfigen Wiesen am Fusse des Geiersbergers bei Klein-Silsterwitz beobachtet.",
+  entry = "Carex gracilis. [...] am Fusse des Geiersbergers bei Klein-Silsterwitz beobachtet.",
   lon = 16.72816, 
   lat = 50.83866,
   comments = "[podnórze] Sępia Góra, obecnie Rezerwat Łąka Sulistrowicka, Sulistrowiczki, gm. Sobótka"

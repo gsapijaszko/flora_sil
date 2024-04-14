@@ -2995,7 +2995,6 @@ schube <- data.frame(
   comments = "Przyborów, gm. Wińsko, pow. wołowski"
 ) |> rbind(schube)
 
-
 schube <- data.frame(
   species = "Primula officinalis (L.) Jcq.",
   citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @vonuechtritzResultateDurchforschungSchlesischen1885",
@@ -3012,6 +3011,299 @@ schube <- data.frame(
   lon = 17.79024,
   lat = 51.31615,
   comments = "Bałdowice, gm. Kobyla Góra, pow. ostrzeszowski, województwo wielkopolskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIc Br: Schönau! u. a .; [...]",
+  lon = 17.54995,
+  lat = 50.83567,
+  comments = "Kruszyna, gmina Skarbimierz, powiat brzeski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVa 7!; auch Frd: Langer Berg (F), [...]",
+  lon = 16.34658, 
+  lat = 50.65710,
+  comments = "Głuszyca Górna, gmina Głuszyca, powiat wałbrzyski; Langer Berge - pasmo graniczne; http://maps.mapywig.org/m/K.u.K._maps/series/075K/200dpi_NYPL/3_XV_Schonau_Bei_Bhm_Braunau_1901_200dpi_NYPL1226280.jpg"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVa 7!; auch Frd: [...] Hornschloß (F)!;",
+  lon = 16.31500, 
+  lat = 50.69359,
+  comments = "Zamek Rogowiec, Grzmiąca, gmina Głuszyca, powiat wałbrzyski"
+) |> rbind(schube)
+
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IVd Rein: Hartau! u. a.;",
+  lon = 16.43374, 
+  lat = 50.40896,
+  comments = "Szczytna, gmina Szczytna, powiat kłodzki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Va Ros (Gr): nur Skronskau (Zu)!;",
+  lon = 18.46402,
+  lat = 50.97297,
+  comments = "Skrońsko, gm. Gorzów Śląski, pow. oleski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vb 2!; Falk. häufig (M);",
+  lon = 17.62264, 
+  lat = 50.64269,
+  comments = "Niemodlin, gmina Niemodlin, powiat opolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vd Leo. unsicher (M); [...]",
+  lon = 17.82223,
+  lat = 50.19834,
+  comments = "Głubczyce, gmina Głubczyce, powiat głubczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vd [...] Ka: Dirschel!; [...]",
+  lon = 17.96678, 
+  lat = 50.04905,
+  comments = "Dzierżysław, gmina Kietrz, powiat głubczycki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vd [...] Kosel: Poborschau!; [...]",
+  lon = 18.08118, 
+  lat = 50.37604,
+  comments = "Poborszów, gmina Reńska Wieś, powiat kędzierzyńsko-kozielski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vd [...] Krappitz (Gr) u. a.;",
+  lon = 17.97509, 
+  lat = 50.47349,
+  comments = "Krapkowice, gmina Krapkowice, powiat krapkowicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Vf Berun: Imielin!;",
+  lon = 19.20727, 
+  lat = 50.14919,
+  comments = " Imielin, powiat bieruńsko-lędziński,"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VIb Troppau!; [...]",
+  lon = 17.91319, 
+  lat = 49.93989,
+  comments = "Opava, okres Opava, Moravskoslezský kraj, Moravskoslezsko, Česko"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VIb [...] Jäg. (O);",
+  lon = 17.70646, 
+  lat = 50.08985,
+  comments = "Krnov, okres Bruntál, Moravskoslezský kraj, Moravskoslezsko, Česko"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VIc Te: selten (O), [...]",
+  lon = 18.63595, 
+  lat = 49.74322,
+  comments = "Cieszyn, powiat cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VIc [...] Dzingelau (0); [...]",
+  lon = 18.70735, 
+  lat = 49.72006,
+  comments = "Dzięgielów, gmina Goleszów, powiat cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jcq.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "VId Ustron: Tul (O).",
+  lon = 18.80598, 
+  lat = 49.71835,
+  comments = "Ustroń, powiat cieszyński"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis f. inflata (Lehmann)",
+  citation = "@fiekResultateDurchforschungSchlesischen1889, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. inflata (Lehmann). Gö: Landskrone (88); [...]",
+  lon = 14.93265, 
+  lat = 51.12933, 
+  comments = "Landeskrone, Biesnitz, Görlitz, Sachsen, Deutschland"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis f. inflata (Lehmann)",
+  citation = "@fiekResultateDurchforschungSchlesischen1889, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. inflata (Lehmann). [...] Lähn: Lehnhausberg (88); [...]",
+  lon = 15.66318, 
+  lat = 51.01652, 
+  comments = "Pałac Lenno, Wleń, gmina Wleń, powiat lwówecki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis f. inflata (Lehmann)",
+  citation = "@fiekResultateDurchforschungSchlesischen1889, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. inflata (Lehmann). [...] Frd: Langer Berg (88); [...]",
+  lon = 16.31082,  
+  lat = 50.69101, 
+  comments = "[góra] Jeleniec, Grzmiąca, gmina Głuszyca, powiat wałbrzyski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis f. inflata (Lehmann)",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1904, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "f. inflata (Lehmann). [...] GrSt: Schimischow (03)!",
+  lon = 18.24480, 
+  lat = 50.51796, 
+  comments = "Szymiszów, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(schube)
+
+#'
+#' From @fiekFloraSchlesienPreussischen1881
+#'
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. b. Lissa, [...]",
+  lon = 16.87443, 
+  lat = 51.14891, 
+  comments = "Wrocław, Leśnica"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Arnoldsmühl, [...]",
+  lon = 16.84673,  
+  lat = 51.12105, 
+  comments = "Jarnołtów, Jerzmanowo-Jarnołtów-Strachowice-Osiniec, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] zw. Riemberg u. Hauffen, [...]",
+  lon = 16.84188,  
+  lat = 51.28984, 
+  comments = "Rościsławice, gmina Oborniki Śląskie, powiat trzebnicki, województwo dolnośląskie; pomiędzy miejscowościami Rościsławice a nieistniejącą już Hauffen (Spalona Wieś)"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Gr. Rake, [...]",
+  lon = 17.06881,  
+  lat = 51.19419, 
+  comments = "Raków, gmina Wisznia Mała, powiat trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Kapsdorf, [...]",
+  lon = 17.03764,  
+  lat = 51.20858, 
+  comments = "Kryniczno, gmina Wisznia Mała, powiat trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Hühnern, [...]",
+  lon = 17.03441,  
+  lat = 51.18657, 
+  comments = "(Hünern) Psary, gmina Wisznia Mała, powiat trzebnicki"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Gr. Bischwitz, [...]",
+  lon = 17.08444,  
+  lat = 51.16224, 
+  comments = "Kłokoczyce, Pawłowice, Psie Pole-Zawidawie, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Oswitz, [...]",
+  lon = 16.99060, 
+  lat = 51.13814, 
+  comments = "Wrocław, Osobowice"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Scheitnig (ob noch?), [...]",
+  lon = 17.08199, 
+  lat = 51.11493, 
+  comments = "Szczytniki, Zalesie, Zacisze-Zalesie-Szczytniki, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Althof, [...]",
+  lon = 17.12165, 
+  lat = 51.07042, 
+  comments = "Mokry Dwór, gmina Siechnice, powiat wrocławski; co prawda na mapach Mokry Dwór == Althofnass, ale sądząc po innych wpisach w Fieku chodzi właśnie o Mokry Dwór a nie innych Althof"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Brocke (selten), [...]",
+  lon = 17.07179, 
+  lat = 51.06192, 
+  comments = "Wrocław, Brochów"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Primula officinalis (L.) Jacq.",
+  citation = "@fiekFloraSchlesienPreussischen1881",
+  entry = "Um Br. [...] Opperau etc.",
+  lon = 16.97615,  
+  lat = 51.08055, 
+  comments = "Oporów, Wrocław"
 ) |> rbind(schube)
 
 
