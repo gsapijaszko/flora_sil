@@ -750,7 +750,7 @@ jahres <- data.frame(
   entry = "F. heterophylla [...] Leo: Rosen (K)!",
   lon = 17.90455, 
   lat = 50.09257,
-  comments = "ogożany, gm. Kietrz, pow. głubczycki"
+  comments = "Rogożany, gm. Kietrz, pow. głubczycki"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -1689,12 +1689,237 @@ jahres <- data.frame(
   comments = "Zabrze, dworzec kolejowy"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Chenopodium ficifolium",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Chenopodium ficifolium Leo: Rosen (K)!",
+  lon = 17.90455, 
+  lat = 50.09257,
+  comments = "Rogożany, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corispermum intermedium",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Corispermum intermedium Neusalz: mehrfach (Ts)!; [...]",
+  lon = 15.72606, 
+  lat = 51.79649,
+  comments = "Nowa Sól, powiat nowosolski; często"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corispermum intermedium",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Corispermum intermedium [...] Hdb: Bhf (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Kochia Scoparia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Kochia Scoparia B: vor Woischwitz, [...]",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Kochia Scoparia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Kochia Scoparia B: [...] Morgenau, [...]",
+  lon = 17.06966,
+  lat = 51.09861,
+  comments = "Wrocław, Rakowiec"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Kochia Scoparia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Kochia Scoparia B: [...] Stadthafen!",
+  lon = 17.01999,
+  lat = 51.12865,
+  comments = " Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus albus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Amarantus albus B: Kinderzobten, [...]",
+  lon = 16.99758,
+  lat = 51.08158,
+  comments = "Wrocław, Mała Sobótka, ul. Racławicka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus albus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Amarantus albus B: [...] bei der Hundsfelder Heerstraße!; [...]",
+  lon = 17.10138, 
+  lat = 51.14333,
+  comments = "Wrocław, Psie Pole"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus albus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Amarantus albus [...] Hdb: Bhf (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Amarantus panniculatus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. panniculatus Ka: Dirschel (R)!",
+  lon = 17.96678,
+  lat = 50.04905,
+  comments = "Dzierżysław, gmina Kietrz, powiat głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Silene dichotoma Mi: Dammer (Sp)!; [...]",
+  lon = 17.35932,
+  lat = 51.49522,
+  comments = "Dąbrowa, gmina Krośnice, powiat milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Silene dichotoma [...] Silb: Haltestelle Festung (B)!; [...]",
+  lon = 16.63523, 
+  lat = 50.57008,
+  comments = "Nowa Wieś Kłodzka, gmina Nowa Ruda, powiat kłodzki; dawniej teren przystanku kolejowego "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Silene dichotoma [...] Rein: Grunwald (R)!; [...]",
+  lon = 16.38548,
+  lat = 50.33824,
+  comments = "Zieleniec, Duszniki-Zdrój, powiat kłodzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Silene dichotoma",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Silene dichotoma [...] Opp: Ostbhf (Sb)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Melandryum album X rubrum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Melandryum album X rubrum Grott: Koppitzer Neißewald!",
+  lon = 17.47884,
+  lat = 50.64647,
+  comments = "Kopice, gmina Grodków, powiat brzeski, las nad brzegiem rzeki Nysa Kłodzka"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cucubalus baccifer",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cucubalus baccifer Nm: zw. Schöneiche u. Blumerode (Ko)!; [...]",
+  lon = 16.50741, 
+  lat = 51.16842,
+  comments = "między miejscowościami Proszków, gm. Środa Śląśka i Kwietno, gmina Malczyce, powiat średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cucubalus baccifer",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cucubalus baccifer [...] Obgl: Zabierzau (Sb)!",
+  lon = 17.97525, 
+  lat = 50.38585,
+  comments = "Zabierzów, gm. Walce, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = c("Tunica Saxifraga", "Tunica prolifera"), 
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Tunica Saxifraga Opp: Ostbhf, mit T. prolifera (Sb)!",
+  lon = 17.93713,
+  lat = 50.67358,
+  comments = "Opole, dworzec Opole Wschodnie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vaccaria parviflora",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Vaccaria parviflora Nm: in Bruch (Ko)!; [...]",
+  lon = 16.66781,
+  lat = 51.18872,
+  comments = "Przedmoście, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Vaccaria parviflora",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Vaccaria parviflora [...] B: vor Woischwitz! (Sl).",
+  lon = 17.03468, 
+  lat = 51.07134, 
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dianthus superbus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dianthus superbus Bolk: Hohenpetersdorf (St); [...]",
+  lon = 16.20967,
+  lat = 50.89975,
+  comments = "Pietrzyków, gm. Dobromierz, pow. świdnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dianthus superbus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dianthus superbus [...] W: Laubenweg bei Giersdorf (C); [...]",
+  lon = 16.71755, 
+  lat = 50.51118,
+  comments = "Opolnica, gmina Bardo, powiat ząbkowicki; nie znalazłem Laubenweg"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dianthus superbus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dianthus superbus [...] Nst: Rosnochau (T)!; [...]",
+  lon = 17.94551, 
+  lat = 50.37104,
+  comments = "Rozkochów, gmina Walce, powiat krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dianthus superbus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dianthus superbus [...] Gnad: Wronin (Sb)!; [...]",
+  lon = 18.10137, 
+  lat = 50.19278,
+  comments = "Wronin, gmina Polska Cerekiew, powiat kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dianthus superbus v. grandiflorus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dianthus superbus [...] v. grandiflorus Riesengeb: Theresiensteig (Kr).",
+  lon = NA,
+  lat = NA,
+  comments = ""
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Hindenburg", entry)) |>
+#   subset(grepl("Theresiensteig", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(16.06987, 51.87720)
+# tmaptools::rev_geocode_OSM(18.10137, 50.19278)
 

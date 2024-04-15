@@ -51,7 +51,7 @@ saveRDS(all_data, file = "data/all_data.Rds")
 tmaptools::rev_geocode_OSM(16.97615, 51.08055)
 
 all_data |>
-  subset(grepl("Schwent", entry)
+  subset(grepl("Athamana", entry)
        & grepl("", entry)
   ) # |>
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
@@ -243,3 +243,5 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 # a |>
 #   sf::st_join(atpolR::atpol10k()) |>
 #   subset(Name == "BE38")
+
+lcvplants::lcvp_fuzzy_search("Primula officinalis Jacq.")

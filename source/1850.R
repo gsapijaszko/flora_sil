@@ -564,9 +564,9 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 jahres <- data.frame(
-  species = c("Carex longifolia", "Equisetum hiemale", "Fegatella conica", "Pellia epiphyla", "Aneura pinguis", "Athamana cretenis"),
+  species = c("Carex longifolia", "Equisetum hiemale", "Fegatella conica", "Pellia epiphyla", "Aneura pinguis", "Athamanta cretenis"),
   citation = "@mildeUeberVarietatenUnd1850",
-  entry = "Bei Oppersdorf findet man Carex longifolia, Equisetum hiemale, Fegatella conica, Pellia epiphyla, Aneura pinguis u. a.; auch entdeckte hier Herr Apotheker Lohmeyer die Athamana cretenis, aber nun in einem einzigen Exemplare.",
+  entry = "Bei Oppersdorf findet man Carex longifolia, Equisetum hiemale, Fegatella conica, Pellia epiphyla, Aneura pinguis u. a.; auch entdeckte hier Herr Apotheker Lohmeyer die Athamanta cretenis, aber nun in einem einzigen Exemplare.",
   lon = 17.42764, 
   lat = 50.42144,
   comments = "Wierzbięcice, gm. Nysa"

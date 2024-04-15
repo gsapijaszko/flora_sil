@@ -37,26 +37,26 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                         species
-    1           Tragopogon major
-    2         Cucubalus baccifer
-    3 Myriophyllum verticillatum
+                                                species
+    1        Chenopodium vulvaria f. microphyllum Moqu.
+    2 Equisetum limosum L. (erw.) var. attenuatum Milde
+    3                      Hieracium iseranum Uechtritz
                                                      citation
     1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2        @schalowErgebnisseDurchforschungSchlesischen1935
-    3        @schalowErgebnisseDurchforschungSchlesischen1934
-                                                                              entry
-    1 Tragopogon major Breslau: Umschlaghafen Pöpelwitz, Stadthafen (Dr. K. Meyer)!
-    2                   Cucubalus baccifer [...] Kanth: Sadewitz (Schoepke)!; [...]
-    3             Myriophyllum verticillatum [...] Landeshut: Kreppelhof (Strauch).
-           lon      lat                                                  comments
-    1 17.01999 51.12865 Wrocław: dawny port przeładnunkowy Popowice; port rzeczny
-    2 16.79707 51.05878                            Sadowice, gm. Kąty Wrocławskie
-    3 16.03651 50.79153                okolice ruin zamku Grodztwo, Kamienna Góra
-      year                   accepted_name
-    1 1931 Tragopogon dubius subsp. dubius
-    2 1935      Silene baccifera (L.) Roth
-    3 1934   Myriophyllum verticillatum L.
+    2            @fiekResultateDurchforschungSchlesischen1887
+    3        @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                          entry
+    1 Chenopodium vulvaria: [...] f. microphyllum Moqu. Blätter klein, höchstens 1,5 cm lang [...] Hindenburg: Bhf. (Schubert)!
+    2                                        Equisetum limosum L. (erw.) var. attenuatum Milde. Landeck: Ueberschaar (Callier)!
+    3                                         H. iseranum Uechtritz = floribundum >> Pilosella [...] Bolkenhain: Merzdorf (Kr).
+           lon      lat                 comments year
+    1 18.78262 50.30469 Zabrze, dworzec kolejowy 1931
+    2 16.88865 50.35883       Ułęże, Lądek-Zdrój 1887
+    3 16.03239 50.84384                Marciszów 1936
+                          accepted_name
+    1                              <NA>
+    2           Equisetum fluviatile L.
+    3 Pilosella iserana (Uechtr.) Soják
 
 </div>
 
@@ -139,15 +139,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE74
-    3                    Malva moschata L. BE82
-    4                    Malva moschata L. BF01
-    5                    Malva moschata L. BF24
-    6                    Malva pusilla Sm. CE90
-    7 Malva thuringiaca subsp. thuringiaca BE57
-    8                Malva verticillata L. BE59
+              accepted_name Name
+    1     Malva moschata L. BE53
+    2     Malva moschata L. BE71
+    3     Malva moschata L. BE82
+    4     Malva moschata L. CF11
+    5     Malva pusilla Sm. AD93
+    6 Malva verticillata L. BE59
+    7 Malva verticillata L. BF07
+    8 Malva verticillata L. CF65
 
 ### How to participate
 
@@ -224,7 +224,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5108 records (species - localization) including 5031 with
+total 5134 records (species - localization) including 5056 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 
