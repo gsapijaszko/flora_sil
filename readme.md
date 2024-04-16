@@ -1,3 +1,4 @@
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -37,26 +38,30 @@ jahres |>
   dplyr::slice_sample(n = 3) 
 ```
 
-                                                species
-    1        Chenopodium vulvaria f. microphyllum Moqu.
-    2 Equisetum limosum L. (erw.) var. attenuatum Milde
-    3                      Hieracium iseranum Uechtritz
-                                                     citation
-    1 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    2            @fiekResultateDurchforschungSchlesischen1887
-    3        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                          entry
-    1 Chenopodium vulvaria: [...] f. microphyllum Moqu. Blätter klein, höchstens 1,5 cm lang [...] Hindenburg: Bhf. (Schubert)!
-    2                                        Equisetum limosum L. (erw.) var. attenuatum Milde. Landeck: Ueberschaar (Callier)!
-    3                                         H. iseranum Uechtritz = floribundum >> Pilosella [...] Bolkenhain: Merzdorf (Kr).
-           lon      lat                 comments year
-    1 18.78262 50.30469 Zabrze, dworzec kolejowy 1931
-    2 16.88865 50.35883       Ułęże, Lądek-Zdrój 1887
-    3 16.03239 50.84384                Marciszów 1936
-                          accepted_name
-    1                              <NA>
-    2           Equisetum fluviatile L.
-    3 Pilosella iserana (Uechtr.) Soják
+                               species
+    1                   Carex acuta L.
+    2 Vicia Panononica f. purpurascens
+    3           Lycopodium complanatum
+                                              citation
+    1             @wimmerSchlesischenCarexArtenAus1850
+    2 @schalowErgebnisseDurchforschungSchlesischen1932
+    3  @schubeErgebnisseDurchforschungSchlesischen1904
+                                                                                                             entry
+    1 C. acuta L. [...] Nur einmal in einem Wassergraben auf einer Wiefe zwischen Jätzdorf unb Jacobine bei Ohlau.
+    2                        V. Panononica [...] f. purpurascens [...] Breslau: Güterbahnhof West! (Dr. K. Meyer)!
+    3         Lycopodium complanatum. Glatzer Schneeberg: auch am Aufstiege zu den Lauterbacher Felsen (Kinscher)!
+           lon      lat
+    1 17.25856 50.89538
+    2 17.01173 51.11007
+    3 16.78485 50.18482
+                                                                                      comments
+    1 pomiędzy miejscowościami Jaczkowice i Jakubowice, Drzemlikowice, gm. Oława, pow. oławski
+    2                                             Wrocław, między ul. Braniborska a Robotnicza
+    3                                        Śnieżnik Kłodzki, na podejściu pod [górę] Goworek
+      year                        accepted_name
+    1 1850                                 <NA>
+    2 1932               Vicia pannonica Crantz
+    3 1904 Diphasiastrum complanatum (L.) Holub
 
 </div>
 
@@ -81,7 +86,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details class="code-fold">
+<details>
 <summary>Code</summary>
 
 ``` r
@@ -139,15 +144,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-              accepted_name Name
-    1     Malva moschata L. BE53
-    2     Malva moschata L. BE71
-    3     Malva moschata L. BE82
-    4     Malva moschata L. CF11
-    5     Malva pusilla Sm. AD93
-    6 Malva verticillata L. BE59
-    7 Malva verticillata L. BF07
-    8 Malva verticillata L. CF65
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BF05
+    5                    Malva moschata L. BF24
+    6                    Malva pusilla Sm. AD93
+    7 Malva thuringiaca subsp. thuringiaca CF35
+    8                Malva verticillata L. BE59
 
 ### How to participate
 
@@ -224,7 +229,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5134 records (species - localization) including 5056 with
+total 5148 records (species - localization) including 5070 with
 coordinates. Data density in ATPOL squares is shown on the below
 picture:
 

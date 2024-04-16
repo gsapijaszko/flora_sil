@@ -1914,12 +1914,138 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Spergularia salina",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Spergularia salina B: Schuttplatz bei der Hundsfelder Heerstraße (Sl)!",
+  lon = 17.10138, 
+  lat = 51.14333,
+  comments = "Wrocław, Psie Pole"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ceratophyllum submersum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ceratophyllum submersum B: Groß-Gohlau (Sl)!",
+  lon = 16.81930, 
+  lat = 51.11092,
+  comments = "Gałów, gm. Miękinia"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Eranthis hiemalis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Eranthis hiemalis Bolk: Wilhelmshöhe (St)!",
+  lon = 16.10409, 
+  lat = 50.91969,
+  comments = "Bolków, pow. jaworski; wzgórze w parku miejskim "
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Nigella damascena",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "N. damascena B: vor Woischwitz (Sl)!",
+  lon = 17.03468,
+  lat = 51.07134,
+  comments = "Wrocław, [przed] Wojszyce"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Isopyrum thalictroides",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Isopyrum thalictroides Nm: Polkendorf (Ko)!; [...]",
+  lon = 16.68788, 
+  lat = 51.14063,
+  comments = "Wojczyce, gmina Środa Śląska, powiat średzki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Isopyrum thalictroides",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Isopyrum thalictroides [...] GrSt: Schimischow (Sb).",
+  lon = 18.24480, 
+  lat = 50.51796,
+  comments = "Szymiszów, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Actaea spicata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Actaea spicata Opp: Dembiohammer (Sb).",
+  lon = 18.11380, 
+  lat = 50.66791,
+  comments = "Dębska Kuźnia, gmina Chrząstowice, powiat opolski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aquilegia vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aquilegia vulgaris Glatz: Eisersdorf (B); [...]",
+  lon = 16.67568, 
+  lat = 50.37428,
+  comments = "Żelazno, gm. Kłodzko"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aquilegia vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aquilegia vulgaris [...] GrSt: Chorulla (Sb)!, [...]",
+  lon = 17.97266,
+  lat = 50.53284,
+  comments = "Chorula, gm. Gogolin, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aquilegia vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aquilegia vulgaris [...] GrSt: [...] Sprentschützer Berg; [...]",
+  lon = 18.07761,  
+  lat = 50.50736,
+  comments = "Sprzęcicka Góra, Sprzęcice, gmina Izbicko, powiat strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aquilegia vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aquilegia vulgaris [...] Tost: Dombrowka (Sb).",
+  lon = 18.47057, 
+  lat = 50.51102, 
+  comments = "Dąbrówka, gmina Wielowieś, powiat gliwicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Clematis Vitalba",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Clematis Vitalba B: Stadthafen! (M); [...]",
+  lon = 17.01999,
+  lat = 51.12865,
+  comments = " Wrocław, port rzeczny"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Clematis Vitalba",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Clematis Vitalba [...] Mün: Krelkau!; [...]",
+  lon = 16.99715,  
+  lat = 50.62415,
+  comments = "Krzelków, gmina Ziębice, powiat ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Clematis Vitalba",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Clematis Vitalba [...] Hdb: Bhf (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Theresiensteig", entry)) |>
+#   subset(grepl("Krelkau", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(18.10137, 50.19278)
+# tmaptools::rev_geocode_OSM(16.99715, 50.62415)
 

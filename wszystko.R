@@ -244,4 +244,4 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   sf::st_join(atpolR::atpol10k()) |>
 #   subset(Name == "BE38")
 
-lcvplants::lcvp_fuzzy_search("Primula officinalis Jacq.")
+# lcvplants::lcvp_fuzzy_search("Primula officinalis Jacq.")
