@@ -1,4 +1,5 @@
 
+
 ## Flora Silesiae
 
 Historical data of the flora of Silesia based on articles published by
@@ -35,33 +36,25 @@ Let’s have a look on `jahres` data frame:
 
 ``` r
 jahres |>
-  dplyr::slice_sample(n = 3) 
+  dplyr::slice_sample(n = 3)
 ```
 
-                               species
-    1                   Carex acuta L.
-    2 Vicia Panononica f. purpurascens
-    3           Lycopodium complanatum
-                                              citation
-    1             @wimmerSchlesischenCarexArtenAus1850
-    2 @schalowErgebnisseDurchforschungSchlesischen1932
-    3  @schubeErgebnisseDurchforschungSchlesischen1904
-                                                                                                             entry
-    1 C. acuta L. [...] Nur einmal in einem Wassergraben auf einer Wiefe zwischen Jätzdorf unb Jacobine bei Ohlau.
-    2                        V. Panononica [...] f. purpurascens [...] Breslau: Güterbahnhof West! (Dr. K. Meyer)!
-    3         Lycopodium complanatum. Glatzer Schneeberg: auch am Aufstiege zu den Lauterbacher Felsen (Kinscher)!
-           lon      lat
-    1 17.25856 50.89538
-    2 17.01173 51.11007
-    3 16.78485 50.18482
-                                                                                      comments
-    1 pomiędzy miejscowościami Jaczkowice i Jakubowice, Drzemlikowice, gm. Oława, pow. oławski
-    2                                             Wrocław, między ul. Braniborska a Robotnicza
-    3                                        Śnieżnik Kłodzki, na podejściu pod [górę] Goworek
-      year                        accepted_name
-    1 1850                                 <NA>
-    2 1932               Vicia pannonica Crantz
-    3 1904 Diphasiastrum complanatum (L.) Holub
+                   species                                                citation
+    1 Gratiola officinalis        @schalowErgebnisseDurchforschungSchlesischen1934
+    2      Rosa rubiginosa @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3       Gentiana verna        @schalowErgebnisseDurchforschungSchlesischen1936
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 entry
+    1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Gratiola officinalis Neumarkt: Seedorf (Kotschy)!
+    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    R. rubiginosa Neiße: Gr.-Kunzendorf (Franke)!
+    3 Von den vielen beachtenswerten Funden aus diesem Gebietsteil muß an erster Stelle die Entdeckung von Gentiana verna bei Neustadt a. d. Spree durch den Vorsteher der Bautzener Gesellschaft „Isis“, Dr. Jordan, erwähnt werden. Er fand die Pflanze auf einer quelligen Wiese am Rande einer Düne in Gesellschaft von Carex pulicaris, Eriophorum polystachyum, Juncus supinus, Drosera rotundifolia, Viola palustris, Hydrocotyle vulgaris u. a. [...] In Gesellschaft von Gentiana verna fand sich ferner noch die typische Form von Polygala amara, die aus Schlesien noch nicht bekannt war.
+           lon      lat                                comments year
+    1 16.62111 51.24190               Zakrzów, gm. Środa Śląska 1934
+    2 17.26742 50.34035 Sławniowice, gm. Głuchołazy, pow. nyski 1931
+    3 14.46084 51.48853                                         1936
+                accepted_name
+    1 Gratiola officinalis L.
+    2      Rosa rubiginosa L.
+    3       Gentiana verna L.
 
 </div>
 
@@ -86,7 +79,7 @@ malvas <- jahres |>
 
 And plot it on simple map using `tmap` package:
 
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 
 ``` r
@@ -95,14 +88,16 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level = 1, 
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tm <- 
-  tmap::tm_shape(boundaries) +
-  tmap::tm_polygons(fill = "white") +
+tmap::tmap_mode("view")
+
+tm <-
+#  tmap::tm_shape(boundaries) +
+#  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(malvas) +
   tmap::tm_symbols(
     size = 0.5,
     fill = "accepted_name",
-    fill.scale = tmap::tm_scale_categorical(values = "Paired"),
+    fill.scale = tmap::tm_scale_categorical(values = "paired"),
     fill.legend = tmap::tm_legend(
       title = "",
       text.size = 0.6,
@@ -110,11 +105,22 @@ tm <-
       position = c("left", "bottom")
     )
   )
+
+tm
 ```
 
 </details>
 
-![Malvas distribution](malvas.png)
+![](flora_silesiae_files/figure-commonmark/tmap-1.png)
+
+<!---
+&#10;
+::: {.cell}
+&#10;:::
+&#10;
+&#10;
+&#10;![Malvas distribution](malvas.png)
+-->
 
 In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with coordinates
@@ -144,15 +150,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BE71
-    4                    Malva moschata L. BF05
-    5                    Malva moschata L. BF24
-    6                    Malva pusilla Sm. AD93
-    7 Malva thuringiaca subsp. thuringiaca CF35
-    8                Malva verticillata L. BE59
+                      accepted_name Name
+    1             Malva moschata L. BE53
+    2             Malva moschata L. BE71
+    3             Malva moschata L. BE82
+    4             Malva moschata L. BF26
+    5             Malva moschata L. CF11
+    6 Malva trimestris (L.) Salisb. AE59
+    7 Malva trimestris (L.) Salisb. AE67
+    8         Malva verticillata L. AE58
 
 ### How to participate
 
@@ -166,7 +172,7 @@ jahres <- data.frame(
   species = "Cystopteris fragilis",
   citation = "@schalowErgebnisseDurchforschungSchlesischen1934",
   entry = "Cystopteris fragilis Naumburg a. B.: Schloßpark (Tscheppe)!; [...]",
-  lon = 15.24453, 
+  lon = 15.24453,
   lat = 51.80259,
   comments = "Nowogród Bobrzański, park zamkowy (Wzgórze Zamkowe)"
 ) |> rbind(jahres)
@@ -183,7 +189,7 @@ bib <- RefManageR::as.BibEntry(
     title = "Ergebnisse der Durchforschung der schlesischen Gefässpflanzenwelt im Jahre 1933",
     journal = "Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur. 1933, Jg.106",
     date = "1934",
-    volume = "106", 
+    volume = "106",
     pages = "140--156")
 )
 ```
@@ -193,9 +199,10 @@ directory, which provides the normalization of the species names
 provided by authors to common, accepted names of species, like:
 
 ``` r
+#|
 an <- c(
   "Abutilon avicennae", "Abutilon theophrasti Medik.",
-  "Acer campestre", "Acer campestre L.", 
+  "Acer campestre", "Acer campestre L.",
   [...]
 ```
 
@@ -229,11 +236,13 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5148 records (species - localization) including 5070 with
-coordinates. Data density in ATPOL squares is shown on the below
-picture:
+total 5174 records (species - localization) including 5096 with
+coordinates.
 
-![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
+<!--
+Data density in ATPOL squares is shown on the below picture:
+&#10;![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
+-->
 
 And the number of records per year:
 
@@ -243,54 +252,54 @@ And the number of records per year:
 
 #### WIP
 
-[1] T. Schube. "Die Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1929". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 102 (1930), pp. 72-81.
+    [1] T. Schube. "Die Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1929". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 102 (1930), pp. 72-81.
 
 #### Done
 
-[1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
-Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 81-83.
+    [1] J. Milde. "Ueber Varietäten und Monstrositäten des Equisetum
+    Telmateia Ehrh." In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 81-83.
 
-[2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
-im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
-schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
-(1850), pp. 75-76.
+    [2] F. Wimmer. "Bericht über die Verhandlungen der Botanischen Sektion
+    im Jahre 1849". In: _Uebersicht der Arbeiten und Veränderungen der
+    schlesischen Gesellschaft für vaterländische Kultur im Jahre 1849_
+    (1850), pp. 75-76.
 
-[3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
-caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
-Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
-im Jahre 1849_ (1850), pp. 77-81.
+    [3] F. Wimmer. "Die schlesischen Carex-Arten aus der Gruppe der C.
+    caespitosa revidirt im December 1848". In: _Uebersicht der Arbeiten und
+    Veränderungen der schlesischen Gesellschaft für vaterländische Kultur
+    im Jahre 1849_ (1850), pp. 77-81.
 
-[4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
-_Uebersicht der Arbeiten und Veränderungen der schlesischen
-Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
+    [4] F. Wimmer. "Neue und seltenere schiesische Pflanzen". In:
+    _Uebersicht der Arbeiten und Veränderungen der schlesischen
+    Gesellschaft für vaterländische Kultur im Jahre 1849_ (1850), p. 96.
 
-[5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
+    [5] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jahre 1930". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur. 1930, Jg.103_ 103 (1931), pp. 116-132.
 
-[6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
+    [6] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1931". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur_ 104 (1932), pp. 92-112.
 
-[7] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
-Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
-vaterländische Cultur_ 105 (1933), pp. 154-173.
+    [7] E. Schalow. "Ergebnisse der schlesischen Phanerogamenforschung im
+    Jarhe 1932". In: _Jahres-Bericht der Schlesischen Gesellschaft für
+    vaterländische Cultur_ 105 (1933), pp. 154-173.
 
-[8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
-140-156.
+    [8] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1933". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1933, Jg.106_ 106 (1934), pp.
+    140-156.
 
-[9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
-55-71.
+    [9] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1934". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1934, Jg.107_ 107 (1935), pp.
+    55-71.
 
-[10] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
-Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
-Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
-66-81.
+    [10] E. Schalow. "Ergebnisse der Durchforschung der schlesischen
+    Gefässpflanzenwelt im Jahre 1935". In: _Jahres-Bericht der Schlesischen
+    Gesellschaft für vaterländische Cultur. 1935, Jg.108_ 108 (1936), pp.
+    66-81.

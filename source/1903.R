@@ -1057,3 +1057,15 @@ jahres <- data.frame(
   comments = "Pieszyce, gmina Pieszyce, powiat dzierżoniowski; park przypałacowy"
 ) |> rbind(jahres)
 
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1903", 
+  entry = "Trapa natans. Rosenberg: Gr.-Borek (Zuschke)!",
+  lon = 18.57479,   
+  lat = 50.86126, 
+  comments = "Borki Wielkie, gmina Olesno, powiat oleski"
+) |> rbind(jahres)

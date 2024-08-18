@@ -359,3 +359,26 @@ jahres <- data.frame(
   lat = 50.36743, 
   comments = "Olszynka, Głogówek, gmina Głogówek, powiat prudnicki"
 ) |> rbind(jahres)
+
+#' 
+#'  [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
+  entry = "Trapa natans L. Breslau: Jungfernsee (Nitschke, S.); [...]",
+  lon = 17.19968, 
+  lat = 51.03194, 
+  comments = "Jezioro Dziewicze, Kotowice, gmina Siechnice, powiat wrocławski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1894", 
+  entry = "Trapa natans L. [...] Neumarkt: Breitenau (Figert, S.).",
+  lon = 16.59118,  
+  lat = 51.22973, 
+  comments = "Brodno, gm. Środa Śląska, pow. średzki"
+) |> rbind(jahres)
+

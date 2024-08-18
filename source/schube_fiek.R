@@ -591,7 +591,7 @@ schube <- data.frame(
 
 #' 2. Klasse. Equisetales. ----
 #' 6. Familie. EQUISETACEAE. ----
-## 18. Equisetnm L. ----
+## 18. Equisetum L. ----
 ### 43. E. silvaticum L. ----
 
 #' Wälder, Gebüsche, Raine, Lehnen, auch zuweilen auf Ackerland; in der Eb. und dem Vgb. 3 —4, 
@@ -2781,6 +2781,96 @@ schube <- data.frame(
   lat = 49.68709,
   comments = "w Czechach"
 ) |> rbind(schube)
+
+
+#' 78. Familie. HYDROCARYACEAE.
+# 308. Trapa L.  ----
+# 1053. T. natans L.  ----
+#' Stehende Gewässer; in der Eb. bis ans Vgb., in N.S. und M.S. 2, in O.S. 3, stellenweise in großer Anzahl.  
+#' Ib Nie: Creba (F)!; Id Kon: Boyadel (90)!; Glo: Weidiseh (F), zw. Golgowitz u. Reinberg (F); Neus. (F); IIa Radmeritz: dicht an d. Grenze bei Stift  Joachimstal (01); IIIa Stei: Przybór (F), Preichau (F ); Leubus: Gleinau (F)!;  IIIc Br: nordw. d. Stadt (F)!, N eudorf (91), Strehlener Heerstraße (91)!; IIId B:  Stadtgräben (fr F )!, Jungfernsee (93)!, Morgenau (F, fr), W aschteiche (F, fr)!,  vor d. Strauchwehr (F, fr)!, Ransern (F )!, Liliental (F )l; Oh: Alte Oder (F)!;  Neum: Breitenau (F)!; Va Ros: Gr.-Borek (02)!, Sausenberg (87)!; Lub: Hadra  (F), Bissau (96), Ponoschau (96), Chwostek (96), Cziasnau (96); Vb Schur  gast: Nicoline (F); Opp: Kalichteich (F, fr), Sczepanowitz (F), Chmiellowitz (82);  Pro: Neuhammer (F), Przyschetż (01); Falk: W eiderwitz (F), Sehaderwitz (F),  Theresienhütte (F); Vc Nei: K ohlsdorf (F), Parkteich (97); Vd Kosel: Festungs  gräben (F), Poborsehauer W ald (F); Rat: Lenczok (F), Grabówka (F)!; H ultschin:  Beneschau (81)!; Ve G rSt: Zawadzki (89); T o st: Boguschütz (F), Ottmuchow (F);  Tarn: Piassetzna (F), Brynnek (F); Katt: Rosdzin (F )!, Sophienhütte (F )!; Vf  R y !: Rudateich (F)!, Paruschowitz (F ); S o h rau : vor Kliszow (F); PI: Paprotzanteich (84)!; V Ic Oderberg (F); Te: Rostropitz (F), Czechowitz (F), Drahomischl (F).
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Ib Nie: Creba (F)!;",
+  lon = 14.68300, 
+  lat = 51.34834,
+  comments = "Kreba-Neudorf, Saxony, Germany"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id Kon: Boyadel (90)!; [...]",
+  lon = 15.80720, 
+  lat = 51.95056,
+  comments = "Bojadła, gmina Bojadła, powiat zielonogórski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id [...] Glo: Weidiseh (F), [...]",
+  lon = 16.13264, 
+  lat = 51.66345,
+  comments = "Widziszów, Głogów, powiat głogowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id [...] Glo: [...] zw. Golgowitz u. Reinberg (F);",
+  lon = 16.22081, 
+  lat = 51.68324,
+  comments = "pomiędzy miejscowościami Golkowice (Droglowice) a Borków (Wojszyn), gmina Pęcław, powiat głogowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "Id [...] Neus. (F);",
+  lon = 15.72113, 
+  lat = 51.80112,
+  comments = "Nowa Sól, powiat nowosolski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1902",
+  entry = "IIa Radmeritz: dicht an d. Grenze bei Stift Joachimstal (01)",
+  lon = 14.96801, 
+  lat = 51.05629, 
+  comments = "Pałac Radomierzyce, Radomierzyce, gmina Zgorzelec, powiat zgorzelecki; w fosie; po obu stronach granicy (w tamtym czasie przebiegała tamtędy granica między Prusami a Austro-Wegrami)"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa Stei: Przybór (F), [...]",
+  lon = 16.45212, 
+  lat = 51.43633,
+  comments = "Przyborów, gmina Wińsko, powiat wołowski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa Stei: [...] Preichau (F); [...]",
+  lon = 16.43900,  
+  lat = 51.44750,
+  comments = "Przychowa, gm. Ścinawa, pow. lubiński;"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIa [...] Leubus: Gleinau (F)!;",
+  lon = 16.43348, 
+  lat = 51.29997,
+  comments = "Gliniany, gmina Wołów, powiat wołowski, województwo dolnośląskie"
+) |> rbind(schube)
+
+
 
 #' 2. Reihe. Primulales. 
 #' 85. Familie. PRIMULACEAE. 

@@ -46,14 +46,17 @@ all_data <- schube |>
 
 saveRDS(all_data, file = "data/all_data.Rds")
 
+
+
 # search --------------------------------------------------------------------------------------
 
-tmaptools::rev_geocode_OSM(16.97615, 51.08055)
+tmaptools::rev_geocode_OSM(16.43348, 51.29997)
 
 all_data |>
-  subset(grepl("Athamana", entry)
+  subset(grepl("Gleinau", entry) 
        & grepl("", entry)
   ) # |>
+  # dplyr::count()
   # sf::st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326") |>
   # sf::st_transform(crs = sf::st_crs(atpolR::atpol10k())) |>
   # sf::st_join(atpolR::atpol10k())

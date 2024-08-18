@@ -2040,12 +2040,43 @@ jahres <- data.frame(
   comments = "Zabrze, dworzec kolejowy"
 ) |> rbind(jahres)
 
+#'
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trapa natans Stei: Kunzendorf (Pf)!, [...] ",
+  lon = 16.45996, 
+  lat = 51.41006,
+  comments = "Małowice, gmina Wińsko, powiat wołowski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trapa natans Stei: [...] Jürtscher See (ders.); [...]",
+  lon = 16.40997,
+  lat = 51.32156,
+  comments = "Jurcz, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Trapa natans [...] Opp: Turawa (Sb).",
+  lon = 18.08391,
+  lat = 50.73769,
+  comments = "Turawa, gmina Turawa, powiat opolski"
+) |> rbind(jahres)
+
 
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Krelkau", entry)) |>
+#   subset(grepl("Lichten", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(16.99715, 50.62415)
+# tmaptools::rev_geocode_OSM(18.61753, 50.21296)
 

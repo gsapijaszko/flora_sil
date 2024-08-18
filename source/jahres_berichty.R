@@ -86,6 +86,21 @@ jahres <- data.frame(
   comments = "Rogalice, gm. Lubsza, pow. brzeski;"
 ) |> rbind(jahres)
 
+#'
+#' [....]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1917", 
+  entry = "Trapa natans. Steinau a. 0 .: gegen Ibsdorf (Schmidt)!",
+  lon = 16.46398, 
+  lat = 51.42290, 
+  comments = "Iwno, gm. Wińsko, pow. wołowski"
+) |> rbind(jahres)
+
+
+
 #' 1916
 jahres <- data.frame(
   species = "Equisetum pratense",
@@ -425,6 +440,21 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1913", 
+  entry = "Trapa natans. Pleß: Rontokteich bei Goczalkowitz (Winterstein).",
+  lon = 18.99376, 
+  lat = 49.94020, 
+  comments = "staw Rontok, Goczałkowice-Zdrój, gmina Goczałkowice-Zdrój, powiat pszczyński"
+) |> rbind(jahres)
+
+
+
 #' 1912
 jahres <- data.frame(
   species = "Botrychium matricariae",
@@ -460,6 +490,19 @@ jahres <- data.frame(
   lon = 18.64895, 
   lat = 50.31103, 
   comments = ""
+) |> rbind(jahres)
+
+#'
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1912", 
+  entry = "Trapa natans. Lublinitz: Bogdalla bei Sorowski (Höflich)!",
+  lon = 18.66026, 
+  lat = 50.76253, 
+  comments = "Bogdala, Zborowskie, gmina Ciasna, powiat lubliniecki"
 ) |> rbind(jahres)
 
 #' 1911
@@ -689,6 +732,20 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1910", 
+  entry = "Trapa natans. Rybnik: Nieborowitzhammer (Sch.).",
+  lon = 18.61753, 
+  lat = 50.21296, 
+  comments = "Kuźnia Nieborowska, gmina Pilchowice, powiat gliwicki"
+) |> rbind(jahres)
+
+
 #' 1909
 jahres <- data.frame(
   species = "Botrychium lunaria",
@@ -761,6 +818,29 @@ jahres <- data.frame(
   lat = NA, 
   comments = ""
 ) |> rbind(jahres)
+
+#'
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1909", 
+  entry = "Trapa natans. Brieg! „Kirchlache“ hinter Lichten (Sch.)!, [...] in der „Bammel“ vor Neu-Cöln (ders.).",
+  lon = 17.65479, 
+  lat = 50.81202, 
+  comments = "rezerwat Nad Nysą, Wronów, gmina Lewin Brzeski, powiat brzeski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1909", 
+  entry = "Trapa natans. Brieg! [...] in der „Bammel“ vor Neu-Cöln (ders.).",
+  lon = 17.57428, 
+  lat = 50.86261, 
+  comments = "Nowe Kolnie, gmina Lubsza, powiat brzeski,"
+) |> rbind(jahres)
+
 
 #' 1908
 jahres <- data.frame(
@@ -1218,9 +1298,6 @@ jahres <- data.frame(
   comments = "Kąty Wrocławskie"
 ) |> rbind(jahres)
 
-
-
-
 jahres <- data.frame(
   species = "Botrychium matricarifolium",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1902", 
@@ -1346,6 +1423,31 @@ jahres <- data.frame(
   lat = 50.86006, 
   comments = ""
 ) |> rbind(jahres)
+
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1902", 
+  entry = "Trapa natans. Radmeritz: [Wallgräben des Stifts Joachimstein kaum 40 m jenzeits der Grenze] (Barber); [...].
+",
+  lon = 14.96801, 
+  lat = 51.05629, 
+  comments = "Pałac Radomierzyce, Radomierzyce, gmina Zgorzelec, powiat zgorzelecki; w fosie; po obu stronach granicy (w tamtym czasie przebiegała tamtędy granica między Prusami a Austro-Wegrami)"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1902", 
+  entry = "Trapa natans. [...] Proskau: auch im Przyschetzer Teiche (Buchs).
+",
+  lon = 17.85365, 
+  lat = 50.55852, 
+  comments = "Przysieczański Staw, Kolonia Przysiecka, Przysiecz, gmina Prószków, powiat opolski"
+) |> rbind(jahres)
+
 
 #' 1901
 jahres <- data.frame(
@@ -1567,7 +1669,8 @@ jahres <- data.frame(
 
 #' 1899
 #' moved to 1899.R
-#' 1898
+# 1898 ------
+#' 
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1898", 
@@ -1757,7 +1860,7 @@ jahres <- data.frame(
   comments = "Barkowo, gm. Żmigród, pow. trzebnicki"
 ) |> rbind(jahres)
 
-"[...]"
+# [...]
 
 jahres <- data.frame(
   species = "Tulipa silvestris",
@@ -1768,9 +1871,21 @@ jahres <- data.frame(
   comments = "Szprotawa, gmina Szprotawa, powiat żagański"
 ) |> rbind(jahres)
 
+# [...]
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1898", 
+  entry = "Trapa natans. Neisse: Teich am Parke (Bs.).",
+  lon = 17.32861,  
+  lat = 50.46818, 
+  comments = "Nysa, gmina Nysa, powiat nyski; staw w parku"
+) |> rbind(jahres)
 
 
-#' 1897
+
+
+# 1897 ----
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
@@ -2014,7 +2129,7 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1896
+# 1896 ---- 
 jahres <- data.frame(
   species = "Pilularia globulifera",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1896", 
@@ -2096,7 +2211,7 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1895
+# 1895 ----
 jahres <- data.frame(
   species = "Tulipa silvestris L.",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1895", 
@@ -2253,7 +2368,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 #' 1894
-#' 1893
+# 1893 ----
 jahres <- data.frame(
   species = "Lycopodium clavatum L. var. tristachyum Nutt. (als Alt)",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1893", 
@@ -3070,7 +3185,8 @@ jahres <- data.frame(
   comments = "Krosnowice, gmina Kłodzko, powiat kłodzki"
 ) |> rbind(jahres)
 
-#' 1888
+# 1888 ----
+
 jahres <- data.frame(
   species = "Ophioglossum vulgatum L.",
   citation = "@fiekResultateDurchforschungSchlesischen1888", 
@@ -3098,9 +3214,22 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1887
-#' moved to 1887.R
-#' 1886
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1888", 
+  entry = "Trapa natans L. Rosenberg: Teich in Sausenberg! (Kionka).",
+  lon = 18.24917, 
+  lat = 50.83703, 
+  comments = "Szumirad, gm. Lasowice Wielkie, pow. kluczborski; staw"
+) |> rbind(jahres)
+
+### 1887 -> moved to 1887.R -----
+
+# 1886 ----
 
 jahres <- data.frame(
   species = "Primula officinalis Jacq.",
@@ -3226,8 +3355,7 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
-
-#' 1885
+# 1885 ----
 #' 
 #' [...]
 #' 
@@ -3238,7 +3366,7 @@ jahres <- data.frame(
   entry = "Salvinia natans All. Pless: Paproczanteich (Dr. Gürich).",
   lon = 18.98090, 
   lat = 50.08306, 
-  comments = ""
+  comments = "Jezioro Paprocańskie, Paprocany, Tychy"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3430,7 +3558,22 @@ jahres <- data.frame(
   comments = "obecnie obszar Kamieniołomu 'Silesia', see http://jbc.jelenia-gora.pl/Content/25635/KK_27492_-_Junker--Ullrich--201_27492-Falkenstein.pdf: 'Am östlichsten von Tiefahrtmannsdorf liegt der Eichenberg (587 m), vielfach fälschlich Eisenberg genannt. Es ist der Marmorkalkberg, von welchem die Gesellschaft Silesia den Drahtseilbetrieb angelegt [...]'"
 ) |> rbind(jahres)
 
-#' 1884
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1885", 
+  entry = "Trapa natans L. Pless: Teich von Paproczan (Fiek und Wetschky).",
+  lon = 18.9809, 
+  lat = 50.08306, 
+  comments = "Jezioro Paprocańskie, Paprocany, Tychy"
+) |> rbind(jahres)
+
+
+
+# 1884 ----
 jahres <- data.frame(
   species = c("Lycopodium selago", "Lycopodium annotinum"),
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1884", 
@@ -3658,7 +3801,8 @@ jahres <- data.frame(
   comments = "Ondřejovice v Jeseníkách, Zlaté Hory, okres Jeseník, Olomoucký kraj, Střední Morava, Česko"
 ) |> rbind(jahres)
 
-#' 1883
+# 1883 ----
+
 jahres <- data.frame(
   species = "Lycopodium selago",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1883", 
@@ -3794,6 +3938,23 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#' 
+#' [...]
+#' 
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1883", 
+  entry = "Trapa natans L. Oppeln: Chmiellowitz. (Schmidt.)",
+  lon = 17.86593,  
+  lat = 50.64846, 
+  comments = "Chmielowice, Opole; nieistniejący staw przy młynie, obecnie okolice ulicy Kolejowej"
+) |> rbind(jahres)
+
+#' 
+#' [...]
+#' 
+
 jahres <- data.frame(
   species = "Tulipa silvestris L.",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1883", 
@@ -3804,7 +3965,8 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
-#' 1882
+# 1882 ----
+
 jahres <- data.frame(
   species = "Salvinia natans",
   citation = "@vonuechtritzResultateDurchforschungSchlesischen1882", 
@@ -3829,7 +3991,7 @@ jahres <- data.frame(
   entry = "Salvinia natans All. Troppau: Beneschau! (Zukal).",
   lon = 18.10412, 
   lat = 49.91488, 
-  comments = ""
+  comments = "Dolní Benešov, okres Opava, Moravskoslezský kraj, Moravskoslezsko,  Česko"
 ) |> rbind(jahres)
 
 jahres <- data.frame(
@@ -3876,6 +4038,21 @@ jahres <- data.frame(
   lat = 51.11134, 
   comments = "Wrocław, Stara Odra, brzeg, przed Parkiem Szczytnickim"
 ) |> rbind(jahres)
+
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@vonuechtritzResultateDurchforschungSchlesischen1882", 
+  entry = "Trapa natans L. Troppau: Beneschau! (Zukal).",
+  lon = 18.10412,  
+  lat = 49.91488, 
+  comments = "Dolní Benešov, okres Opava, Moravskoslezský kraj, Moravskoslezsko,  Česko"
+) |> rbind(jahres)
+
+
 
 #' 1881 - brak
 #' 1880
@@ -4105,7 +4282,20 @@ jahres <- data.frame(
 #' 1873 - Asplenium alpestre
 #' 1872 - Asplenium adulterinum
 
-#' 1871
+# 1872 ----
+
+jahres <- data.frame(
+  species = c("Aldrovanda vesiculosa Lam.", "Salvinia natans", "Trapa natans", "Hiccia natans"),
+  citation = "@vonuechtritzWichtigstenFundeJahres1872", 
+  entry = "Aldrovanda vesiculosa Lam. In Menge unter Salvinia, Trapa und Hiccia natans im Teiche von Neuhammer unweit Proskau (Stein). Der erste Standort am linken Oderufer in Schlesien!",
+  lon = 17.86130,  
+  lat = 50.60191, 
+  comments = "Rezerwat Staw Nowokuźnicki, Nowa Kuźnia, gmina Prószków, powiat opolski"
+) |> rbind(jahres)
+
+
+
+# 1871 ----
 #' 
 #' Engler, A., 1871. Verzeichnis der im Jahre 1870 bekannt gewordenen Fundorte neuer und weniger häufiger Phanerogamen Schlesiens. Jahres-Bericht der Schlesischen Gesellschaft für vaterlandische Cultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesselschaft im Jahre 1870 48, 131--141.
 #' 
@@ -4410,6 +4600,18 @@ jahres <- data.frame(
   comments = "Brzezinka, gm. Oleśnica, pow. oleśnicki"
 ) |> rbind(jahres)
 
+#'
+#' [...]
+#'
+
+jahres <- data.frame(
+  species = "Trapa natans",
+  citation = "@munckeSeltenerePflanzenAns1870", 
+  entry = "Trapa natans (Lilienthal bei Breslau).",
+  lon = 17.02214,  
+  lat = 51.15648, 
+  comments = "Poświętne, Polanowice-Poświętne-Ligota, Wrocław"
+) |> rbind(jahres)
 
 
 
@@ -4897,7 +5099,8 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1863
+# 1863 ----
+
 jahres <- data.frame(
   species = c("Equisetum silvaticum", "Aspidium spinulosum", "Aspidium tanacetifolium", "Polypodium phegopteris", "Polypodium dryopteris", "Pteris aquilina", "Asplenium fllix femina", "Lycopodium clavatum", "Lycopodium annotinum"),
   citation = "@vonuechtritzUeberWaldBei1863", 
@@ -4907,7 +5110,32 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#' -----
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@vonuechtritzFurSchlesienNeue1863", 
+  entry = "Trapa natans L. Teich bei Myslowitz, Rodziner Teich (P.).",
+  lon = 19.13813,  
+  lat = 50.24874, 
+  comments = "Mysłowice, nieistniejaćy obecnie staw"
+) |> rbind(jahres)
+
+
 #' 1861
+
+# 1860 ----
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@wimmerNeuigkeitenSchlesischenPhanerogamenFlora1860", 
+  entry = "Trapa natans, welche um Breslau immer seltener wird, aus einer Lache am Dorfe Margareth an der Oder, zugleich als Beispiel, wie sich die Pflanze beim Trocknen behandeln läßt.",
+  lon = 17.17686,   
+  lat = 51.06048, 
+  comments = "Gajków, gmina Czernica, powiat wrocławski"
+) |> rbind(jahres)
+
+
 
 
 #' 1854
