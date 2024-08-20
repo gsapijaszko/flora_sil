@@ -2787,7 +2787,7 @@ schube <- data.frame(
 # 308. Trapa L.  ----
 # 1053. T. natans L.  ----
 #' Stehende Gewässer; in der Eb. bis ans Vgb., in N.S. und M.S. 2, in O.S. 3, stellenweise in großer Anzahl.  
-#' Ib Nie: Creba (F)!; Id Kon: Boyadel (90)!; Glo: Weidiseh (F), zw. Golgowitz u. Reinberg (F); Neus. (F); IIa Radmeritz: dicht an d. Grenze bei Stift  Joachimstal (01); IIIa Stei: Przybór (F), Preichau (F ); Leubus: Gleinau (F)!;  IIIc Br: nordw. d. Stadt (F)!, N eudorf (91), Strehlener Heerstraße (91)!; IIId B:  Stadtgräben (fr F )!, Jungfernsee (93)!, Morgenau (F, fr), W aschteiche (F, fr)!,  vor d. Strauchwehr (F, fr)!, Ransern (F )!, Liliental (F )l; Oh: Alte Oder (F)!;  Neum: Breitenau (F)!; Va Ros: Gr.-Borek (02)!, Sausenberg (87)!; Lub: Hadra  (F), Bissau (96), Ponoschau (96), Chwostek (96), Cziasnau (96); Vb Schur  gast: Nicoline (F); Opp: Kalichteich (F, fr), Sczepanowitz (F), Chmiellowitz (82);  Pro: Neuhammer (F), Przyschetż (01); Falk: W eiderwitz (F), Sehaderwitz (F),  Theresienhütte (F); Vc Nei: K ohlsdorf (F), Parkteich (97); Vd Kosel: Festungs  gräben (F), Poborsehauer W ald (F); Rat: Lenczok (F), Grabówka (F)!; H ultschin:  Beneschau (81)!; Ve G rSt: Zawadzki (89); T o st: Boguschütz (F), Ottmuchow (F);  Tarn: Piassetzna (F), Brynnek (F); Katt: Rosdzin (F )!, Sophienhütte (F )!; Vf  R y !: Rudateich (F)!, Paruschowitz (F ); S o h rau : vor Kliszow (F); PI: Paprotzanteich (84)!; V Ic Oderberg (F); Te: Rostropitz (F), Czechowitz (F), Drahomischl (F).
+#' Ib Nie: Creba (F)!; Id Kon: Boyadel (90)!; Glo: Weidiseh (F), zw. Golgowitz u. Reinberg (F); Neus. (F); IIa Radmeritz: dicht an d. Grenze bei Stift  Joachimstal (01); IIIa Stei: Przybór (F), Preichau (F ); Leubus: Gleinau (F)!;  IIIc Br: nordw. d. Stadt (F)!, Neudorf (91), Strehlener Heerstraße (91)!; IIId B:  Stadtgräben (fr F)!, Jungfernsee (93)!, Morgenau (F, fr), Waschteiche (F, fr)!,  vor d. Strauchwehr (F, fr)!, Ransern (F )!, Liliental (F)!; Oh: Alte Oder (F)!;  Neum: Breitenau (F)!; Va Ros: Gr.-Borek (02)!, Sausenberg (87)!; Lub: Hadra  (F), Bissau (96), Ponoschau (96), Chwostek (96), Cziasnau (96); Vb Schur  gast: Nicoline (F); Opp: Kalichteich (F, fr), Sczepanowitz (F), Chmiellowitz (82);  Pro: Neuhammer (F), Przyschetż (01); Falk: W eiderwitz (F), Sehaderwitz (F),  Theresienhütte (F); Vc Nei: K ohlsdorf (F), Parkteich (97); Vd Kosel: Festungs  gräben (F), Poborsehauer W ald (F); Rat: Lenczok (F), Grabówka (F)!; H ultschin:  Beneschau (81)!; Ve G rSt: Zawadzki (89); T o st: Boguschütz (F), Ottmuchow (F);  Tarn: Piassetzna (F), Brynnek (F); Katt: Rosdzin (F )!, Sophienhütte (F )!; Vf  R y !: Rudateich (F)!, Paruschowitz (F ); S o h rau : vor Kliszow (F); PI: Paprotzanteich (84)!; V Ic Oderberg (F); Te: Rostropitz (F), Czechowitz (F), Drahomischl (F).
 
 schube <- data.frame(
   species = "Trapa natans L.",
@@ -2800,7 +2800,7 @@ schube <- data.frame(
 
 schube <- data.frame(
   species = "Trapa natans L.",
-  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @schubeErgebnisseDurchforschungSchlesischen1892",
   entry = "Id Kon: Boyadel (90)!; [...]",
   lon = 15.80720, 
   lat = 51.95056,
@@ -2868,6 +2868,114 @@ schube <- data.frame(
   lon = 16.43348, 
   lat = 51.29997,
   comments = "Gliniany, gmina Wołów, powiat wołowski, województwo dolnośląskie"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIc Br: nordw. d. Stadt (F)!, [...]",
+  lon = 17.46507,  
+  lat = 50.86804,
+  comments = "Brzeg, północno-zachodnia strona miasta; uwaga: u Fieka: Brieg: Teiche nordwestl. der Stadt (U.); - być może chodziło o stawy między strumieniami Brzeziną a Kościelną?"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekErgebnisseDurchforschungSchlesischen1892",
+  entry = "IIIc Br: [...] Neudorf (91), [...]",
+  lon = 17.55049,  
+  lat = 50.86360,
+  comments = "Nowe Kolnie, gmina Lubsza, powiat brzeski; "
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIIc Br: [...] Strehlener Heerstraße (91)!; ",
+  lon = 17.45543, 
+  lat = 50.85223,
+  comments = "Brzeg, powiat brzeski, dawna droga na Strzelin, być może w gliniankach"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: Stadtgräben (fr F)!, [...]",
+  lon = 17.04075,  
+  lat = 51.10486,
+  comments = "Wrocław, fosa miejska; u Fieka: früher zahlreich in den Stadtgräben u. hinter d. Kreuzkirche;"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekErgebnisseDurchforschungSchlesischen1894",
+  entry = "IIId B: [...] Jungfernsee (93)!, [...]",
+  lon = 17.19968, 
+  lat = 51.03194, 
+  comments = "Jezioro Dziewicze, Kotowice, gmina Siechnice, powiat wrocławski"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: [...] Morgenau (F, fr), [...]",
+  lon = 17.05493,  
+  lat = 51.10471,
+  comments = "Rakowiec, Przedmieście Oławskie, Wrocław; uwaga: u Fieka: Br: Marienau"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: [...] Waschteiche (F, fr)!, [...]",
+  lon = 17.05278,  
+  lat = 51.11959,
+  comments = "Wrocław, okolice ulicy Prusa; nieistniejący staw"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: [...] vor d. Strauchwehr (F, fr)!, [...]",
+  lon = 17.06361,  
+  lat = 51.10649,
+  comments = "Wrocław, [przed] Jaz Szczytnicki; u Fieka: Winterhafen vor dem Strauchwehr! (̈U.),"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: Ransern (F )!, [...]",
+  lon = 16.95356,  
+  lat = 51.15965,
+  comments = "Rędzin, Wrocław"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId B: [...] Liliental (F)!; [...]",
+  lon = 17.02271, 
+  lat = 51.15615,
+  comments = "Poświętne, Polanowice-Poświętne-Ligota, Wrocław; u Fieka: Br: Téiche b. Lilienthal (E.),"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekFloraSchlesienPreussischen1881, @schubeVerbreitungGefaesspflanzenSchlesien1903a",
+  entry = "IIId [...] Oh: Alte Oder (F)!; [...]",
+  lon = 17.32290,  
+  lat = 50.95446,
+  comments = "Folwark, Stary Górnik, gmina Oława, powiat oławski; stara Odra, obecnie wyschnięte"
+) |> rbind(schube)
+
+schube <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeVerbreitungGefaesspflanzenSchlesien1903a, @fiekErgebnisseDurchforschungSchlesischen1894",
+  entry = "IIId [...] Neum: Breitenau (F)!;",
+  lon = 16.59118,  
+  lat = 51.22973, 
+  comments = "Brodno, gm. Środa Śląska, pow. średzki; uwaga: u Fieka nie ma tej lokalizacji, dane pochodzą z Jahresów z 1894 r."
 ) |> rbind(schube)
 
 

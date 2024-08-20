@@ -2495,12 +2495,23 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1892
+# 1892 ----
 #' 
 #' wpisy za 1890:
 #' Schube T., Fiek E. 1892. Die Ergebnisse der Durchforschung der schlesischen Phanerogamenflora im Jahre 1890. — Jahres-Bericht Der Schlesischen Gesellschaft Für Vaterländische Cultur. Enthält Den Generalbericht Über Die Arbeiten Und Veränderungen Der Gesselschaft Im Jahre 1891 69: 87--129.
 #' @schubeErgebnisseDurchforschungSchlesischen1892
 #' 
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Trapa natans L. Grünberg: Boyadler See! (Kleiber), nördlichster Standort.",
+  lon = 15.80720, 
+  lat = 51.95056,
+  comments = "Bojadła, gmina Bojadła, powiat zielonogórski; najbardziej wysunięte na północ stanowisko"
+) |> rbind(jahres)
+
+
 jahres <- data.frame(
   species = "Tulipa silvestris L.",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1892", 
@@ -2532,6 +2543,30 @@ jahres <- data.frame(
 #' 
 #' wpisy za 1891:
 #' 
+
+jahres <- data.frame(
+species = "Trapa natans L.",
+citation = "@fiekErgebnisseDurchforschungSchlesischen1892", 
+entry = "Trapa natans L. Brieg: Neudorf [...]",
+lon = 17.55049,  
+lat = 50.86360,
+comments = "Nowe Kolnie, gmina Lubsza, powiat brzeski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekErgebnisseDurchforschungSchlesischen1892", 
+  entry = "Trapa natans L. Brieg: [...] und an der Strehlener Chaussee (Nitschke, S.).",
+  lon = 17.45543, 
+  lat = 50.85223,
+  comments = "Brzeg, powiat brzeski, dawna droga na Strzelin, być może w gliniankach"
+) |> rbind(jahres)
+
+
+#' 
+#' [...]
+#' 
+
 jahres <- data.frame(
   species = "Tulipa silvestris L.",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1892", 
