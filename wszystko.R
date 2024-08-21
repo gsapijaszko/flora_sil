@@ -50,10 +50,10 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-tmaptools::rev_geocode_OSM(17.32290, 50.95446)
+tmaptools::rev_geocode_OSM(18.78409, 49.86439)
 
 all_data |>
-  subset(grepl("Breitenau", entry) 
+  subset(grepl("Margareth", entry) 
        & grepl("", entry)
   ) # |>
   # dplyr::count()
@@ -248,3 +248,17 @@ tmap::tmap_save(tm, "atpol_plot.png", height = 4)
 #   subset(Name == "BE38")
 
 # lcvplants::lcvp_fuzzy_search("Primula officinalis Jacq.")
+
+# t <- all_data |>
+#   subset(accepted_name == "Trapa natans L." & !is.na(lon)) |>
+#   sf::st_as_sf(coords = c("lon", "lat"))
+# 
+# tmap::tmap_mode("view")
+# tmap::tm_shape(t) +
+#   tmap::tm_dots(size = 0.3)
+# 
+# t |>
+#   head()
+# 
+# unique(t$geometry) |>
+#   length()

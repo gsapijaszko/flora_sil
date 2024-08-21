@@ -39,22 +39,26 @@ jahres |>
   dplyr::slice_sample(n = 3)
 ```
 
-                   species                                                citation
-    1 Gratiola officinalis        @schalowErgebnisseDurchforschungSchlesischen1934
-    2      Rosa rubiginosa @schalowErgebnisseSchlesischenPhanerogamenforschung1931
-    3       Gentiana verna        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 entry
-    1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Gratiola officinalis Neumarkt: Seedorf (Kotschy)!
-    2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    R. rubiginosa Neiße: Gr.-Kunzendorf (Franke)!
-    3 Von den vielen beachtenswerten Funden aus diesem Gebietsteil muß an erster Stelle die Entdeckung von Gentiana verna bei Neustadt a. d. Spree durch den Vorsteher der Bautzener Gesellschaft „Isis“, Dr. Jordan, erwähnt werden. Er fand die Pflanze auf einer quelligen Wiese am Rande einer Düne in Gesellschaft von Carex pulicaris, Eriophorum polystachyum, Juncus supinus, Drosera rotundifolia, Viola palustris, Hydrocotyle vulgaris u. a. [...] In Gesellschaft von Gentiana verna fand sich ferner noch die typische Form von Polygala amara, die aus Schlesien noch nicht bekannt war.
-           lon      lat                                comments year
-    1 16.62111 51.24190               Zakrzów, gm. Środa Śląska 1934
-    2 17.26742 50.34035 Sławniowice, gm. Głuchołazy, pow. nyski 1931
-    3 14.46084 51.48853                                         1936
-                accepted_name
-    1 Gratiola officinalis L.
-    2      Rosa rubiginosa L.
-    3       Gentiana verna L.
+                             species
+    1              Hordeum europaeum
+    2            Spiranthes spiralis
+    3 Viola canina X Viola riviniana
+                                                     citation
+    1         @schubeErgebnisseDurchforschungSchlesischen1930
+    2        @schalowErgebnisseDurchforschungSchlesischen1932
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+                                                                   entry      lon
+    1                         H. europaeum Silb: obh. Nicklasdorf, [...] 16.68378
+    2           Spiranthes spiralis Rosenberg: Ellguther Berge (Klonek). 18.53262
+    3 V. canina X Riviniana [...] Guhrau: zwischen Rützen und Gr.-Osten! 16.48292
+           lat                                                        comments year
+    1 50.54980 powyżej miejscowości Mikołajów, gm. Stoszowice, pow. ząbkowicki 1930
+    2 50.97289        wzgórza niedaleko Ligota Oleska, gm. Radłów, pow. oleski 1932
+    3 51.62773              pomiędzy miejscowościami Ryczeń i OSetno, gm. Góra 1933
+                                accepted_name
+    1 Hordelymus europaeus (L.) Jess. ex Harz
+    2       Spiranthes spiralis (L.) Chevall.
+    3                Viola canina x riviniana
 
 </div>
 
@@ -88,11 +92,11 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level = 1, 
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tmap::tmap_mode("view")
+tmap::tmap_mode("plot")
 
 tm <-
-#  tmap::tm_shape(boundaries) +
-#  tmap::tm_polygons(fill = "white") +
+  tmap::tm_shape(boundaries) +
+  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(malvas) +
   tmap::tm_symbols(
     size = 0.5,
@@ -106,21 +110,12 @@ tm <-
     )
   )
 
-tm
+# tm
 ```
 
 </details>
 
-![](flora_silesiae_files/figure-commonmark/tmap-1.png)
-
-<!---
-&#10;
-::: {.cell}
-&#10;:::
-&#10;
-&#10;
-&#10;![Malvas distribution](malvas.png)
--->
+![Malvas distribution](malvas.png)
 
 In Poland, occurrence of the species is usually shown in ATPOL squares.
 You can get the ATPOL grid by spatial joining them with coordinates
@@ -150,15 +145,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                      accepted_name Name
-    1             Malva moschata L. BE53
-    2             Malva moschata L. BE71
-    3             Malva moschata L. BE82
-    4             Malva moschata L. BF26
-    5             Malva moschata L. CF11
-    6 Malva trimestris (L.) Salisb. AE59
-    7 Malva trimestris (L.) Salisb. AE67
-    8         Malva verticillata L. AE58
+                             accepted_name Name
+    1                    Malva moschata L. AE58
+    2                    Malva moschata L. BE53
+    3                    Malva moschata L. BE71
+    4                    Malva moschata L. BE82
+    5                    Malva moschata L. CF11
+    6                  Malva parviflora L. BE49
+    7 Malva thuringiaca subsp. thuringiaca BE57
+    8                Malva verticillata L. AD59
 
 ### How to participate
 
@@ -236,13 +231,12 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5174 records (species - localization) including 5096 with
+total 5182 records (species - localization) including 5104 with
 coordinates.
 
-<!--
 Data density in ATPOL squares is shown on the below picture:
-&#10;![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
--->
+
+![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
 
 And the number of records per year:
 

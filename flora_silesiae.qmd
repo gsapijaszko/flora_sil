@@ -76,11 +76,11 @@ boundaries <- geodata::gadm(country = c("POL", "DEU", "CZE", "SVK"), level = 1, 
   sf::st_transform(crs = sf::st_crs(malvas)) |>
   sf::st_crop(sf::st_buffer(sf::st_as_sfc(sf::st_bbox(malvas)), dist = 10000))
 
-tmap::tmap_mode("view")
+tmap::tmap_mode("plot")
 
 tm <-
-#  tmap::tm_shape(boundaries) +
-#  tmap::tm_polygons(fill = "white") +
+  tmap::tm_shape(boundaries) +
+  tmap::tm_polygons(fill = "white") +
   tmap::tm_shape(malvas) +
   tmap::tm_symbols(
     size = 0.5,
@@ -94,23 +94,20 @@ tm <-
     )
   )
 
-tm
+# tm
 ```
 
-<!---
 ```{r}
 #| label: tmap_save
 #| echo: false
 #| warning: false
 #| message: false
+
 # tm
-# tmap::tmap_save(tm, "malvas.png", height = 4)
+tmap::tmap_save(tm, "malvas.png", height = 4)
 ```
 
-
-
 ![Malvas distribution](malvas.png)
--->
 
 In Poland, occurrence of the species is usually shown in ATPOL squares. You can get the ATPOL grid by spatial joining them with coordinates provided by `jahres` data set. For that we will use [`atpolR`](https://github.com/gsapijaszko/atpolR) package. As the ATPOL grid is provided in `EPSG:2180` coordinate reference system, we have to transform our `malvas` set to it, prior to run spatial join. And secondly, as ATPOL is used only in Poland, we have to filter out locations within Poland's border.
 
@@ -201,11 +198,9 @@ Two map layers provided by Urząd Marszałkowski Województwa Dolnośląskiego a
 
 Full record sets from few articles and some records from the others, in total `r total_jahres` records (species - localization) including `r nrow(jahres)` with coordinates. 
 
-<!--
 Data density in ATPOL squares is shown on the below picture:
 
 ![Data density in ATPOL squares (10x10 km)](atpol_plot.png)
--->
 
 And the number of records per year:
 

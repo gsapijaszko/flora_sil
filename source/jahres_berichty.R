@@ -31,7 +31,9 @@ if (!exists("jahres")) {
 #' 1926
 #' 1925
 # 1919
-# 1917
+
+# 1917 ----
+
 jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1917", 
@@ -101,7 +103,8 @@ jahres <- data.frame(
 
 
 
-#' 1916
+# 1916 ----
+
 jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1916", 
@@ -129,7 +132,8 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1915
+# 1915 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1915", 
@@ -247,7 +251,8 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1914
+# 1914 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1914", 
@@ -349,7 +354,8 @@ jahres <- data.frame(
 
 
 
-#' 1913
+# 1913 ----
+
 jahres <- data.frame(
   species = "Equisetum hiemale",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1913", 
@@ -455,7 +461,8 @@ jahres <- data.frame(
 
 
 
-#' 1912
+# 1912 ----
+
 jahres <- data.frame(
   species = "Botrychium matricariae",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1912", 
@@ -505,7 +512,8 @@ jahres <- data.frame(
   comments = "Bogdala, Zborowskie, gmina Ciasna, powiat lubliniecki"
 ) |> rbind(jahres)
 
-#' 1911
+# 1911 ----
+
 jahres <- data.frame(
   species = "Lycopodium selago",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1911", 
@@ -578,7 +586,8 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1910
+# 1910 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1910", 
@@ -746,7 +755,8 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
-#' 1909
+# 1909 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1909", 
@@ -842,7 +852,8 @@ jahres <- data.frame(
 ) |> rbind(jahres)
 
 
-#' 1908
+# 1908 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1908", 
@@ -962,7 +973,8 @@ jahres <- data.frame(
 
 
 
-#' 1907
+# 1907 ----
+
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1907", 
@@ -1152,9 +1164,8 @@ jahres <- data.frame(
   comments = "Wrocław, między Krzykami a wzgózem Mała Sobótka"
 ) |> rbind(jahres)
 
+# 1906 ----
 
-
-#' 1906
 jahres <- data.frame(
   species = "Botrychium lunaria",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1906", 
@@ -1227,7 +1238,8 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1905
+# 1905 ----
+
 jahres <- data.frame(
   species = "Botrychium matricariae",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1905", 
@@ -1287,7 +1299,7 @@ jahres <- data.frame(
 #' 1903
 #' moved
 
-#' 1902
+# 1902 ----
 
 jahres <- data.frame(
   species = "Chenopodium Botrys",
@@ -2129,6 +2141,49 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
+#'
+#'
+#'
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
+  entry = "Trapa natans L. Lublinitz: bei Lissau,  [...]",
+  lon = 18.79495,  
+  lat = 50.72800, 
+  comments = "Lisów, gmina Herby, powiat lubliniecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
+  entry = "Trapa natans L. Lublinitz: [...] Chwostek, [...]",
+  lon = 18.81319,  
+  lat = 50.71917, 
+  comments = "Chwostek, gmina Herby, powiat lubliniecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
+  entry = "Trapa natans L. Lublinitz: [...] Cziasnau [...]",
+  lon = 18.61105,  
+  lat = 50.75102, 
+  comments = "Ciasna, gmina Ciasna, powiat lubliniecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1897", 
+  entry = "Trapa natans L. Lublinitz: [...]  Ponoschau, überall massenhaft (Wetschky).",
+  lon = 18.61990, 
+  lat = 50.80500, 
+  comments = "Panoszów, gmina Ciasna, powiat lubliniecki"
+) |> rbind(jahres)
+
+
+
+
 # 1896 ---- 
 jahres <- data.frame(
   species = "Pilularia globulifera",
@@ -2369,6 +2424,7 @@ jahres <- data.frame(
 
 #' 1894
 # 1893 ----
+
 jahres <- data.frame(
   species = "Lycopodium clavatum L. var. tristachyum Nutt. (als Alt)",
   citation = "@fiekErgebnisseDurchforschungSchlesischen1893", 
@@ -2849,7 +2905,19 @@ jahres <- data.frame(
   comments = ""
 ) |> rbind(jahres)
 
-#' 1890
+# 1890 ----
+
+jahres <- data.frame(
+  species = "Trapa natans L.",
+  citation = "@fiekResultateDurchforschungSchlesischen1890", 
+  entry = "Trap a natans L. Tarnowitz: Hüttenteich von Zawadzki (Wossidlo).",
+  lon = 18.48363, 
+  lat = 50.60962, 
+  comments = "staw przy hucie, Zawadzkie, gmina Zawadzkie, powiat strzelecki"
+) |> rbind(jahres)
+
+# [...]
+
 jahres <- data.frame(
   species = "Tulipa silvestris L.",
   citation = "@fiekResultateDurchforschungSchlesischen1890", 
