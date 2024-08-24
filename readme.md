@@ -39,26 +39,26 @@ jahres |>
   dplyr::slice_sample(n = 3)
 ```
 
-                             species
-    1              Hordeum europaeum
-    2            Spiranthes spiralis
-    3 Viola canina X Viola riviniana
-                                                     citation
-    1         @schubeErgebnisseDurchforschungSchlesischen1930
-    2        @schalowErgebnisseDurchforschungSchlesischen1932
-    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-                                                                   entry      lon
-    1                         H. europaeum Silb: obh. Nicklasdorf, [...] 16.68378
-    2           Spiranthes spiralis Rosenberg: Ellguther Berge (Klonek). 18.53262
-    3 V. canina X Riviniana [...] Guhrau: zwischen Rützen und Gr.-Osten! 16.48292
-           lat                                                        comments year
-    1 50.54980 powyżej miejscowości Mikołajów, gm. Stoszowice, pow. ząbkowicki 1930
-    2 50.97289        wzgórza niedaleko Ligota Oleska, gm. Radłów, pow. oleski 1932
-    3 51.62773              pomiędzy miejscowościami Ryczeń i OSetno, gm. Góra 1933
-                                accepted_name
-    1 Hordelymus europaeus (L.) Jess. ex Harz
-    2       Spiranthes spiralis (L.) Chevall.
-    3                Viola canina x riviniana
+                  species                                                citation
+    1      Sagina apetala @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    2   Falcaria vulgaris @schalowErgebnisseSchlesischenPhanerogamenforschung1933
+    3 Picris hieracioides @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                                      entry
+    1                            Sagina apetala Kanth: Siedlung (Schoepke)!
+    2               Falcaria vulgaris Sagan: am Friedhof (Tscheppe)!; [...]
+    3 Picris hieracioides [...] Gr.-Strehlitz: Larischka (Schubert)!; [...]
+           lon      lat
+    1 16.77783 51.02917
+    2 15.33227 51.61896
+    3 18.17923 50.54258
+                                                                                 comments
+    1                                                                    Kąty Wrocławskie
+    2                                                                     Żagań, cmentarz
+    3 nieistniejąca kolonia, teren miejscowości Suchodaniec, gm. Izbicko, pow. strzelecki
+      year            accepted_name
+    1 1933      Sagina apetala Ard.
+    2 1933 Falcaria vulgaris Bernh.
+    3 1931   Picris hieracioides L.
 
 </div>
 
@@ -147,13 +147,13 @@ malvas |>
 
                              accepted_name Name
     1                    Malva moschata L. AE58
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BE71
-    4                    Malva moschata L. BE82
-    5                    Malva moschata L. CF11
-    6                  Malva parviflora L. BE49
+    2                    Malva moschata L. AE67
+    3                    Malva moschata L. BE82
+    4                    Malva moschata L. BE97
+    5                    Malva moschata L. CE81
+    6                    Malva pusilla Sm. CF65
     7 Malva thuringiaca subsp. thuringiaca BE57
-    8                Malva verticillata L. AD59
+    8                Malva verticillata L. CF65
 
 ### How to participate
 
@@ -231,7 +231,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5182 records (species - localization) including 5104 with
+total 5187 records (species - localization) including 5109 with
 coordinates.
 
 Data density in ATPOL squares is shown on the below picture:

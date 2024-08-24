@@ -2040,6 +2040,52 @@ jahres <- data.frame(
   comments = "Zabrze, dworzec kolejowy"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Ranunculus fluitans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ranunculus fluitans, mit Schwimmblättern, Land: Alt-Weisbach!",
+  lon = 15.95825, 
+  lat = 50.74320,
+  comments = "Stara Białka, gmina Lubawka, powiat kamiennogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ranunculus sceleratus",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "R. sceleratus Land: Kreppeilhof (St).",
+  lon = 16.03681,
+  lat = 50.79105,
+  comments = "zamek Grodztwo [ruiny], Kamienna Góra"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berberis vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Berberis vulgaris Lü: Koslitzer Bruchwald!; [...]",
+  lon = 16.23797, 
+  lat = 51.46185,
+  comments = "Koźlice, gmina Rudna, powiat lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berberis vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Berberis vulgaris [...] Bolk: unth. Burg Nimmersatt u. a.!; [...]",
+  lon = 16.00201,
+  lat = 50.90239,
+  comments = "Płonina, gmina Bolków, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berberis vulgaris",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Berberis vulgaris [...] Mi: Dammer (Sp)!",
+  lon = 17.35932,
+  lat = 51.49522,
+  comments = "Dąbrowa, gm. Krośnice, pow. milicki"
+) |> rbind(jahres)
+
+
 #'
 #' [...]
 #' 
@@ -2075,8 +2121,8 @@ jahres <- data.frame(
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Lichten", entry)) |>
+#   subset(grepl("Wei", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(18.61753, 50.21296)
-
+# tmaptools::rev_geocode_OSM(15.95825, 50.74320)
+# 
