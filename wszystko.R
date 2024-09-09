@@ -50,10 +50,10 @@ saveRDS(all_data, file = "data/all_data.Rds")
 
 # search --------------------------------------------------------------------------------------
 
-tmaptools::rev_geocode_OSM(16.00201, 50.90239)
+tmaptools::rev_geocode_OSM(17.39653, 51.47172)
 
 all_data |>
-  subset(grepl("Dammer", entry) 
+  subset(grepl("Lorenzberg", entry) 
        & grepl("", entry)
   ) # |>
   # dplyr::count()

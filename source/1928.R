@@ -32,6 +32,24 @@ if(exists("bibliography")) {
 }
 
 jahres <- data.frame(
+  species = "Salvinia natans",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1928", 
+  entry = "Salvinia natans Kraschnitz: in mehreren Teichen (S p )!",
+  lon = 17.39653,  
+  lat = 51.47172, 
+  comments = "Krośnice, gmina Krośnice, powiat milicki; w wielu stawach"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Azolla caroliniana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1928", 
+  entry = "Azolla caroliniana Str: Lorenzberger Schloßteich, seit vielen Jahren (Sl)!, gleichwie im Bresl. Bot. Garten.",
+  lon = 17.22776,  
+  lat = 50.72804, 
+  comments = "Wawrzyszów, gm. Wiązów, pow. strzeliński, w przypałacowym stawie od wielu lat"
+) |> rbind(jahres)
+
+jahres <- data.frame(
   species = "Equisetum pratense",
   citation = "@schubeErgebnisseDurchforschungSchlesischen1928", 
   entry = "Equisetum pratense Nam: Minkowsky!",

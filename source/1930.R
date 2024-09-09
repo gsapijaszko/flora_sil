@@ -2085,6 +2085,103 @@ jahres <- data.frame(
   comments = "Dąbrowa, gm. Krośnice, pow. milicki"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Corydalis solida",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Corydalis solida Tost: Potemba (Sb); [...]",
+  lon = 18.66784, 
+  lat = 50.56675,
+  comments = "Potępa, gmina Krupski Młyn, powiat tarnogórski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Corydalis solida f. integrata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Corydalis solida [...] f. integrata GrSt: Keltsch (Sb)!",
+  lon = 18.54479,
+  lat = 50.56818,
+  comments = "Kielcza, gm. Zawadzkie, pow. Strzelce Opolskie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Cardamine impatiens",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Cardamine impatiens Rst: Maifritzdorf (B)!",
+  lon = 16.84817,
+  lat = 50.46507,
+  comments = "Mąkolno, gmina Złoty Stok, powiat ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Dentaria bulbifera",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Dentaria bulbifera Schö: Bleiberg bei Jannowitz (Gaede t. Kr).",
+  lon = 15.94758,
+  lat = 50.89845,
+  comments = "wzgórze Ołowiana, Janowice Wielkie, gmina Janowice Wielkie, powiat karkonoski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis hirsuta",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Arabis hirsuta Rat: Ratsch (Sb)!",
+  lon = 18.05245, 
+  lat = 50.06822,
+  comments = "Gródczanki, gmina Pietrowice Wielkie, powiat raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. arenosa Leo: Piltsch (K)!; [...]",
+  lon = 17.91206,
+  lat = 49.99749,
+  comments = "Pilszcz, gm. Kietrz, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Arabis arenosa",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "A. arenosa [...] Nst u. Hdb: Bhf (Sb)!",
+  lon = c(17.57799, 18.78729),
+  lat = c(50.32899, 50.30521),
+  comments = "Prudnik, gmina Prudnik, powiat prudnicki oraz Zabrze, dworce kolejowe"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Nasturtium officinale",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "(+?) Nasturtium officinale Rat: Kol. Babitz (Sb)!",
+  lon = 18.29739,
+  lat = 50.13741,
+  comments = "Babice, gm. Nędza, pow. raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Matthiola varia D.C.",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Matthiola varia D.C. Hdb: Bhf (Sb)!",
+  lon = 18.78729,
+  lat = 50.30521,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium orientale",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Sisymbrium orientale Glei: Siedelung Süd (Sb)!",
+  lon = 18.67258, 
+  lat = 50.29101,
+  comments = "Gliwice, południowe osiedle"
+) |> rbind(jahres)
+
+
+# all_data |>
+#   subset(grepl("Siedelung", entry)) |>
+#   subset(grepl("", entry))
+# 
+# tmaptools::rev_geocode_OSM(17.57799, 50.32899)
+# 
 
 #'
 #' [...]
@@ -2121,8 +2218,8 @@ jahres <- data.frame(
 # search --------------------------------------------------------------------------------------
 
 # all_data |>
-#   subset(grepl("Wei", entry)) |>
+#   subset(grepl("Tost", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(15.95825, 50.74320)
-# 
+# tmaptools::rev_geocode_OSM(18.66784, 50.56675)
+
