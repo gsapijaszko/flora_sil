@@ -2175,13 +2175,265 @@ jahres <- data.frame(
   comments = "Gliwice, południowe osiedle"
 ) |> rbind(jahres)
 
+jahres <- data.frame(
+  species = "Sisymbrium sinapistrum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. Sinapistrum B: Straßenrand vor Schwoitsch (Droth).",
+  lon = 17.12136,
+  lat = 51.11341,
+  comments = "skraj drogi przed Swojczycami, Wrocław"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium loeseli",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. Loeseli C: Bhf. Kandrzin; [...]",
+  lon = 18.20504,
+  lat = 50.34540,
+  comments = "Kędzierzyn-Koźle; dworzec w Kędzierzynie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium loeseli",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. Loeseli [...] Glei: Siedelung Süd; [...]",
+  lon = 18.67258, 
+  lat = 50.29101,
+  comments = "Gliwice, południowe osiedle"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium loeseli",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. Loeseli [...] Beu: Bobrek; [...]",
+  lon = 18.85827,
+  lat = 50.3359,
+  comments = "Bobrek, Bytom"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sisymbrium loeseli",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "S. Loeseli [...] Hdb: Bhf (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Diplotaxis muralis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Diplotaxis muralis Opp: gegen Sczepanowitz!",
+  lon = 17.88832,
+  lat = 50.65382,
+  comments = "Szczepanowice - Wójtowa Wieś, Opole"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Berteroa incana",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Berteroa incana W (B).",
+  lon = 16.73393, 
+  lat = 50.50382,
+  comments = "Bardo, gmina Bardo, powiat ząbkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Teesdalea nudicaulis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Teesdalea nudicaulis C: Poborschau, [...]",
+  lon = 18.08118,
+  lat = 50.37604,
+  comments = "Poborszów, gmina Reńska Wieś, powiat kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Teesdalea nudicaulis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Teesdalea nudicaulis C: [...] Mechnitz (Sb )!, [...]",
+  lon = 18.05398, 
+  lat = 50.39908,
+  comments = "Mechnica, gmina Reńska Wieś, powiat kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Teesdalea nudicaulis",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Teesdalea nudicaulis C: [...] Nesselwitz (Sb).",
+  lon = 18.06039, 
+  lat = 50.33733,
+  comments = "Pokrzywnica, gm. Reńska Wieś, pow. kędzierzyńsko-kozielski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thlaspi perfoliatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Thlaspi perfoliatum GrSt: Nieder-Ellguth, [...] (Sb)!",
+  lon = 18.11745,
+  lat = 50.49169,
+  comments = "Ligota Dolna, gm. Strzelce Opolskie, pow. strzelecki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Thlaspi perfoliatum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Thlaspi perfoliatum GrSt: [...] Klein-Stein (Sb)!",
+  lon = 18.03902, 
+  lat = 50.54155,
+  comments = "Kamień Śląski, gm. Gogolin, pow. krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Lepidium densiflorum GrSt: Groß-Stein; [...] (Sb)!",
+  lon = 18.07831, 
+  lat = 50.54165,
+  comments = "Kamień Śląski, gmina Gogolin, powiat krapkowicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium densiflorum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Lepidium densiflorum GrSt: [...] Hdb: Bhf (Sb)!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Lepidium Draba",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "L. Draba J (St).",
+  lon = 16.18655, 
+  lat = 51.05176,
+  comments = "Jawor, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda odorata",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Reseda odorata Hdb: Bhf (Sb )!",
+  lon = 18.78262,
+  lat = 50.30469,
+  comments = "Zabrze, dworzec kolejowy"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda lutea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "R. lutea Ns: Hafen (Ts)!; [...]",
+  lon = 15.72052,
+  lat = 51.80149,
+  comments = "Nowa Sól, powiat nowosolski; port"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Reseda lutea",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "R. lutea [...] Stei: Kreischau (Pf)!",
+  lon = 16.42389,
+  lat = 51.39435,
+  comments = "Krzyżowa, gm. Ścinawa, pow. lubiński"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Drosera rotundifolia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Drosera rotundifolia Leo: Bratsch; [...]",
+  lon = 17.72187, 
+  lat = 50.13523,
+  comments = "Braciszów, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Drosera rotundifolia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Drosera rotundifolia [...] Rat: Kol. Babitz (Sb)!",
+  lon = 18.29739, 
+  lat = 50.13741,
+  comments = "Babice, gm. Nędza, pow. raciborski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sempervivum soboliferum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Sempervivum soboliferum J: Peterwitz, [...] (St).",
+  lon = 16.14001, 
+  lat = 51.05616,
+  comments = "Piotrowice, gmina Męcinka, powiat jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Sempervivum soboliferum",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Sempervivum soboliferum J: [...] Poischwitz (St).",
+  lon = 16.16740,
+  lat = 51.01806,
+  comments = "Paszowice, gm. Paszowice, pow. jaworski"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Philadelphus coronarius",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Philadelphus coronarius Kraschnitz: Kirchweg nach Wirschkowitz (Sp)!",
+  lon = 17.34807, 
+  lat = 51.48041,
+  comments = "Krośnice, gmina Krośnice, powiat milicki; droga w kierunku Wierzchowic"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ribes Grossularia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ribes Grossularia GrW: Distelwitzer Forst! (Sl); [...]",
+  lon = 17.61224, 
+  lat = 51.35724,
+  comments = "Dziesławice, gmina Międzybórz, powiat oleśnicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Ribes Grossularia",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Ribes Grossularia [...] Mi: Frankenthal (Sp)!",
+  lon = 17.29289, 
+  lat = 51.48487,
+  comments = "Pogórzyno, Miłochowice, gmina Milicz, powiat milicki"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Physocarpus opulifolius",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Physocarpus opulifolius Rein: Weistritzufer bei der Schmelze! (B).",
+  lon = 16.39464, 
+  lat = 50.38005,
+  comments = "Dolina Strążycka, Duszniki-Zdrój, powiat kłodzki; brzeg Bystrzycy Dusznickiej"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Spiraea tomentosa",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Spiraea tomentosa Falk: Moorstelle im Kleuschnitzer Walde, zahlreich!",
+  lon = 17.58050, 
+  lat = 50.58944,
+  comments = "Klucznik, Łambinowice, gm. Łambinowice, pow. nyski; wyrobiska torfu w lesie"
+) |> rbind(jahres)
+
+jahres <- data.frame(
+  species = "Aruncus silvester",
+  citation = "@schubeErgebnisseDurchforschungSchlesischen1930",
+  entry = "Aruncus silvester Leo: Peterwitz (Sb)!",
+  lon = 17.68937, 
+  lat = 50.12710,
+  comments = "Pietrowice, gm. Głubczyce, pow. głubczycki"
+) |> rbind(jahres)
+
 
 # all_data |>
-#   subset(grepl("Siedelung", entry)) |>
+#   subset(grepl("Kleuschnitz", entry)) |>
 #   subset(grepl("", entry))
 # 
-# tmaptools::rev_geocode_OSM(17.57799, 50.32899)
-# 
+# tmaptools::rev_geocode_OSM(17.56664, 50.58184)
+
 
 #'
 #' [...]

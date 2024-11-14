@@ -1662,7 +1662,7 @@ jahres <- data.frame(
   entry = "Ornithogalum umbellatum [...] Jauer: zw. Wederau u. Poischwitz (Strauch)",
   lon = 16.17858, 
   lat = 51.00067,
-  comments = "pomiędzy miejscowościami Paszowice i WIadrów, gm. Paszowice, pow. jaworski"
+  comments = "pomiędzy miejscowościami Paszowice i Wiadrów, gm. Paszowice, pow. jaworski"
 ) |> rbind(jahres)
 
 jahres <- data.frame(

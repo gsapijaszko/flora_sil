@@ -39,22 +39,30 @@ jahres |>
   dplyr::slice_sample(n = 3)
 ```
 
-                 species                                                citation
-    1   Carex Davalliana @schalowErgebnisseSchlesischenPhanerogamenforschung1933
-    2 Lathyrus silvester        @schalowErgebnisseDurchforschungSchlesischen1935
-    3       Rosa gallica        @schalowErgebnisseDurchforschungSchlesischen1936
-                                                                                                               entry
-    1                                                        Carex Davalliana Brieg: Rohrwiesen bei Schönau (Wittig)
-    2                                           Lathyrus silvester Guhrau: zwischen Saborwitz und Sulkau (Weidlich)!
-    3 R. gallica ist für das Nimptscher Bergland uberhaup recht bezeichnend. Ich sah sie auch noch bei Silbitz [...]
-           lon      lat                                              comments year
-    1 17.52210 50.82629                       Kruszyna, gm. Skarbimierz, łąki 1933
-    2 16.66754 51.69686 pomiędzy Zaborowice (gm. Bojanowo) a Sułków, gm. Góra 1935
-    3 16.91147 50.72685                                              Żelowice 1936
-               accepted_name
-    1                   <NA>
-    2 Lathyrus sylvestris L.
-    3        Rosa gallica L.
+                       species
+    1        Epipogon aphyllus
+    2 Chrysanthemum coronarium
+    3 Chrysanthemum coronarium
+                                                     citation
+    1        @schalowErgebnisseDurchforschungSchlesischen1934
+    2 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+    3 @schalowErgebnisseSchlesischenPhanerogamenforschung1931
+                                                                                                 entry
+    1   Epipogon aphyllus Rückers: oberhalb des Gasthauses „Hubertus“ im Nesselgrunder Forst (Becker).
+    2 C. coronarium [...] Breslau: Güterbhf. West u. Ost (Dr. K. Meyer)!, Kinderzobten, Bischofswalde!
+    3 C. coronarium [...] Breslau: Güterbhf. West u. Ost (Dr. K. Meyer)!, Kinderzobten, Bischofswalde!
+           lon      lat
+    1 16.50055 50.37343
+    2 16.99758 51.08158
+    3 17.09846 51.09952
+                                                                                                          comments
+    1                                          powyżej restauracji, Pokrzywno, gm. Bystrzyca Kłodzka, pow. kłodzki
+    2 Wrocław: między ul. Braniborska a Robotnicza; dawny dworzec towarowy; Mała Sobótka, ul. Racławicka; Biskupin
+    3 Wrocław: między ul. Braniborska a Robotnicza; dawny dworzec towarowy; Mała Sobótka, ul. Racławicka; Biskupin
+      year                    accepted_name
+    1 1934           Epipogium aphyllum Sw.
+    2 1931 Glebionis coronaria (L.) Tzvelev
+    3 1931 Glebionis coronaria (L.) Tzvelev
 
 </div>
 
@@ -141,15 +149,15 @@ malvas |>
   dplyr::arrange(accepted_name, Name)
 ```
 
-                             accepted_name Name
-    1                    Malva moschata L. AE67
-    2                    Malva moschata L. BE53
-    3                    Malva moschata L. BE97
-    4                    Malva moschata L. CE81
-    5                    Malva pusilla Sm. CE90
-    6 Malva thuringiaca subsp. thuringiaca BE57
-    7        Malva trimestris (L.) Salisb. AE58
-    8                Malva verticillata L. AD67
+                      accepted_name Name
+    1             Malva moschata L. AE78
+    2             Malva moschata L. BE53
+    3             Malva moschata L. BE72
+    4             Malva moschata L. BE82
+    5             Malva moschata L. CF11
+    6             Malva pusilla Sm. CF65
+    7 Malva trimestris (L.) Salisb. AE58
+    8 Malva trimestris (L.) Salisb. AE59
 
 ### How to participate
 
@@ -227,7 +235,7 @@ Dolnośląskiego as ArcGIS REST service (can be used in QGIS):
 ### Data set content
 
 Full record sets from few articles and some records from the others, in
-total 5200 records (species - localization) including 5122 with
+total 5228 records (species - localization) including 5150 with
 coordinates.
 
 Data density in ATPOL squares is shown on the below picture:
